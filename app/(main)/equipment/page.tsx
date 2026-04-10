@@ -150,7 +150,7 @@ export default function EquipmentPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-zinc-50 py-16">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
             Can&apos;t Find What You Need?

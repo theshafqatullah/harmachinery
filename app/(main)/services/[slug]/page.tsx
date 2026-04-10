@@ -263,7 +263,7 @@ export default async function ServiceDetailPage({ params }: Props) {
       </section>
 
       {/* Benefits */}
-      <section className="bg-zinc-50 py-20">
+      <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">Key Benefits</h2>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

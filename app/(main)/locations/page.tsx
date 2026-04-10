@@ -1,76 +1,40 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import {
+  dubaiLocations,
+  locationsByEmirate,
+  locationsByTier,
+  locationStats,
+  deliveryZones,
+} from "@/data/locations";
 
 export const metadata: Metadata = {
-  title: "Service Locations - HarMachinery",
+  title: "Service Locations Across UAE - HarMachinery",
   description:
-    "HarMachinery serves construction sites across the region. Find equipment rental services near your project location.",
+    "HarMachinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
 };
 
-const regions = [
-  {
-    name: "Metro Houston",
-    type: "Primary Service Area",
-    count: 12,
-    locations: [
-      { name: "Downtown Houston", slug: "downtown-houston" },
-      { name: "The Woodlands", slug: "the-woodlands" },
-      { name: "Katy", slug: "katy" },
-      { name: "Sugar Land", slug: "sugar-land" },
-      { name: "Pearland", slug: "pearland" },
-      { name: "Pasadena", slug: "pasadena" },
-      { name: "League City", slug: "league-city" },
-      { name: "Baytown", slug: "baytown" },
-      { name: "Missouri City", slug: "missouri-city" },
-      { name: "Conroe", slug: "conroe" },
-      { name: "Spring", slug: "spring" },
-      { name: "Cypress", slug: "cypress" },
-    ],
-  },
-  {
-    name: "Dallas-Fort Worth",
-    type: "Major Service Area",
-    count: 8,
-    locations: [
-      { name: "Downtown Dallas", slug: "downtown-dallas" },
-      { name: "Fort Worth", slug: "fort-worth" },
-      { name: "Arlington", slug: "arlington" },
-      { name: "Plano", slug: "plano" },
-      { name: "Irving", slug: "irving" },
-      { name: "Frisco", slug: "frisco" },
-      { name: "McKinney", slug: "mckinney" },
-      { name: "Denton", slug: "denton" },
-    ],
-  },
-  {
-    name: "Austin & San Antonio",
-    type: "Expanding Coverage",
-    count: 6,
-    locations: [
-      { name: "Downtown Austin", slug: "downtown-austin" },
-      { name: "Round Rock", slug: "round-rock" },
-      { name: "Georgetown", slug: "georgetown" },
-      { name: "San Antonio", slug: "san-antonio" },
-      { name: "New Braunfels", slug: "new-braunfels" },
-      { name: "San Marcos", slug: "san-marcos" },
-    ],
-  },
-  {
-    name: "Industrial Zones",
-    type: "Specialized Services",
-    count: 6,
-    locations: [
-      { name: "Houston Ship Channel", slug: "houston-ship-channel" },
-      { name: "Texas City Industrial", slug: "texas-city-industrial" },
-      { name: "Port of Houston", slug: "port-of-houston" },
-      { name: "Deer Park", slug: "deer-park" },
-      { name: "La Porte", slug: "la-porte" },
-      { name: "Galveston", slug: "galveston" },
-    ],
-  },
-];
+const emirateDescriptions: Record<string, string> = {
+  Dubai: "Our home emirate — fast delivery from our Al Lisaili base to every corner of Dubai.",
+  Sharjah: "Cross-emirate service covering Sharjah's industrial and residential growth zones.",
+  Ajman: "Equipment rental for Ajman's expanding construction and development projects.",
+  "Abu Dhabi": "Serving Al Ain and Abu Dhabi region projects with reliable delivery.",
+  "Ras Al Khaimah": "Equipment delivery to RAK's industrial zones, tourism projects & free zones.",
+  Fujairah: "East coast coverage for Fujairah's port, industrial and construction projects.",
+  "Umm Al Quwain": "Serving UAQ's emerging development zones and coastal event venues.",
+};
+
+const tierLabels: Record<number, { label: string; color: string }> = {
+  1: { label: "High Priority", color: "bg-green-100 text-green-700" },
+  2: { label: "Standard", color: "bg-blue-100 text-blue-700" },
+  3: { label: "Extended Range", color: "bg-zinc-100 text-zinc-600" },
+};
 
 export default function LocationsPage() {
+  const emirates = Object.entries(locationsByEmirate).filter(
+    ([, locs]) => locs.length > 0
+  );
+
   return (
     <>
       {/* Hero */}
@@ -80,22 +44,20 @@ export default function LocationsPage() {
             Service Areas
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Equipment Rental Across the Region
+            Equipment Rental Across All 7 Emirates
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            HarMachinery delivers heavy equipment to construction sites across
-            Texas. Fast delivery, competitive rates, and 24/7 support wherever
-            your project is.
+            Based in Al Lisaili, Dubai — HarMachinery delivers generators,
+            compactors, and construction equipment to {dubaiLocations.length}+
+            locations across the UAE. Same-day delivery, competitive rates, and
+            24/7 support.
           </p>
           <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
-            {[
-              { label: "Service Areas", value: "30+" },
-              { label: "Machines Available", value: "500+" },
-              { label: "24/7 Support", value: "Yes" },
-              { label: "Same-Day Delivery", value: "Available" },
-            ].map((stat) => (
+            {locationStats.map((stat) => (
               <div key={stat.label}>
-                <p className="text-3xl font-bold text-amber-600">{stat.value}</p>
+                <p className="text-3xl font-bold text-amber-600">
+                  {stat.value}
+                </p>
                 <p className="mt-1 text-sm text-zinc-600">{stat.label}</p>
               </div>
             ))}
@@ -103,40 +65,78 @@ export default function LocationsPage() {
         </div>
       </section>
 
-      {/* Locations by Region */}
-      {regions.map((region) => (
-        <section
-          key={region.name}
-          className="border-b border-zinc-200 bg-white py-16"
-        >
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="flex items-center justify-between">
-              <div>
-                <h2 className="text-2xl font-bold text-zinc-900">
-                  {region.name}
-                </h2>
+      {/* Tier overview */}
+      <section className="bg-white py-12">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 className="text-xl font-bold text-zinc-900">
+            Delivery Zones from Al Lisaili
+          </h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {Object.values(deliveryZones).map((zone) => (
+              <div
+                key={zone.label}
+                className="rounded-xl border border-zinc-200 p-5"
+              >
+                <p className="text-sm font-semibold text-amber-600">
+                  {zone.label}
+                </p>
+                <p className="mt-1 text-2xl font-bold text-zinc-900">
+                  {zone.range}
+                </p>
                 <p className="mt-1 text-sm text-zinc-500">
-                  {region.type} · {region.count} locations
+                  Delivery: {zone.fee}
+                </p>
+                <p className="text-xs text-zinc-400">
+                  Min rental: {zone.minRental} · {zone.locations.length}{" "}
+                  locations
                 </p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Locations by Emirate */}
+      {emirates.map(([emirate, locations]) => (
+        <section
+          key={emirate}
+          className="bg-white py-16"
+        >
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div>
+              <h2 className="text-2xl font-bold text-zinc-900">{emirate}</h2>
+              <p className="mt-1 text-sm text-zinc-500">
+                {emirateDescriptions[emirate]} · {locations.length} locations
+              </p>
             </div>
             <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {region.locations.map((location) => (
+              {locations.map((location) => (
                 <Link
                   key={location.slug}
                   href={`/locations/${location.slug}`}
-                  className="group flex items-center justify-between rounded-xl border border-zinc-200 p-5 transition-all hover:border-amber-300 hover:shadow-sm"
+                  className="group flex items-start justify-between rounded-xl border border-zinc-200 p-5 transition-all hover:border-amber-300 hover:shadow-sm"
                 >
-                  <div>
-                    <h3 className="font-semibold text-zinc-900 group-hover:text-amber-600">
-                      {location.name}
-                    </h3>
-                    <p className="mt-1 text-sm text-zinc-500">
-                      Equipment rental &amp; delivery
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <h3 className="font-semibold text-zinc-900 group-hover:text-amber-600">
+                        {location.name}
+                      </h3>
+                      <span
+                        className={`inline-flex rounded-full px-2 py-0.5 text-[10px] font-medium ${tierLabels[location.tier].color}`}
+                      >
+                        Tier {location.tier}
+                      </span>
+                    </div>
+                    <p className="mt-1 text-xs text-zinc-400">
+                      {location.distance} from base · {location.markets.length}{" "}
+                      markets
+                    </p>
+                    <p className="mt-1 line-clamp-2 text-sm text-zinc-500">
+                      {location.description}
                     </p>
                   </div>
                   <svg
-                    className="h-5 w-5 text-zinc-400 transition-colors group-hover:text-amber-500"
+                    className="ml-3 mt-1 h-5 w-5 shrink-0 text-zinc-400 transition-colors group-hover:text-amber-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
@@ -155,16 +155,63 @@ export default function LocationsPage() {
         </section>
       ))}
 
+      {/* Tier breakdown */}
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-zinc-900">
+            Locations by Priority Tier
+          </h2>
+          <p className="mt-2 text-zinc-600">
+            We prioritize delivery speed based on proximity to our Al Lisaili
+            base.
+          </p>
+          <div className="mt-8 grid gap-6 sm:grid-cols-3">
+            {([1, 2, 3] as const).map((tier) => (
+              <div
+                key={tier}
+                className="rounded-xl border border-zinc-200 bg-white p-6"
+              >
+                <span
+                  className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold ${tierLabels[tier].color}`}
+                >
+                  Tier {tier} — {tierLabels[tier].label}
+                </span>
+                <p className="mt-3 text-3xl font-bold text-zinc-900">
+                  {locationsByTier[tier].length}
+                </p>
+                <p className="text-sm text-zinc-500">locations</p>
+                <ul className="mt-4 space-y-1">
+                  {locationsByTier[tier].slice(0, 5).map((loc) => (
+                    <li key={loc.slug} className="text-sm text-zinc-600">
+                      <Link
+                        href={`/locations/${loc.slug}`}
+                        className="hover:text-amber-600"
+                      >
+                        {loc.name}
+                      </Link>
+                    </li>
+                  ))}
+                  {locationsByTier[tier].length > 5 && (
+                    <li className="text-xs text-zinc-400">
+                      +{locationsByTier[tier].length - 5} more
+                    </li>
+                  )}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Don't see your area */}
-      <section className="bg-zinc-50 py-16">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
             Don&apos;t See Your Area?
           </h2>
           <p className="mt-3 text-zinc-600">
             We serve locations beyond what&apos;s listed here. Contact us for
-            delivery to your specific project site. Our fleet can reach
-            anywhere!
+            delivery to your specific project site anywhere in the UAE.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -173,12 +220,12 @@ export default function LocationsPage() {
             >
               Send Inquiry
             </Link>
-            <a
-              href="tel:+15551234567"
+            <Link
+              href="/request-quote"
               className="rounded-lg border border-zinc-300 bg-white px-6 py-3 text-sm font-semibold text-zinc-900 transition-colors hover:bg-zinc-50"
             >
-              Call +1 (555) 123-4567
-            </a>
+              Request a Quote
+            </Link>
           </div>
         </div>
       </section>
@@ -187,22 +234,21 @@ export default function LocationsPage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
-            HarMachinery — Serving the Entire Region
+            HarMachinery — Serving All 7 Emirates
           </h2>
-          <div className="mt-6 max-w-3xl space-y-4 text-zinc-600 leading-7">
+          <div className="mt-6 max-w-3xl space-y-4 leading-7 text-zinc-600">
             <p>
-              HarMachinery is the region&apos;s leading equipment rental
-              company, providing high-quality construction machinery across more
-              than 30 locations. Whether you&apos;re working on a commercial
-              development in downtown Houston, a residential project in The
-              Woodlands, or an industrial facility near the ship channel, we
-              deliver the right equipment to your site.
+              Based in Al Lisaili on the Dubai–Al Ain Road (E66), HarMachinery
+              is strategically located to serve construction sites, events, and
+              industrial facilities across the entire UAE. Our fleet of
+              generators (20–500 kVA), compactors, air compressors, and
+              construction equipment is maintained to the highest standards.
             </p>
             <p>
-              Our comprehensive fleet includes excavators, cranes, loaders,
-              bulldozers, aerial lifts, and generators from top brands. With
-              same-day delivery available and 24/7 emergency support,
-              HarMachinery ensures your project never stops.
+              From mega-projects in Dubai South and Expo City to desert events
+              in Margham and coastal developments in Fujairah — we deliver
+              reliable equipment with same-day availability. Contact us for a
+              free consultation and competitive quote.
             </p>
           </div>
         </div>

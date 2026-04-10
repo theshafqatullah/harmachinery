@@ -333,7 +333,7 @@ export default async function EquipmentDetailPage({
       </section>
 
       {/* Back to catalog */}
-      <section className="bg-zinc-50 py-12">
+      <section className="bg-white py-12">
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <Link
             href="/equipment"

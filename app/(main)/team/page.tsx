@@ -137,7 +137,7 @@ export default function TeamPage() {
       </section>
 
       {/* Culture */}
-      <section className="bg-zinc-50 py-20">
+      <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
             What Makes Us Different
@@ -183,7 +183,7 @@ export default function TeamPage() {
       </section>
 
       {/* Open Positions */}
-      <section className="bg-zinc-50 py-20">
+      <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">Join Our Team</h2>
           <p className="mt-2 text-zinc-600">
