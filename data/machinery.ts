@@ -2106,6 +2106,44 @@ export const getFeaturedMachinery = (limit = 6): Machinery[] => {
     .slice(0, limit);
 };
 
+/** Map location market types to relevant machinery categories */
+const marketToCategoriesMap: Record<string, string[]> = {
+  construction: ["Generators", "Compactors", "Concrete Equipment", "Scaffolding", "Power Tools", "Lighting", "Construction Site", "Construction Site Generators", "Diesel Generators"],
+  events: ["Generators", "Generators for Event", "Portable Generators", "Silent Generators", "Lighting"],
+  industrial: ["Generators", "Diesel Generators", "3 Phase Generators", "Air Compressors", "Welding Generators", "Pumps", "Power Tools"],
+  government: ["Generators", "Diesel Generators", "Compactors", "Concrete Equipment", "Lighting"],
+  hospitality: ["Generators", "Silent Generators", "Portable Generators", "Lighting", "Cleaning Equipment"],
+  agriculture: ["Generators", "Generators for Farming and Agriculture", "Pumps", "Portable Generators"],
+  "desert-events": ["Generators", "Generators for Event", "Portable Generators", "Lighting", "Silent Generators"],
+  sports: ["Generators", "Lighting", "Silent Generators", "Portable Generators"],
+  "film-media": ["Generators", "Silent Generators", "Lighting", "Portable Generators"],
+  logistics: ["Generators", "Diesel Generators", "3 Phase Generators", "Lighting"],
+};
+
+/** Get machinery products relevant to a location's market types */
+export const getMachineryForMarkets = (markets: string[], limit = 8): Machinery[] => {
+  const relevantCategories = new Set<string>();
+  for (const market of markets) {
+    const cats = marketToCategoriesMap[market];
+    if (cats) cats.forEach((c) => relevantCategories.add(c));
+  }
+
+  const matched = allMachinery.filter((m) => relevantCategories.has(m.category));
+  // Deduplicate by picking one per category first, then fill remaining
+  const seen = new Set<string>();
+  const primary: Machinery[] = [];
+  const rest: Machinery[] = [];
+  for (const m of matched) {
+    if (!seen.has(m.category)) {
+      seen.add(m.category);
+      primary.push(m);
+    } else {
+      rest.push(m);
+    }
+  }
+  return [...primary, ...rest].slice(0, limit);
+};
+
 // Get all machinery
 export const getAllMachinery = (): Machinery[] => {
   return allMachinery;

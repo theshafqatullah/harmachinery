@@ -13,107 +13,108 @@ const equipmentData: Record<
     pricing: { period: string; price: string }[];
   }
 > = {
+  generators: {
+    name: "Generators",
+    description:
+      "Silent & standard diesel generators from 10 KVA to 1000 KVA for construction, events, and industrial use.",
+    longDescription:
+      "Our generator fleet is the largest in Southern Dubai, ranging from compact 10 KVA units for farm events and small construction sites, to heavy-duty 1000 KVA generators for mega projects and large-scale festivals. We stock trusted brands including Perkins, Cummins, Honda, and CAT. Silent and super-silent models are available for weddings, film shoots, beach events, and noise-sensitive venues.",
+    specs: [
+      { label: "Power Range", value: "10 – 1000 KVA" },
+      { label: "Fuel Type", value: "Diesel" },
+      { label: "Brands", value: "Perkins, Cummins, Honda, CAT" },
+      { label: "Noise Level", value: "Standard, Silent & Super-Silent" },
+    ],
+    features: [
+      "Silent models for weddings, events & film shoots",
+      "Automatic transfer switch (ATS) compatible",
+      "Fuel-efficient diesel engines",
+      "Complete power distribution boards included",
+      "Fuel top-up service available during long events",
+      "24/7 emergency replacement guarantee",
+    ],
+    pricing: [
+      { period: "Daily", price: "AED 150 – 3,000+" },
+      { period: "Weekly", price: "AED 800 – 15,000+" },
+      { period: "Monthly", price: "AED 1,500 – 30,000+" },
+    ],
+  },
+  compactors: {
+    name: "Compactors & Rollers",
+    description:
+      "Plate compactors, vibratory rollers, and smooth drum rollers for road construction and foundation work.",
+    longDescription:
+      "Our compaction fleet covers every need from small residential trench compaction to large-scale road construction projects. Plate compactors for sidewalks and trenches, vibratory rollers for sub-base and asphalt work, and smooth drum rollers for finishing surfaces. Used across The Valley, DAMAC Hills 2, Villanova, and Dubai South road construction projects.",
+    specs: [
+      { label: "Types Available", value: "Plate, Vibratory Roller, Smooth Drum" },
+      { label: "Compaction Force", value: "13 – 200 kN" },
+      { label: "Working Width", value: "400mm – 2,130mm" },
+      { label: "Operating Weight", value: "60 kg – 14 tons" },
+    ],
+    features: [
+      "Vibratory and static rollers available",
+      "Walk-behind and ride-on options",
+      "Suitable for soil, gravel, and asphalt",
+      "Low-emission engines",
+      "Edge compaction capability",
+      "Water sprinkler system for asphalt work",
+    ],
+    pricing: [
+      { period: "Daily", price: "AED 250 – 1,200" },
+      { period: "Weekly", price: "AED 1,200 – 5,000" },
+      { period: "Monthly", price: "AED 3,500 – 12,000" },
+    ],
+  },
+  "air-compressors": {
+    name: "Air Compressors",
+    description:
+      "Industrial air compressors for construction, sandblasting, and pneumatic tools.",
+    longDescription:
+      "Our portable and towable air compressors are workhorses on construction sites across the UAE. Used for sandblasting, operating pneumatic tools, cleaning debris, and powering spray equipment. Available in a range of CFM ratings to match your project requirements — from small fit-out jobs in malls to large-scale industrial operations in DIP and JAFZA.",
+    specs: [
+      { label: "Air Flow", value: "100 – 1,600 CFM" },
+      { label: "Pressure", value: "100 – 150 PSI" },
+      { label: "Power Source", value: "Diesel" },
+      { label: "Portability", value: "Towable on trailer" },
+    ],
+    features: [
+      "Diesel-powered for remote sites",
+      "After-cooler and moisture separator included",
+      "Multiple outlet ports for team use",
+      "Towable for easy site relocation",
+      "Low fuel consumption",
+      "Suitable for sandblasting and pneumatic tools",
+    ],
+    pricing: [
+      { period: "Daily", price: "AED 200 – 800" },
+      { period: "Weekly", price: "AED 1,000 – 4,000" },
+      { period: "Monthly", price: "AED 3,000 – 10,000" },
+    ],
+  },
   excavators: {
     name: "Excavators",
     description:
-      "Hydraulic excavators from 1.5 to 80 tons for any project scale.",
+      "Mini to heavy excavators for earthmoving, trenching, and site preparation.",
     longDescription:
-      "Our excavator fleet includes mini excavators for tight spaces, mid-size machines for general construction, and large hydraulic excavators for heavy earthmoving. All units come with standard buckets, and we offer a range of attachments including breakers, augers, and thumbs.",
+      "From mini excavators for tight villa construction sites to heavy excavators for major earthmoving projects, our fleet handles it all. Commonly used on The Valley, Villanova, Arabian Ranches developments, utility trenching for DEWA and Etisalat, and demolition work in older Dubai neighborhoods. All units come with standard buckets, and we offer breaker and auger attachments.",
     specs: [
-      { label: "Weight Range", value: "1.5 – 80 tons" },
-      { label: "Dig Depth", value: "Up to 8.5m" },
-      { label: "Engine Power", value: "15 – 530 HP" },
-      { label: "Bucket Capacity", value: "0.04 – 4.6 m³" },
+      { label: "Weight Range", value: "1.5 – 35 tons" },
+      { label: "Dig Depth", value: "Up to 6.5m" },
+      { label: "Engine Power", value: "15 – 270 HP" },
+      { label: "Bucket Capacity", value: "0.04 – 1.5 m³" },
     ],
     features: [
-      "GPS-equipped for precision grading",
+      "Mini excavators for tight access",
+      "Breaker and auger attachments available",
       "Climate-controlled cabs",
-      "Multiple attachment options",
       "Low-hour, well-maintained units",
-      "Tier 4 Final compliant engines",
-      "360-degree swing capability",
+      "Rubber tracks to protect paved surfaces",
+      "Certified operators available on request",
     ],
     pricing: [
-      { period: "Daily", price: "$350 – $1,200" },
-      { period: "Weekly", price: "$1,400 – $5,500" },
-      { period: "Monthly", price: "$4,200 – $16,000" },
-    ],
-  },
-  "wheel-loaders": {
-    name: "Wheel Loaders",
-    description:
-      "Versatile loaders for material handling, loading, and site work.",
-    longDescription:
-      "Our wheel loaders range from compact units ideal for landscaping to large production loaders for quarry and mining operations. Each machine is maintained to manufacturer specifications and equipped with the latest safety features.",
-    specs: [
-      { label: "Operating Weight", value: "5 – 35 tons" },
-      { label: "Bucket Capacity", value: "1.0 – 6.5 m³" },
-      { label: "Engine Power", value: "80 – 400 HP" },
-      { label: "Breakout Force", value: "Up to 220 kN" },
-    ],
-    features: [
-      "Quick-coupler for fast attachment changes",
-      "Ride control for operator comfort",
-      "Rearview camera systems",
-      "Load-sensing hydraulics",
-      "Automatic traction control",
-      "Centralized ground-level service points",
-    ],
-    pricing: [
-      { period: "Daily", price: "$300 – $1,000" },
-      { period: "Weekly", price: "$1,200 – $4,500" },
-      { period: "Monthly", price: "$3,600 – $13,000" },
-    ],
-  },
-  cranes: {
-    name: "Cranes",
-    description:
-      "Mobile and tower cranes with lifting capacities up to 500 tons.",
-    longDescription:
-      "From truck-mounted cranes for quick lifts to large crawler cranes for major construction projects, our crane fleet covers every lifting requirement. All cranes come with current certifications and can be paired with certified operators.",
-    specs: [
-      { label: "Lifting Capacity", value: "10 – 500 tons" },
-      { label: "Max Boom Length", value: "Up to 100m" },
-      { label: "Max Tip Height", value: "Up to 120m" },
-      { label: "Types Available", value: "Mobile, Crawler, Tower" },
-    ],
-    features: [
-      "Load moment indicators (LMI)",
-      "Anti-two-block systems",
-      "Wind speed monitoring",
-      "Certified lift planning available",
-      "Outrigger monitoring systems",
-      "Fall protection equipment included",
-    ],
-    pricing: [
-      { period: "Daily", price: "$800 – $5,000" },
-      { period: "Weekly", price: "$3,500 – $22,000" },
-      { period: "Monthly", price: "$10,000 – $60,000" },
-    ],
-  },
-  bulldozers: {
-    name: "Bulldozers",
-    description: "Heavy-duty dozers for grading, clearing, and earthmoving.",
-    longDescription:
-      "Our bulldozer fleet includes small utility dozers, mid-range grading machines, and large production dozers. All units feature the latest blade control technology for precision work and maximum productivity.",
-    specs: [
-      { label: "Operating Weight", value: "8 – 70 tons" },
-      { label: "Engine Power", value: "80 – 850 HP" },
-      { label: "Blade Width", value: "2.5 – 5.4m" },
-      { label: "Blade Capacity", value: "2.0 – 28 m³" },
-    ],
-    features: [
-      "GPS grade control ready",
-      "VPAT (Variable Power Angle Tilt) blades",
-      "Enclosed ROPS/FOPS cab",
-      "Automatic transmission",
-      "Ripper attachments available",
-      "Low ground pressure options",
-    ],
-    pricing: [
-      { period: "Daily", price: "$400 – $2,000" },
-      { period: "Weekly", price: "$1,600 – $9,000" },
-      { period: "Monthly", price: "$4,800 – $25,000" },
+      { period: "Daily", price: "AED 400 – 2,500" },
+      { period: "Weekly", price: "AED 2,000 – 12,000" },
+      { period: "Monthly", price: "AED 6,000 – 30,000" },
     ],
   },
   "aerial-lifts": {
@@ -121,55 +122,112 @@ const equipmentData: Record<
     description:
       "Boom lifts, scissor lifts, and telehandlers for elevated access.",
     longDescription:
-      "Our aerial lift fleet includes electric and diesel scissor lifts, articulating and telescopic boom lifts, and telehandlers. Perfect for construction, maintenance, and installation work at height.",
+      "Our aerial lift fleet covers indoor and outdoor applications — electric scissor lifts for mall and tower fit-out work, diesel boom lifts for outdoor construction, and telehandlers for material handling at height. Widely used across Dubai Hills, Business Bay tower renovation, and hotel renovation projects throughout JBR and Palm Jumeirah.",
     specs: [
-      { label: "Working Height", value: "Up to 56m" },
+      { label: "Working Height", value: "Up to 40m" },
       { label: "Platform Capacity", value: "Up to 450 kg" },
-      { label: "Horizontal Reach", value: "Up to 24m" },
+      { label: "Horizontal Reach", value: "Up to 20m" },
       { label: "Types", value: "Scissor, Boom, Telehandler" },
     ],
     features: [
-      "Non-marking tires available",
-      "4WD for rough terrain",
+      "Electric models for indoor/silent operation",
+      "4WD rough terrain for construction sites",
+      "Non-marking tires available for finished floors",
+      "Annual inspection and safety certificates",
       "Tilt alarm and leveling systems",
-      "Annual inspection certificates",
-      "Electric options for indoor use",
-      "Rotating platforms available",
+      "Rotating platforms on boom lifts",
     ],
     pricing: [
-      { period: "Daily", price: "$200 – $800" },
-      { period: "Weekly", price: "$800 – $3,500" },
-      { period: "Monthly", price: "$2,400 – $10,000" },
+      { period: "Daily", price: "AED 300 – 1,500" },
+      { period: "Weekly", price: "AED 1,500 – 7,000" },
+      { period: "Monthly", price: "AED 4,000 – 18,000" },
     ],
   },
-  "dump-trucks": {
-    name: "Dump Trucks",
-    description: "Articulated and rigid dump trucks for hauling and transport.",
+  forklifts: {
+    name: "Forklifts",
+    description:
+      "3T to 7T forklifts and telehandlers for material handling at warehouses and sites.",
     longDescription:
-      "From 15-ton site dumpers to 40-ton articulated haulers, our dump truck fleet keeps your material moving efficiently. All units are well-maintained and suited for construction, mining, and quarry operations.",
+      "Our forklift fleet serves construction sites, warehouses, logistics hubs, and event setups across the UAE. From 3-ton units for pallet handling in warehouse operations at Ras Al Khor and DIP, to 7-ton rough terrain forklifts for heavy material handling on construction sites. Also used for stage setup and exhibition booth assembly at DWTC and Expo City.",
     specs: [
-      { label: "Payload Capacity", value: "15 – 40 tons" },
-      { label: "Body Volume", value: "9 – 24 m³" },
-      { label: "Engine Power", value: "250 – 450 HP" },
-      { label: "Types", value: "Articulated, Rigid" },
+      { label: "Lifting Capacity", value: "3 – 7 tons" },
+      { label: "Lift Height", value: "Up to 6m" },
+      { label: "Power Source", value: "Diesel & Electric" },
+      { label: "Types", value: "Warehouse & Rough Terrain" },
     ],
     features: [
-      "All-wheel drive",
-      "Heated body options",
-      "Tailgate configurations",
-      "Exhaust body heating for sticky materials",
-      "On-board weighing systems",
-      "Retarder braking for hill work",
+      "Side-shift for precise placement",
+      "Rough terrain models for construction sites",
+      "Electric models for indoor warehouses",
+      "Fork extensions and rotators available",
+      "Certified operators available",
+      "Suitable for event and exhibition setup",
     ],
     pricing: [
-      { period: "Daily", price: "$450 – $1,500" },
-      { period: "Weekly", price: "$1,800 – $7,000" },
-      { period: "Monthly", price: "$5,400 – $20,000" },
+      { period: "Daily", price: "AED 250 – 800" },
+      { period: "Weekly", price: "AED 1,200 – 4,000" },
+      { period: "Monthly", price: "AED 3,500 – 10,000" },
+    ],
+  },
+  "light-towers": {
+    name: "Light Towers",
+    description:
+      "Mobile LED light towers for construction sites, events, and outdoor venues.",
+    longDescription:
+      "Our mobile light towers are essential for night construction work, outdoor events, and security lighting. LED towers provide powerful, energy-efficient illumination for RTA road projects, E66 highway night works, outdoor concerts, sporting events, film shoots, and desert camp setups. Diesel-powered with auto-start for reliable operation.",
+    specs: [
+      { label: "Light Output", value: "4 × 320W LED" },
+      { label: "Mast Height", value: "Up to 9m" },
+      { label: "Coverage Area", value: "Up to 5,000 m²" },
+      { label: "Runtime", value: "60+ hours per tank" },
+    ],
+    features: [
+      "LED for energy-efficient, cool illumination",
+      "Manual and hydraulic mast options",
+      "Towable for easy repositioning",
+      "Auto-start and auto-dim options",
+      "Ideal for construction, events, and security",
+      "Wind-rated masts for outdoor stability",
+    ],
+    pricing: [
+      { period: "Daily", price: "AED 150 – 400" },
+      { period: "Weekly", price: "AED 700 – 2,000" },
+      { period: "Monthly", price: "AED 2,000 – 5,000" },
+    ],
+  },
+  "water-pumps": {
+    name: "Water Pumps",
+    description:
+      "Dewatering and irrigation pumps for construction, farms, and events.",
+    longDescription:
+      "Our pump fleet handles dewatering on construction sites, irrigation for agricultural operations in Al Lisaili and Al Awir, and water supply for events and temporary camps. From small submersible pumps for trench dewatering to high-capacity diesel pumps for major dewatering operations at sewage treatment plant expansions and tunnel construction.",
+    specs: [
+      { label: "Flow Rate", value: "Up to 2,500 L/min" },
+      { label: "Head", value: "Up to 30m" },
+      { label: "Types", value: "Submersible, Centrifugal, Diaphragm" },
+      { label: "Power", value: "Electric & Diesel" },
+    ],
+    features: [
+      "Submersible pumps for trench dewatering",
+      "High-volume centrifugal for construction sites",
+      "Diesel-powered for remote locations",
+      "Trash pumps handle solids and debris",
+      "Suitable for agricultural irrigation",
+      "Hose and coupling kits included",
+    ],
+    pricing: [
+      { period: "Daily", price: "AED 120 – 500" },
+      { period: "Weekly", price: "AED 600 – 2,500" },
+      { period: "Monthly", price: "AED 1,800 – 6,000" },
     ],
   },
 };
 
 type Params = Promise<{ slug: string }>;
+
+export function generateStaticParams() {
+  return Object.keys(equipmentData).map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -179,10 +237,20 @@ export async function generateMetadata({
   const { slug } = await params;
   const data = equipmentData[slug];
   if (!data)
-    return { title: "Equipment Not Found - HarMachinery" };
+    return { title: "Equipment Not Found - Harma Machinery" };
   return {
-    title: `${data.name} Rental - HarMachinery`,
+    title: `${data.name} Rental - Harma Machinery`,
     description: data.description,
+    alternates: { canonical: `/equipment/${slug}` },
+    openGraph: {
+      title: `${data.name} Rental - Harma Machinery`,
+      description: data.description,
+      url: `/equipment/${slug}`,
+    },
+    twitter: {
+      title: `${data.name} Rental - Harma Machinery`,
+      description: data.description,
+    },
   };
 }
 
@@ -195,8 +263,22 @@ export default async function EquipmentDetailPage({
   const data = equipmentData[slug];
   if (!data) notFound();
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://harmachinery.com" },
+      { "@type": "ListItem", position: 2, name: "Equipment", item: "https://harmachinery.com/equipment" },
+      { "@type": "ListItem", position: 3, name: data.name, item: `https://harmachinery.com/equipment/${slug}` },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">

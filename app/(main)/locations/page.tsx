@@ -9,9 +9,27 @@ import {
 } from "@/data/locations";
 
 export const metadata: Metadata = {
-  title: "Service Locations Across UAE - HarMachinery",
+  title: "Service Locations Across UAE - Harma Machinery",
   description:
-    "HarMachinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
+    "Harma Machinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
+  keywords: [
+    "equipment rental near me Dubai", "generator rental near me UAE",
+    "equipment delivery Dubai South", "generator hire Abu Dhabi",
+    "equipment rental Sharjah", "machinery rental Al Ain",
+    "construction equipment Ras Al Khaimah", "generator hire Fujairah",
+  ],
+  alternates: { canonical: "/locations" },
+  openGraph: {
+    title: "Service Locations Across UAE - Harma Machinery",
+    description:
+      "Harma Machinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
+    url: "/locations",
+  },
+  twitter: {
+    title: "Service Locations Across UAE - Harma Machinery",
+    description:
+      "Harma Machinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
+  },
 };
 
 const emirateDescriptions: Record<string, string> = {
@@ -35,8 +53,27 @@ export default function LocationsPage() {
     ([, locs]) => locs.length > 0
   );
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Equipment Rental Locations — Harma Machinery UAE",
+    description: "All UAE locations served by Harma Machinery for generator and construction equipment rental.",
+    url: "https://harmachinery.com/locations",
+    numberOfItems: dubaiLocations.length,
+    itemListElement: dubaiLocations.map((loc, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: `Equipment Rental in ${loc.name}`,
+      url: `https://harmachinery.com/locations/${loc.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -47,7 +84,7 @@ export default function LocationsPage() {
             Equipment Rental Across All 7 Emirates
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Based in Al Lisaili, Dubai — HarMachinery delivers generators,
+            Based in Al Lisaili, Dubai — Harma Machinery delivers generators,
             compactors, and construction equipment to {dubaiLocations.length}+
             locations across the UAE. Same-day delivery, competitive rates, and
             24/7 support.
@@ -234,11 +271,11 @@ export default function LocationsPage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
-            HarMachinery — Serving All 7 Emirates
+            Harma Machinery — Serving All 7 Emirates
           </h2>
           <div className="mt-6 max-w-3xl space-y-4 leading-7 text-zinc-600">
             <p>
-              Based in Al Lisaili on the Dubai–Al Ain Road (E66), HarMachinery
+              Based in Al Lisaili on the Dubai–Al Ain Road (E66), Harma Machinery
               is strategically located to serve construction sites, events, and
               industrial facilities across the entire UAE. Our fleet of
               generators (20–500 kVA), compactors, air compressors, and

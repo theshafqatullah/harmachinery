@@ -6,6 +6,7 @@ import {
   getLocationBySlug,
   getRelatedLocations,
 } from "@/data/locations";
+import { getMachineryForMarkets } from "@/data/machinery";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -18,6 +19,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: location.metaTitle,
     description: location.metaDescription,
+    alternates: { canonical: `/locations/${slug}` },
+    openGraph: {
+      title: location.metaTitle,
+      description: location.metaDescription,
+      url: `/locations/${slug}`,
+    },
+    twitter: {
+      title: location.metaTitle,
+      description: location.metaDescription,
+    },
   };
 }
 
@@ -60,9 +71,48 @@ export default async function LocationDetailPage({ params }: Props) {
   if (!location) notFound();
 
   const related = getRelatedLocations(slug, 6);
+  const relatedMachinery = getMachineryForMarkets(location.markets, 8);
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://harmachinery.com" },
+      { "@type": "ListItem", position: 2, name: "Locations", item: "https://harmachinery.com/locations" },
+      { "@type": "ListItem", position: 3, name: location.name, item: `https://harmachinery.com/locations/${slug}` },
+    ],
+  };
+
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: `Harma Machinery — ${location.name}`,
+    description: location.description,
+    url: `https://harmachinery.com/locations/${slug}`,
+    telephone: "+971501234567",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: location.name,
+      addressRegion: location.emirate,
+      addressCountry: "AE",
+    },
+    areaServed: [
+      { "@type": "City", name: location.name },
+      { "@type": "State", name: location.emirate },
+    ],
+    provider: { "@type": "Organization", name: "Harma Machinery", url: "https://harmachinery.com" },
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -169,37 +219,85 @@ export default async function LocationDetailPage({ params }: Props) {
       </section>
 
       {/* Available Equipment */}
-      <section className="bg-white py-16">
+      <section className="bg-zinc-50 py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
             Equipment Available in {location.name}
           </h2>
           <p className="mt-2 text-zinc-600">
-            Full range of generators and construction equipment for immediate
-            rental
+            Machinery matched to the industries we serve in this area
           </p>
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              "Generators",
-              "Compactors",
-              "Air Compressors",
-              "Concrete Equipment",
-              "Power Tools",
-              "Pumps",
-              "Lighting",
-              "Scaffolding",
-            ].map((type) => (
-              <Link
-                key={type}
-                href="/machinery"
-                className="rounded-xl border border-zinc-200 p-5 text-center transition-all hover:border-amber-300 hover:shadow-sm"
+
+          {relatedMachinery.length > 0 ? (
+            <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {relatedMachinery.map((machine) => (
+                <Link
+                  key={machine.slug}
+                  href={`/machinery/${machine.slug}`}
+                  className="group rounded-lg border border-zinc-200 bg-white transition-colors hover:border-amber-300"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-t-lg bg-zinc-50">
+                    <img
+                      src={machine.image}
+                      alt={machine.name}
+                      className="h-full w-full object-contain p-4"
+                    />
+                    {machine.available ? (
+                      <span className="absolute left-2 top-2 rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-semibold text-green-700">
+                        Available
+                      </span>
+                    ) : (
+                      <span className="absolute left-2 top-2 rounded-full bg-red-100 px-2 py-0.5 text-[10px] font-semibold text-red-700">
+                        Rented Out
+                      </span>
+                    )}
+                  </div>
+                  <div className="p-4">
+                    <p className="text-xs text-zinc-400">{machine.brand}</p>
+                    <h3 className="mt-0.5 line-clamp-2 text-sm font-semibold text-zinc-900 group-hover:text-amber-600">
+                      {machine.name}
+                    </h3>
+                    <p className="mt-1 text-xs text-zinc-500">
+                      {machine.category}
+                    </p>
+                    <div className="mt-3 flex items-baseline gap-1">
+                      <span className="text-base font-bold text-amber-600">
+                        AED {machine.price}
+                      </span>
+                      <span className="text-xs text-zinc-400">
+                        /{machine.priceUnit}
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <p className="mt-8 text-zinc-500">
+              Contact us for equipment availability in this area.
+            </p>
+          )}
+
+          <div className="mt-10 text-center">
+            <Link
+              href="/machinery"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-amber-600 hover:text-amber-500"
+            >
+              View All Equipment
+              <svg
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
               >
-                <h3 className="font-semibold text-zinc-900">{type}</h3>
-                <p className="mt-1 text-sm text-zinc-500">
-                  Available for rent
-                </p>
-              </Link>
-            ))}
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -208,7 +306,7 @@ export default async function LocationDetailPage({ params }: Props) {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
-            Why Choose HarMachinery in {location.name}
+            Why Choose Harma Machinery in {location.name}
           </h2>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[

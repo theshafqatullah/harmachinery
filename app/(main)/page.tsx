@@ -1,57 +1,47 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { getFeaturedMachinery } from "@/data/machinery";
+import { dubaiLocations } from "@/data/locations";
 
 export const metadata: Metadata = {
-  title: "HarMachinery - Heavy Equipment & Machinery Rentals in UAE",
+  title: "Harma Machinery - Generator & Equipment Rental in Dubai, UAE",
   description:
-    "Rent top-quality construction and industrial machinery across UAE. Excavators, cranes, loaders, generators and more — delivered to your job site.",
+    "Rent generators (10–1000 KVA), compactors, air compressors & construction equipment across UAE. Based in Al Lisaili, Dubai — same-day delivery to 90+ locations.",
+  keywords: [
+    "generator rental Dubai",
+    "generator hire Dubai",
+    "equipment rental Dubai",
+    "construction equipment rental UAE",
+    "generator 500 KVA Dubai",
+    "generator 1000 KVA rental",
+    "compactor rental Dubai",
+    "air compressor hire UAE",
+    "same day equipment delivery Dubai",
+    "Al Lisaili equipment rental",
+  ],
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Harma Machinery - Generator & Equipment Rental in Dubai, UAE",
+    description:
+      "Rent generators (10–1000 KVA), compactors, air compressors & construction equipment across UAE. Based in Al Lisaili, Dubai — same-day delivery to 90+ locations.",
+    url: "/",
+    type: "website",
+  },
+  twitter: {
+    title: "Harma Machinery - Generator & Equipment Rental in Dubai, UAE",
+    description:
+      "Rent generators (10–1000 KVA), compactors, air compressors & construction equipment across UAE. Based in Al Lisaili, Dubai — same-day delivery to 90+ locations.",
+  },
 };
 
-const featuredEquipment = [
-  {
-    name: "Excavators",
-    description: "Hydraulic excavators from 1.5 to 80 tons for any project scale.",
-    slug: "excavators",
-    image: "https://images.unsplash.com/photo-1503708928676-1cb796a0891e?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    name: "Wheel Loaders",
-    description: "Versatile loaders for material handling, loading, and site work.",
-    slug: "wheel-loaders",
-    image: "https://images.unsplash.com/photo-1603814744450-36f978490b11?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    name: "Cranes",
-    description: "Mobile and tower cranes with lifting capacities up to 500 tons.",
-    slug: "cranes",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    name: "Bulldozers",
-    description: "Heavy-duty dozers for grading, clearing, and earthmoving.",
-    slug: "bulldozers",
-    image: "https://images.unsplash.com/photo-1670014773310-387f8a70a4af?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    name: "Aerial Lifts",
-    description: "Boom lifts, scissor lifts, and telehandlers for elevated access.",
-    slug: "aerial-lifts",
-    image: "https://images.unsplash.com/photo-1566624490237-b0314cb4a73f?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    name: "Compactors",
-    description: "Soil and asphalt compactors for road and foundation work.",
-    slug: "compactors",
-    image: "https://images.unsplash.com/photo-1603814744247-ca3e77714471?q=80&w=1200&auto=format&fit=crop",
-  },
-];
+
 
 const stats = [
-  { label: "Machines Available", value: "500+" },
-  { label: "Projects Completed", value: "2,000+" },
+  { label: "Service Locations", value: "90+" },
+  { label: "Projects Completed", value: "10,000+" },
   { label: "Years in Business", value: "15+" },
-  { label: "Satisfied Clients", value: "800+" },
+  { label: "Customer Satisfaction", value: "98%" },
 ];
 
 const howItWorks = [
@@ -84,7 +74,7 @@ const howItWorks = [
 const services = [
   {
     title: "Equipment Rental",
-    description: "Daily, weekly, and monthly rentals on 500+ machines. No long-term commitments required.",
+    description: "Daily, weekly, and monthly rentals on generators, compactors, power tools & more. No long-term commitments required.",
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
   },
   {
@@ -116,55 +106,71 @@ const services = [
 
 const industries = [
   {
-    name: "Commercial Construction",
+    name: "Construction & Infrastructure",
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop",
   },
   {
-    name: "Road & Bridge Work",
-    image: "https://images.unsplash.com/photo-1566624490237-b0314cb4a73f?q=80&w=600&auto=format&fit=crop",
+    name: "Weddings & Private Events",
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=600&auto=format&fit=crop",
   },
   {
-    name: "Residential Development",
+    name: "Desert Camps & Safari",
     image: "https://images.unsplash.com/photo-1503708928676-1cb796a0891e?q=80&w=600&auto=format&fit=crop",
   },
   {
-    name: "Mining & Quarrying",
-    image: "https://images.unsplash.com/photo-1603814744450-36f978490b11?q=80&w=600&auto=format&fit=crop",
+    name: "Concerts & Festivals",
+    image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=600&auto=format&fit=crop",
   },
   {
-    name: "Utilities & Infrastructure",
-    image: "https://images.unsplash.com/photo-1603814929877-d5d927322656?q=80&w=600&auto=format&fit=crop",
-  },
-  {
-    name: "Demolition",
+    name: "Film & Media Production",
     image: "https://images.unsplash.com/photo-1670014773310-387f8a70a4af?q=80&w=600&auto=format&fit=crop",
   },
   {
-    name: "Landscaping & Grading",
-    image: "https://images.unsplash.com/photo-1603814744247-ca3e77714471?q=80&w=600&auto=format&fit=crop",
+    name: "Corporate Events",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=600&auto=format&fit=crop",
   },
   {
-    name: "Industrial & Warehouse",
+    name: "Government Projects",
+    image: "https://images.unsplash.com/photo-1603814929877-d5d927322656?q=80&w=600&auto=format&fit=crop",
+  },
+  {
+    name: "Agriculture & Farms",
+    image: "https://images.unsplash.com/photo-1603814744450-36f978490b11?q=80&w=600&auto=format&fit=crop",
+  },
+  {
+    name: "Sports & Racing Events",
+    image: "https://images.unsplash.com/photo-1461896836934-bd45ba9e0a0f?q=80&w=600&auto=format&fit=crop",
+  },
+  {
+    name: "Hotels & Hospitality",
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=600&auto=format&fit=crop",
+  },
+  {
+    name: "Industrial & Warehousing",
     image: "https://images.unsplash.com/photo-1495036019936-220b29b930ea?q=80&w=600&auto=format&fit=crop",
+  },
+  {
+    name: "Exhibitions & Trade Shows",
+    image: "https://images.unsplash.com/photo-1603814744247-ca3e77714471?q=80&w=600&auto=format&fit=crop",
   },
 ];
 
 const testimonials = [
   {
     quote:
-      "HarMachinery delivered two excavators and a crane to our site within 24 hours of our call. The machines were in perfect condition, and their operator knew exactly what he was doing. We've been renting from them exclusively for 3 years now.",
+      "Harma Machinery supplied generators for our construction site in Dubai South within hours of our call. The units were in excellent condition and their team was on standby throughout. We now use them for all our projects along the E66 corridor.",
     name: "Ahmed Al-Rashid",
     role: "Project Manager, Al-Rashid Construction LLC",
   },
   {
     quote:
-      "What sets them apart is the reliability. In 18 months, we've never had a machine break down on site, and the one time we needed a swap, they had a replacement there by the next morning. That kind of service is rare in this industry.",
-    name: "Mohammed Al-Farsi",
-    role: "Site Superintendent, Gulf Civil Works",
+      "We needed 500 KVA generators for a major event at Global Village. Harma delivered on time, set everything up, and even provided fuel top-up during the event. Their reliability makes them our go-to supplier every season.",
+    name: "Fatima Al-Zaabi",
+    role: "Operations Manager, Desert Events Group",
   },
   {
     quote:
-      "We compared pricing from five rental companies before choosing HarMachinery. Their rates were competitive, but more importantly, there were no hidden fees. The quote we got was the price we paid. Honest and straightforward.",
+      "As a contractor working on villa projects in The Valley and DAMAC Hills 2, I need equipment I can depend on. Harma Machinery is conveniently located in Al Lisaili — delivery is always fast, and their rates are competitive.",
     name: "Khalid Al-Mansoori",
     role: "Owner, Mansoori Earthworks LLC",
   },
@@ -173,33 +179,33 @@ const testimonials = [
 const projectGallery = [
   {
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
-    title: "Dubai Marina Tower",
-    category: "Commercial Construction",
+    title: "Dubai South Mega Project",
+    category: "Construction",
   },
   {
-    image: "https://images.unsplash.com/photo-1503708928676-1cb796a0891e?q=80&w=800&auto=format&fit=crop",
-    title: "Al Ain Highway Extension",
-    category: "Road & Infrastructure",
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=800&auto=format&fit=crop",
+    title: "Premium Farmhouse Wedding",
+    category: "Wedding & Events",
   },
   {
     image: "https://images.unsplash.com/photo-1670014773310-387f8a70a4af?q=80&w=800&auto=format&fit=crop",
-    title: "Sharjah Industrial Zone",
-    category: "Industrial Development",
+    title: "Global Village Season Setup",
+    category: "Festivals & Events",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1503708928676-1cb796a0891e?q=80&w=800&auto=format&fit=crop",
+    title: "Margham Desert Camp",
+    category: "Desert Events",
   },
   {
     image: "https://images.unsplash.com/photo-1603814744450-36f978490b11?q=80&w=800&auto=format&fit=crop",
-    title: "Abu Dhabi Waterfront",
-    category: "Mixed-Use Development",
+    title: "DAMAC Hills 2 Development",
+    category: "Residential Development",
   },
   {
-    image: "https://images.unsplash.com/photo-1495036019936-220b29b930ea?q=80&w=800&auto=format&fit=crop",
-    title: "RAK Free Zone Expansion",
-    category: "Commercial Construction",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1603814929877-d5d927322656?q=80&w=800&auto=format&fit=crop",
-    title: "Fujairah Port Development",
-    category: "Infrastructure",
+    image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=800&auto=format&fit=crop",
+    title: "Outdoor Concert Power",
+    category: "Entertainment",
   },
 ];
 
@@ -212,7 +218,7 @@ const faqs = [
   {
     question: "Do you deliver equipment to job sites?",
     answer:
-      "Yes. We deliver and pick up equipment anywhere across the UAE. Delivery fees depend on distance and equipment size.",
+      "Yes. We offer free delivery within 15 km of Al Lisaili (Zone A). Standard delivery fee of AED 150–300 for 15–30 km (Zone B), and AED 300–500 for 30–50 km (Zone C). Cross-emirate delivery is available for AED 500–1200.",
   },
   {
     question: "Are operators included with the rental?",
@@ -227,14 +233,104 @@ const faqs = [
 ];
 
 export default function Home() {
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://harmachinery.com/#business",
+        name: "Harma Machinery",
+        description:
+          "Generator and construction equipment rental in Dubai, UAE. Serving all 7 emirates from Al Lisaili with same-day delivery.",
+        url: "https://harmachinery.com",
+        telephone: "+971554555786",
+        email: "info@harmachinery.com",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Al Lisaili",
+          addressLocality: "Dubai",
+          addressCountry: "AE",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 24.846,
+          longitude: 55.562,
+        },
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+            opens: "07:00",
+            closes: "20:00",
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Friday"],
+            opens: "08:00",
+            closes: "12:00",
+          },
+        ],
+        areaServed: { "@type": "Country", name: "UAE" },
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "Equipment Rental",
+          itemListElement: [
+            { "@type": "Offer", itemOffered: { "@type": "Service", name: "Generator Rental" } },
+            { "@type": "Offer", itemOffered: { "@type": "Service", name: "Compactor Rental" } },
+            { "@type": "Offer", itemOffered: { "@type": "Service", name: "Air Compressor Rental" } },
+            { "@type": "Offer", itemOffered: { "@type": "Service", name: "Construction Equipment Rental" } },
+          ],
+        },
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://harmachinery.com/#organization",
+        name: "Harma Machinery",
+        url: "https://harmachinery.com",
+        logo: "https://harmachinery.com/logo.png",
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone: "+971554555786",
+          contactType: "customer service",
+          availableLanguage: ["English", "Arabic"],
+          areaServed: "AE",
+        },
+        sameAs: [
+          "https://www.instagram.com/husnainabdulrasheedconstrucion?igsh=MTM3aTRpb2t3Z3AzNA==",
+          "https://www.facebook.com/profile.php?id=61578507911629",
+        ],
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://harmachinery.com/#website",
+        url: "https://harmachinery.com",
+        name: "Harma Machinery",
+        description: "Generator and construction equipment rental across all 7 UAE Emirates.",
+        publisher: { "@id": "https://harmachinery.com/#organization" },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: "https://harmachinery.com/machinery?search={search_term_string}",
+          },
+          "query-input": "required name=search_term_string",
+        },
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-zinc-900">
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1495036019936-220b29b930ea?q=80&w=2000&auto=format&fit=crop"
-            alt="Heavy construction equipment on site"
+            alt="Generator and construction equipment on site"
             fill
             className="object-cover opacity-40"
             priority
@@ -244,19 +340,17 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-6 py-32 sm:py-44 lg:px-8">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-widest text-amber-400">
-              Trusted by 800+ contractors across the UAE
+              Based in Al Lisaili, Dubai — Serving All 7 Emirates
             </p>
             <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Heavy Equipment Rentals You Can Rely On
+              Generator & Equipment Rental You Can Rely On
             </h1>
             <p className="mt-6 text-lg leading-8 text-zinc-300">
-              From excavators to cranes, get the right machinery for your
-              project. Flexible rental terms, expert support, and delivery
-              straight to your job site across all Emirates.
+              Generators (10–1000 KVA), compactors, air compressors, concrete mixers, power tools & lighting for construction sites, weddings, festivals, desert camps, and corporate events. Same-day delivery across Dubai and all UAE Emirates.
             </p>
             <div className="mt-10 flex items-center gap-x-4">
               <Link
-                href="/equipment"
+                href="/machinery"
                 className="rounded-lg bg-amber-500 px-6 py-3.5 text-sm font-semibold text-zinc-900 hover:bg-amber-400 transition-colors"
               >
                 Browse Equipment
@@ -299,36 +393,52 @@ export default function Home() {
               Well-maintained machines ready for your next project
             </p>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {featuredEquipment.map((item) => (
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {getFeaturedMachinery(8).map((machine) => (
               <Link
-                key={item.slug}
-                href={`/equipment/${item.slug}`}
-                className="group overflow-hidden rounded-xl border border-zinc-200 bg-white transition-shadow hover:shadow-lg"
+                key={machine.slug}
+                href={`/machinery/${machine.slug}`}
+                className="group rounded-lg border border-zinc-200 bg-white transition-colors hover:border-amber-300"
               >
-                <div className="relative h-52 overflow-hidden">
-                  <Image
-                    src={item.image}
-                    alt={item.name}
-                    fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                <div className="relative aspect-[4/3] overflow-hidden rounded-t-lg bg-zinc-50">
+                  <img
+                    src={machine.image}
+                    alt={machine.name}
+                    className="h-full w-full object-contain p-4"
                   />
+                  {machine.available ? (
+                    <span className="absolute left-2 top-2 rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-semibold text-green-700">
+                      Available
+                    </span>
+                  ) : (
+                    <span className="absolute left-2 top-2 rounded-full bg-red-100 px-2 py-0.5 text-[10px] font-semibold text-red-700">
+                      Rented Out
+                    </span>
+                  )}
                 </div>
-                <div className="p-5">
-                  <h3 className="text-lg font-semibold text-zinc-900 group-hover:text-amber-600">
-                    {item.name}
+                <div className="p-4">
+                  <p className="text-xs text-zinc-400">{machine.brand}</p>
+                  <h3 className="mt-0.5 line-clamp-2 text-sm font-semibold text-zinc-900 group-hover:text-amber-600">
+                    {machine.name}
                   </h3>
-                  <p className="mt-2 text-sm text-zinc-600">
-                    {item.description}
+                  <p className="mt-1 text-xs text-zinc-500">
+                    {machine.category}
                   </p>
+                  <div className="mt-3 flex items-baseline gap-1">
+                    <span className="text-base font-bold text-amber-600">
+                      AED {machine.price}
+                    </span>
+                    <span className="text-xs text-zinc-400">
+                      /{machine.priceUnit}
+                    </span>
+                  </div>
                 </div>
               </Link>
             ))}
           </div>
           <div className="mt-12 text-center">
             <Link
-              href="/equipment"
+              href="/machinery"
               className="inline-flex items-center gap-2 text-sm font-semibold text-amber-600 hover:text-amber-500"
             >
               View all equipment
@@ -341,13 +451,13 @@ export default function Home() {
       </section>
 
       {/* About / Why Us - Image + Text */}
-      <section className="bg-white py-20">
+      <section className="bg-zinc-50 py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="relative h-80 overflow-hidden rounded-2xl lg:h-[480px]">
               <Image
                 src="https://images.unsplash.com/photo-1603814929877-d5d927322656?q=80&w=1200&auto=format&fit=crop"
-                alt="Heavy equipment at construction site"
+                alt="Equipment rental yard at construction site"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -355,20 +465,20 @@ export default function Home() {
             </div>
             <div>
               <p className="text-sm font-semibold uppercase tracking-widest text-amber-600">
-                About HarMachinery
+                About Harma Machinery
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
-                Your Trusted Partner for Construction Equipment in the UAE
+                Strategically Located in Al Lisaili on the Dubai–Al Ain Road
               </h2>
               <p className="mt-6 text-base leading-7 text-zinc-600">
-                With over 15 years of experience serving contractors across all seven Emirates, HarMachinery has established itself as a reliable source for premium construction equipment. Our fleet of 500+ well-maintained machines is ready to support projects of any scale.
+                From our base on the E66 highway, Harma Machinery provides rapid equipment delivery to southern Dubai&apos;s mega developments, desert event locations, farm house parties, and industrial zones. Our strategic position means lower costs, faster delivery, and unbeatable response times.
               </p>
               <ul className="mt-8 space-y-4">
                 {[
-                  "Fleet of 500+ machines across 23 categories",
-                  "Coverage across all 7 UAE Emirates",
-                  "24/7 breakdown support and technician dispatch",
-                  "Flexible daily, weekly, and monthly rental terms",
+                  "Generators from 10 KVA to 1000 KVA for any project",
+                  "Coverage across all 7 UAE Emirates — 90+ locations",
+                  "24/7 breakdown support and emergency replacements",
+                  "Free delivery within 15 km (Zone A) from Al Lisaili",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <svg className="mt-0.5 h-5 w-5 shrink-0 text-amber-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
@@ -484,6 +594,87 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Event Power Solutions */}
+      <section className="bg-zinc-50 py-20">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center">
+            <p className="text-sm font-semibold uppercase tracking-widest text-amber-600">
+              Event Power Solutions
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
+              Reliable Power for Every Event
+            </h2>
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-zinc-600">
+              From intimate farm house gatherings to mega festivals — we supply silent generators, lighting, and complete power packages.
+            </p>
+          </div>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              {
+                title: "Weddings & Private Parties",
+                desc: "25–250 KVA silent generators for farm house weddings, birthdays, and family celebrations across Al Lisaili, Al Awir, and Al Khawaneej.",
+                icon: "🎊",
+              },
+              {
+                title: "Desert Camps & Safari",
+                desc: "20–100 KVA generators for luxury desert camps, safari dinner operations, and hunting camps in Margham, Lahbab, and Al Faqaa.",
+                icon: "🏕️",
+              },
+              {
+                title: "Concerts & Festivals",
+                desc: "100–500 KVA power solutions for outdoor concerts, Global Village vendors, food festivals, and seasonal markets.",
+                icon: "🎵",
+              },
+              {
+                title: "Corporate & Brand Events",
+                desc: "50–500 KVA for team-building retreats, product launches, exhibitions at DWTC, Expo City, and beach activations.",
+                icon: "🏢",
+              },
+              {
+                title: "Sports & Racing Events",
+                desc: "50–500 KVA for Dubai World Cup hospitality, cricket matches, polo events, motor shows, and marathons.",
+                icon: "🏆",
+              },
+              {
+                title: "Film & Media Production",
+                desc: "Super-silent 20–80 KVA generators essential for outdoor shoots, Bollywood productions, and commercial filming.",
+                icon: "🎬",
+              },
+              {
+                title: "Ramadan & Eid Celebrations",
+                desc: "15–60 KVA generators for Ramadan tents, Eid festivities, outdoor gatherings, and community celebrations.",
+                icon: "🌙",
+              },
+              {
+                title: "Beach & Waterfront Events",
+                desc: "15–60 KVA super-silent generators for Kite Beach events, La Mer dining, fitness events, and brand activations.",
+                icon: "🏖️",
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
+              >
+                <span className="text-3xl">{item.icon}</span>
+                <h3 className="mt-3 text-base font-semibold text-zinc-900">{item.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-zinc-600">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <Link
+              href="/request-quote"
+              className="inline-flex items-center gap-2 rounded-lg bg-amber-500 px-6 py-3 text-sm font-semibold text-zinc-900 hover:bg-amber-400 transition-colors"
+            >
+              Get an Event Power Quote
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Industries We Serve */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -495,11 +686,11 @@ export default function Home() {
               Our equipment supports projects across a wide range of sectors
             </p>
           </div>
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
             {industries.map((industry) => (
               <div
                 key={industry.name}
-                className="group relative h-40 overflow-hidden rounded-xl sm:h-48"
+                className="group relative h-36 overflow-hidden rounded-xl sm:h-44"
               >
                 <Image
                   src={industry.image}
@@ -521,12 +712,12 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - with side image */}
-      <section className="bg-white py-20">
+      <section className="bg-zinc-50 py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
-                Why Choose HarMachinery
+                Why Choose Harma Machinery
               </h2>
               <p className="mt-4 text-base text-zinc-600">
                 We go beyond simple equipment rental — we&apos;re your project partner.
@@ -593,6 +784,50 @@ export default function Home() {
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Locations We Serve */}
+      <section className="bg-white py-20">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">
+              Locations We Serve
+            </h2>
+            <p className="mt-4 text-lg text-zinc-600">
+              Equipment delivery to {dubaiLocations.length}+ areas across all 7 UAE Emirates
+            </p>
+          </div>
+          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {dubaiLocations.slice(0, 12).map((loc) => (
+              <Link
+                key={loc.slug}
+                href={`/locations/${loc.slug}`}
+                className="group rounded-xl border border-zinc-200 p-5 transition-all hover:border-amber-300 hover:shadow-sm"
+              >
+                <h3 className="font-semibold text-zinc-900 group-hover:text-amber-600">
+                  {loc.name}
+                </h3>
+                <p className="mt-1 text-xs text-zinc-400">
+                  {loc.emirate} · {loc.distance}
+                </p>
+                <p className="mt-2 line-clamp-2 text-sm text-zinc-500">
+                  {loc.description}
+                </p>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <Link
+              href="/locations"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-amber-600 hover:text-amber-500"
+            >
+              View all {dubaiLocations.length}+ locations
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -689,7 +924,7 @@ export default function Home() {
           <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
             {[
               { label: "Licensed & Insured", detail: "Full commercial liability coverage" },
-              { label: "OSHA Compliant", detail: "All equipment meets safety standards" },
+              { label: "UAE Certified", detail: "All equipment meets safety standards" },
               { label: "ISO 9001 Certified", detail: "Quality management processes" },
               { label: "UAE Accredited", detail: "A+ rated for business practices" },
             ].map((badge) => (

@@ -2,31 +2,43 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us - HarMachinery",
+  title: "About Us - Harma Machinery | Generator & Equipment Rental in Dubai",
   description:
-    "Learn about HarMachinery — our mission, history, and the team behind the region's most trusted heavy equipment rental company.",
+    "Learn about Harma Machinery — trusted generator and construction equipment rental based in Al Lisaili, Dubai, serving all 7 UAE Emirates.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Us - Harma Machinery | Generator & Equipment Rental in Dubai",
+    description:
+      "Learn about Harma Machinery — trusted generator and construction equipment rental based in Al Lisaili, Dubai, serving all 7 UAE Emirates.",
+    url: "/about",
+  },
+  twitter: {
+    title: "About Us - Harma Machinery | Generator & Equipment Rental in Dubai",
+    description:
+      "Learn about Harma Machinery — trusted generator and construction equipment rental based in Al Lisaili, Dubai, serving all 7 UAE Emirates.",
+  },
 };
 
 const team = [
   {
-    name: "James Harper",
+    name: "Harjot Singh",
     role: "Founder & CEO",
-    bio: "30+ years in construction and equipment management.",
+    bio: "15+ years in construction equipment and machinery management across the UAE.",
   },
   {
-    name: "Sarah Mitchell",
+    name: "Ravi Kumar",
     role: "Operations Director",
-    bio: "Oversees fleet logistics and site delivery coordination.",
+    bio: "Oversees fleet logistics and same-day delivery coordination across all emirates.",
   },
   {
-    name: "Carlos Rivera",
+    name: "Omar Al-Hashimi",
     role: "Head of Maintenance",
-    bio: "Certified mechanic ensuring every machine is job-ready.",
+    bio: "Certified technician ensuring every generator and machine is job-ready.",
   },
   {
-    name: "Priya Nair",
+    name: "Sara Al-Mansoori",
     role: "Customer Relations Manager",
-    bio: "Dedicated to making every rental experience seamless.",
+    bio: "Dedicated to seamless rental experiences in Arabic and English.",
   },
 ];
 
@@ -44,7 +56,7 @@ const values = [
   {
     title: "Safety First",
     description:
-      "Every piece of equipment meets or exceeds OSHA safety standards.",
+      "Every piece of equipment meets or exceeds UAE safety standards.",
   },
   {
     title: "Customer Focus",
@@ -63,12 +75,10 @@ export default function AboutPage() {
             About Us
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Built on Trust, Powered by Machinery
+            Powering Projects Across the UAE from Al Lisaili
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Since 2010, HarMachinery has been the go-to partner for contractors
-            who need reliable heavy equipment — delivered on time, maintained to
-            the highest standards, and backed by expert support.
+            Harma Machinery provides generator and construction equipment rental from our strategic base in Al Lisaili, Dubai — on the E66 highway with direct access to Dubai&apos;s biggest construction zones, event locations, and industrial areas across all 7 Emirates.
           </p>
         </div>
       </section>
@@ -81,16 +91,10 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-zinc-900">Our Story</h2>
               <div className="mt-4 space-y-4 text-zinc-600 leading-7">
                 <p>
-                  HarMachinery started with a single excavator and a commitment
-                  to doing things right. Founder James Harper saw an opportunity
-                  to bring reliable, well-maintained equipment to contractors who
-                  were tired of dealing with breakdowns and hidden fees.
+                  Harma Machinery was founded with a clear mission: bring reliable, well-maintained generators and construction equipment to the booming UAE market. Based in Al Lisaili on the Dubai–Al Ain Road (E66), we sit at the crossroads of Dubai&apos;s southern mega developments, desert event venues, farm house party locations, and agricultural zones.
                 </p>
                 <p>
-                  Today, we operate a fleet of over 500 machines serving more
-                  than 800 clients across the region. Our growth has been driven
-                  by one simple principle: if we take care of the equipment, and
-                  take care of the customer, everything else follows.
+                  Today, we serve construction contractors, wedding and event organisers, film productions, industrial operators, and government projects across all 7 UAE Emirates. From 500 KVA generators powering mega construction sites to silent units for desert weddings and Bollywood shoots — we deliver the right equipment, on time, every time.
                 </p>
               </div>
             </div>
@@ -100,9 +104,9 @@ export default function AboutPage() {
               </h2>
               <div className="mt-4 grid grid-cols-2 gap-6">
                 {[
-                  { value: "500+", label: "Machines in Fleet" },
-                  { value: "2,000+", label: "Projects Completed" },
-                  { value: "800+", label: "Satisfied Clients" },
+                  { value: "500+", label: "Machines Serviced" },
+                  { value: "10,000+", label: "Projects Completed" },
+                  { value: "90+", label: "Service Locations" },
                   { value: "15+", label: "Years in Business" },
                 ].map((stat) => (
                   <div key={stat.label}>
@@ -119,7 +123,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="bg-white py-20">
+      <section className="bg-zinc-50 py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-3xl font-bold text-zinc-900">
             Our Values

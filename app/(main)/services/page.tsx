@@ -2,89 +2,121 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Services - HarMachinery",
+  title: "Our Services - Harma Machinery | Equipment Rental Dubai",
   description:
-    "Explore HarMachinery's full range of services — equipment rental, operator hire, delivery, maintenance, and project consultation.",
+    "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting. Harma Machinery serves construction, events & industrial projects across UAE.",
+  alternates: { canonical: "/services" },
+  openGraph: {
+    title: "Our Services - Harma Machinery | Equipment Rental Dubai",
+    description:
+      "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting. Harma Machinery serves construction, events & industrial projects across UAE.",
+    url: "/services",
+  },
+  twitter: {
+    title: "Our Services - Harma Machinery | Equipment Rental Dubai",
+    description:
+      "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting. Harma Machinery serves construction, events & industrial projects across UAE.",
+  },
 };
 
 const servicesList = [
   {
-    title: "Equipment Rental",
+    title: "Generator & Equipment Rental",
     slug: "equipment-rental",
     description:
-      "Daily, weekly, and monthly rentals on 500+ machines. No long-term commitments required. Our fleet includes excavators, loaders, cranes, bulldozers, aerial lifts, dump trucks, and more.",
+      "Access our extensive fleet of generators (10 KVA to 1000 KVA), compactors, air compressors, and construction equipment for any project duration. From daily rentals for farm events to long-term leases for mega construction sites like Dubai South and Expo City.",
     features: [
-      "Flexible rental terms",
-      "Well-maintained, job-ready machines",
-      "Transparent pricing with no hidden fees",
-      "Quick turnaround on availability",
+      "Generators from 10 KVA to 1000 KVA",
+      "Flexible daily, weekly, and monthly terms",
+      "Silent generators available for events",
+      "Event Power Packages (generator + cables + setup)",
     ],
   },
   {
-    title: "Operator Hire",
+    title: "Certified Operators",
     slug: "operator-services",
     description:
-      "Need a skilled operator? Our certified professionals are experienced with every machine in our fleet and can integrate seamlessly into your project team.",
+      "Our certified and experienced operators handle your machinery with expertise. All operators are trained on safety protocols and available in Arabic, English, Hindi, and Urdu.",
     features: [
-      "Fully certified and insured operators",
-      "Experience across all equipment types",
+      "Certified and licensed operators",
+      "Multilingual team available",
       "Daily or long-term assignments",
-      "Safety-compliant practices",
+      "Safety protocol trained",
     ],
   },
   {
-    title: "On-Site Delivery & Pickup",
+    title: "Equipment Transportation",
     slug: "transportation",
     description:
-      "We handle the logistics so you can focus on the job. Our transport team delivers equipment directly to your site using flatbed, lowboy, and float trailers.",
+      "Reliable delivery across all 7 UAE Emirates from our Al Lisaili base. Free delivery within 15 km (Zone A). Our fleet includes low-bed trailers, flatbeds, and specialised transport vehicles.",
     features: [
-      "Regional coverage across the area",
-      "Scheduling to match your project timeline",
-      "Oversize load permits handled",
+      "Free delivery within 15 km of Al Lisaili",
+      "All 7 Emirates coverage",
       "GPS-tracked deliveries",
+      "Same-day delivery available",
     ],
   },
   {
     title: "Maintenance & Breakdown Support",
     slug: "maintenance-repair",
     description:
-      "Our 24/7 breakdown hotline ensures you're never stuck. We dispatch technicians or replacement units rapidly to minimize downtime.",
+      "24/7 breakdown hotline with rapid technician dispatch or replacement units. Preventive maintenance programs to keep your equipment running at peak performance throughout your rental.",
     features: [
       "24/7 emergency hotline",
-      "Rapid technician dispatch",
-      "Replacement units available",
-      "No charge for mechanical failures",
+      "Rapid replacement units",
+      "Genuine OEM spare parts",
+      "On-site and workshop repairs",
     ],
   },
   {
-    title: "Project Consultation",
+    title: "Project Consulting",
     slug: "consulting",
     description:
-      "Not sure which equipment you need? Our project advisors help you select the right machines for your scope, terrain, and timeline.",
+      "Our experienced consultants help you select the right generators and equipment for your specific project needs — from construction site power requirements to event power planning.",
     features: [
       "Free initial consultation",
-      "Site assessment support",
-      "Equipment recommendations",
-      "Cost optimization strategies",
+      "Equipment selection guidance",
+      "Cost optimisation strategies",
+      "Delivery zone planning",
     ],
   },
   {
-    title: "Long-Term Lease Programs",
+    title: "Fleet Management & Long-Term Leasing",
     slug: "fleet-management",
     description:
-      "For projects lasting 3 months or more, our lease programs offer reduced rates, priority maintenance, and dedicated account management.",
+      "For projects lasting 3 months or more, our lease programs offer reduced rates, priority maintenance, and dedicated account management. Ideal for mega projects at Dubai South, Solar Park, and airport expansion.",
     features: [
       "Reduced monthly rates",
       "Priority maintenance scheduling",
-      "Dedicated account manager",
-      "Flexible upgrade options",
+      "Real-time GPS tracking",
+      "Utilisation analytics",
     ],
   },
 ];
 
 export default function ServicesPage() {
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Equipment Rental Services — Harma Machinery",
+    description: "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting across UAE.",
+    url: "https://harmachinery.com/services",
+    numberOfItems: servicesList.length,
+    itemListElement: servicesList.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: s.title,
+      description: s.description,
+      url: `https://harmachinery.com/services/${s.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">

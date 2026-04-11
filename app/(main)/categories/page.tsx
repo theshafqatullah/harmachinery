@@ -2,170 +2,190 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Equipment Categories - HarMachinery",
+  title: "Equipment Categories - Harma Machinery | Dubai",
   description:
-    "Browse HarMachinery's complete fleet of construction equipment organized by category. Excavators, cranes, loaders, bulldozers, aerial lifts & more.",
+    "Browse Harma Machinery's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+  alternates: { canonical: "/categories" },
+  openGraph: {
+    title: "Equipment Categories - Harma Machinery | Dubai",
+    description:
+      "Browse Harma Machinery's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+    url: "/categories",
+  },
+  twitter: {
+    title: "Equipment Categories - Harma Machinery | Dubai",
+    description:
+      "Browse Harma Machinery's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+  },
 };
 
 const featuredCategories = [
   {
-    name: "Excavators",
-    slug: "excavators",
-    description: "Hydraulic excavators from 1.5 to 80 tons for any project scale. Mini, mid-size, and large excavators from top brands.",
-    count: 24,
-    specs: ["1.5 - 80 Tons", "Tracked & Wheeled"],
+    name: "Generators",
+    slug: "generators",
+    description: "Silent & standard diesel generators from 10 KVA to 1000 KVA for construction, events, weddings, and desert camps.",
+    count: 60,
+    specs: ["10 - 1000 KVA", "Silent & Standard"],
     popular: true,
   },
   {
-    name: "Cranes",
-    slug: "cranes",
-    description: "Mobile and tower cranes with lifting capacities up to 500 tons for heavy lifting operations.",
-    count: 12,
-    specs: ["Up to 500 Tons", "Mobile & Tower"],
-    popular: true,
-  },
-  {
-    name: "Wheel Loaders",
-    slug: "wheel-loaders",
-    description: "Versatile loaders for material handling, loading, and site work across all project types.",
-    count: 18,
-    specs: ["1 - 10 Yard", "Articulated"],
-    popular: true,
-  },
-  {
-    name: "Aerial Lifts",
-    slug: "aerial-lifts",
-    description: "Boom lifts, scissor lifts, and telehandlers for safe elevated access on any job site.",
-    count: 30,
-    specs: ["20 - 185 ft", "Electric & Diesel"],
-    popular: true,
-  },
-  {
-    name: "Bulldozers",
-    slug: "bulldozers",
-    description: "Heavy-duty dozers for grading, clearing, and earthmoving operations.",
-    count: 15,
-    specs: ["D3 - D11 Class", "GPS Available"],
-    popular: true,
-  },
-  {
-    name: "Compactors",
+    name: "Compactors & Rollers",
     slug: "compactors",
-    description: "Soil and asphalt compactors including vibratory rollers and plate compactors.",
+    description: "Plate compactors, vibratory rollers, and smooth drum rollers for road and foundation work.",
     count: 14,
     specs: ["Plate & Roller", "Vibratory"],
+    popular: true,
+  },
+  {
+    name: "Air Compressors",
+    slug: "air-compressors",
+    description: "Industrial air compressors for sandblasting, pneumatic tools, and construction applications.",
+    count: 12,
+    specs: ["100 - 1600 CFM", "Diesel Powered"],
+    popular: true,
+  },
+  {
+    name: "Excavators",
+    slug: "excavators",
+    description: "Mini to heavy excavators for earthmoving, trenching, and site preparation across Dubai and UAE.",
+    count: 18,
+    specs: ["1.5 - 35 Tons", "Tracked & Mini"],
+    popular: true,
+  },
+  {
+    name: "Light Towers",
+    slug: "light-towers",
+    description: "Mobile LED light towers for construction sites, night work, events, and outdoor venues.",
+    count: 14,
+    specs: ["LED & Metal Halide", "Diesel Powered"],
+    popular: true,
+  },
+  {
+    name: "Forklifts",
+    slug: "forklifts",
+    description: "3T to 7T forklifts and telehandlers for material handling at warehouses and construction sites.",
+    count: 15,
+    specs: ["3 - 7 Tons", "Diesel & Electric"],
     popular: true,
   },
 ];
 
 const allCategories = [
   {
+    name: "Generators",
+    slug: "generators",
+    description: "Silent & standard diesel generators from 10 KVA to 1000 KVA.",
+    count: 60,
+    specs: ["10 - 1000 KVA", "Silent & Standard"],
+    popular: true,
+  },
+  {
+    name: "Compactors & Rollers",
+    slug: "compactors",
+    description: "Plate compactors, vibratory rollers, and smooth drum rollers.",
+    count: 14,
+    specs: ["Plate & Roller", "Vibratory"],
+    popular: true,
+  },
+  {
+    name: "Air Compressors",
+    slug: "air-compressors",
+    description: "Industrial air compressors for sandblasting and pneumatic tools.",
+    count: 12,
+    specs: ["100 - 1600 CFM", "Diesel Powered"],
+    popular: true,
+  },
+  {
     name: "Excavators",
     slug: "excavators",
-    description: "Hydraulic excavators from 1.5 to 80 tons for any project scale.",
-    count: 24,
-    specs: ["1.5 - 80 Tons", "Tracked & Wheeled"],
-    popular: true,
-  },
-  {
-    name: "Wheel Loaders",
-    slug: "wheel-loaders",
-    description: "Versatile loaders for material handling, loading, and site work.",
+    description: "Mini to heavy excavators for earthmoving and trenching.",
     count: 18,
-    specs: ["1 - 10 Yard", "Articulated"],
+    specs: ["1.5 - 35 Tons", "Tracked & Mini"],
     popular: true,
-  },
-  {
-    name: "Cranes",
-    slug: "cranes",
-    description: "Mobile and tower cranes with lifting capacities up to 500 tons.",
-    count: 12,
-    specs: ["Up to 500 Tons", "Mobile & Tower"],
-    popular: true,
-  },
-  {
-    name: "Bulldozers",
-    slug: "bulldozers",
-    description: "Heavy-duty dozers for grading, clearing, and earthmoving.",
-    count: 15,
-    specs: ["D3 - D11 Class", "GPS Available"],
   },
   {
     name: "Aerial Lifts",
     slug: "aerial-lifts",
     description: "Boom lifts, scissor lifts, and telehandlers for elevated access.",
-    count: 30,
-    specs: ["20 - 185 ft", "Electric & Diesel"],
-    popular: true,
-  },
-  {
-    name: "Dump Trucks",
-    slug: "dump-trucks",
-    description: "Articulated and rigid dump trucks for hauling and transport.",
     count: 20,
-    specs: ["25 - 100 Ton", "Articulated & Rigid"],
-  },
-  {
-    name: "Compactors",
-    slug: "compactors",
-    description: "Soil and asphalt compactors for road and foundation work.",
-    count: 14,
-    specs: ["Plate & Roller", "Vibratory"],
-  },
-  {
-    name: "Generators",
-    slug: "generators",
-    description: "Portable and towable generators from 20kW to 2000kW for site power.",
-    count: 22,
-    specs: ["20kW - 2000kW", "Diesel & Gas"],
-  },
-  {
-    name: "Skid Steers",
-    slug: "skid-steers",
-    description: "Compact and maneuverable skid steers with various attachment options.",
-    count: 16,
-    specs: ["1,500 - 4,000 lbs", "Wheeled & Tracked"],
-  },
-  {
-    name: "Backhoe Loaders",
-    slug: "backhoe-loaders",
-    description: "Versatile backhoe loaders for digging, loading, and utility work.",
-    count: 10,
-    specs: ["14 - 17 ft Depth", "4WD Available"],
+    specs: ["Up to 40m", "Electric & Diesel"],
+    popular: true,
   },
   {
     name: "Forklifts",
     slug: "forklifts",
-    description: "Industrial forklifts for material handling and warehouse operations.",
-    count: 18,
-    specs: ["3,000 - 36,000 lbs", "Electric & Propane"],
-  },
-  {
-    name: "Concrete Equipment",
-    slug: "concrete-equipment",
-    description: "Mixers, pumps, vibrators, and finishing equipment for concrete projects.",
-    count: 12,
-    specs: ["Mixers & Pumps", "Vibrators & Trowels"],
-  },
-  {
-    name: "Trenchers",
-    slug: "trenchers",
-    description: "Walk-behind and ride-on trenchers for utility and drainage work.",
-    count: 8,
-    specs: ["12 - 48 inch", "Chain & Wheel"],
+    description: "3T to 7T forklifts for material handling and warehouse operations.",
+    count: 15,
+    specs: ["3 - 7 Tons", "Diesel & Electric"],
+    popular: true,
   },
   {
     name: "Light Towers",
     slug: "light-towers",
-    description: "Mobile light towers for construction site and event illumination.",
+    description: "Mobile LED light towers for construction, events, and outdoor venues.",
     count: 14,
     specs: ["LED & Metal Halide", "Diesel Powered"],
+  },
+  {
+    name: "Water Pumps",
+    slug: "water-pumps",
+    description: "Dewatering and irrigation pumps for construction and farms.",
+    count: 10,
+    specs: ["Submersible & Centrifugal", "Electric & Diesel"],
+  },
+  {
+    name: "Skid Steer Loaders",
+    slug: "skid-steers",
+    description: "Compact Bobcat-type loaders for tight spaces and site work.",
+    count: 8,
+    specs: ["Wheeled & Tracked", "Multi-Attachment"],
+  },
+  {
+    name: "Concrete Equipment",
+    slug: "concrete-equipment",
+    description: "Mixers, pumps, vibrators, and finishing equipment for concrete work.",
+    count: 10,
+    specs: ["Mixers & Pumps", "Vibrators & Trowels"],
+  },
+  {
+    name: "Welding Generators",
+    slug: "welding-generators",
+    description: "Diesel welding generators for pipeline, structural, and fabrication work.",
+    count: 8,
+    specs: ["200 - 500 Amp", "Diesel Powered"],
+  },
+  {
+    name: "Dump Trucks",
+    slug: "dump-trucks",
+    description: "Site dumpers for hauling materials on construction projects.",
+    count: 6,
+    specs: ["3 - 15 Tons", "4WD Available"],
   },
 ];
 
 export default function CategoriesPage() {
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Construction Equipment Categories — Harma Machinery",
+    description: "Browse all construction equipment categories available for rent across the UAE.",
+    url: "https://harmachinery.com/categories",
+    numberOfItems: featuredCategories.length,
+    itemListElement: featuredCategories.map((cat, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: cat.name,
+      description: cat.description,
+      url: `https://harmachinery.com/equipment/${cat.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -173,15 +193,16 @@ export default function CategoriesPage() {
             Equipment Categories
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Rent Construction Equipment by Category
+            Equipment for Construction & Events
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Browse HarMachinery&apos;s complete fleet of construction equipment
-            organized by category. Find the right machine for your project.
+            Browse Harma Machinery&apos;s complete fleet — generators, compactors,
+            air compressors, excavators, light towers, and more. Available for
+            construction sites, weddings, festivals, and desert events.
           </p>
           <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
             {[
-              { label: "Equipment Types", value: "14" },
+              { label: "Equipment Types", value: "12" },
               { label: "Machines Total", value: "500+" },
               { label: "24/7 Support", value: "Yes" },
               { label: "Safety Certified", value: "100%" },
@@ -325,10 +346,10 @@ export default function CategoriesPage() {
               Contact Us
             </Link>
             <a
-              href="tel:+15551234567"
+              href="tel:+971554555786"
               className="rounded-lg border border-zinc-300 bg-white px-6 py-3 text-sm font-semibold text-zinc-900 transition-colors hover:bg-zinc-50"
             >
-              +1 (555) 123-4567
+              055 455 5786
             </a>
           </div>
         </div>
@@ -338,10 +359,10 @@ export default function CategoriesPage() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
-            The HarMachinery Advantage
+            The Harma Machinery Advantage
           </h2>
           <p className="mt-2 text-zinc-600">
-            When you rent from HarMachinery, you get more than just equipment.
+            When you rent from Harma Machinery, you get more than just equipment.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[

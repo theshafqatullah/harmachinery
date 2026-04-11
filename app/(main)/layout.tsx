@@ -1,14 +1,15 @@
 import Link from "next/link";
+import { dubaiLocations } from "@/data/locations";
 
 const equipmentDropdown = [
-  { label: "Excavators", href: "/equipment/excavators", desc: "Hydraulic excavators from 1.5 to 80 tons" },
-  { label: "Wheel Loaders", href: "/equipment/wheel-loaders", desc: "Versatile loaders for material handling" },
-  { label: "Cranes", href: "/equipment/cranes", desc: "Mobile & tower cranes up to 500 tons" },
-  { label: "Bulldozers", href: "/equipment/bulldozers", desc: "Heavy-duty dozers for earthmoving" },
-  { label: "Aerial Lifts", href: "/equipment/aerial-lifts", desc: "Boom lifts, scissor lifts & telehandlers" },
-  { label: "Dump Trucks", href: "/equipment/dump-trucks", desc: "Articulated and rigid dump trucks" },
-  { label: "Compactors", href: "/equipment/compactors", desc: "Soil and asphalt compaction equipment" },
-  { label: "Generators", href: "/equipment/generators", desc: "Power generators for any project size" },
+  { label: "Generators", href: "/machinery?category=Generators", desc: "Silent & diesel generators 10–500 KVA" },
+  { label: "Compactors", href: "/machinery?category=Compactors", desc: "Plate compactors & roller compactors" },
+  { label: "Air Compressors", href: "/machinery?category=Air+Compressors", desc: "Jack hammers & pneumatic tools" },
+  { label: "Power Tools", href: "/machinery?category=Power+Tools", desc: "Drills, grinders, breakers & more" },
+  { label: "Concrete Equipment", href: "/machinery?category=Concrete+Equipment", desc: "Mixers, vibrators & cutters" },
+  { label: "Cutting Machines", href: "/machinery?category=Cutting+Machines", desc: "Tile, concrete & asphalt cutters" },
+  { label: "Lighting", href: "/machinery?category=Lighting", desc: "LED tower lights for sites & events" },
+  { label: "Pumps", href: "/machinery?category=Pumps", desc: "Dewatering & submersible pumps" },
 ];
 
 const servicesDropdown = [
@@ -22,24 +23,23 @@ const servicesDropdown = [
   { label: "Spare Parts", href: "/services/spare-parts", desc: "Genuine parts for all major brands" },
 ];
 
-const locationsDropdown = [
-  { label: "Dubai", href: "/locations", desc: "60+ locations across Dubai" },
-  { label: "Sharjah", href: "/locations", desc: "Industrial & residential zones" },
-  { label: "Abu Dhabi", href: "/locations", desc: "Al Ain & Abu Dhabi region" },
-  { label: "Ajman", href: "/locations", desc: "Growing construction hub" },
-  { label: "Ras Al Khaimah", href: "/locations", desc: "Industrial zones & tourism" },
-  { label: "Fujairah", href: "/locations", desc: "East coast developments" },
-  { label: "Umm Al Quwain", href: "/locations", desc: "Emerging development zones" },
-];
+const locationsDropdown = dubaiLocations
+  .filter((loc) => loc.emirate === "Dubai" && loc.tier <= 2)
+  .slice(0, 12)
+  .map((loc) => ({
+    label: loc.name,
+    href: `/locations/${loc.slug}`,
+    desc: loc.distance + " from base",
+  }));
 
 const footerLinks = {
   equipment: [
-    { label: "Excavators", href: "/equipment/excavators" },
-    { label: "Wheel Loaders", href: "/equipment/wheel-loaders" },
-    { label: "Cranes", href: "/equipment/cranes" },
-    { label: "Bulldozers", href: "/equipment/bulldozers" },
-    { label: "Aerial Lifts", href: "/equipment/aerial-lifts" },
-    { label: "Dump Trucks", href: "/equipment/dump-trucks" },
+    { label: "Generators", href: "/machinery?category=Generators" },
+    { label: "Compactors", href: "/machinery?category=Compactors" },
+    { label: "Power Tools", href: "/machinery?category=Power+Tools" },
+    { label: "Concrete Equipment", href: "/machinery?category=Concrete+Equipment" },
+    { label: "Cutting Machines", href: "/machinery?category=Cutting+Machines" },
+    { label: "Lighting", href: "/machinery?category=Lighting" },
   ],
   company: [
     { label: "About Us", href: "/about" },
@@ -47,6 +47,7 @@ const footerLinks = {
     { label: "Locations", href: "/locations" },
     { label: "Services", href: "/services" },
     { label: "FAQ", href: "/faq" },
+    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
     { label: "Request a Quote", href: "/request-quote" },
   ],
@@ -83,7 +84,7 @@ export default function MainLayout({
               </svg>
             </div>
             <span className="text-lg font-bold text-zinc-900">
-              HarMachinery
+              Harma Machinery
             </span>
           </Link>
 
@@ -115,7 +116,7 @@ export default function MainLayout({
                     ))}
                   </div>
                   <div className="mt-4 flex items-center justify-between border-t border-zinc-100 pt-4">
-                    <Link href="/equipment" className="text-sm font-semibold text-amber-600 hover:text-amber-500">
+                    <Link href="/machinery" className="text-sm font-semibold text-amber-600 hover:text-amber-500">
                       View All Equipment →
                     </Link>
                     <Link href="/request-quote" className="rounded-lg bg-amber-500 px-4 py-2 text-xs font-semibold text-zinc-900 hover:bg-amber-400">
@@ -125,11 +126,6 @@ export default function MainLayout({
                 </div>
               </div>
             </div>
-
-            {/* Machinery */}
-            <Link href="/machinery" className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900">
-              Machinery
-            </Link>
 
             {/* Services dropdown */}
             <div className="group relative">
@@ -196,12 +192,17 @@ export default function MainLayout({
                   </div>
                   <div className="mt-4 flex items-center justify-between border-t border-zinc-100 pt-4">
                     <Link href="/locations" className="text-sm font-semibold text-amber-600 hover:text-amber-500">
-                      View All 90+ Locations →
+                      View All Locations →
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
+
+            {/* Blog */}
+            <Link href="/blog" className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900">
+              Blog
+            </Link>
 
             {/* About */}
             <Link href="/about" className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900">
@@ -267,15 +268,11 @@ export default function MainLayout({
                       {item.label}
                     </Link>
                   ))}
-                  <Link href="/equipment" className="block rounded-lg px-4 py-2 text-xs font-semibold text-amber-600">
+                  <Link href="/machinery" className="block rounded-lg px-4 py-2 text-xs font-semibold text-amber-600">
                     View All →
                   </Link>
                 </div>
               </details>
-
-              <Link href="/machinery" className="block rounded-lg px-4 py-2.5 text-sm font-medium text-zinc-700 hover:bg-zinc-100">
-                Machinery
-              </Link>
 
               {/* Services accordion */}
               <details className="group/svc">
@@ -317,6 +314,9 @@ export default function MainLayout({
                 </div>
               </details>
 
+              <Link href="/blog" className="block rounded-lg px-4 py-2.5 text-sm font-medium text-zinc-700 hover:bg-zinc-100">
+                Blog
+              </Link>
               <Link href="/about" className="block rounded-lg px-4 py-2.5 text-sm font-medium text-zinc-700 hover:bg-zinc-100">
                 About
               </Link>
@@ -362,18 +362,17 @@ export default function MainLayout({
                   </svg>
                 </div>
                 <span className="text-lg font-bold text-zinc-900">
-                  HarMachinery
+                  Harma Machinery
                 </span>
               </Link>
               <p className="mt-4 text-sm leading-6">
-                Heavy equipment rentals you can rely on. Serving contractors
-                and builders since 2010.
+                Generator & equipment rental you can rely on. Based in Al Lisaili, Dubai — serving all 7 UAE Emirates.
               </p>
               <div className="mt-4 space-y-2 text-sm">
-                <p>+1 (555) 123-4567</p>
+                <p>055 455 5786 / 050 484 5636</p>
                 <p>info@harmachinery.com</p>
-                <p>1234 Industrial Blvd, Suite 100</p>
-                <p>Houston, TX 77001</p>
+                <p>Al Lisaili, Dubai–Al Ain Road (E66)</p>
+                <p>Dubai, United Arab Emirates</p>
               </div>
             </div>
 
@@ -437,22 +436,71 @@ export default function MainLayout({
                   Business Hours
                 </h3>
                 <div className="mt-3 space-y-1 text-sm">
-                  <p>Mon–Fri: 7am – 6pm</p>
-                  <p>Saturday: 8am – 2pm</p>
-                  <p>Sunday: Closed</p>
+                  <p>Sat–Thu: 7am – 8pm</p>
+                  <p>Friday: 8am – 12pm</p>
+                  <p>24/7 Emergency Support</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="mt-12 border-t border-zinc-200 pt-8 text-center text-xs text-zinc-500">
-            <p>
-              &copy; {new Date().getFullYear()} HarMachinery. All rights
+          <div className="mt-12 border-t border-zinc-200 pt-8 flex flex-col items-center gap-4">
+            {/* Social Links */}
+            <div className="flex gap-4">
+              <a
+                href="https://www.instagram.com/husnainabdulrasheedconstrucion?igsh=MTM3aTRpb2t3Z3AzNA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-zinc-200 text-zinc-600 transition-colors hover:bg-amber-100 hover:text-amber-600"
+              >
+                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61578507911629"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-zinc-200 text-zinc-600 transition-colors hover:bg-amber-100 hover:text-amber-600"
+              >
+                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </a>
+              <a
+                href="https://wa.me/971554555786"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-zinc-200 text-zinc-600 transition-colors hover:bg-amber-100 hover:text-amber-600"
+              >
+                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+              </a>
+            </div>
+            <p className="text-xs text-zinc-500">
+              &copy; {new Date().getFullYear()} Harma Machinery. All rights
               reserved.
             </p>
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/971554555786"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110"
+      >
+        <svg className="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+      </a>
     </>
   );
 }

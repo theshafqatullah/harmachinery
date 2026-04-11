@@ -2,78 +2,118 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Equipment Catalog - HarMachinery",
+  title: "Equipment Catalog - Harma Machinery | Rental Dubai",
   description:
-    "Browse our full range of heavy equipment available for rent — excavators, cranes, loaders, bulldozers, aerial lifts, and more.",
+    "Browse our full range of generators, compactors, air compressors & construction equipment for rent in Dubai and across the UAE.",
+  keywords: [
+    "excavator rental Dubai", "crane rental UAE", "bulldozer hire Dubai",
+    "wheel loader rental", "aerial lift rental UAE", "dump truck hire Dubai",
+    "heavy equipment rental Dubai", "construction machinery UAE",
+  ],
+  alternates: { canonical: "/equipment" },
+  openGraph: {
+    title: "Equipment Catalog - Harma Machinery | Rental Dubai",
+    description:
+      "Browse our full range of generators, compactors, air compressors & construction equipment for rent in Dubai and across the UAE.",
+    url: "/equipment",
+  },
+  twitter: {
+    title: "Equipment Catalog - Harma Machinery | Rental Dubai",
+    description:
+      "Browse our full range of generators, compactors, air compressors & construction equipment for rent in Dubai and across the UAE.",
+  },
 };
 
 const categories = [
   {
+    name: "Generators",
+    slug: "generators",
+    description:
+      "Silent & standard diesel generators from 10 KVA to 1000 KVA for construction, events, weddings, and industrial operations.",
+    count: 60,
+    priceFrom: "AED 150/day",
+  },
+  {
+    name: "Compactors & Rollers",
+    slug: "compactors",
+    description:
+      "Plate compactors, vibratory rollers, and smooth drum rollers for road and foundation work.",
+    count: 14,
+    priceFrom: "AED 250/day",
+  },
+  {
+    name: "Air Compressors",
+    slug: "air-compressors",
+    description:
+      "Industrial air compressors for sandblasting, pneumatic tools, and construction applications.",
+    count: 12,
+    priceFrom: "AED 200/day",
+  },
+  {
     name: "Excavators",
     slug: "excavators",
     description:
-      "Hydraulic excavators from 1.5 to 80 tons for any project scale.",
-    count: 24,
-    priceFrom: "$350/day",
-  },
-  {
-    name: "Wheel Loaders",
-    slug: "wheel-loaders",
-    description:
-      "Versatile loaders for material handling, loading, and site work.",
+      "Mini to heavy excavators for earthmoving, trenching, and site preparation.",
     count: 18,
-    priceFrom: "$300/day",
-  },
-  {
-    name: "Cranes",
-    slug: "cranes",
-    description:
-      "Mobile and tower cranes with lifting capacities up to 500 tons.",
-    count: 12,
-    priceFrom: "$800/day",
-  },
-  {
-    name: "Bulldozers",
-    slug: "bulldozers",
-    description: "Heavy-duty dozers for grading, clearing, and earthmoving.",
-    count: 15,
-    priceFrom: "$400/day",
+    priceFrom: "AED 400/day",
   },
   {
     name: "Aerial Lifts",
     slug: "aerial-lifts",
     description:
-      "Boom lifts, scissor lifts, and telehandlers for elevated access.",
-    count: 30,
-    priceFrom: "$200/day",
-  },
-  {
-    name: "Dump Trucks",
-    slug: "dump-trucks",
-    description: "Articulated and rigid dump trucks for hauling and transport.",
+      "Boom lifts, scissor lifts, and telehandlers for elevated access on construction and fit-out projects.",
     count: 20,
-    priceFrom: "$450/day",
+    priceFrom: "AED 300/day",
   },
   {
-    name: "Compactors",
-    slug: "compactors",
-    description: "Soil and asphalt compactors for road and foundation work.",
-    count: 14,
-    priceFrom: "$250/day",
-  },
-  {
-    name: "Generators",
-    slug: "generators",
+    name: "Forklifts",
+    slug: "forklifts",
     description:
-      "Portable and towable generators from 20kW to 2000kW for site power.",
-    count: 22,
-    priceFrom: "$150/day",
+      "3T to 7T forklifts and telehandlers for material handling at warehouses and construction sites.",
+    count: 15,
+    priceFrom: "AED 250/day",
+  },
+  {
+    name: "Light Towers",
+    slug: "light-towers",
+    description:
+      "Mobile LED light towers for construction sites, events, and outdoor venue illumination.",
+    count: 14,
+    priceFrom: "AED 150/day",
+  },
+  {
+    name: "Water Pumps",
+    slug: "water-pumps",
+    description:
+      "Dewatering pumps and irrigation pumps for construction, farms, and event sites.",
+    count: 10,
+    priceFrom: "AED 120/day",
   },
 ];
 
 export default function EquipmentPage() {
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Equipment Rental Catalog — Harma Machinery",
+    description: "Browse our full range of construction equipment for rent in Dubai and across the UAE.",
+    url: "https://harmachinery.com/equipment",
+    numberOfItems: categories.length,
+    itemListElement: categories.map((cat, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: cat.name,
+      description: cat.description,
+      url: `https://harmachinery.com/equipment/${cat.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -81,11 +121,10 @@ export default function EquipmentPage() {
             Equipment
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Our Equipment Catalog
+            Equipment Catalog
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Browse our full range of well-maintained heavy equipment available
-            for daily, weekly, and monthly rental.
+            Generators, compactors, air compressors, excavators, and more — well-maintained and ready for daily, weekly, or monthly rental across all 7 UAE Emirates.
           </p>
         </div>
       </section>

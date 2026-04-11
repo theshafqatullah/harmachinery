@@ -20,10 +20,22 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const machine = getMachineryBySlug(slug);
-  if (!machine) return { title: "Product Not Found - HarMachinery" };
+  if (!machine) return { title: "Product Not Found - Harma Machinery" };
   return {
-    title: `${machine.name} for Rent | HarMachinery`,
+    title: `${machine.name} for Rent | Harma Machinery`,
     description: machine.description,
+    alternates: { canonical: `/machinery/${slug}` },
+    openGraph: {
+      title: `${machine.name} for Rent | Harma Machinery`,
+      description: machine.description,
+      url: `/machinery/${slug}`,
+      images: machine.image ? [{ url: machine.image, alt: machine.name }] : [],
+    },
+    twitter: {
+      title: `${machine.name} for Rent | Harma Machinery`,
+      description: machine.description,
+      images: machine.image ? [machine.image] : [],
+    },
   };
 }
 
@@ -38,8 +50,55 @@ export default async function MachineryDetailPage({
 
   const related = getRelatedMachinery(machine.id, machine.category, 4);
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://harmachinery.com" },
+      { "@type": "ListItem", position: 2, name: "Machinery", item: "https://harmachinery.com/machinery" },
+      { "@type": "ListItem", position: 3, name: machine.name, item: `https://harmachinery.com/machinery/${machine.slug}` },
+    ],
+  };
+
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: machine.name,
+    description: machine.description,
+    image: machine.image,
+    brand: { "@type": "Brand", name: machine.brand },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "AED",
+      price: machine.price,
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: machine.price,
+        priceCurrency: "AED",
+        unitText: machine.priceUnit,
+      },
+      availability: machine.available
+        ? "https://schema.org/InStock"
+        : "https://schema.org/OutOfStock",
+      seller: { "@type": "Organization", name: "Harma Machinery" },
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: machine.rating,
+      reviewCount: machine.reviews,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       {/* Breadcrumb */}
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-3 lg:px-8">

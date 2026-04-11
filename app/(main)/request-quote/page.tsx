@@ -2,9 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Request a Quote - HarMachinery",
+  title: "Request a Quote - Harma Machinery | Generator Rental Dubai",
   description:
-    "Submit a quote request for heavy equipment rental. Tell us about your project and we'll send you a custom, no-obligation quote.",
+    "Submit a quote request for generator and equipment rental in Dubai and across the UAE. Harma Machinery responds within hours.",
+  alternates: { canonical: "/request-quote" },
+  openGraph: {
+    title: "Request a Quote - Harma Machinery | Generator Rental Dubai",
+    description:
+      "Submit a quote request for generator and equipment rental in Dubai and across the UAE. Harma Machinery responds within hours.",
+    url: "/request-quote",
+  },
+  twitter: {
+    title: "Request a Quote - Harma Machinery | Generator Rental Dubai",
+    description:
+      "Submit a quote request for generator and equipment rental in Dubai and across the UAE. Harma Machinery responds within hours.",
+  },
 };
 
 export default function RequestQuotePage() {
@@ -82,7 +94,7 @@ export default function RequestQuotePage() {
                     <input
                       type="tel"
                       className="mt-1 block w-full rounded-lg border border-zinc-300 px-4 py-2.5 text-sm text-zinc-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+971 50 000 0000"
                     />
                   </div>
                 </div>
@@ -96,18 +108,43 @@ export default function RequestQuotePage() {
                 <div className="mt-4 grid gap-6 sm:grid-cols-2">
                   <div>
                     <label className="block text-sm font-medium text-zinc-700">
+                      Project Type
+                    </label>
+                    <select className="mt-1 block w-full rounded-lg border border-zinc-300 px-4 py-2.5 text-sm text-zinc-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500">
+                      <option>Construction Site</option>
+                      <option>Wedding / Private Party</option>
+                      <option>Desert Camp / Safari</option>
+                      <option>Corporate Event</option>
+                      <option>Concert / Festival</option>
+                      <option>Film / Media Production</option>
+                      <option>Government / Infrastructure</option>
+                      <option>Agriculture / Farm</option>
+                      <option>Industrial / Warehouse</option>
+                      <option>Exhibition / Trade Show</option>
+                      <option>Hotel / Hospitality</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-zinc-700">
                       Equipment Type
                     </label>
                     <select className="mt-1 block w-full rounded-lg border border-zinc-300 px-4 py-2.5 text-sm text-zinc-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500">
+                      <option>Generator (10–50 KVA)</option>
+                      <option>Generator (50–100 KVA)</option>
+                      <option>Generator (100–250 KVA)</option>
+                      <option>Generator (250–500 KVA)</option>
+                      <option>Generator (500–1000 KVA)</option>
+                      <option>Silent Generator (Events)</option>
+                      <option>Compactor / Roller</option>
+                      <option>Air Compressor</option>
                       <option>Excavator</option>
-                      <option>Wheel Loader</option>
-                      <option>Crane</option>
-                      <option>Bulldozer</option>
-                      <option>Aerial Lift</option>
-                      <option>Dump Truck</option>
-                      <option>Compactor</option>
-                      <option>Generator</option>
-                      <option>Other</option>
+                      <option>Boom / Scissor Lift</option>
+                      <option>Forklift / Telehandler</option>
+                      <option>Light Tower</option>
+                      <option>Water Pump</option>
+                      <option>Event Power Package (Generator + Cables + Setup)</option>
+                      <option>Other Equipment</option>
                     </select>
                   </div>
                   <div>
@@ -147,7 +184,7 @@ export default function RequestQuotePage() {
                     <input
                       type="text"
                       className="mt-1 block w-full rounded-lg border border-zinc-300 px-4 py-2.5 text-sm text-zinc-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
-                      placeholder="City, State or full address"
+                      placeholder="e.g., Dubai South, Al Lisaili, DAMAC Hills 2"
                     />
                   </div>
                   <div>

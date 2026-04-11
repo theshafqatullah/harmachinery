@@ -2,31 +2,43 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Team - HarMachinery",
+  title: "Our Team - Harma Machinery | Dubai Equipment Rental",
   description:
-    "Meet the HarMachinery team — experienced leaders and professionals committed to delivering reliable heavy equipment solutions.",
+    "Meet the Harma Machinery team — experienced professionals delivering reliable generator and equipment rental across the UAE from Al Lisaili, Dubai.",
+  alternates: { canonical: "/team" },
+  openGraph: {
+    title: "Our Team - Harma Machinery | Dubai Equipment Rental",
+    description:
+      "Meet the Harma Machinery team — experienced professionals delivering reliable generator and equipment rental across the UAE from Al Lisaili, Dubai.",
+    url: "/team",
+  },
+  twitter: {
+    title: "Our Team - Harma Machinery | Dubai Equipment Rental",
+    description:
+      "Meet the Harma Machinery team — experienced professionals delivering reliable generator and equipment rental across the UAE from Al Lisaili, Dubai.",
+  },
 };
 
 const executives = [
   {
-    name: "James Harper",
+    name: "Harjot Singh",
     role: "Founder & Chairman",
-    bio: "Visionary leader with 30+ years in construction and heavy equipment management. Founded HarMachinery with a mission to transform the equipment rental industry.",
+    bio: "Visionary leader with 15+ years in construction equipment and generator rental. Founded Harma Machinery from Al Lisaili to serve the booming UAE market.",
   },
   {
-    name: "Sarah Mitchell",
+    name: "Ravi Kumar",
     role: "Chief Executive Officer",
-    bio: "Strategic executive driving growth and operational excellence across all regions. 20+ years experience in industrial operations and business development.",
+    bio: "Strategic executive driving growth and operational excellence across all 7 emirates. Expert in logistics and fleet management.",
   },
   {
-    name: "Carlos Rivera",
+    name: "Omar Al-Hashimi",
     role: "Chief Operations Officer",
-    bio: "Operations expert ensuring seamless service delivery and fleet management. Oversees logistics, maintenance, and site coordination.",
+    bio: "Operations expert ensuring seamless delivery and equipment maintenance. Oversees the transport fleet and site coordination across Dubai.",
   },
   {
-    name: "Priya Nair",
-    role: "Chief Technical Officer",
-    bio: "Technology leader overseeing equipment maintenance, digital innovation, and fleet tracking systems.",
+    name: "Sara Al-Mansoori",
+    role: "Head of Client Relations",
+    bio: "Customer relations professional managing Arabic and English client communication. Ensures seamless rental experiences.",
   },
 ];
 
@@ -65,10 +77,10 @@ const benefits = [
 ];
 
 const openPositions = [
-  { title: "Heavy Equipment Operator", location: "Houston, TX", type: "Full-time", department: "Operations" },
-  { title: "Diesel Mechanic", location: "Dallas, TX", type: "Full-time", department: "Technical" },
-  { title: "Sales Executive", location: "Austin, TX", type: "Full-time", department: "Sales" },
-  { title: "Fleet Coordinator", location: "San Antonio, TX", type: "Full-time", department: "Operations" },
+  { title: "Generator Operator", location: "Al Lisaili, Dubai", type: "Full-time", department: "Operations" },
+  { title: "Diesel Mechanic", location: "Al Lisaili, Dubai", type: "Full-time", department: "Technical" },
+  { title: "Sales Executive", location: "Dubai, UAE", type: "Full-time", department: "Sales" },
+  { title: "Fleet Coordinator", location: "Al Lisaili, Dubai", type: "Full-time", department: "Operations" },
 ];
 
 export default function TeamPage() {
@@ -81,7 +93,7 @@ export default function TeamPage() {
             Our People
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Meet the HarMachinery Team
+            Meet the Harma Machinery Team
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
             Behind every machine is a dedicated team of professionals committed
@@ -137,13 +149,13 @@ export default function TeamPage() {
       </section>
 
       {/* Culture */}
-      <section className="bg-white py-20">
+      <section className="bg-zinc-50 py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
             What Makes Us Different
           </h2>
           <p className="mt-2 max-w-2xl text-zinc-600">
-            At HarMachinery, we believe that our people are our greatest asset.
+            At Harma Machinery, we believe that our people are our greatest asset.
             We foster an environment where every team member can thrive, grow,
             and contribute to our shared success.
           </p>
@@ -183,7 +195,7 @@ export default function TeamPage() {
       </section>
 
       {/* Open Positions */}
-      <section className="bg-white py-20">
+      <section className="bg-zinc-50 py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">Join Our Team</h2>
           <p className="mt-2 text-zinc-600">

@@ -13,42 +13,42 @@ const services: Record<
   }
 > = {
   "equipment-rental": {
-    title: "Equipment Rental",
-    headline: "Premium Heavy Equipment for Rent",
+    title: "Generator & Equipment Rental",
+    headline: "Premium Generators & Construction Equipment for Rent",
     description:
-      "HarMachinery offers a comprehensive fleet of well-maintained construction equipment for short-term and long-term rental. From excavators and cranes to generators and compactors — all available with flexible terms and competitive pricing.",
+      "Harma Machinery offers an extensive fleet of generators (10 KVA to 1000 KVA), compactors, air compressors, and construction equipment for daily, weekly, and monthly rental. From powering farm events in Al Lisaili to supplying mega construction sites in Dubai South — we deliver the right equipment, on time.",
     features: [
-      { title: "Flexible Rental Terms", description: "Daily, weekly, and monthly rental options to match your project timeline and budget." },
-      { title: "Well-Maintained Fleet", description: "Every machine undergoes rigorous maintenance checks and safety inspections before delivery." },
-      { title: "Competitive Pricing", description: "Transparent pricing with volume discounts. No hidden fees or surprise charges." },
-      { title: "Quick Availability", description: "Large fleet ensures equipment is available when you need it, often with same-day delivery." },
+      { title: "Full Generator Range", description: "From 10 KVA for small events to 1000 KVA for mega construction and industrial sites." },
+      { title: "Silent Models Available", description: "Super-silent canopy generators for weddings, film shoots, and residential areas." },
+      { title: "Event Power Packages", description: "Complete packages with generator, distribution board, cables, and on-site setup." },
+      { title: "Same-Day Delivery", description: "Free delivery within 15 km from Al Lisaili. Same-day delivery across Dubai." },
     ],
     benefits: [
-      "500+ machines across all equipment types",
-      "No long-term commitment required",
-      "Insurance coverage included",
-      "Replacement units available if needed",
-      "GPS tracking on all equipment",
-      "Overnight and weekend rentals available",
+      "Generators from 10 KVA to 1000 KVA",
+      "Silent generators for events and film production",
+      "Free delivery within Zone A (0–15 km)",
+      "24/7 breakdown support and replacement guarantee",
+      "Fuel top-up service for events",
+      "Serving all 7 UAE Emirates",
     ],
   },
   "operator-services": {
     title: "Certified Operators",
     headline: "Skilled Operators for Your Equipment Needs",
     description:
-      "Our certified and experienced operators are available for any machine in our fleet. They integrate seamlessly into your project team and follow all safety protocols to maximize productivity.",
+      "Our certified and experienced operators handle your machinery with expertise. Available for construction sites, events, and industrial operations. All operators are multilingual (Arabic, English, Hindi, Urdu) and trained on UAE safety protocols.",
     features: [
-      { title: "Certified & Licensed", description: "All operators are fully certified and licensed with up-to-date credentials." },
-      { title: "Extensive Experience", description: "Our operators average 10+ years of experience across all equipment types." },
-      { title: "Safety Trained", description: "Every operator follows OSHA-compliant safety protocols on every job." },
-      { title: "Flexible Assignments", description: "Available for short-term or long-term assignments based on your project needs." },
+      { title: "Certified & Licensed", description: "All operators hold valid UAE certifications and are fully insured." },
+      { title: "Extensive Experience", description: "Our operators average 10+ years on construction sites and event setups across the UAE." },
+      { title: "Safety Trained", description: "Comprehensive UAE safety protocol training for every job site." },
+      { title: "Flexible Assignments", description: "Available for daily, weekly, or entire project duration from Al Lisaili base." },
     ],
     benefits: [
-      "Background-checked and drug-tested operators",
+      "Background-verified and safety-certified",
       "Experience with all major equipment brands",
       "Daily or long-term assignment options",
-      "Supervisor coordination included",
-      "Bilingual operators available",
+      "Multilingual operators (Arabic, English, Hindi, Urdu)",
+      "Backup operators available for continuity",
       "Emergency replacement guarantee",
     ],
   },
@@ -74,21 +74,21 @@ const services: Record<
   },
   "transportation": {
     title: "Equipment Transportation",
-    headline: "Safe and Timely Delivery to Your Site",
+    headline: "Safe Delivery Across All 7 Emirates",
     description:
-      "Our logistics team handles all equipment transportation needs using specialized trailers and experienced drivers. From local site deliveries to cross-state transport, we ensure your machinery arrives safely and on schedule.",
+      "From our Al Lisaili base on the Dubai–Al Ain Road (E66), our logistics team delivers equipment anywhere in the UAE. Free delivery within 15 km, with competitive rates across all delivery zones — including Sharjah, Al Ain, RAK, Fujairah, and UAQ.",
     features: [
+      { title: "Free Zone A Delivery", description: "Free delivery within 15 km of Al Lisaili including The Valley, DAMAC Hills 2, Al Awir, and Lahbab." },
+      { title: "All Emirates Coverage", description: "Delivery to all 7 UAE Emirates with low-bed trailers, flatbeds, and specialised transport." },
       { title: "GPS-Tracked Deliveries", description: "Real-time tracking on all transports so you know exactly when your equipment arrives." },
-      { title: "Licensed & Insured", description: "Fully licensed transport operation with comprehensive insurance coverage." },
-      { title: "Specialized Trailers", description: "Flatbed, lowboy, and float trailers for equipment of all sizes." },
-      { title: "Same-Day Available", description: "Same-day delivery service for urgent project needs within our service area." },
+      { title: "Same-Day Available", description: "Same-day delivery across Dubai for orders before 2 PM. Desert and farm locations included." },
     ],
     benefits: [
-      "Oversize load permits handled",
-      "Escort vehicles for oversized equipment",
-      "Weekend and after-hours delivery",
-      "Loading and unloading assistance",
-      "Route planning for restricted areas",
+      "Zone A (0–15 km): Free delivery",
+      "Zone B (15–30 km): AED 150–300",
+      "Zone C (30–50 km): AED 300–500",
+      "Cross-Emirate: AED 500–1,200",
+      "Secure loading and unloading",
       "Pickup service included with rentals",
     ],
   },
@@ -116,9 +116,9 @@ const services: Record<
     title: "Operator Training",
     headline: "Comprehensive Equipment Operation Training",
     description:
-      "Our OSHA-compliant training programs equip your team with the skills to operate heavy equipment safely and efficiently. We offer both classroom instruction and hands-on practical sessions for all major equipment types.",
+      "Our UAE-certified training programs equip your team with the skills to operate heavy equipment safely and efficiently. We offer both classroom instruction and hands-on practical sessions for all major equipment types.",
     features: [
-      { title: "Certified Programs", description: "OSHA-compliant training programs with nationally recognized certification upon completion." },
+      { title: "Certified Programs", description: "UAE-certified training programs with industry-recognized certification upon completion." },
       { title: "Hands-On Practice", description: "Extensive practical sessions on real equipment in controlled training environments." },
       { title: "Safety Certification", description: "Comprehensive safety training covering hazard awareness, emergency procedures, and PPE." },
       { title: "Flexible Scheduling", description: "Training sessions available on weekdays, weekends, and at your job site." },
@@ -183,8 +183,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = services[slug];
   if (!service) return {};
   return {
-    title: `${service.title} - HarMachinery Services`,
+    title: `${service.title} - Harma Machinery Services`,
     description: service.description,
+    alternates: { canonical: `/services/${slug}` },
+    openGraph: {
+      title: `${service.title} - Harma Machinery Services`,
+      description: service.description,
+      url: `/services/${slug}`,
+    },
+    twitter: {
+      title: `${service.title} - Harma Machinery Services`,
+      description: service.description,
+    },
   };
 }
 
@@ -201,8 +211,49 @@ export default async function ServiceDetailPage({ params }: Props) {
     .filter(([key]) => key !== slug)
     .slice(0, 3);
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://harmachinery.com" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://harmachinery.com/services" },
+      { "@type": "ListItem", position: 3, name: service.title, item: `https://harmachinery.com/services/${slug}` },
+    ],
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.description,
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Harma Machinery",
+      url: "https://harmachinery.com",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Dubai",
+        addressCountry: "AE",
+      },
+    },
+    areaServed: { "@type": "Country", name: "UAE" },
+    url: `https://harmachinery.com/services/${slug}`,
+    offers: service.features.map((f) => ({
+      "@type": "Offer",
+      description: f,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -229,7 +280,7 @@ export default async function ServiceDetailPage({ params }: Props) {
               Get a Quote
             </Link>
             <a
-              href="tel:+15551234567"
+              href="tel:+971554555786"
               className="rounded-lg border border-zinc-300 bg-white px-6 py-3 text-center text-sm font-semibold text-zinc-900 transition-colors hover:bg-zinc-50"
             >
               Call Now

@@ -2,9 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FAQ - HarMachinery",
+  title: "FAQ - Harma Machinery | Generator & Equipment Rental Dubai",
   description:
-    "Frequently asked questions about heavy equipment rentals, pricing, delivery, and support at HarMachinery.",
+    "Frequently asked questions about generator rental, equipment hire, delivery zones, and support from Harma Machinery in Dubai, UAE.",
+  alternates: { canonical: "/faq" },
+  openGraph: {
+    title: "FAQ - Harma Machinery | Generator & Equipment Rental Dubai",
+    description:
+      "Frequently asked questions about generator rental, equipment hire, delivery zones, and support from Harma Machinery in Dubai, UAE.",
+    url: "/faq",
+  },
+  twitter: {
+    title: "FAQ - Harma Machinery | Generator & Equipment Rental Dubai",
+    description:
+      "Frequently asked questions about generator rental, equipment hire, delivery zones, and support from Harma Machinery in Dubai, UAE.",
+  },
 };
 
 const faqCategories = [
@@ -14,80 +26,129 @@ const faqCategories = [
       {
         question: "What is the minimum rental period?",
         answer:
-          "We offer daily, weekly, and monthly rentals. The minimum rental is one day for most equipment. Some specialty items may require a minimum of one week.",
+          "We offer daily, weekly, and monthly rentals. The minimum rental is one day for most generators and equipment. For cross-emirate deliveries (Sharjah, Al Ain, RAK, Fujairah, UAQ), we require a minimum of 3 days to 1 week depending on distance.",
       },
       {
-        question: "Do I need to sign a contract?",
+        question: "What generator sizes do you offer?",
         answer:
-          "Yes. We use straightforward rental agreements that clearly outline the rental period, pricing, liability, and return conditions. No hidden fees or complex terms.",
+          "We stock generators ranging from 10 KVA (ideal for small farm parties and food stalls) up to 1000 KVA (for mega construction sites and industrial operations). Our most popular sizes are 20\u201330 KVA for events, 50\u2013100 KVA for weddings, and 500 KVA for construction sites.",
       },
       {
-        question: "Can I extend my rental?",
+        question: "Do you offer silent generators for events?",
         answer:
-          "Yes. Simply call us before your rental period ends and we'll extend it. If the machine is needed by another customer, we'll arrange an equivalent replacement.",
+          "Yes. We carry super-silent canopy generators that are essential for weddings, film shoots, corporate events, and residential areas. These are available from 20 KVA to 500 KVA.",
       },
       {
         question: "What forms of payment do you accept?",
         answer:
-          "We accept credit cards, company checks, ACH transfers, and purchase orders from established accounts. Credit terms are available for qualified businesses.",
+          "We accept cash, bank transfer, credit cards, and company cheques. For established business accounts, we offer credit terms. We also accept payment via WhatsApp Pay and online transfer.",
       },
     ],
   },
   {
-    category: "Equipment & Delivery",
+    category: "Delivery & Locations",
     questions: [
       {
-        question: "Do you deliver equipment to job sites?",
+        question: "Where do you deliver?",
         answer:
-          "Yes. We deliver and pick up equipment anywhere in the region. Delivery fees depend on distance and equipment size. We handle all transport logistics.",
+          "We deliver across all 7 UAE Emirates \u2014 Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, Fujairah, and Abu Dhabi (including Al Ain). Our base in Al Lisaili on the Dubai\u2013Al Ain Road (E66) gives us fast access to all areas.",
       },
       {
-        question: "Are operators included with the rental?",
+        question: "What are your delivery zones and fees?",
         answer:
-          "Operators are available as an add-on. All our operators are certified and experienced with our fleet. Operator rates are quoted separately.",
+          "Zone A (0\u201315 km from Al Lisaili): Free delivery. Zone B (15\u201330 km): AED 150\u2013300. Zone C (30\u201350 km): AED 300\u2013500. Cross-Emirate (50+ km): AED 500\u20131,200 depending on destination and equipment size.",
       },
       {
-        question: "What condition is the equipment in?",
+        question: "Do you deliver to desert and farm locations?",
         answer:
-          "Every machine undergoes thorough inspection and maintenance before each rental. We maintain detailed service records and guarantee equipment arrives job-ready.",
+          "Absolutely. We specialise in desert camp, farm party, and safari event deliveries. We serve Al Lisaili farms, Margham, Lahbab, Al Faqaa, Al Khawaneej, and all farm/desert event locations across Dubai.",
       },
       {
-        question: "Can I inspect the equipment before renting?",
+        question: "Can you deliver same-day?",
         answer:
-          "Absolutely. You're welcome to visit our yard to inspect any machine. We can also provide photos, service history, and hour-meter readings on request.",
+          "Yes. For Zone A locations (within 15 km), we often deliver within 2\u20134 hours. For other Dubai locations, same-day delivery is available for orders placed before 2 PM.",
       },
     ],
   },
   {
-    category: "Support & Insurance",
+    category: "Support & Services",
     questions: [
       {
-        question: "What happens if a machine breaks down?",
+        question: "What happens if a generator breaks down?",
         answer:
-          "Call our 24/7 hotline. We'll dispatch a technician or deliver a replacement unit — typically within hours. You won't be charged for downtime caused by mechanical failure.",
+          "Call our 24/7 emergency line. We\u2019ll dispatch a technician or deliver a replacement unit \u2014 typically within hours. You won\u2019t be charged for downtime caused by mechanical failure.",
       },
       {
-        question: "Do I need insurance?",
+        question: "Do you provide fuel top-up during events?",
         answer:
-          "Renters are required to have equipment coverage. You can use your own commercial policy or purchase our Rental Protection Plan (RPP), which covers damage and theft.",
+          "Yes. For events, we can include fuel delivery service to keep your generator running continuously. This is especially popular for weddings, Global Village vendors, and multi-day desert camps.",
       },
       {
-        question: "Who is responsible for fuel?",
+        question: "Do you include setup and cables?",
         answer:
-          "The renter is responsible for fuel and daily fluid checks. Equipment is delivered with a full tank and should be returned the same way, or a refueling fee applies.",
+          "We offer complete \u2018Event Power Packages\u2019 that include the generator, distribution boards, cables, and setup. Our technician will connect everything and test before leaving your site.",
       },
       {
-        question: "Do you provide training?",
+        question: "Can I get operators with the rental?",
         answer:
-          "We offer basic equipment orientation at delivery. For full operator training or certification programs, we can connect you with our training partners.",
+          "Yes. All our operators are certified, safety-trained, and available for daily, weekly, or project-duration assignments. Multilingual operators (Arabic, English, Hindi, Urdu) are available.",
+      },
+    ],
+  },
+  {
+    category: "Event & Wedding Power",
+    questions: [
+      {
+        question: "What size generator do I need for a wedding?",
+        answer:
+          "For weddings with 100\u2013300 guests (AC, lighting, sound, kitchen), a 50\u2013100 KVA silent generator is typically sufficient. For larger 500+ guest events with stage lighting and full catering, we recommend 150\u2013250 KVA. Our team can assess your exact needs during a free consultation.",
+      },
+      {
+        question: "Do you supply power for farm house parties?",
+        answer:
+          "Yes \u2014 farm events are our core business. We serve hundreds of farm locations in Al Lisaili, Al Awir, Al Khawaneej, and surrounding areas. Most farm parties need 25\u2013100 KVA depending on AC tents, lighting, and kitchen equipment.",
+      },
+      {
+        question: "Can you power desert camps and safari events?",
+        answer:
+          "Absolutely. We deliver to Margham, Lahbab, Al Faqaa, and all desert locations. For safari dinner operations we recommend 20\u201350 KVA per camp. For luxury overnight camps, 50\u2013100 KVA with lighting and AC. We include fuel top-up service for multi-day desert events.",
+      },
+      {
+        question: "Do you serve Global Village vendors?",
+        answer:
+          "Yes. We supply dozens of generators simultaneously for Global Village vendors during the Nov\u2013Apr season. Most stalls need 10\u201350 KVA. We offer seasonal packages with competitive monthly rates and fuel top-up service.",
+      },
+      {
+        question: "What about concerts, festivals, and outdoor events?",
+        answer:
+          "We supply 100\u2013500 KVA generators for outdoor concerts, sports events, brand activations, and festivals across Dubai. Silent models are available for noise-sensitive beach and residential events. We also provide light towers for outdoor venue lighting.",
       },
     ],
   },
 ];
 
 export default function FAQPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqCategories.flatMap((cat) =>
+      cat.questions.map((q) => ({
+        "@type": "Question",
+        name: q.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: q.answer,
+        },
+      }))
+    ),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Hero */}
       <section className="bg-amber-50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -145,7 +206,7 @@ export default function FAQPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-white py-16">
+      <section className="bg-zinc-50 py-16">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
             Still Have Questions?
