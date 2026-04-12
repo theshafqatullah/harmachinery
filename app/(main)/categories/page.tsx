@@ -169,14 +169,14 @@ export default function CategoriesPage() {
     "@type": "ItemList",
     name: "Construction Equipment Categories — Harma Machinery",
     description: "Browse all construction equipment categories available for rent across the UAE.",
-    url: "https://harmachinery.com/categories",
+    url: "https://husnainabdulrasheedmachineryrentals.ae/categories",
     numberOfItems: featuredCategories.length,
     itemListElement: featuredCategories.map((cat, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: cat.name,
       description: cat.description,
-      url: `https://harmachinery.com/equipment/${cat.slug}`,
+      url: `https://husnainabdulrasheedmachineryrentals.ae/equipment/${cat.slug}`,
     })),
   };
 
@@ -355,7 +355,7 @@ export default function CategoriesPage() {
         </div>
       </section>
 
-      {/* Al Kabir Advantage */}
+      {/* Harma Machinery Advantage */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">

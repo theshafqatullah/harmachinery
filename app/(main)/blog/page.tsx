@@ -3,20 +3,20 @@ import Link from "next/link";
 import { allBlogPosts, blogCategories } from "@/data/blogs";
 
 export const metadata: Metadata = {
-  title: "Blog - Harma Machinery | Generator & Equipment Repair Tips Dubai",
+  title: "Blog | Generator Repair Tips & Equipment Guides for UAE Contractors",
   description:
-    "Expert articles on generator service, compactor repair, construction equipment maintenance, and more. Tips tailored for UAE contractors from Harma Machinery.",
+    "Practical articles on generator maintenance, compactor troubleshooting, construction site safety and equipment selection. Written by our technicians for UAE contractors.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Blog - Harma Machinery | Generator & Equipment Repair Tips Dubai",
+    title: "Blog | Generator Repair Tips & Equipment Guides for UAE Contractors",
     description:
-      "Expert articles on generator service, compactor repair, construction equipment maintenance, and more. Tips tailored for UAE contractors from Harma Machinery.",
+      "Practical articles on generator maintenance, compactor troubleshooting, construction site safety and equipment selection. Written by our technicians.",
     url: "/blog",
   },
   twitter: {
-    title: "Blog - Harma Machinery | Generator & Equipment Repair Tips Dubai",
+    title: "Blog | Generator Repair Tips & Equipment Guides for UAE Contractors",
     description:
-      "Expert articles on generator service, compactor repair, construction equipment maintenance, and more. Tips tailored for UAE contractors from Harma Machinery.",
+      "Practical articles on generator maintenance, compactor troubleshooting, construction site safety and equipment selection. Written by our technicians.",
   },
 };
 
@@ -163,11 +163,10 @@ export default function BlogPage() {
       <section className="bg-amber-500 py-16">
         <div className="mx-auto max-w-4xl px-6 text-center lg:px-8">
           <h2 className="text-3xl font-bold text-zinc-900">
-            Need Equipment Service or Repair?
+            Equipment Trouble? We Fix It.
           </h2>
           <p className="mt-3 text-lg text-zinc-800">
-            Harma Machinery provides 24/7 generator repair, compactor service,
-            and construction equipment maintenance across all UAE emirates.
+            Generator won&apos;t start, compactor vibration off, hydraulic leak on site — call 055 455 5786 and we&apos;ll sort it out. Day or night, across all Emirates.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

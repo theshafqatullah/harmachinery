@@ -28,8 +28,8 @@ export const allServices: Service[] = [
   {
     id: "equipment-rental",
     name: "Generator & Equipment Rental",
-    shortDescription: "Premium generators and construction equipment for rent",
-    description: "Access our extensive fleet of generators (500 KVA - 1000 KVA), compactors, air compressors, and construction equipment for any project duration. From daily rentals to long-term leases, we offer flexible terms that suit your project timeline and budget. Our well-maintained generators and equipment ensure reliability and performance when you need it most.",
+    shortDescription: "Generators, compactors, jack hammers and more — rent by the day, week, or month",
+    description: "We keep 60+ machines in our yard ready to go. Generators from 10 KVA portables right up to 500 KVA Perkins and Cummins units. Compactors, jack hammers, concrete mixers, cutting machines, drills — name it, we've probably got it. Rent for one day or six months, whatever your job needs. Every machine gets checked and serviced before it leaves our lot.",
     icon: "⚡",
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070",
     features: [
@@ -56,8 +56,8 @@ export const allServices: Service[] = [
   {
     id: "operator-services",
     name: "Certified Operators",
-    shortDescription: "Skilled operators for your equipment needs",
-    description: "Our team of certified and experienced operators ensures your machinery is handled with expertise. All operators are trained on safety protocols and equipment-specific operations, providing you with reliable manpower for any project size.",
+    shortDescription: "Trained, licensed operators who know the machines inside out",
+    description: "Need someone to run the equipment? Our operators are certified, safety-trained, and experienced with every machine in our fleet. They show up on time, follow proper procedures, and speak Arabic, English, Hindi and Urdu. Hire them for a day or for the whole project — we'll sort the logistics.",
     icon: "👷",
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070",
     features: [
@@ -84,8 +84,8 @@ export const allServices: Service[] = [
   {
     id: "maintenance-repair",
     name: "Maintenance & Repair",
-    shortDescription: "Keep your machinery in peak condition",
-    description: "Preventive maintenance and repair services to minimize downtime. Our technicians are factory-trained and use genuine parts to ensure optimal equipment performance. We offer both on-site and workshop services to suit your needs.",
+    shortDescription: "Generator won't start? Compactor acting up? We fix it on site.",
+    description: "When something breaks down on your site, you don't have time to wait. Call us and we'll send a technician or swap the unit. Our mechanics are trained on Perkins, Cummins, Caterpillar, Hilti, Bosch — all the major brands. We carry genuine spare parts and can do most repairs right where the machine is standing.",
     icon: "🔧",
     image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=2070",
     features: [
@@ -140,8 +140,8 @@ export const allServices: Service[] = [
   {
     id: "consulting",
     name: "Project Consulting",
-    shortDescription: "Expert advice for your construction projects",
-    description: "Our experienced consultants help you select the right equipment for your specific project needs, optimizing costs and improving efficiency. From project planning to equipment selection, we provide expert guidance at every step.",
+    shortDescription: "Not sure what you need? We'll figure it out with you.",
+    description: "Tell us about your project — the site, the scope, the timeline — and we'll tell you exactly what equipment will work. No charge for the first conversation. We've been doing this for 15+ years and we'd rather help you pick the right machine than rent you the wrong one.",
     icon: "📋",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070",
     features: [
@@ -168,8 +168,8 @@ export const allServices: Service[] = [
   {
     id: "training",
     name: "Operator Training",
-    shortDescription: "Comprehensive equipment operation training",
-    description: "Professional training programs for equipment operators. Our courses cover safety procedures, operational best practices, and certification preparation. Training is available at our facilities or on your project site.",
+    shortDescription: "Hands-on training so your crew can run the equipment safely",
+    description: "We train your people on the actual machines they'll be using. Safety procedures, operating basics, daily checks — everything they need to not break the equipment or themselves. We can do the training at our yard or your site, whatever works.",
     icon: "🎓",
     image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070",
     features: [
@@ -196,8 +196,8 @@ export const allServices: Service[] = [
   {
     id: "fleet-management",
     name: "Fleet Management",
-    shortDescription: "Complete fleet management solutions",
-    description: "Comprehensive fleet management services including tracking, maintenance scheduling, and utilization optimization for construction companies with their own equipment. Our digital platform provides real-time insights into your fleet performance.",
+    shortDescription: "Track your own equipment — we'll handle the logistics",
+    description: "Got your own machines? We can manage them for you. GPS tracking, maintenance scheduling, utilisation reports — so you know where everything is, what needs servicing, and what's sitting idle costing you money.",
     icon: "📊",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2070",
     features: [
@@ -224,8 +224,8 @@ export const allServices: Service[] = [
   {
     id: "spare-parts",
     name: "Spare Parts Supply",
-    shortDescription: "Genuine parts for all major brands",
-    description: "Wide inventory of genuine spare parts for all major construction equipment brands. Fast delivery and competitive pricing ensure minimal downtime. We stock parts for Caterpillar, Komatsu, Volvo, Hitachi, and many more.",
+    shortDescription: "OEM parts on hand — no waiting around",
+    description: "We keep genuine parts in stock for the brands you're actually using on site. Need a filter, a belt, a hydraulic seal? Call us, we'll check stock and get it to you fast. No guessing, no knock-offs.",
     icon: "⚙️",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2032",
     features: [

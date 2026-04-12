@@ -2,25 +2,26 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Equipment Catalog - Harma Machinery | Rental Dubai",
+  title: "Equipment Categories | Generators, Compactors, Tools & More for Rent",
   description:
-    "Browse our full range of generators, compactors, air compressors & construction equipment for rent in Dubai and across the UAE.",
+    "Browse our full range: generators, compactors, jack hammers, concrete equipment, cutting machines, power tools, pumps, lighting and landscaping equipment for rent in Dubai.",
   keywords: [
-    "excavator rental Dubai", "crane rental UAE", "bulldozer hire Dubai",
-    "wheel loader rental", "aerial lift rental UAE", "dump truck hire Dubai",
+    "generator rental Dubai", "compactor rental Dubai", "jack hammer rental Dubai",
+    "concrete mixer rental Dubai", "power tools rental Dubai",
     "heavy equipment rental Dubai", "construction machinery UAE",
+    "tower light rental Dubai", "scaffolding rental Dubai",
   ],
   alternates: { canonical: "/equipment" },
   openGraph: {
-    title: "Equipment Catalog - Harma Machinery | Rental Dubai",
+    title: "Equipment Categories | Generators, Compactors, Tools & More for Rent",
     description:
-      "Browse our full range of generators, compactors, air compressors & construction equipment for rent in Dubai and across the UAE.",
+      "Browse our full range: generators, compactors, jack hammers, concrete equipment, cutting machines, power tools, pumps, lighting and landscaping equipment for rent in Dubai.",
     url: "/equipment",
   },
   twitter: {
-    title: "Equipment Catalog - Harma Machinery | Rental Dubai",
+    title: "Equipment Categories | Generators, Compactors, Tools & More for Rent",
     description:
-      "Browse our full range of generators, compactors, air compressors & construction equipment for rent in Dubai and across the UAE.",
+      "Browse our full range: generators, compactors, jack hammers, concrete equipment, cutting machines, power tools, pumps, lighting and landscaping equipment for rent in Dubai.",
   },
 };
 
@@ -97,14 +98,14 @@ export default function EquipmentPage() {
     "@type": "ItemList",
     name: "Equipment Rental Catalog — Harma Machinery",
     description: "Browse our full range of construction equipment for rent in Dubai and across the UAE.",
-    url: "https://harmachinery.com/equipment",
+    url: "https://husnainabdulrasheedmachineryrentals.ae/equipment",
     numberOfItems: categories.length,
     itemListElement: categories.map((cat, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: cat.name,
       description: cat.description,
-      url: `https://harmachinery.com/equipment/${cat.slug}`,
+      url: `https://husnainabdulrasheedmachineryrentals.ae/equipment/${cat.slug}`,
     })),
   };
 

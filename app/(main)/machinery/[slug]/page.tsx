@@ -54,9 +54,9 @@ export default async function MachineryDetailPage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://harmachinery.com" },
-      { "@type": "ListItem", position: 2, name: "Machinery", item: "https://harmachinery.com/machinery" },
-      { "@type": "ListItem", position: 3, name: machine.name, item: `https://harmachinery.com/machinery/${machine.slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://husnainabdulrasheedmachineryrentals.ae" },
+      { "@type": "ListItem", position: 2, name: "Machinery", item: "https://husnainabdulrasheedmachineryrentals.ae/machinery" },
+      { "@type": "ListItem", position: 3, name: machine.name, item: `https://husnainabdulrasheedmachineryrentals.ae/machinery/${machine.slug}` },
     ],
   };
 

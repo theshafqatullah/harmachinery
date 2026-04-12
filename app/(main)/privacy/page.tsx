@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Harma Machinery",
-  description: "Read Harma Machinery's privacy policy to understand how we collect, use, and protect your personal information.",
+  title: "Privacy Policy | Harma Machinery – Equipment Rental Dubai",
+  description: "How Husnain Abdul Rasheed Construction Machinery Rental L.L.C collects, uses and protects your personal data when you use our website and rental services.",
   alternates: { canonical: "/privacy" },
   openGraph: {
-    title: "Privacy Policy - Harma Machinery",
-    description: "Read Harma Machinery's privacy policy to understand how we collect, use, and protect your personal information.",
+    title: "Privacy Policy | Harma Machinery – Equipment Rental Dubai",
+    description: "How we collect, use and protect your personal data when you use our website and rental services.",
     url: "/privacy",
   },
   twitter: {
-    title: "Privacy Policy - Harma Machinery",
-    description: "Read Harma Machinery's privacy policy to understand how we collect, use, and protect your personal information.",
+    title: "Privacy Policy | Harma Machinery – Equipment Rental Dubai",
+    description: "How we collect, use and protect your personal data when you use our website and rental services.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
           <div className="prose prose-zinc max-w-none text-sm leading-7">
             <h2 className="text-xl font-bold text-zinc-900 mt-0">Introduction</h2>
             <p className="text-zinc-600">
-              Harma Machinery (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+              Husnain Abdul Rasheed Construction Machinery Rental L.L.C, trading as Harma Machinery (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Information We Collect</h2>
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Contact Us</h2>
             <p className="text-zinc-600">
-              If you have questions about this Privacy Policy, please contact us at privacy@harmachinery.com or call 055 455 5786.
+              If you have questions about this Privacy Policy, please contact us at privacy@husnainabdulrasheedmachineryrentals.ae or call 055 455 5786.
             </p>
           </div>
         </div>

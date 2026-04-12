@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Team - Harma Machinery | Dubai Equipment Rental",
+  title: "Our Team | The People Behind Harma Machinery Dubai",
   description:
-    "Meet the Harma Machinery team — experienced professionals delivering reliable generator and equipment rental across the UAE from Al Lisaili, Dubai.",
+    "Meet the crew that keeps your project running — from our founder to our diesel mechanics. 50+ people, 15+ years average experience, one goal: get the right machine to your site, on time.",
   alternates: { canonical: "/team" },
   openGraph: {
-    title: "Our Team - Harma Machinery | Dubai Equipment Rental",
+    title: "Our Team | The People Behind Harma Machinery Dubai",
     description:
-      "Meet the Harma Machinery team — experienced professionals delivering reliable generator and equipment rental across the UAE from Al Lisaili, Dubai.",
+      "Meet the crew that keeps your project running — from our founder to our diesel mechanics.",
     url: "/team",
   },
   twitter: {
-    title: "Our Team - Harma Machinery | Dubai Equipment Rental",
+    title: "Our Team | The People Behind Harma Machinery Dubai",
     description:
-      "Meet the Harma Machinery team — experienced professionals delivering reliable generator and equipment rental across the UAE from Al Lisaili, Dubai.",
+      "Meet the crew that keeps your project running — from our founder to our diesel mechanics.",
   },
 };
 
@@ -23,45 +23,45 @@ const executives = [
   {
     name: "Harjot Singh",
     role: "Founder & Chairman",
-    bio: "Visionary leader with 15+ years in construction equipment and generator rental. Founded Harma Machinery from Al Lisaili to serve the booming UAE market.",
+    bio: "Started the business from a small yard in Al Lisaili over 15 years ago. Still the first person at the yard most mornings.",
   },
   {
     name: "Ravi Kumar",
     role: "Chief Executive Officer",
-    bio: "Strategic executive driving growth and operational excellence across all 7 emirates. Expert in logistics and fleet management.",
+    bio: "Runs the day-to-day. If a machine made it to your site on time, Ravi's the reason. Knows the fleet like the back of his hand.",
   },
   {
     name: "Omar Al-Hashimi",
     role: "Chief Operations Officer",
-    bio: "Operations expert ensuring seamless delivery and equipment maintenance. Oversees the transport fleet and site coordination across Dubai.",
+    bio: "Manages every delivery, every pickup, every service call. Keeps the dispatch board running without a hitch.",
   },
   {
     name: "Sara Al-Mansoori",
     role: "Head of Client Relations",
-    bio: "Customer relations professional managing Arabic and English client communication. Ensures seamless rental experiences.",
+    bio: "Your first point of contact. Handles quotes, follow-ups, and fire-drills — in Arabic or English, whatever you prefer.",
   },
 ];
 
 const culture = [
   {
-    title: "Collaborative Culture",
+    title: "We Work Together",
     description:
-      "We work as one team across all departments and locations.",
+      "No departmental walls. The mechanic talks to the driver who talks to the salesperson. That's how things actually get done.",
   },
   {
-    title: "Growth Mindset",
+    title: "Always Learning",
     description:
-      "Continuous learning and development opportunities for all.",
+      "New equipment, new techniques, new challenges. We invest in training because yesterday's knowledge isn't enough.",
   },
   {
-    title: "Safety First",
+    title: "Safety, Period",
     description:
-      "Every team member is a safety champion on and off the field.",
+      "If a machine isn't safe, it doesn't leave the yard. Every person here is responsible for that standard.",
   },
   {
-    title: "Customer Focus",
+    title: "Your Job First",
     description:
-      "Our clients' success is our ultimate measure of achievement.",
+      "We measure ourselves by whether your project stayed on schedule. That's the only metric that matters.",
   },
 ];
 
@@ -93,11 +93,10 @@ export default function TeamPage() {
             Our People
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Meet the Harma Machinery Team
+            The People Behind the Machines
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Behind every machine is a dedicated team of professionals committed
-            to your success. Our diverse, experienced workforce is the backbone
+            We're 50+ people strong — mechanics, drivers, operators, coordinators, and a leadership team that's been in this industry for over 15 years. Here's who you're working with.
             of our company.
           </p>
           <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">

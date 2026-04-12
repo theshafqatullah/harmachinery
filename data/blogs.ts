@@ -31,27 +31,27 @@ export const allBlogPosts: BlogPost[] = [
     id: "1",
     title: "Top 10 Generator Models for Large-Scale Construction Projects in 2025",
     slug: "top-10-generator-models-2025",
-    excerpt: "Discover the most powerful and efficient generators dominating construction sites across the UAE this year.",
+    excerpt: "We've run most of these on job sites across Dubai — here's what actually holds up when the heat and dust hit.",
     content: `
-      <p>The construction industry in the Middle East continues to evolve rapidly, with generators playing a crucial role in providing reliable power for modern infrastructure projects. As we enter 2025, several generator models have emerged as industry leaders, offering unparalleled performance, fuel efficiency, and advanced technology features.</p>
+      <p>If you're powering a construction site in the UAE, you already know the generator matters more than most people think. A bad unit means downtime, angry subcontractors, and wasted fuel. We've had dozens of generators running across sites in Dubai and the Northern Emirates, so here's what we've seen work well heading into 2025.</p>
       
       <h2>1. Perkins 500 KVA Diesel Generator</h2>
-      <p>The Perkins 500 KVA stands out as a powerhouse in the heavy generator category. With its robust engine and silent canopy, this machine excels in demanding industrial and heavy construction applications.</p>
+      <p>This is the workhorse. We run several of these on large construction sites and they just keep going. The silent canopy keeps noise manageable even on residential-adjacent projects. Fuel burn is reasonable for the output, and parts are easy to source in Dubai.</p>
       
       <h2>2. Cummins 100 KVA Silent Generator</h2>
-      <p>Cummins' flagship generator combines massive power with surprisingly efficient fuel consumption. The digital control system optimizes every operation for maximum productivity.</p>
+      <p>For medium sites or events, the Cummins 100 KVA is hard to beat. It's genuinely quiet — you can run it at night without getting complaints from neighbors. The digital control panel makes monitoring straightforward, and it sips fuel compared to older models in the same range.</p>
       
       <h2>3. Caterpillar 250 KVA Power System</h2>
-      <p>Known for its reliability and durability, the Caterpillar 250 KVA offers exceptional power stability and excellent performance even in challenging environmental conditions.</p>
+      <p>Cat gear costs more upfront, but there's a reason people keep coming back to it. The 250 KVA holds steady under fluctuating loads, which matters when you've got welding machines and compressors cycling on and off. It handles 45°C summers without drama.</p>
       
       <h2>Key Considerations When Choosing</h2>
-      <p>When selecting a generator for your project, consider factors such as:</p>
+      <p>Before you sign a rental agreement or place an order, think about these:</p>
       <ul>
-        <li>Project power requirements (KVA)</li>
-        <li>Fuel efficiency and tank capacity</li>
-        <li>Noise level requirements (Silent vs. Open)</li>
-        <li>Automatic voltage regulation</li>
-        <li>Maintenance and support availability</li>
+        <li>What's your actual peak load? Oversizing wastes fuel, undersizing kills the unit</li>
+        <li>How much fuel storage do you have on site?</li>
+        <li>Do you need silent type? Most Dubai Municipality permits require it for residential areas</li>
+        <li>Is automatic voltage regulation a must for your sensitive equipment?</li>
+        <li>Who's going to service it — and how fast can they get to your site?</li>
       </ul>
     `,
     image: "https://images.unsplash.com/photo-1580901368919-7738efb0f87e?q=80&w=800",
@@ -70,24 +70,24 @@ export const allBlogPosts: BlogPost[] = [
     id: "2",
     title: "Essential Safety Protocols for Operating Construction Equipment on Sites",
     slug: "essential-safety-protocols-construction-equipment",
-    excerpt: "Learn the critical safety measures every operator and site manager must follow to ensure a safe working environment.",
+    excerpt: "The stuff that actually prevents injuries on site — from walk-around checks to knowing when to shut a machine down.",
     content: `
-      <p>Safety is paramount when operating construction equipment on sites. With the right protocols in place, accidents can be prevented and lives can be saved. This comprehensive guide covers everything you need to know about maintaining safety standards.</p>
+      <p>Here's the thing about safety on construction sites — most incidents happen because someone skipped a step they'd done a hundred times before. It's not the complicated stuff that gets people hurt. It's the basics. Whether you're running a generator, a compactor, or a jackhammer, these protocols keep everyone going home in one piece.</p>
       
       <h2>Pre-Operation Inspections</h2>
-      <p>Before starting any machinery, operators must conduct thorough pre-operation inspections including:</p>
+      <p>Every shift starts with a walk-around. No exceptions. Check these before you fire anything up:</p>
       <ul>
-        <li>Checking fluid levels (oil, coolant, hydraulic fluid)</li>
-        <li>Inspecting tires or tracks for damage</li>
-        <li>Testing all controls and safety devices</li>
-        <li>Verifying mirrors and cameras are functional</li>
+        <li>Oil, coolant, and hydraulic fluid levels — top up if low, report if it's dropping fast</li>
+        <li>Tires, tracks, or wheels — look for cuts, cracks, flat spots</li>
+        <li>Controls and emergency stops — test them, don't assume they work</li>
+        <li>Mirrors, cameras, and warning lights — if you can't see around the machine, don't move it</li>
       </ul>
       
       <h2>Personal Protective Equipment (PPE)</h2>
-      <p>All personnel on site must wear appropriate PPE including hard hats, high-visibility vests, steel-toed boots, and hearing protection when necessary.</p>
+      <p>This isn't optional. Hard hat, hi-vis vest, steel-toed boots — that's the minimum on any site in Dubai. Working near generators or compressors? Add ear protection. Cutting or grinding? Safety glasses and gloves. Most guys on site know this, but it's the new workers who need reminding.</p>
       
       <h2>Communication Protocols</h2>
-      <p>Clear communication between operators, ground personnel, and supervisors is essential. Use standardized hand signals and radio communication to ensure everyone stays informed and safe.</p>
+      <p>A lot of near-misses come down to one person not knowing what another person is doing. Use hand signals everyone's been trained on — not made-up ones. If you've got radios, use them. And if visibility is poor or the site is noisy, have a dedicated spotter for reversing and lifting operations.</p>
     `,
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
     author: {
@@ -103,26 +103,26 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "3",
-    title: "How Al Kabir Supported the Dubai Metro Route 2020 Expansion",
+    title: "How Harma Machinery Supported the Dubai Metro Route 2020 Expansion",
     slug: "dubai-metro-route-2020-expansion",
-    excerpt: "A behind-the-scenes look at how our equipment fleet contributed to one of the largest infrastructure projects in the UAE.",
+    excerpt: "What it took to keep equipment running on one of Dubai's biggest infrastructure builds — from generator logistics to tight urban scheduling.",
     content: `
-      <p>The Dubai Metro Route 2020 expansion represents one of the most ambitious urban transit projects in the UAE. Al Kabir is proud to have played a significant role in this landmark development, providing critical equipment and operator services throughout the construction phase.</p>
+      <p>The Dubai Metro Route 2020 expansion was one of those projects where everything had to work on time, every day. Harma Machinery was part of the equipment supply chain for station construction work along the new route, and it taught us a lot about what large-scale infrastructure really demands from a rental provider.</p>
       
       <h2>Project Overview</h2>
-      <p>The expansion added 15 kilometers of new rail lines, connecting the Expo 2020 site and surrounding areas to the existing metro network. Our team provided over 50 pieces of construction equipment to support the station construction work.</p>
+      <p>The expansion ran about 15 kilometers of new track to connect the Expo 2020 site to the existing metro network. Multiple stations went up simultaneously, and each one needed reliable power, compaction, and support equipment on site from day one. We supplied over 50 machines across several station locations.</p>
       
       <h2>Equipment Deployed</h2>
-      <p>Our contribution included:</p>
+      <p>Here's what we had running:</p>
       <ul>
-        <li>12 high-capacity generators for site power</li>
-        <li>8 mobile generators for structural steel installation</li>
-        <li>15 concrete pumps and mixers</li>
-        <li>Multiple generators and compressors</li>
+        <li>12 high-capacity generators keeping the lights and tools going around the clock</li>
+        <li>8 mobile generators supporting steel erection crews</li>
+        <li>15 concrete pumps and mixers for foundation and structural work</li>
+        <li>Air compressors and ancillary equipment as needed</li>
       </ul>
       
       <h2>Challenges and Solutions</h2>
-      <p>Working in an active urban environment presented unique challenges. Our team developed specialized logistics plans to minimize disruption to city residents while maintaining project timelines.</p>
+      <p>You can't block half a main road in Dubai and expect nobody to notice. Deliveries had to happen at night. Equipment breakdowns had to be resolved fast because there was no room to park a spare unit. We set up a dedicated dispatch team just for this project so any replacement could reach the site within hours, not days.</p>
     `,
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
     author: {
@@ -140,30 +140,30 @@ export const allBlogPosts: BlogPost[] = [
     id: "4",
     title: "Generator Maintenance: A Complete Guide to Extending Equipment Lifespan",
     slug: "generator-maintenance-complete-guide",
-    excerpt: "Expert tips on maintaining your generator fleet to maximize uptime and reduce repair costs over the equipment lifecycle.",
+    excerpt: "Skip these checks and you'll be calling for a replacement at 2 AM. Here's what actually keeps generators running.",
     content: `
-      <p>Proper maintenance is the key to maximizing the lifespan and performance of your generator fleet. Whether you own or rent, understanding maintenance requirements helps you make better decisions and avoid costly downtime.</p>
+      <p>Generators break down for predictable reasons — and almost all of them are preventable. We service our rental fleet constantly, and the same issues keep showing up: clogged filters, low coolant, dead batteries. If you're renting or owning generators in Dubai, a basic routine saves you thousands in emergency repairs.</p>
       
       <h2>Daily Maintenance Checks</h2>
-      <p>Operators should perform these checks before each shift:</p>
+      <p>Before you start the unit each day, take five minutes:</p>
       <ul>
-        <li>Oil and coolant level verification</li>
-        <li>Fuel level and filter inspection</li>
-        <li>Battery terminal and charge check</li>
-        <li>Control panel and safety device verification</li>
+        <li>Check oil and coolant — low coolant in 45°C heat means you're cooking the engine</li>
+        <li>Look at the fuel level and check the filter for water or sediment</li>
+        <li>Check battery terminals — corrosion builds up fast in humidity</li>
+        <li>Glance at the control panel. Any warning lights? Sort them now, not later</li>
       </ul>
       
       <h2>Weekly Maintenance Schedule</h2>
-      <p>On a weekly basis, maintenance teams should:</p>
+      <p>Once a week, go a bit deeper:</p>
       <ul>
-        <li>Clean air filters and intake vents</li>
-        <li>Inspect for any fluid leaks</li>
-        <li>Test the automatic transfer switch (ATS)</li>
-        <li>Run the generator under load for 30 minutes</li>
+        <li>Pull and clean the air filter — UAE dust clogs them faster than you'd expect</li>
+        <li>Walk around and check underneath for oil or coolant leaks</li>
+        <li>Test the ATS (automatic transfer switch) to make sure switchover actually works</li>
+        <li>Run the generator under load for at least 30 minutes to prevent wet stacking</li>
       </ul>
       
       <h2>Annual Inspections</h2>
-      <p>Annual inspections should be conducted by certified technicians and include comprehensive engine and alternator evaluations.</p>
+      <p>Once a year, get a qualified technician to do a proper teardown inspection — injectors, alternator windings, belts, hoses, the lot. This is where you catch problems before they turn into a seized engine or a burned-out alternator.</p>
     `,
     image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800",
     author: {
@@ -181,24 +181,24 @@ export const allBlogPosts: BlogPost[] = [
     id: "5",
     title: "The Future of Electric Construction Equipment in the Middle East",
     slug: "future-electric-construction-equipment",
-    excerpt: "Exploring the growing trend of electric and hybrid construction machinery and what it means for the industry.",
+    excerpt: "Electric excavators and loaders are showing up on UAE sites. Here's what's real, what's hype, and what it means for contractors.",
     content: `
-      <p>The construction equipment industry is undergoing a significant transformation as electric and hybrid technologies become more prevalent. This shift is driven by environmental regulations, cost savings, and technological advancements.</p>
+      <p>Electric construction equipment is no longer just a concept in a brochure. We're seeing battery-powered excavators, loaders, and compactors pop up on sites around the Gulf. It's still early days, but the shift is happening faster than most people expected.</p>
       
       <h2>Current State of Electric Equipment</h2>
-      <p>Major manufacturers like Caterpillar, Volvo, and Komatsu have all introduced electric or hybrid models. These machines offer zero emissions, reduced noise levels, and lower operating costs.</p>
+      <p>Cat, Volvo, and Komatsu all have electric or hybrid machines in production now. They're quieter, they don't pump exhaust into enclosed spaces, and the operating costs are genuinely lower. We've trialed a couple of smaller electric units and the operators liked them — less vibration, less noise fatigue at the end of a shift.</p>
       
       <h2>Benefits for Middle East Projects</h2>
-      <p>Electric equipment offers particular advantages in the region:</p>
+      <p>There are a few situations where electric makes real sense here:</p>
       <ul>
-        <li>Indoor construction work without exhaust concerns</li>
-        <li>Reduced noise for urban projects</li>
-        <li>Lower fuel costs and price volatility protection</li>
-        <li>Alignment with sustainability goals</li>
+        <li>Indoor fitout work — no fumes means no ventilation headaches</li>
+        <li>Night work in residential areas where noise restrictions are strict</li>
+        <li>Sites where diesel delivery logistics are a pain</li>
+        <li>Projects chasing LEED or Estidama sustainability ratings</li>
       </ul>
       
       <h2>Challenges to Adoption</h2>
-      <p>Despite the benefits, challenges remain including charging infrastructure, battery life in extreme heat, and higher initial costs.</p>
+      <p>The big question is batteries in extreme heat. Dubai summers push 50°C and lithium-ion batteries don't love that. Charging infrastructure on remote sites is another issue — you'd need a diesel generator to charge your electric machine, which kind of defeats the purpose. And the sticker price is still 30-40% higher than diesel equivalents. Give it a few years though.</p>
     `,
     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800",
     author: {
@@ -216,30 +216,30 @@ export const allBlogPosts: BlogPost[] = [
     id: "6",
     title: "Choosing the Right Generator for Your Construction Project",
     slug: "choosing-right-generator-construction",
-    excerpt: "A comprehensive comparison of diesel, silent, and portable generators to help you select the perfect power source.",
+    excerpt: "Diesel, silent, or portable? Here's how to pick the right generator without overspending or underpowering your site.",
     content: `
-      <p>Generators are essential for providing reliable power to almost every construction project. Understanding the differences between generator types helps you select the right equipment for maximum efficiency and cost-effectiveness.</p>
+      <p>We get this question every week: "What size generator do I need?" The answer depends on what you're powering, where the site is, and how long the project runs. Here's a straight breakdown of your options.</p>
       
       <h2>Diesel Generators</h2>
-      <p>Diesel generators are ideal for:</p>
+      <p>Diesel is still the default for heavy construction. Use them when you need:</p>
       <ul>
-        <li>Continuous heavy-duty power requirements</li>
-        <li>Large-scale industrial and construction sites</li>
-        <li>Long-term projects requiring high reliability</li>
-        <li>Providing backup power for critical systems</li>
+        <li>Continuous power for tools, welders, and site lighting</li>
+        <li>200+ KVA for large sites with multiple loads</li>
+        <li>A machine that can run 12-16 hours a day without issues</li>
+        <li>Backup power for critical systems like tower crane controls</li>
       </ul>
       
       <h2>Silent Generators</h2>
-      <p>Silent generators excel in:</p>
+      <p>Silent types are the same diesel engine in a sound-dampened enclosure. You'll want one for:</p>
       <ul>
-        <li>Noise-sensitive residential areas</li>
-        <li>Events and public gatherings</li>
-        <li>Night-time construction work</li>
-        <li>Sites with strict noise regulations</li>
+        <li>Residential areas — Dubai Municipality will shut you down otherwise</li>
+        <li>Events, exhibitions, and outdoor gatherings</li>
+        <li>Night shifts where noise complaints are a real risk</li>
+        <li>Hospital, hotel, or school-adjacent projects</li>
       </ul>
       
       <h2>Portable Generators</h2>
-      <p>Compact and maneuverable, portable generators are perfect for small tools and temporary power needs in tight spaces.</p>
+      <p>Small, easy to move, and good enough for a few power tools or a site office. Don't try to run a full site off one — they're for supplemental power in tight spots or remote locations where dragging a 500 KVA unit doesn't make sense.</p>
     `,
     image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=800",
     author: {
@@ -255,27 +255,27 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "7",
-    title: "Al Kabir Expands Fleet with 50 New Machines for 2025",
-    slug: "al-kabir-fleet-expansion-2025",
-    excerpt: "Announcing our largest fleet expansion in company history, adding state-of-the-art equipment across all categories.",
+    title: "Harma Machinery Expands Fleet with 50 New Machines for 2025",
+    slug: "harma-machinery-fleet-expansion-2025",
+    excerpt: "We just added 50 machines to the fleet — more generators, compressors, and compactors to keep up with demand across the UAE.",
     content: `
-      <p>We are thrilled to announce the largest fleet expansion in Al Kabir's history. In response to growing demand across the UAE, we are adding 50 new machines to our rental fleet.</p>
+      <p>Demand has been climbing steadily, especially from contractors working on villa projects in Al Lisaili, Dubailand, and the Northern Emirates. So we went ahead and added 50 new machines to the Harma Machinery rental fleet for 2025.</p>
       
       <h2>New Equipment Categories</h2>
-      <p>The expansion includes:</p>
+      <p>Here's what we brought in:</p>
       <ul>
-        <li>15 Perkins 500 KVA Generators</li>
-        <li>10 Cummins 100 KVA Silent Generators</li>
-        <li>8 Atlas Copco Air Compressors</li>
-        <li>7 Wacker Neuson Plate Compactors</li>
-        <li>10 Generac Industrial Generators</li>
+        <li>15 Perkins 500 KVA Generators — the ones our customers keep asking for</li>
+        <li>10 Cummins 100 KVA Silent Generators — great for residential and event work</li>
+        <li>8 Atlas Copco Air Compressors — reliable and easy to service</li>
+        <li>7 Wacker Neuson Plate Compactors — solid for road and paving jobs</li>
+        <li>10 Generac Industrial Generators — filling the mid-range gap in our fleet</li>
       </ul>
       
       <h2>Enhanced Service Capabilities</h2>
-      <p>Along with new equipment, we are also expanding our operator pool and maintenance teams to ensure superior service quality across all locations.</p>
+      <p>More machines means we also need more people to keep them running. We've brought on additional mechanics and expanded our operator pool so we can cover more sites without stretching thin. Our Al Lisaili yard now has dedicated service bays for faster turnaround on maintenance.</p>
       
       <h2>Availability</h2>
-      <p>The new equipment will be available for rental starting February 2025. Contact our sales team to reserve equipment for your upcoming projects.</p>
+      <p>Everything is available for rental now. If you've got a project coming up and want to lock in equipment, call us at 055 455 5786 or 050 484 5636 and we'll sort it out.</p>
     `,
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
     author: {
@@ -293,30 +293,30 @@ export const allBlogPosts: BlogPost[] = [
     id: "8",
     title: "Understanding Equipment Rental vs. Purchase: A Cost Analysis",
     slug: "equipment-rental-vs-purchase-analysis",
-    excerpt: "A detailed financial breakdown to help you decide when to rent and when to buy construction equipment.",
+    excerpt: "When does renting make more sense than buying? We break down the real numbers so you can decide for yourself.",
     content: `
-      <p>The decision to rent or purchase construction equipment involves careful analysis of project requirements, financial considerations, and long-term business strategy. This guide provides a framework for making the right choice.</p>
+      <p>This is one of those questions every contractor wrestles with at some point. Should you buy that generator outright or just rent it? The answer isn't always obvious, and it depends on how often you'll actually use it.</p>
       
       <h2>When to Rent</h2>
-      <p>Renting is typically the better choice when:</p>
+      <p>Renting makes more sense when:</p>
       <ul>
-        <li>Equipment is needed for a short-term project</li>
-        <li>Specialized equipment is required infrequently</li>
-        <li>Cash flow needs to be preserved</li>
-        <li>Latest technology is important</li>
+        <li>The project is 6 months or less — you don't want a depreciating asset sitting idle after</li>
+        <li>You need a specialized machine for one job (like a large silent generator for an event)</li>
+        <li>Cash flow is tight and you'd rather keep capital for materials and labor</li>
+        <li>You want the newest models without the commitment</li>
       </ul>
       
       <h2>When to Purchase</h2>
-      <p>Purchasing makes sense when:</p>
+      <p>Buying starts to make sense when:</p>
       <ul>
-        <li>Equipment will be used consistently over many years</li>
-        <li>Customization is required</li>
-        <li>Tax benefits are advantageous</li>
-        <li>Building equity in assets is a priority</li>
+        <li>You'll use the equipment 5+ days a week for years</li>
+        <li>You need a machine configured a specific way for your operation</li>
+        <li>You're building a fleet and want equity in your assets</li>
+        <li>The depreciation and tax write-offs benefit your business structure</li>
       </ul>
       
       <h2>Cost Comparison Example</h2>
-      <p>For a typical mid-size generator with 5 years of use, our analysis shows that rental becomes more cost-effective when utilization drops below 60% annually.</p>
+      <p>We ran the numbers on a mid-size 250 KVA generator over 5 years. If you're using it more than 60% of the time, buying is cheaper. Below 60% utilization, the rental math works out better because you're not paying for insurance, storage, and maintenance during the months it's parked. For most contractors doing project-based work in Dubai, renting is the smarter play.</p>
     `,
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800",
     author: {
@@ -330,83 +330,83 @@ export const allBlogPosts: BlogPost[] = [
     readTime: 8,
     featured: false,
   },
-  // AL-KABIR Company Blogs
+  // Company Blogs
   {
     id: "9",
-    title: "Welcome to AL-KABIR Construction Machinery Rentals: Your Trusted Partner in UAE Construction",
-    slug: "welcome-to-al-kabir-machinery-rentals-uae",
-    excerpt: "Discover how AL-KABIR Construction Machinery Rentals has become the leading heavy equipment rental company serving Dubai, Abu Dhabi, and across the UAE.",
+    title: "Welcome to Harma Machinery: Equipment Rental That Actually Works",
+    slug: "welcome-to-harma-machinery-rentals-uae",
+    excerpt: "We rent construction equipment across Dubai and the UAE. Here's who we are, what we've got, and why contractors keep coming back.",
     content: `
-      <p>Since our establishment, AL-KABIR Construction Machinery Rentals has been dedicated to providing world-class construction equipment rental services across the United Arab Emirates. From humble beginnings, we have grown into one of the most trusted names in the construction equipment rental industry, serving contractors, developers, and construction companies throughout Dubai, Abu Dhabi, Sharjah, and beyond.</p>
+      <p>Harma Machinery started with a simple idea — give contractors access to well-maintained equipment without the runaround. We're based in Al Lisaili, Dubai, and we rent everything from 20 KVA generators to 10-ton roller compactors. If you're building something in the UAE, we probably have what you need sitting in our yard.</p>
       
-      <h2>Our Mission</h2>
-      <p>At AL-KABIR, our mission is simple yet powerful: to empower construction projects of all sizes with access to premium, well-maintained machinery at competitive rates. We believe that every contractor, whether working on a small residential project or a massive infrastructure development, deserves access to reliable equipment backed by exceptional service.</p>
+      <h2>What We're About</h2>
+      <p>We keep things straightforward. You tell us what you need, we tell you what it costs, and we get it to your site. No complicated procurement process, no waiting days for a quote. We've worked with small villa contractors and large infrastructure crews — the approach is the same for everyone.</p>
       
-      <h2>What Sets Us Apart</h2>
-      <p>Our success is built on three fundamental pillars:</p>
+      <h2>Why People Work With Us</h2>
+      <p>Three things come up when clients tell us why they stick around:</p>
       <ul>
-        <li><strong>Quality Fleet:</strong> We maintain a diverse inventory of over 200+ pieces of construction equipment from trusted brands like Caterpillar, Komatsu, Liebherr, Hitachi, and Volvo. Every machine undergoes rigorous maintenance and inspection before deployment.</li>
-        <li><strong>Expert Team:</strong> Our team comprises certified operators, skilled technicians, and knowledgeable customer service professionals who understand the unique demands of UAE construction projects.</li>
-        <li><strong>24/7 Support:</strong> Construction never sleeps, and neither do we. Our round-the-clock support ensures that help is always just a phone call away, minimizing downtime and keeping your project on schedule.</li>
+        <li><strong>The equipment works:</strong> We service everything regularly. Generators get load-tested, compactors get checked, fluids get changed on schedule. You won't get a machine that breaks down on day two.</li>
+        <li><strong>We know the gear:</strong> Our guys have been around construction equipment for years. If you're not sure whether you need a plate compactor or a rammer for your trench work, just ask. We'll point you in the right direction.</li>
+        <li><strong>We pick up the phone:</strong> Call us at 055 455 5786 or 050 484 5636. If something goes wrong on site at 11pm, we'll sort it out. That's not a marketing line — it's how we've always done it.</li>
       </ul>
       
-      <h2>Serving the UAE's Ambitious Vision</h2>
-      <p>The UAE continues to lead the world in architectural innovation and infrastructure development. From the iconic skyline of Dubai to the cultural developments in Abu Dhabi, we are proud to have contributed equipment to some of the region's most notable projects. Our machinery has helped build roads, bridges, residential towers, commercial complexes, and industrial facilities across the Emirates.</p>
+      <h2>Where We Work</h2>
+      <p>Most of our jobs are in Dubai — Jebel Ali, Business Bay, Downtown, Dubai South, you name it. But we also deliver to Abu Dhabi, Sharjah, Ajman, and the Northern Emirates. If there's a construction site, we can get equipment there.</p>
       
-      <h2>Our Commitment to You</h2>
-      <p>When you choose AL-KABIR Construction Machinery Rentals, you're not just renting equipment – you're gaining a partner committed to your project's success. We offer flexible rental terms, competitive pricing, prompt delivery, and the technical expertise to help you select the right equipment for your specific needs.</p>
+      <h2>Get In Touch</h2>
+      <p>If you've got a project coming up, give us a call. We'll talk through what you need and get you a price the same day. No pressure, no sales pitch — just straight answers about equipment and rates.</p>
       
-      <p>Contact us today at +971 55 455 5786 or visit our locations across Dubai to discover how we can support your next construction project.</p>
+      <p>Phone: 055 455 5786 / 050 484 5636. Or drop by our yard in Al Lisaili, Dubai.</p>
     `,
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
     author: {
-      name: "Mohammed Al-Kabir",
+      name: "Mohammed Al-Rashid",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
       role: "Founder & CEO",
     },
     category: "Company Updates",
-    tags: ["AL-KABIR", "Company Introduction", "UAE Construction", "Dubai", "Equipment Rental"],
+    tags: ["Harma Machinery", "Company Introduction", "UAE Construction", "Dubai", "Equipment Rental"],
     publishedAt: "2025-12-28",
     readTime: 6,
     featured: true,
   },
   {
     id: "10",
-    title: "Complete Guide to Our Construction Equipment Fleet: Generators, Compactors, and More",
-    slug: "complete-guide-al-kabir-equipment-fleet",
-    excerpt: "Explore AL-KABIR's extensive fleet of construction equipment including generators, compactors, air compressors, and specialized machinery available for rent in Dubai.",
+    title: "What We Rent: Generators, Compactors, Air Compressors, and Everything in Between",
+    slug: "complete-guide-harma-machinery-equipment-fleet",
+    excerpt: "A plain-English rundown of every machine type we rent — from 20 KVA portables to 500 KVA Perkins generators, plate compactors, jackhammers, and more.",
     content: `
-      <p>AL-KABIR Construction Machinery Rentals offers one of the most comprehensive construction equipment fleets in the UAE. Whether you're breaking ground on a new development, building infrastructure, or completing specialized construction work, we have the right equipment for your project.</p>
+      <p>Here's a quick walkthrough of what's in our yard. We keep everything serviced and ready to go, so if you need something tomorrow morning, chances are we can make it happen.</p>
       
       <h2>Generators</h2>
-      <p>Power your construction site with our reliable generator fleet from 20 KVA to 1000 KVA. Our generators are well-maintained and ready for immediate deployment:</p>
+      <p>We stock generators from 20 KVA up to 1000 KVA. Most rental requests we get are in the 100–500 KVA range for site power. Here's what moves the most:</p>
       <ul>
-        <li><strong>Perkins 500 KVA:</strong> High-capacity diesel generator for large-scale industrial power needs</li>
-        <li><strong>Cummins 100 KVA:</strong> Silent type generator ideal for medium-sized projects and events</li>
-        <li><strong>Portable Generators:</strong> Compact units for small tools and temporary power requirements</li>
+        <li><strong>Perkins 500 KVA:</strong> The big dog. If you're running a large site with tower cranes, hoists, and a full labour camp, this is what you need. Diesel, silent canopy, runs all day.</li>
+        <li><strong>Cummins 100 KVA:</strong> Great for medium sites, hotel fit-outs, or outdoor events. Quiet enough that neighbours won't complain. Fuel-efficient too.</li>
+        <li><strong>Portable generators:</strong> For running a few power tools or lighting on a smaller site. Easy to move around.</li>
       </ul>
       
       <h2>Compaction Equipment</h2>
-      <p>From 80 KG plate compactors to 10-ton roller compactors, we have the right equipment for soil and asphalt compaction. Our fleet includes:</p>
+      <p>Whether you're compacting a trench backfill or prepping a road base, we've got the right size:</p>
       <ul>
-        <li><strong>Plate Compactors:</strong> Ideal for tight spaces and small-scale compaction work</li>
-        <li><strong>Tamping Rammers:</strong> Perfect for trench compaction and cohesive soils</li>
-        <li><strong>Roller Compactors:</strong> Heavy-duty rollers for large-scale road and site preparation</li>
+        <li><strong>Plate Compactors (80 KG+):</strong> For pavers, small patches, tight areas between walls. Light enough for one person to handle.</li>
+        <li><strong>Tamping Rammers:</strong> Best for deep trench work where you need serious force in a narrow space. Cohesive soils, clay — that's where these shine.</li>
+        <li><strong>Roller Compactors (up to 10 ton):</strong> Road work, large parking areas, site preparation. If you're doing bulk earthwork, you want a roller.</li>
       </ul>
       
       <h2>Air Compressors</h2>
-      <p>Reliable air power for pneumatic tools and industrial applications. Our compressors range from portable units to large towable models.</p>
+      <p>We carry portable and towable air compressors. Most guys use them with pneumatic breakers and sandblasting gear. If you're doing demolition or surface prep, give us a call and we'll match the right CFM to your tools.</p>
       
       <h2>Concrete Equipment</h2>
-      <p>Everything you need for concrete work, including mixers, vibrators, and finishing tools.</p>
+      <p>Mixers, vibrators, and finishing tools. If you're pouring on site, we have what you need to keep the concrete moving and properly consolidated.</p>
       
       <h2>Power Tools & Cutting Machines</h2>
-      <p>A wide range of professional power tools, including jack hammers, core cutting machines, and wall saws for precise demolition and construction work.</p>
+      <p>Jackhammers, core cutting machines, wall saws, angle grinders — the stuff you need for breaking, cutting, and shaping. All well-maintained and ready to go.</p>
       
-      <h2>Specialized Equipment</h2>
-      <p>We also offer scaffolding, lighting towers, water pumps, welding machines, and much more. Every piece of equipment is regularly serviced and safety-certified.</p>
+      <h2>Other Gear</h2>
+      <p>We also rent scaffolding, lighting towers, water pumps, welding machines, and a bunch of other stuff that doesn't fit neatly into a category. If you're not sure whether we have it, just ask.</p>
       
-      <p>Browse our full catalog online or contact our equipment specialists at +971 55 455 5786 for personalized recommendations.</p>
+      <p>Call 055 455 5786 or 050 484 5636 and tell us what you're working on. We'll figure out the right gear together.</p>
     `,
     image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800",
     author: {
@@ -422,47 +422,46 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "11",
-    title: "Our Comprehensive Services: Beyond Equipment Rental",
-    slug: "al-kabir-comprehensive-rental-services-uae",
-    excerpt: "AL-KABIR offers more than just equipment rental. Discover our full range of services including certified operators, maintenance, transport, and 24/7 support.",
+    title: "It's Not Just Rental: Here's Everything Else We Do",
+    slug: "harma-machinery-services-beyond-rental-uae",
+    excerpt: "We rent the machines, but we also deliver them, maintain them, and can send a trained operator with them. Here's the full picture.",
     content: `
-      <p>At AL-KABIR Construction Machinery Rentals, we understand that successful construction projects require more than just equipment. That's why we've developed a comprehensive suite of services designed to provide end-to-end support for all your project needs.</p>
+      <p>Most people call us for a generator or a compactor. But once they've worked with us a few times, they realise we handle a lot more than just dropping off a machine. Here's a rundown of everything we offer.</p>
       
-      <h2>Equipment Rental Services</h2>
-      <p>Our core rental service offers flexible terms tailored to your project timeline:</p>
+      <h2>Flexible Rental Terms</h2>
+      <p>We rent by the day, week, or month — whatever fits your project. Here's how it usually breaks down:</p>
       <ul>
-        <li><strong>Daily Rentals:</strong> Perfect for short-term projects or testing equipment suitability</li>
-        <li><strong>Weekly Rentals:</strong> Discounted rates for week-long projects</li>
-        <li><strong>Monthly Rentals:</strong> Best value for ongoing construction work</li>
-        <li><strong>Long-term Leases:</strong> Custom arrangements for projects spanning months or years</li>
+        <li><strong>Daily:</strong> You need a jackhammer for two days of demolition? Done. No minimum-week nonsense.</li>
+        <li><strong>Weekly:</strong> Better rates than daily, and works well for short projects or specific phases.</li>
+        <li><strong>Monthly:</strong> This is where you get the best value. Most of our returning clients go monthly.</li>
+        <li><strong>Long-term:</strong> If your project runs six months or more, we'll work out a custom deal.</li>
       </ul>
       
-      <h2>Certified Operator Services</h2>
-      <p>Don't have a qualified operator? No problem. Our pool of certified, experienced operators can be deployed with any rented equipment. All operators hold valid UAE certifications, undergo regular safety training, and have extensive experience across various machine types and project environments.</p>
+      <h2>Operators</h2>
+      <p>Need someone to run the equipment? We can send a certified operator along with the machine. All our operators have valid UAE certifications and real site experience. They show up, they know what they're doing, and they follow safety protocols. Simple.</p>
       
-      <h2>Maintenance & Repair Services</h2>
-      <p>Keep your equipment running at peak performance with our maintenance services:</p>
+      <h2>Maintenance & Repairs</h2>
+      <p>Everything we rent is maintained on a set schedule. But if something acts up on your site, we handle it:</p>
       <ul>
-        <li>Preventive maintenance programs</li>
-        <li>Emergency repair services (available 24/7)</li>
-        <li>Genuine OEM spare parts</li>
-        <li>On-site and workshop repairs</li>
-        <li>Equipment health monitoring</li>
+        <li>Scheduled preventive maintenance</li>
+        <li>Emergency repairs — we come to you, day or night</li>
+        <li>Genuine spare parts (no knock-offs)</li>
+        <li>Workshop repairs at our Al Lisaili facility</li>
       </ul>
       
-      <h2>Transport & Logistics</h2>
-      <p>We handle the delivery and pickup of all rented equipment. Our fleet of low-bed trailers, flatbed trucks, and specialized transport vehicles ensures safe delivery to any location across the UAE.</p>
+      <h2>Delivery & Pickup</h2>
+      <p>We bring the equipment to your site and collect it when you're done. Flatbed trucks, low-beds for the heavy stuff — we handle logistics so you don't have to arrange third-party transport.</p>
       
-      <h2>Technical Consultation</h2>
-      <p>Not sure which equipment you need? Our technical consultants can assess your project requirements and recommend the most suitable machinery to optimize productivity and cost-efficiency.</p>
+      <h2>Equipment Advice</h2>
+      <p>Not sure what size generator your site needs? Don't know if a plate compactor will do the job or if you need a roller? Call us. We'll ask a few questions about your project and tell you what actually makes sense — no upselling.</p>
       
-      <h2>Training Programs</h2>
-      <p>We offer equipment operation training for your team, covering safe operation practices, basic troubleshooting, and optimal usage techniques.</p>
+      <h2>Training</h2>
+      <p>If your crew needs a walkthrough on a piece of equipment, we can do that on-site. Safe operation, basic troubleshooting, what to watch out for. It's quick and it saves everyone headaches later.</p>
       
-      <h2>24/7 Customer Support</h2>
-      <p>Construction sites operate around the clock, and so do we. Our dedicated support team is available 24/7 to address any concerns, arrange emergency replacements, or dispatch technicians when needed.</p>
+      <h2>Round-the-Clock Support</h2>
+      <p>Construction doesn't stop at 5pm, and neither do we. If a generator goes down at midnight on a Friday, call us. We'll get a technician out or arrange a replacement.</p>
       
-      <p>Experience the AL-KABIR difference. Contact us at info@alkabirmachineryrentals.ae to discuss how our services can support your project.</p>
+      <p>Questions? Email info@husnainabdulrasheedmachineryrentals.ae or call 055 455 5786.</p>
     `,
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
     author: {
@@ -478,45 +477,44 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "12",
-    title: "Meet the AL-KABIR Team: The Experts Behind Your Equipment",
-    slug: "meet-al-kabir-team-construction-experts",
-    excerpt: "Get to know the dedicated professionals at AL-KABIR Construction Machinery Rentals who ensure every piece of equipment meets the highest standards.",
+    title: "The People Behind Harma Machinery",
+    slug: "meet-harma-machinery-team",
+    excerpt: "A look at who actually keeps our equipment running and gets it to your site — from mechanics to logistics to the guys who answer the phone at 2am.",
     content: `
-      <p>Behind every well-maintained machine and every satisfied customer is a team of dedicated professionals working tirelessly to uphold AL-KABIR's reputation for excellence. Today, we're proud to introduce you to the people who make it all happen.</p>
+      <p>You don't rent from a company — you rent from people. And the people here are the reason contractors keep coming back. Here's who does what at Harma Machinery.</p>
       
-      <h2>Our Leadership</h2>
-      <p>AL-KABIR Construction Machinery Rentals was founded with a vision to revolutionize equipment rental in the UAE. Our leadership team brings decades of combined experience in construction, construction equipment, and customer service. They set the standards and drive the innovation that keeps us ahead of the competition.</p>
+      <h2>Leadership</h2>
+      <p>The company started because the founders had been around construction long enough to know what contractors actually need — working equipment, fair prices, and someone who picks up the phone. That's still what drives every decision here.</p>
       
-      <h2>Fleet Management Team</h2>
-      <p>Our fleet managers are the guardians of our 200+ piece equipment inventory. They oversee:</p>
+      <h2>Fleet Management</h2>
+      <p>Our fleet managers keep track of every machine we own. Their job is making sure nothing sits broken in the yard and everything that goes out is in good shape. They handle:</p>
       <ul>
-        <li>Equipment procurement and evaluation</li>
-        <li>Maintenance scheduling and quality control</li>
-        <li>Fleet utilization optimization</li>
-        <li>Equipment lifecycle management</li>
-      </ul>
-      <p>Their expertise ensures that every machine in our fleet operates at peak performance.</p>
-      
-      <h2>Technical & Maintenance Crew</h2>
-      <p>Our team of certified technicians and mechanics keeps our fleet in top condition. With training from equipment manufacturers like Caterpillar, Komatsu, and Liebherr, they can diagnose and repair any issue quickly and effectively. Many hold specialized certifications in hydraulics, electrical systems, and engine diagnostics.</p>
-      
-      <h2>Certified Operators</h2>
-      <p>When you need skilled operators, our pool of 50+ certified professionals is ready to deploy. Each operator has:</p>
-      <ul>
-        <li>Valid UAE heavy equipment operator certification</li>
-        <li>Minimum 5 years of operating experience</li>
-        <li>Clean safety records</li>
-        <li>Training in multiple equipment types</li>
+        <li>Deciding what equipment to buy and when to retire old units</li>
+        <li>Scheduling maintenance so machines don't go out half-serviced</li>
+        <li>Tracking which machines are out, where they are, and when they're due back</li>
+        <li>Making sure we have the right mix of equipment for what clients are asking for</li>
       </ul>
       
-      <h2>Customer Service Team</h2>
-      <p>Our multilingual customer service representatives are the first point of contact for all inquiries. Available around the clock, they handle everything from quotes and bookings to support requests and feedback. Their goal is to make renting equipment as seamless as possible.</p>
+      <h2>Mechanics & Technicians</h2>
+      <p>These are the guys who keep everything running. They've got hands-on experience with Caterpillar, Komatsu, Perkins, Cummins — the brands we stock. When a generator won't start on a site in JLT at 6am, they're the ones who figure out why and fix it. Most of them have been doing this for years and can diagnose a problem by ear.</p>
       
-      <h2>Logistics & Delivery Team</h2>
-      <p>Getting equipment to your site safely and on time is the responsibility of our logistics team. With an intimate knowledge of UAE roads and regulations, they coordinate efficient delivery routes and handle all transport permits.</p>
+      <h2>Operators</h2>
+      <p>When clients need a trained operator sent along with the equipment, we pull from our pool of certified professionals. Every operator has:</p>
+      <ul>
+        <li>Valid UAE heavy equipment certification</li>
+        <li>At least 5 years of hands-on experience</li>
+        <li>A clean safety record</li>
+        <li>Experience across multiple machine types</li>
+      </ul>
       
-      <h2>Join Our Team</h2>
-      <p>We're always looking for talented individuals to join the AL-KABIR family. If you're passionate about construction equipment and customer service, check our careers page for current opportunities.</p>
+      <h2>Customer Service</h2>
+      <p>The team that answers calls, puts together quotes, and makes sure bookings go smoothly. They speak multiple languages — which matters in Dubai — and they're available around the clock. If you call at 2am because your generator tripped, someone will answer.</p>
+      
+      <h2>Logistics & Delivery</h2>
+      <p>Getting a 10-ton roller from Al Lisaili to a site in Dubai Marina on a Friday morning requires knowing the roads, the permits, and the timing. Our logistics team handles all of that. They coordinate flatbeds, low-loaders, and make sure your equipment shows up when you need it.</p>
+      
+      <h2>Want to Work With Us?</h2>
+      <p>We're always looking for good mechanics, operators, and drivers. If you know your way around construction equipment and want steady work, reach out.</p>
     `,
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800",
     author: {
@@ -525,45 +523,45 @@ export const allBlogPosts: BlogPost[] = [
       role: "HR Manager",
     },
     category: "Company Updates",
-    tags: ["Team", "AL-KABIR Staff", "Company Culture", "Experts", "Careers"],
+    tags: ["Team", "Harma Machinery Staff", "Company Culture", "Experts", "Careers"],
     publishedAt: "2025-12-18",
     readTime: 6,
     featured: false,
   },
   {
     id: "13",
-    title: "Why Dubai Contractors Choose AL-KABIR for Heavy Equipment Rental",
-    slug: "why-dubai-contractors-choose-al-kabir-equipment-rental",
-    excerpt: "Discover the top reasons why leading construction companies in Dubai trust AL-KABIR Construction Machinery Rentals for their heavy equipment needs.",
+    title: "Why Dubai Contractors Keep Renting From Harma Machinery",
+    slug: "why-dubai-contractors-choose-harma-machinery-equipment-rental",
+    excerpt: "No fancy pitch — just the real reasons contractors across Dubai call us first when they need equipment on site.",
     content: `
-      <p>Dubai's construction industry is one of the most competitive and demanding in the world. With iconic projects reshaping the skyline every year, contractors need equipment partners they can rely on absolutely. Here's why so many choose AL-KABIR Construction Machinery Rentals.</p>
+      <p>Dubai moves fast. Projects have tight deadlines, the heat doesn't help, and nobody has time to chase down a rental company that doesn't deliver. Here's why contractors around the city keep coming back to Harma Machinery.</p>
       
-      <h2>1. Extensive Fleet Variety</h2>
-      <p>From compact equipment for fit-out projects to massive generators for high-rise construction, our fleet covers every need. Contractors appreciate having a single source for all their equipment requirements, simplifying logistics and vendor management.</p>
+      <h2>1. We Have What You Need</h2>
+      <p>Generators, compactors, jackhammers, air compressors, concrete equipment — it's all here. Instead of calling three different companies, you call us once. Need a 500 KVA generator for a tower site and a plate compactor for the landscaping crew? Same supplier, same invoice, same delivery.</p>
       
-      <h2>2. Immaculately Maintained Equipment</h2>
-      <p>Every machine in our fleet undergoes rigorous preventive maintenance. Before any equipment leaves our yard, it passes a comprehensive 50-point inspection. This attention to quality means fewer breakdowns and more productive work hours for your project.</p>
+      <h2>2. The Machines Work</h2>
+      <p>Everything gets serviced on a regular schedule. Before a machine goes out to a site, it gets checked over properly. We're not going to send you a generator that overheats after four hours. If it's in our yard, it's because it runs. If it doesn't run, it goes to the workshop, not to your site.</p>
       
-      <h2>3. Competitive Pricing</h2>
-      <p>We offer some of the most competitive rental rates in Dubai without compromising on quality. Our transparent pricing model includes no hidden fees, and we provide detailed quotes so you know exactly what you're paying for.</p>
+      <h2>3. Fair Prices, No Surprises</h2>
+      <p>We quote you a number, that's the number. No hidden delivery charges, no mystery fuel surcharges. You'll know what you're paying before anything leaves our yard. We're competitive with anyone in Dubai — and we don't cut corners to get there.</p>
       
-      <h2>4. Rapid Response Times</h2>
-      <p>When you need equipment urgently, we deliver. Our strategically located depots across Dubai enable us to get machinery to most sites within hours, not days. For emergency breakdowns, our technicians can be dispatched immediately.</p>
+      <h2>4. We're Fast</h2>
+      <p>Our base in Al Lisaili means we can get to most Dubai sites quickly. If you call in the morning needing a compactor by afternoon, we'll usually make it happen. For breakdowns, we get a technician moving right away — not "we'll schedule someone next week."</p>
       
-      <h2>5. Expert Technical Support</h2>
-      <p>Our technical team doesn't just rent you equipment – they help you succeed. From selecting the right machine for your specific application to optimizing equipment usage, their expertise is invaluable.</p>
+      <h2>5. We Know What We're Talking About</h2>
+      <p>If you need a 100 KVA for a hotel fit-out in Business Bay, we'll tell you that'll cover it. If you actually need a 250 KVA because you've got three floors of MEP work going on simultaneously, we'll tell you that too. We don't just hand you a price list — we help you pick the right gear.</p>
       
-      <h2>6. Flexible Rental Terms</h2>
-      <p>Construction timelines change, and we adapt. Our flexible rental agreements allow you to extend, reduce, or swap equipment as your project evolves, without punitive fees.</p>
+      <h2>6. Flexible Terms</h2>
+      <p>Projects change. Timelines shift. We get it. If you need to extend a rental, swap one machine for another, or return something early, we work with you. No penalty fees for being realistic about how construction actually goes.</p>
       
-      <h2>7. Safety First Approach</h2>
-      <p>All equipment comes with required safety certifications and documentation. We also provide operator training and safety briefings on request, helping you maintain compliance with UAE safety regulations.</p>
+      <h2>7. Safety Sorted</h2>
+      <p>Every machine comes with the right documentation and safety certifications. If you need operator training or a safety briefing for your crew, we do that too. Keeps you compliant with UAE regulations and keeps people safe.</p>
       
-      <h2>8. Proven Track Record</h2>
-      <p>We've supplied equipment to some of Dubai's most prestigious projects. Our list of satisfied clients includes major developers, government contractors, and international construction firms.</p>
+      <h2>8. We've Done This Before</h2>
+      <p>We've supplied equipment to residential towers in Downtown, road work in Dubai South, fit-outs in DIFC, and industrial projects in Jebel Ali. Big jobs, small jobs — it doesn't matter. The service is the same.</p>
       
-      <h2>Ready to Experience the Difference?</h2>
-      <p>Join the hundreds of contractors who trust AL-KABIR for their equipment needs. Call us at +971 55 534 1166 or request a quote online today.</p>
+      <h2>Give Us a Call</h2>
+      <p>If you've got a project coming up, ring 055 455 5786 or 050 484 5636. We'll get you sorted.</p>
     `,
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800",
     author: {
@@ -572,7 +570,7 @@ export const allBlogPosts: BlogPost[] = [
       role: "Equipment Specialist",
     },
     category: "Industry News",
-    tags: ["Dubai Construction", "Equipment Rental", "Contractors", "construction equipment", "AL-KABIR"],
+    tags: ["Dubai Construction", "Equipment Rental", "Contractors", "construction equipment", "Harma Machinery"],
     publishedAt: "2025-12-15",
     readTime: 7,
     featured: true,
@@ -581,56 +579,56 @@ export const allBlogPosts: BlogPost[] = [
     id: "14",
     title: "Generator Rental Guide: Powering Your Dubai Construction Site",
     slug: "generator-rental-guide-dubai-construction-sites",
-    excerpt: "Everything you need to know about renting generators for construction sites in Dubai, from sizing to silent options for urban areas.",
+    excerpt: "A practical walkthrough of generator rental for Dubai job sites — what size you actually need, why silent units matter, and what comes included.",
     content: `
-      <p>Reliable power is the lifeblood of any construction site. In Dubai's demanding construction environment, having the right generator can mean the difference between staying on schedule and costly delays. This guide covers everything you need to know about generator rental.</p>
+      <p>No power on site means nothing moves. Doesn't matter how many guys you've got — if the generator is wrong, you're burning daylight and money. Here's a no-nonsense guide to renting the right generator for your Dubai construction site.</p>
       
-      <h2>Assessing Your Power Requirements</h2>
-      <p>Before renting a generator, calculate your total power needs by listing all equipment that requires electrical power:</p>
+      <h2>Figure Out Your Power Needs First</h2>
+      <p>Before you call anyone, list everything on site that needs electricity:</p>
       <ul>
-        <li>Power tools (drills, saws, grinders)</li>
-        <li>Concrete equipment (vibrators, mixers)</li>
-        <li>Lighting systems</li>
-        <li>Site offices and welfare facilities</li>
+        <li>Power tools — drills, angle grinders, circular saws</li>
+        <li>Concrete vibrators and mixers</li>
+        <li>Site lighting</li>
+        <li>Portakabins, AC units, office gear</li>
         <li>Welding machines</li>
         <li>Water pumps</li>
       </ul>
-      <p>Add up the wattage and apply a 25% safety margin to determine the generator size you need.</p>
+      <p>Add up the wattages and tack on 25% extra. That buffer keeps you from overloading the genset when everything kicks on at once.</p>
       
-      <h2>Generator Sizes We Offer</h2>
-      <p>AL-KABIR's generator fleet includes:</p>
+      <h2>Generator Sizes We Stock</h2>
+      <p>Harma Machinery keeps these sizes ready in the yard:</p>
       <ul>
-        <li><strong>20 KVA:</strong> Perfect for small sites and basic tool operation</li>
-        <li><strong>60 KVA:</strong> Ideal for medium construction activities</li>
-        <li><strong>100 KVA:</strong> Powers most standard construction sites</li>
-        <li><strong>150 KVA:</strong> For larger sites with significant power demands</li>
-        <li><strong>250-350 KVA:</strong> Heavy-duty power for major construction projects</li>
-        <li><strong>500 KVA:</strong> Industrial-grade power for the most demanding applications</li>
+        <li><strong>20 KVA:</strong> Small sites, a few tools, basic lighting</li>
+        <li><strong>60 KVA:</strong> Mid-size jobs — enough for most fit-out work</li>
+        <li><strong>100 KVA:</strong> The go-to for standard construction sites</li>
+        <li><strong>150 KVA:</strong> Bigger sites with heavier loads</li>
+        <li><strong>250-350 KVA:</strong> Major projects with lots of equipment running at once</li>
+        <li><strong>500 KVA:</strong> Industrial-scale power when nothing else cuts it</li>
       </ul>
       
       <h2>Silent Generators for Urban Sites</h2>
-      <p>Working in residential or commercial areas? Dubai Municipality has strict noise regulations. Our silent generator options operate at 65-72 dB, allowing you to work without disturbing the neighborhood. These are essential for:</p>
+      <p>Working near homes, hotels, or hospitals? Dubai Municipality noise rules are strict. Our silent gensets run at 65-72 dB — you can hold a conversation next to one. You'll need these for:</p>
       <ul>
-        <li>Hospital and healthcare construction</li>
+        <li>Hospital and clinic construction</li>
         <li>School and university projects</li>
-        <li>Hotel and hospitality renovations</li>
-        <li>Night-time construction in urban areas</li>
+        <li>Hotel renovations while guests are still checked in</li>
+        <li>Night shifts in residential neighborhoods</li>
       </ul>
       
-      <h2>Fuel Efficiency Matters</h2>
-      <p>Generator fuel costs can add up quickly. Our modern fleet features fuel-efficient engines from Cummins, Caterpillar, and Perkins that minimize consumption while maximizing output. We can also arrange fuel delivery to your site.</p>
+      <h2>Watch Your Fuel Costs</h2>
+      <p>Diesel adds up fast on a long project. Our Cummins, Cat, and Perkins engines burn less fuel per KVA hour than older models. We keep the fleet updated for exactly this reason. Need diesel delivered to site? We can arrange that.</p>
       
-      <h2>Rental Packages</h2>
-      <p>Our generator rentals include:</p>
+      <h2>What's Included in Your Rental</h2>
+      <p>When you rent a generator from us, here's what you get:</p>
       <ul>
-        <li>Delivery and pickup to/from site</li>
-        <li>Initial fuel fill</li>
-        <li>24/7 technical support</li>
-        <li>Emergency breakdown service</li>
-        <li>Flexible rental periods</li>
+        <li>Delivery and pickup — we bring it and take it back</li>
+        <li>First fuel fill included</li>
+        <li>24/7 phone support if something goes wrong</li>
+        <li>Emergency breakdown response</li>
+        <li>Flexible terms — daily, weekly, or monthly</li>
       </ul>
       
-      <p>Need power for your construction site? Contact AL-KABIR at +971 55 455 5786 for a customized generator rental solution.</p>
+      <p>Need a generator for your site? Call Harma Machinery at 055 455 5786 and we'll get you sorted.</p>
     `,
     image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=800",
     author: {
@@ -647,55 +645,55 @@ export const allBlogPosts: BlogPost[] = [
   {
     id: "15",
     title: "Construction Equipment Maintenance: How We Keep Your Machines Running",
-    slug: "construction-equipment-maintenance-al-kabir",
-    excerpt: "A behind-the-scenes look at AL-KABIR's rigorous equipment maintenance program that ensures maximum uptime and reliability.",
+    slug: "construction-equipment-maintenance-harma-machinery",
+    excerpt: "What actually happens to a machine between rentals — the checks, the parts, and why your equipment shows up ready to work.",
     content: `
-      <p>At AL-KABIR Construction Machinery Rentals, we understand that equipment downtime costs you money. That's why we've developed one of the most comprehensive maintenance programs in the UAE equipment rental industry. Here's how we keep your machines running at peak performance.</p>
+      <p>When a machine breaks down on your site, you lose hours and money. That's why we put serious effort into maintenance at Harma Machinery. Every piece of equipment goes through a proper service routine before it reaches your job site. Here's what that looks like.</p>
       
-      <h2>Preventive Maintenance Philosophy</h2>
-      <p>We believe in preventing problems before they occur. Our preventive maintenance program follows manufacturer recommendations while incorporating lessons learned from years of operating in the UAE's unique conditions – from desert dust to summer heat.</p>
+      <h2>Fix It Before It Breaks</h2>
+      <p>We follow manufacturer service schedules, but we've also learned a thing or two from running equipment in UAE conditions. Desert dust and 50°C summers are hard on machines. So we adjust our intervals accordingly.</p>
       
-      <h2>Our Maintenance Process</h2>
+      <h2>What We Check and When</h2>
       <h3>Daily Checks</h3>
-      <p>Every machine returning to our depot undergoes a quick daily inspection covering:</p>
+      <p>Every machine coming back to our Al Lisaili yard gets a quick once-over:</p>
       <ul>
-        <li>Fluid levels (oil, coolant, hydraulic, fuel)</li>
-        <li>Visible damage or wear</li>
-        <li>Safety device functionality</li>
-        <li>Tire/track condition</li>
+        <li>Oil, coolant, hydraulic fluid, and fuel levels</li>
+        <li>Any visible damage or unusual wear</li>
+        <li>Safety devices — do they actually work?</li>
+        <li>Tires and tracks</li>
       </ul>
       
       <h3>Scheduled Service Intervals</h3>
-      <p>Based on operating hours, each machine receives scheduled maintenance:</p>
+      <p>Based on running hours, each machine gets proper maintenance:</p>
       <ul>
-        <li><strong>Every 250 hours:</strong> Oil and filter changes, lubrication</li>
-        <li><strong>Every 500 hours:</strong> Hydraulic system check, fuel system service</li>
-        <li><strong>Every 1000 hours:</strong> Major inspection, component testing</li>
-        <li><strong>Every 2000 hours:</strong> Comprehensive overhaul assessment</li>
+        <li><strong>Every 250 hours:</strong> Oil and filter changes, greasing</li>
+        <li><strong>Every 500 hours:</strong> Hydraulic system inspection, fuel system service</li>
+        <li><strong>Every 1000 hours:</strong> Full inspection and component testing</li>
+        <li><strong>Every 2000 hours:</strong> Deep overhaul assessment</li>
       </ul>
       
-      <h3>Pre-Delivery Inspection</h3>
-      <p>Before any equipment is delivered to a customer, it passes our 50-point inspection checklist covering:</p>
+      <h3>Before It Leaves the Yard</h3>
+      <p>Before any machine is loaded onto a truck for delivery, it goes through a 50-point checklist:</p>
       <ul>
         <li>Engine performance</li>
-        <li>Hydraulic system integrity</li>
+        <li>Hydraulic system — no leaks, good pressure</li>
         <li>Electrical systems</li>
-        <li>Safety devices and guards</li>
-        <li>Structural components</li>
-        <li>Operator controls</li>
-        <li>Cleanliness and appearance</li>
+        <li>Safety guards and emergency stops</li>
+        <li>Structural integrity</li>
+        <li>All operator controls</li>
+        <li>Cleaned up and presentable</li>
       </ul>
       
-      <h2>Genuine Parts Only</h2>
-      <p>We use only genuine OEM parts from authorized suppliers. While aftermarket parts may cost less initially, we've found that genuine parts deliver better performance, longer life, and maintain equipment warranty coverage.</p>
+      <h2>We Use Genuine Parts</h2>
+      <p>Cheap aftermarket parts save money upfront but cause headaches later. We stick to OEM parts from authorized suppliers. They last longer, perform better, and keep the warranty intact.</p>
       
-      <h2>Certified Technicians</h2>
-      <p>Our maintenance team includes technicians certified by major manufacturers including Caterpillar, Komatsu, Hitachi, and Liebherr. They receive regular training to stay current with new technologies and equipment models.</p>
+      <h2>Trained Mechanics</h2>
+      <p>Our mechanics are certified by Cat, Komatsu, Hitachi, and Liebherr. They know these machines inside out and get regular training on newer models and tech.</p>
       
-      <h2>Digital Tracking</h2>
-      <p>Every machine in our fleet has a digital maintenance record. We track service history, parts replaced, and operating hours to ensure nothing is missed and to identify potential issues before they become problems.</p>
+      <h2>Everything Gets Tracked</h2>
+      <p>Every machine has a digital service record — what was done, when, what parts were swapped. Nothing slips through the cracks. If a pattern shows up, we catch it early.</p>
       
-      <p>This commitment to maintenance excellence is why AL-KABIR equipment delivers the reliability your projects demand.</p>
+      <p>This is why Harma Machinery equipment shows up to your site ready to work — and keeps working.</p>
     `,
     image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800",
     author: {
@@ -713,61 +711,61 @@ export const allBlogPosts: BlogPost[] = [
     id: "16",
     title: "Generator Rental in Dubai: Choosing the Right Capacity for Your Project",
     slug: "generator-rental-dubai-choosing-right-capacity",
-    excerpt: "From portable units to 1000 KVA giants, learn how to select the perfect generator capacity for your Dubai construction project.",
+    excerpt: "Picking the right generator size saves you fuel and headaches. Here's a breakdown by KVA range and what each one is actually good for.",
     content: `
-      <p>Generators are the powerhouses of construction sites worldwide, and Dubai is no exception. With projects ranging from villa landscaping to massive infrastructure developments, choosing the right generator capacity is crucial for project efficiency and cost control.</p>
+      <p>Renting a generator that's too small means tripped breakers and angry subcontractors. Renting one that's too big means you're wasting diesel every hour it runs. Here's how to pick the right capacity for your Dubai project.</p>
       
-      <h2>Understanding Generator Classifications</h2>
-      <p>Generators are typically classified by their power output (KVA):</p>
+      <h2>Generator Sizes at a Glance</h2>
+      <p>Generators are rated by KVA output. Here's the rough breakdown:</p>
       <ul>
-        <li><strong>Portable Generators (1-10 KVA):</strong> Compact units for small tools</li>
-        <li><strong>Small Generators (10-50 KVA):</strong> Versatile for small to medium jobs</li>
-        <li><strong>Medium Generators (50-250 KVA):</strong> The industry standard for most construction</li>
-        <li><strong>Large Generators (250-500 KVA):</strong> For heavy industrial and site power</li>
-        <li><strong>Industrial Class (500+ KVA):</strong> Specialized for major infrastructure projects</li>
+        <li><strong>Portable (1-10 KVA):</strong> Handheld tools, phone charging, basic stuff</li>
+        <li><strong>Small (10-50 KVA):</strong> Good for small to mid-size jobs</li>
+        <li><strong>Medium (50-250 KVA):</strong> Where most construction sites land</li>
+        <li><strong>Large (250-500 KVA):</strong> Heavy industrial, big sites</li>
+        <li><strong>Industrial (500+ KVA):</strong> Infrastructure-level projects</li>
       </ul>
       
       <h2>Small Generators (10-50 KVA)</h2>
-      <p>Perfect for:</p>
+      <p>These handle:</p>
       <ul>
-        <li>Small tool power and lighting</li>
-        <li>Utility work in urban areas</li>
-        <li>Temporary office power</li>
-        <li>Small-scale landscaping</li>
-        <li>Sites with limited power needs</li>
+        <li>A handful of power tools and site lighting</li>
+        <li>Utility crews doing roadside work</li>
+        <li>Powering a temporary office or portakabin</li>
+        <li>Small landscaping or maintenance jobs</li>
+        <li>Any site where the load is light</li>
       </ul>
       
       <h2>Medium Generators (50-250 KVA)</h2>
-      <p>This is the sweet spot for most construction projects. Our popular Cummins 100 KVA and Perkins 150 KVA are ideal for:</p>
+      <p>This is what most contractors end up needing. Our Cummins 100 KVA and Perkins 150 KVA are the most popular for a reason:</p>
       <ul>
-        <li>Site-wide power distribution</li>
-        <li>Operating multiple heavy tools</li>
-        <li>Powering site offices and facilities</li>
-        <li>Concrete mixing and pumping</li>
-        <li>Demolition equipment power</li>
+        <li>Running power across the whole site</li>
+        <li>Multiple heavy tools going at once</li>
+        <li>Site offices, AC, and welfare facilities</li>
+        <li>Concrete mixing and pumping operations</li>
+        <li>Demolition equipment</li>
       </ul>
       
       <h2>Large Generators (250-500 KVA)</h2>
-      <p>When you need serious power, our Perkins 500 KVA delivers:</p>
+      <p>When the job demands real power, the Perkins 500 KVA is the one to call for:</p>
       <ul>
-        <li>Large-scale industrial power</li>
-        <li>Continuous site-wide operations</li>
-        <li>Powering construction equipment</li>
-        <li>Backup power for critical facilities</li>
-        <li>Major infrastructure projects</li>
+        <li>Full industrial-scale power supply</li>
+        <li>Round-the-clock site operations</li>
+        <li>Running heavy construction equipment</li>
+        <li>Backup power for hospitals, data centres, hotels</li>
+        <li>Large infrastructure builds</li>
       </ul>
       
-      <h2>Factors to Consider</h2>
-      <p>When selecting a generator, consider:</p>
+      <h2>Things to Think About</h2>
+      <p>Before you commit to a size, ask yourself:</p>
       <ul>
-        <li><strong>Total Load:</strong> Calculate the peak power requirement of all tools</li>
-        <li><strong>Fuel Efficiency:</strong> Consider long-term fuel costs for continuous operation</li>
-        <li><strong>Noise Levels:</strong> Essential for urban or residential projects</li>
-        <li><strong>Site Access:</strong> Can the generator be easily delivered and positioned?</li>
-        <li><strong>Maintenance:</strong> Ensure regular servicing for 24/7 reliability</li>
+        <li><strong>What's the peak load?</strong> Add up everything that could run at once</li>
+        <li><strong>How long is the rental?</strong> Fuel efficiency matters more on long projects</li>
+        <li><strong>Noise restrictions?</strong> Silent units are mandatory in most residential areas</li>
+        <li><strong>Can the truck get in?</strong> A 500 KVA unit needs space to deliver and position</li>
+        <li><strong>Who services it?</strong> Make sure you've got maintenance covered</li>
       </ul>
       
-      <p>Not sure which capacity you need? Our power specialists at AL-KABIR can visit your site and recommend the optimal solution. Call +971 50 484 5636.</p>
+      <p>Not sure what size you need? Give us a call at 050 484 5636 — we can come out to your site and figure it out with you.</p>
     `,
     image: "https://images.unsplash.com/photo-1580901368919-7738efb0f87e?q=80&w=800",
     author: {
@@ -785,63 +783,63 @@ export const allBlogPosts: BlogPost[] = [
     id: "17",
     title: "Top 5 Construction Projects in Dubai 2025-2026 and Equipment Needed",
     slug: "top-construction-projects-dubai-2025-2026-equipment",
-    excerpt: "Explore Dubai's most ambitious construction projects and the construction equipment powering these transformational developments.",
+    excerpt: "The biggest construction projects happening in Dubai right now — and what equipment you'll need if you're working on them.",
     content: `
-      <p>Dubai continues to push the boundaries of construction innovation with projects that capture global attention. As a leading equipment rental provider, AL-KABIR Construction Machinery Rentals is proud to support the contractors bringing these visions to life. Here's a look at the major projects shaping Dubai's future.</p>
+      <p>Dubai never stops building. If you're a contractor here, you already know that. With several massive projects running into 2025-2026, it's worth looking at what's going on and what gear these jobs demand. At Harma Machinery, we supply equipment to many of the contractors working on these sites.</p>
       
       <h2>1. Dubai Creek Tower District</h2>
-      <p>The area surrounding the Dubai Creek Tower continues to develop with residential, commercial, and hospitality projects. This massive development requires:</p>
+      <p>The whole area around Dubai Creek Tower is still developing — residential towers, hotels, commercial spaces. It's a big site with big power needs:</p>
       <ul>
-        <li>High-capacity generators for site power</li>
-        <li>Plate compactors for foundation prep</li>
+        <li>High-capacity generators for continuous site power</li>
+        <li>Plate compactors for foundation work</li>
         <li>Air compressors for pneumatic tools</li>
         <li>Scaffolding systems for high-rise work</li>
       </ul>
       
       <h2>2. Dubai South Expansion</h2>
-      <p>Supporting Expo City Dubai and Al Maktoum International Airport, Dubai South is experiencing rapid growth. Equipment needs include:</p>
+      <p>With Expo City Dubai and the Al Maktoum Airport expansion, Dubai South is booming. Lots of road work and facility fit-out happening out there:</p>
       <ul>
         <li>Road rollers and compactors</li>
-        <li>Portable generators for remote sites</li>
-        <li>Power tools for facility fit-out</li>
-        <li>Lighting towers for night work</li>
+        <li>Portable generators — some of these sites are far from grid power</li>
+        <li>Power tools for interior fit-out</li>
+        <li>Lighting towers for night shifts</li>
       </ul>
       
       <h2>3. Palm Jebel Ali Revival</h2>
-      <p>The revival of this iconic project brings unprecedented marine and land construction. Specialized equipment includes:</p>
+      <p>This one's back on. Marine construction plus land reclamation means specialized equipment:</p>
       <ul>
         <li>Heavy-duty generators for breakwater construction</li>
-        <li>Large-scale air compressors</li>
+        <li>Large air compressors</li>
         <li>Compaction equipment for reclaimed land</li>
-        <li>Mobile power units</li>
+        <li>Mobile power units that can move with the work</li>
       </ul>
       
       <h2>4. Metro Network Expansion</h2>
-      <p>Dubai's metro continues to expand with new lines and stations. Underground construction demands:</p>
+      <p>New metro lines and stations keep getting added. Underground work has its own set of challenges:</p>
       <ul>
-        <li>Ventilation support power systems</li>
-        <li>Compact generators for station fit-out</li>
+        <li>Power systems for ventilation support</li>
+        <li>Compact generators that fit in station spaces</li>
         <li>Pneumatic tools and compressors</li>
-        <li>Specialized scaffolding for tunnel work</li>
+        <li>Scaffolding designed for tunnel environments</li>
       </ul>
       
       <h2>5. Sustainable City Developments</h2>
-      <p>Green building projects across Dubai require modern, fuel-efficient equipment:</p>
+      <p>Green building is a growing part of the Dubai construction scene. These projects want modern, low-impact equipment:</p>
       <ul>
         <li>Solar-hybrid generators</li>
         <li>Low-emission power units</li>
         <li>Electric power tools</li>
-        <li>Noise-controlled equipment for urban areas</li>
+        <li>Quiet equipment for built-up urban areas</li>
       </ul>
       
-      <h2>AL-KABIR: Equipped for Dubai's Future</h2>
-      <p>Whatever your project scope, AL-KABIR has the equipment and expertise to support your work. Our fleet is continuously updated to include the latest machinery that meets Dubai's evolving construction standards.</p>
+      <h2>We've Got the Gear</h2>
+      <p>Whatever size your project, Harma Machinery has the equipment you need. We keep our fleet current so you're not stuck with outdated machines on a modern job site.</p>
       
-      <p>Working on one of these projects? Contact us at sales@alkabirmachineryrentals.ae for a comprehensive equipment consultation.</p>
+      <p>Working on one of these projects? Reach out at info@husnainabdulrasheedmachineryrentals.ae or call us — we'll put together a quote for your full equipment list.</p>
     `,
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800",
     author: {
-      name: "Mohammed Al-Kabir",
+      name: "Mohammed Al-Rashid",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
       role: "Founder & CEO",
     },
@@ -854,65 +852,64 @@ export const allBlogPosts: BlogPost[] = [
   {
     id: "18",
     title: "How to Get a Quick Quote for Equipment Rental: A Step-by-Step Guide",
-    slug: "quick-quote-equipment-rental-guide-al-kabir",
-    excerpt: "Learn how easy it is to request and receive a competitive equipment rental quote from AL-KABIR Construction Machinery Rentals in Dubai.",
+    slug: "quick-quote-equipment-rental-guide-harma-machinery",
+    excerpt: "Getting a rental quote from us is quick and straightforward — here's how to do it by phone, WhatsApp, email, or online.",
     content: `
-      <p>Getting the right equipment at the right price shouldn't be complicated. At AL-KABIR Construction Machinery Rentals, we've streamlined our quoting process to get you answers fast. Here's how to get a quote in minutes.</p>
+      <p>You shouldn't have to chase people around to get a price on equipment. At Harma Machinery, we've made the quoting process simple. Here's how to get a number from us — usually within a couple of hours.</p>
       
-      <h2>Option 1: Online Quote Request</h2>
-      <p>The quickest way to get a quote is through our website:</p>
+      <h2>Option 1: Request a Quote Online</h2>
+      <p>Fastest way to get started:</p>
       <ol>
-        <li>Visit our website at alkabirmachineryrentals.ae</li>
-        <li>Click "Get Quote" or browse our machinery catalog</li>
-        <li>Select the equipment you need</li>
-        <li>Fill in your project details:
+        <li>Head to husnainabdulrasheedmachineryrentals.ae</li>
+        <li>Click "Get Quote" or browse the equipment catalog</li>
+        <li>Pick what you need</li>
+        <li>Fill in the basics:
           <ul>
-            <li>Rental duration (days, weeks, months)</li>
-            <li>Delivery location</li>
-            <li>Required start date</li>
-            <li>Any additional services needed (operator, transport)</li>
+            <li>How long you need it (days, weeks, months)</li>
+            <li>Where it's going</li>
+            <li>When you need it</li>
+            <li>Any extras — operator, transport, etc.</li>
           </ul>
         </li>
-        <li>Submit your request</li>
+        <li>Hit submit</li>
       </ol>
-      <p>You'll receive a detailed quote within 2 hours during business hours.</p>
+      <p>We'll get back to you within 2 hours during business hours.</p>
       
-      <h2>Option 2: Call Our Team Directly</h2>
-      <p>Prefer to speak with someone? Our equipment specialists are ready to help:</p>
+      <h2>Option 2: Just Call Us</h2>
+      <p>If you'd rather talk to someone directly:</p>
       <ul>
-        <li><strong>Sales Hotline:</strong> +971 55 455 5786</li>
-        <li><strong>WhatsApp:</strong> +971 50 484 5636</li>
-        <li><strong>Toll-free:</strong> +971 55 534 1166</li>
+        <li><strong>Phone:</strong> 055 455 5786</li>
+        <li><strong>WhatsApp:</strong> 050 484 5636</li>
       </ul>
-      <p>Have your project details ready, and we'll provide a quote on the call or within the hour.</p>
+      <p>Know what you need? We can usually give you a price right on the call.</p>
       
-      <h2>Option 3: Email Request</h2>
-      <p>Send your requirements to contact@alkabirmachineryrentals.ae. Include:</p>
+      <h2>Option 3: Send Us an Email</h2>
+      <p>Email your requirements to info@husnainabdulrasheedmachineryrentals.ae. Just include:</p>
       <ul>
-        <li>Equipment type and specifications needed</li>
-        <li>Project location</li>
-        <li>Rental period</li>
-        <li>Your contact information</li>
-      </ul>
-      
-      <h2>What's Included in Our Quotes</h2>
-      <p>Every AL-KABIR quote includes:</p>
-      <ul>
-        <li>Equipment rental rate (daily, weekly, or monthly)</li>
-        <li>Delivery and pickup charges</li>
-        <li>Operator costs (if requested)</li>
-        <li>Insurance coverage details</li>
-        <li>Payment terms and conditions</li>
-        <li>Equipment specifications and photos</li>
+        <li>What equipment you need and any specs</li>
+        <li>Where the project is</li>
+        <li>How long you need it</li>
+        <li>Your name and number</li>
       </ul>
       
-      <h2>Price Match Guarantee</h2>
-      <p>Found a better price elsewhere? Let us know! We're confident in our competitive pricing and will work to match or beat legitimate quotes from comparable rental companies.</p>
+      <h2>What You'll Get in the Quote</h2>
+      <p>Every quote from Harma Machinery spells out:</p>
+      <ul>
+        <li>Rental rate — daily, weekly, or monthly</li>
+        <li>Delivery and pickup fees</li>
+        <li>Operator costs if you want one</li>
+        <li>Insurance details</li>
+        <li>Payment terms</li>
+        <li>Equipment specs and photos</li>
+      </ul>
       
-      <h2>Bulk Rental Discounts</h2>
-      <p>Renting multiple pieces of equipment? Ask about our fleet discount packages – the more you rent, the more you save.</p>
+      <h2>We'll Match a Better Price</h2>
+      <p>Got a lower quote from someone else? Send it over. If it's a legit quote from a comparable company, we'll match it or beat it.</p>
       
-      <p>Ready to get started? Request your free quote now and experience the AL-KABIR difference in customer service.</p>
+      <h2>Renting Multiple Machines? Ask for a Discount</h2>
+      <p>The more equipment you rent, the better the rate. If you need several pieces for a project, ask about our fleet packages.</p>
+      
+      <p>Ready to get a price? Call 055 455 5786, WhatsApp 050 484 5636, or fill out the form on our website.</p>
     `,
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800",
     author: {

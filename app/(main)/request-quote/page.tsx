@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Request a Quote - Harma Machinery | Generator Rental Dubai",
+  title: "Request a Quote | Generator & Equipment Rental Dubai | Harma Machinery",
   description:
-    "Submit a quote request for generator and equipment rental in Dubai and across the UAE. Harma Machinery responds within hours.",
+    "Tell us what you need and we'll send you a no-obligation quote within hours. Generators, compactors, jack hammers, power tools — daily, weekly or monthly.",
   alternates: { canonical: "/request-quote" },
   openGraph: {
-    title: "Request a Quote - Harma Machinery | Generator Rental Dubai",
+    title: "Request a Quote | Generator & Equipment Rental Dubai",
     description:
-      "Submit a quote request for generator and equipment rental in Dubai and across the UAE. Harma Machinery responds within hours.",
+      "Tell us what you need and we'll send you a no-obligation quote within hours. Generators, compactors, power tools and more.",
     url: "/request-quote",
   },
   twitter: {
-    title: "Request a Quote - Harma Machinery | Generator Rental Dubai",
+    title: "Request a Quote | Generator & Equipment Rental Dubai",
     description:
-      "Submit a quote request for generator and equipment rental in Dubai and across the UAE. Harma Machinery responds within hours.",
+      "Tell us what you need and we'll send you a no-obligation quote within hours. Generators, compactors, power tools and more.",
   },
 };
 

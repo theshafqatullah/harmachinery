@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Harma Machinery | Generator Rental Dubai",
+  title: "Contact Us | Generator & Equipment Rental Dubai | Harma Machinery",
   description:
-    "Contact Harma Machinery for generator and equipment rental in Dubai and across the UAE. Call, WhatsApp, or visit us in Al Lisaili.",
+    "Call 055 455 5786 or WhatsApp us for generator and construction equipment rental. Visit our yard on the E66 in Al Lisaili. We respond within 2 hours.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact Us - Harma Machinery | Generator Rental Dubai",
+    title: "Contact Us | Generator & Equipment Rental Dubai",
     description:
-      "Contact Harma Machinery for generator and equipment rental in Dubai and across the UAE. Call, WhatsApp, or visit us in Al Lisaili.",
+      "Call 055 455 5786 or WhatsApp us for generator and construction equipment rental. Visit our yard on the E66 in Al Lisaili.",
     url: "/contact",
   },
   twitter: {
-    title: "Contact Us - Harma Machinery | Generator Rental Dubai",
+    title: "Contact Us | Generator & Equipment Rental Dubai",
     description:
-      "Contact Harma Machinery for generator and equipment rental in Dubai and across the UAE. Call, WhatsApp, or visit us in Al Lisaili.",
+      "Call 055 455 5786 or WhatsApp us for generator and construction equipment rental. Visit our yard on the E66 in Al Lisaili.",
   },
 };
 
@@ -31,7 +31,7 @@ const contactMethods = [
   },
   {
     title: "Email Us",
-    value: "info@harmachinery.com",
+    value: "info@husnainabdulrasheedmachineryrentals.ae",
     detail: "We respond within 2 business hours",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -65,7 +65,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Have questions about our equipment or need a custom quote? Reach out
+            Husnain Abdul Rasheed Construction Machinery Rental L.L.C (Harma Machinery). Have questions about our equipment or need a custom quote? Reach out
             and our team will get back to you promptly.
           </p>
         </div>

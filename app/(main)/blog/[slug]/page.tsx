@@ -229,7 +229,7 @@ export default async function BlogPostPage({
             publisher: {
               "@type": "Organization",
               name: "Harma Machinery",
-              url: "https://harmachinery.com",
+              url: "https://husnainabdulrasheedmachineryrentals.ae",
             },
           }),
         }}

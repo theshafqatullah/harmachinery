@@ -50,7 +50,7 @@ export const allMachinery: Machinery[] = [
     capacity: "500 KVA",
     year: 2023,
     location: "Dubai",
-    description: "High-capacity Perkins diesel generator providing reliable 500 KVA power for large construction sites and industrial facilities. Features a sound-attenuated enclosure for silent operation.",
+    description: "500 KVA Perkins — the workhorse we send to big construction sites. Runs quiet behind a soundproof canopy, burns through a load without flinching.",
     features: [
       "Heavy-duty Perkins engine",
       "Weatherproof silent canopy",
@@ -88,7 +88,7 @@ export const allMachinery: Machinery[] = [
     capacity: "100 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Reliable Cummins 100 KVA generator, ideal for medium-sized projects and events. Known for its durability and low fuel consumption.",
+    description: "Cummins 100 KVA silent genset — contractors rent this for mid-size sites and events. Sips fuel and just keeps running.",
     features: [
       "Cummins industrial engine",
       "Low noise emission",
@@ -125,7 +125,7 @@ export const allMachinery: Machinery[] = [
     capacity: "20 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Compact and powerful Honda generator, perfect for small tools and temporary power needs on-site.",
+    description: "Small Honda 20 KVA portable — runs lights, power tools, and a welder on a villa site. Petrol start, easy to move around.",
     features: [
       "Honda GX series engine",
       "Easy recoil start",
@@ -161,7 +161,7 @@ export const allMachinery: Machinery[] = [
     capacity: "10 Ton",
     year: 2021,
     location: "Dubai",
-    description: "Heavy-duty 10-ton vibratory roller for soil and asphalt compaction. Delivers high compaction force for road construction.",
+    description: "10 ton CAT roller for rent. Compacts roads, car parks, sub-base — this is the one contractors ask for.",
     features: [
       "High vibration frequency",
       "Comfortable operator station",
@@ -197,7 +197,7 @@ export const allMachinery: Machinery[] = [
     capacity: "180 KG",
     year: 2022,
     location: "Dubai",
-    description: "Versatile plate compactor for confined areas, trenches, and landscaping projects.",
+    description: "JCB 180 kg plate compactor for hire — fits into trenches and tight spots where the big roller can't go. Forward and reverse.",
     features: [
       "Reversible operation",
       "Vibration-damped handle",
@@ -231,7 +231,7 @@ export const allMachinery: Machinery[] = [
     capacity: "20 KG",
     year: 2023,
     location: "Dubai",
-    description: "The ultimate electric jack hammer for heavy-duty floor demolition. Matches the performance of pneumatic tools.",
+    description: "Hilti TE 3000 electric breaker — 20 kg of demolition muscle. Hits as hard as a pneumatic without needing a compressor.",
     features: [
       "Active Vibration Reduction (AVR)",
       "Brushless motor",
@@ -252,7 +252,7 @@ export const allMachinery: Machinery[] = [
     id: 7,
     slug: "diesel-concrete-mixture-500l",
     name: "Diesel Concrete Mixture 500L",
-    brand: "Al-Kabir",
+    brand: "Altrad",
     category: "Concrete Equipment",
     price: 250,
     priceUnit: "day",
@@ -265,7 +265,7 @@ export const allMachinery: Machinery[] = [
     capacity: "500 Liters",
     year: 2022,
     location: "Dubai",
-    description: "Large capacity concrete mixer with a robust diesel engine, suitable for remote sites without electricity.",
+    description: "500 liter diesel concrete mixer for rent. Tow it to remote sites with no power, load it up, and pour.",
     features: [
       "Hydraulic tipping mechanism",
       "Heavy-duty mixing drum",
@@ -299,7 +299,7 @@ export const allMachinery: Machinery[] = [
     capacity: "4 Lights",
     year: 2023,
     location: "Dubai",
-    description: "Mobile lighting tower with high-efficiency LED lamps and a vertical mast for maximum site coverage.",
+    description: "Generac V20 light tower — 8.5 meter mast, four LED floods, diesel powered. Lights up a whole site at night.",
     features: [
       "Fuel-efficient diesel engine",
       "Vertical telescopic mast",
@@ -333,7 +333,7 @@ export const allMachinery: Machinery[] = [
     capacity: "250 kg",
     year: 2023,
     location: "Dubai",
-    description: "Lightweight and easy-to-assemble aluminum scaffolding tower for indoor and outdoor maintenance work.",
+    description: "Zamil 2 meter aluminum scaffold set for hire. Rolls on castors, locks in place, one-man assembly. Good for indoor and outdoor jobs.",
     features: [
       "High-grade aluminum construction",
       "Lockable caster wheels",
@@ -370,7 +370,7 @@ export const allMachinery: Machinery[] = [
     capacity: "150 mm",
     year: 2023,
     location: "Dubai",
-    description: "Professional diamond core drilling system for heavy-duty coring in concrete and masonry.",
+    description: "Hilti DD 150 core drill for rent — cuts clean holes through concrete and block, 1 to 6 inch bits. Handheld or rig-mounted.",
     features: [
       "High motor performance",
       "Easy to use with hand-held or rig-based",
@@ -404,7 +404,7 @@ export const allMachinery: Machinery[] = [
     capacity: "25 mm",
     year: 2022,
     location: "Dubai",
-    description: "Portable electric rebar bender for on-site steel reinforcement work. Fast and accurate bending.",
+    description: "Makita rebar bender — bends steel up to 25mm right on site. Electric, portable, saves a trip to the bending yard.",
     features: [
       "Adjustable bending angle",
       "Foot pedal control",
@@ -438,7 +438,7 @@ export const allMachinery: Machinery[] = [
     capacity: "280 mm",
     year: 2023,
     location: "Dubai",
-    description: "Professional floor grinder for surface preparation, concrete grinding, and polishing.",
+    description: "Husqvarna floor grinder — strips coatings, levels concrete, and polishes slabs. Available for daily or monthly rental.",
     features: [
       "Easy to use and transport",
       "Efficient dust collection",
@@ -472,7 +472,7 @@ export const allMachinery: Machinery[] = [
     capacity: "6 Meter",
     year: 2023,
     location: "Dubai",
-    description: "Reliable petrol-powered concrete vibrator for removing air bubbles from freshly poured concrete.",
+    description: "Honda petrol concrete vibrator with a 6 meter needle. Drop it into fresh concrete to pull out the air pockets before it sets.",
     features: [
       "Honda GX160 engine",
       "Quick-connect coupling",
@@ -506,7 +506,7 @@ export const allMachinery: Machinery[] = [
     capacity: "36 Inch",
     year: 2022,
     location: "Dubai",
-    description: "High-performance power trowel for achieving a smooth, professional finish on concrete floors.",
+    description: "Wacker Neuson 36 inch power trowel — the helicopter. Finishes concrete slabs smooth and hard. Honda GX200 engine.",
     features: [
       "Adjustable blade pitch",
       "Centrifugal safety switch",
@@ -540,7 +540,7 @@ export const allMachinery: Machinery[] = [
     capacity: "250 Amps",
     year: 2023,
     location: "Dubai",
-    description: "Engine-driven welder and generator, perfect for maintenance, repair, and construction work in the field.",
+    description: "Miller Bobcat 250 — welder and generator in one box. 250 amps, engine-driven, take it anywhere there's no power.",
     features: [
       "Stick and TIG welding",
       "11,000 watts peak power",
@@ -574,7 +574,7 @@ export const allMachinery: Machinery[] = [
     capacity: "230 mm",
     year: 2023,
     location: "Dubai",
-    description: "Powerful large angle grinder for cutting and grinding steel, concrete, and stone.",
+    description: "Bosch 9 inch grinder, 2200 watts. Cuts rebar, steel plate, and concrete. A site staple available for rent.",
     features: [
       "High-performance motor",
       "Restart protection",
@@ -608,7 +608,7 @@ export const allMachinery: Machinery[] = [
     capacity: "230 mm",
     year: 2022,
     location: "Dubai",
-    description: "Industrial-grade angle grinder with outstanding durability and heat resistance.",
+    description: "Makita 9 inch grinder — 2200 watt motor that doesn't overheat. Cuts and grinds steel all day on site.",
     features: [
       "Labyrinth construction seals motor",
       "Large trigger switch",
@@ -642,7 +642,7 @@ export const allMachinery: Machinery[] = [
     capacity: "330 mm",
     year: 2022,
     location: "Dubai",
-    description: "Manual block splitter for precise cutting of interlock tiles and paving stones.",
+    description: "Altrad manual block splitter — clean cuts on interlock pavers and curbstones without dust or power cables.",
     features: [
       "Hardened steel blades",
       "Easy height adjustment",
@@ -676,7 +676,7 @@ export const allMachinery: Machinery[] = [
     capacity: "250 mm",
     year: 2023,
     location: "Dubai",
-    description: "High-precision table saw for wood cutting, featuring a large rip capacity and portable design.",
+    description: "DeWalt 10 inch table saw for hire. Portable, accurate fence, rips through plywood and timber on site.",
     features: [
       "Rack and pinion fence system",
       "Powerful 2000W motor",
@@ -710,7 +710,7 @@ export const allMachinery: Machinery[] = [
     capacity: "45 mm",
     year: 2023,
     location: "Dubai",
-    description: "Powerful SDS Max combihammer for heavy-duty drilling and chiseling in concrete.",
+    description: "Hilti TE 70 combihammer — drills and chisels through reinforced concrete. SDS Max, 11.5 joules of impact.",
     features: [
       "High speed for maximum productivity",
       "Active Vibration Reduction (AVR)",
@@ -744,7 +744,7 @@ export const allMachinery: Machinery[] = [
     capacity: "13 mm",
     year: 2023,
     location: "Dubai",
-    description: "Compact and powerful cordless drill/driver for versatile applications on-site.",
+    description: "Bosch 18V cordless drill — lightweight, brushless, gets into tight spots. Comes with batteries and charger for rental.",
     features: [
       "Brushless motor technology",
       "Kickback control",
@@ -778,7 +778,7 @@ export const allMachinery: Machinery[] = [
     capacity: "1898 Nm",
     year: 2023,
     location: "Dubai",
-    description: "Industry-leading high torque impact wrench for heavy-duty fastening and removal.",
+    description: "Milwaukee M18 half-inch impact wrench — 1898 Nm of torque. Loosens anything bolted down. Hire it for heavy steel work.",
     features: [
       "POWERSTATE brushless motor",
       "REDLINK PLUS intelligence",
@@ -812,7 +812,7 @@ export const allMachinery: Machinery[] = [
     capacity: "4.1 m/min",
     year: 2023,
     location: "Dubai",
-    description: "Handheld electric blower for cleaning dust and debris from work areas and machinery.",
+    description: "Makita electric blower — clears dust off slabs, machinery, and work areas. Variable speed, doubles as a vac.",
     features: [
       "Variable speed control",
       "Ergonomic handle",
@@ -846,7 +846,7 @@ export const allMachinery: Machinery[] = [
     capacity: "70 Liters",
     year: 2022,
     location: "Dubai",
-    description: "Large capacity wet and dry industrial vacuum cleaner with two powerful motors for heavy-duty cleaning.",
+    description: "Karcher 70 liter industrial vac — wet and dry, twin motors. Cleans up concrete dust, water, and debris on site.",
     features: [
       "Integrated drain hose",
       "Robust bumper",
@@ -880,7 +880,7 @@ export const allMachinery: Machinery[] = [
     capacity: "1100 L/min",
     year: 2023,
     location: "Dubai",
-    description: "High-volume 3-inch water pump powered by a reliable Honda engine, ideal for dewatering and irrigation.",
+    description: "Honda 3 inch water pump — 1100 liters per minute. Dewater excavations, drain flooded basements, or run irrigation lines.",
     features: [
       "Honda GX160 engine",
       "Cast iron volute and impeller",
@@ -914,7 +914,7 @@ export const allMachinery: Machinery[] = [
     capacity: "50 Bar",
     year: 2022,
     location: "Dubai",
-    description: "Manual hydraulic pressure testing pump for testing leaks in heating and oil systems, and small bore pipelines.",
+    description: "Ridgid 1450 manual pressure test pump — plumbers hire this to test pipes for leaks up to 725 PSI.",
     features: [
       "Dual valve system",
       "Stainless steel piston",
@@ -948,7 +948,7 @@ export const allMachinery: Machinery[] = [
     capacity: "150 kg",
     year: 2023,
     location: "Dubai",
-    description: "Heavy-duty aluminum extension ladder for high-reach maintenance and construction tasks.",
+    description: "Zamil 12 meter aluminum extension ladder for rent. Light enough to carry, tall enough for two-story work.",
     features: [
       "Slip-resistant rungs",
       "Heavy-duty pulley and rope",
@@ -982,7 +982,7 @@ export const allMachinery: Machinery[] = [
     capacity: "45.4 cc",
     year: 2023,
     location: "Dubai",
-    description: "Powerful and lightweight chainsaw for tree felling, firewood cutting, and landscaping.",
+    description: "Stihl MS 250 chainsaw — 18 inch bar, light and sharp. Handles tree limbs, stumps, and rough timber cutting.",
     features: [
       "Easy2Start system",
       "Anti-vibration system",
@@ -1016,7 +1016,7 @@ export const allMachinery: Machinery[] = [
     capacity: "25.4 cc",
     year: 2023,
     location: "Dubai",
-    description: "Professional-grade grass trimmer with a detachable shaft for various landscaping attachments.",
+    description: "Husqvarna 525LK trimmer — detachable shaft takes different heads. Used for grass, hedges, and site landscaping cleanup.",
     features: [
       "X-Torq engine",
       "Intuitive controls",
@@ -1050,7 +1050,7 @@ export const allMachinery: Machinery[] = [
     capacity: "200 mm Bit",
     year: 2023,
     location: "Dubai",
-    description: "Cordless earth auger for drilling holes in sand and soil for fencing and planting.",
+    description: "Makita cordless earth auger — drills fence post holes and planting pits in sand and soil. Battery powered, no fuel fumes.",
     features: [
       "Brushless motor",
       "Automatic Torque Drive Technology",
@@ -1084,7 +1084,7 @@ export const allMachinery: Machinery[] = [
     capacity: "5000 CFM",
     year: 2022,
     location: "Dubai",
-    description: "Heavy-duty industrial exhaust fan for ventilation and air circulation on construction sites.",
+    description: "Panasonic 24 inch exhaust fan for hire — moves 5000+ CFM. Keeps air moving in enclosed or underground site areas.",
     features: [
       "High-efficiency motor",
       "Durable steel blades",
@@ -1118,7 +1118,7 @@ export const allMachinery: Machinery[] = [
     capacity: "150 mm Wood",
     year: 2023,
     location: "Dubai",
-    description: "The most powerful jigsaw in its price class, ideal for curved and straight cuts in various materials.",
+    description: "Bosch 780 watt jigsaw — cuts curves and straight lines in wood, metal, and plastic. Light enough to use overhead.",
     features: [
       "High power reserves",
       "Tool-free blade change system",
@@ -1152,7 +1152,7 @@ export const allMachinery: Machinery[] = [
     capacity: "1300 mm",
     year: 2023,
     location: "Dubai",
-    description: "Advanced manual tile cutter for large format tiles, featuring a powerful breaking system.",
+    description: "Rubi 1300mm manual tile cutter — handles large format porcelain and ceramic in one clean snap. No dust, no water.",
     features: [
       "1500 kg breaking power",
       "One-hand operation",
@@ -1186,7 +1186,7 @@ export const allMachinery: Machinery[] = [
     capacity: "125 mm",
     year: 2023,
     location: "Dubai",
-    description: "Random orbit sander with variable speed control for smooth and fast sanding.",
+    description: "Makita 5 inch random orbit sander for rent. Variable speed, hooks up to a vac, smooth finish on wood and filler.",
     features: [
       "Variable speed dial",
       "Ergonomic front handle",
@@ -1220,7 +1220,7 @@ export const allMachinery: Machinery[] = [
     capacity: "350 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Reliable 350 KVA Perkins generator for medium to large industrial power requirements.",
+    description: "350 KVA Perkins genset available for hire. Soundproof canopy, runs all night on the internal tank. Good for mid-size sites.",
     features: [
       "Perkins 2206C engine",
       "Soundproof enclosure",
@@ -1254,7 +1254,7 @@ export const allMachinery: Machinery[] = [
     capacity: "60 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Compact 60 KVA Cummins generator, ideal for small sites and backup power.",
+    description: "Cummins 60 KVA silent gen — we rent these for small villas, fit-out sites, and temporary backup. Quiet enough for residential areas.",
     features: [
       "Cummins 4BTA engine",
       "Low noise canopy",
@@ -1288,7 +1288,7 @@ export const allMachinery: Machinery[] = [
     capacity: "5 Ton",
     year: 2022,
     location: "Dubai",
-    description: "Medium-sized vibratory roller for soil compaction in residential and commercial projects.",
+    description: "JCB 5 ton roller for rent — good for residential roads, parking areas, and smaller compaction jobs. Easy to maneuver.",
     features: [
       "High compaction performance",
       "Excellent maneuverability",
@@ -1324,7 +1324,7 @@ export const allMachinery: Machinery[] = [
     capacity: "30 KG",
     year: 2023,
     location: "Dubai",
-    description: "Ultra-lightweight plate compactor for small repairs and tight spaces.",
+    description: "Honda 30 kg plate compactor — one guy can carry it to the trench. Rental unit comes ready with fuel.",
     features: [
       "Honda GX100 engine",
       "Foldable handle",
@@ -1358,7 +1358,7 @@ export const allMachinery: Machinery[] = [
     capacity: "13 KG",
     year: 2023,
     location: "Dubai",
-    description: "Powerful 13kg demolition hammer with vibration control for comfortable long-term use.",
+    description: "Bosch 13 kg demolition hammer — vibration control keeps your hands steady through a full day of breaking concrete.",
     features: [
       "Best power-to-weight ratio",
       "Vibration Control",
@@ -1392,7 +1392,7 @@ export const allMachinery: Machinery[] = [
     capacity: "7 KG",
     year: 2023,
     location: "Dubai",
-    description: "Compact and lightweight demolition hammer for wall chasing and light demolition work.",
+    description: "Makita 7 kg breaker — the lighter option for wall chasing, tile removal, and indoor demo. Available to rent daily.",
     features: [
       "Variable speed control",
       "Soft start",
@@ -1426,7 +1426,7 @@ export const allMachinery: Machinery[] = [
     capacity: "350 KVA",
     year: 2023,
     location: "Dubai",
-    description: "High-performance Perkins diesel generator suitable for industrial and commercial backup power.",
+    description: "Perkins 350 KVA diesel genset for rent. Industrial-grade, three-phase output, runs heavy site loads without dropping voltage.",
     features: ["Fuel efficient", "Digital controller", "Weatherproof enclosure"],
     specifications: {
       powerOutput: "350 KVA",
@@ -1454,7 +1454,7 @@ export const allMachinery: Machinery[] = [
     capacity: "250 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Reliable Cummins diesel generator providing steady power for medium to large scale operations.",
+    description: "Cummins 250 KVA diesel generator — handles tower cranes, batching plants, and full-site power. Rental includes delivery.",
     features: ["Low maintenance", "Robust design", "Easy operation"],
     specifications: {
       powerOutput: "250 KVA",
@@ -1482,7 +1482,7 @@ export const allMachinery: Machinery[] = [
     capacity: "5 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Compact and powerful Honda petrol generator, perfect for small tools and emergency home backup.",
+    description: "Honda 5 KVA petrol gen — small, reliable, pull-start. Runs a few tools or keeps the lights on during a power cut.",
     features: ["Easy start", "Quiet operation", "Fuel efficient"],
     specifications: {
       powerOutput: "5 KVA",
@@ -1510,7 +1510,7 @@ export const allMachinery: Machinery[] = [
     capacity: "10 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Yamaha 10 KVA petrol generator offering reliable power for workshops and outdoor events.",
+    description: "Yamaha 10 KVA petrol generator for hire — enough juice for a workshop or an outdoor event setup.",
     features: ["Durable engine", "Large fuel tank", "Circuit breaker protection"],
     specifications: {
       powerOutput: "10 KVA",
@@ -1538,7 +1538,7 @@ export const allMachinery: Machinery[] = [
     capacity: "15 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Denyo portable generator, highly mobile and reliable for on-site power needs.",
+    description: "Denyo 15 KVA portable genset — compact diesel, easy to strap on a pickup. Good for moving between sites.",
     features: ["Compact size", "Low noise", "Easy transport"],
     specifications: {
       powerOutput: "15 KVA",
@@ -1566,7 +1566,7 @@ export const allMachinery: Machinery[] = [
     capacity: "3 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Ultra-portable Honda generator, ideal for camping, small events, and light power tools.",
+    description: "Honda 3 KVA portable — inverter type, super quiet. Rent it for a small event, a camp, or a few hand tools.",
     features: ["Lightweight", "Inverter technology", "Super quiet"],
     specifications: {
       powerOutput: "3 KVA",
@@ -1594,7 +1594,7 @@ export const allMachinery: Machinery[] = [
     capacity: "500 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Heavy-duty Caterpillar generator designed for the most demanding construction site environments.",
+    description: "CAT 500 KVA site generator — built for dust, heat, and non-stop loads. The machine you put on a major project and forget about.",
     features: ["Rugged construction", "High capacity", "Advanced monitoring"],
     specifications: {
       powerOutput: "500 KVA",
@@ -1622,7 +1622,7 @@ export const allMachinery: Machinery[] = [
     capacity: "150 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Reliable Perkins generator for construction sites, providing consistent power for tools and machinery.",
+    description: "Perkins 150 KVA construction site generator for hire. Weatherproof canopy, big fuel tank, keeps your tools and cranes running.",
     features: ["Easy maintenance", "Weatherproof", "Large fuel tank"],
     specifications: {
       powerOutput: "150 KVA",
@@ -1650,7 +1650,7 @@ export const allMachinery: Machinery[] = [
     capacity: "120 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Cummins 3-phase generator designed for industrial applications requiring stable 3-phase power.",
+    description: "Cummins 120 KVA three-phase — stable output for motors, compressors, and industrial loads. Available for short or long-term rental.",
     features: ["Stable voltage", "Industrial grade", "Digital control"],
     specifications: {
       powerOutput: "120 KVA",
@@ -1678,7 +1678,7 @@ export const allMachinery: Machinery[] = [
     capacity: "80 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Denyo 80 KVA generator providing quiet and efficient 3-phase power for various needs.",
+    description: "Denyo 80 KVA three-phase silent genset — runs quiet, burns clean, fits tight site setups. Hire it by the week or month.",
     features: ["Ultra silent", "Fuel efficient", "Compact design"],
     specifications: {
       powerOutput: "80 KVA",
@@ -1706,7 +1706,7 @@ export const allMachinery: Machinery[] = [
     capacity: "60 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Premium Kohler silent generator, ideal for residential areas and noise-sensitive environments.",
+    description: "Kohler 60 KVA silent genset — barely hear it running. Contractors rent this for residential areas and hotel projects.",
     features: ["Advanced soundproofing", "High reliability", "Clean power"],
     specifications: {
       powerOutput: "60 KVA",
@@ -1734,7 +1734,7 @@ export const allMachinery: Machinery[] = [
     capacity: "40 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Compact Cummins silent generator, perfect for small businesses and private events.",
+    description: "Cummins 40 KVA silent generator — small footprint, low noise. Good rental option for events, shops, and residential backup.",
     features: ["Low noise level", "Easy to operate", "Reliable engine"],
     specifications: {
       powerOutput: "40 KVA",
@@ -1762,7 +1762,7 @@ export const allMachinery: Machinery[] = [
     capacity: "30 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Perkins generator specifically configured for events, ensuring silent and reliable power.",
+    description: "Perkins 30 KVA silent gen for event hire — won't compete with your speakers. Clean, stable power for stages and stalls.",
     features: ["Event-grade silencing", "Stable output", "Easy setup"],
     specifications: {
       powerOutput: "30 KVA",
@@ -1790,7 +1790,7 @@ export const allMachinery: Machinery[] = [
     capacity: "20 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Compact Denyo generator for smaller events, providing quiet and dependable power.",
+    description: "Denyo 20 KVA for rent — one of the quietest generators in the yard. Handles small events and outdoor functions.",
     features: ["Very quiet", "Portable", "Reliable"],
     specifications: {
       powerOutput: "20 KVA",
@@ -1818,7 +1818,7 @@ export const allMachinery: Machinery[] = [
     capacity: "10 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Professional Miller welding generator, providing both welding capability and auxiliary power.",
+    description: "Miller 10 KVA welding generator — welds up to 300 amps and runs your grinder at the same time. Diesel, field-ready.",
     features: ["Dual purpose", "High welding performance", "Rugged"],
     specifications: {
       powerOutput: "10 KVA",
@@ -1846,7 +1846,7 @@ export const allMachinery: Machinery[] = [
     capacity: "5 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Portable Lincoln Electric welding generator, ideal for field repairs and light construction.",
+    description: "Lincoln Electric 5 KVA welder-gen — petrol, portable, does stick welding and runs a light or two. For rent on pipe jobs and repairs.",
     features: ["Highly portable", "Reliable welding", "Easy to use"],
     specifications: {
       powerOutput: "5 KVA",
@@ -1874,7 +1874,7 @@ export const allMachinery: Machinery[] = [
     capacity: "15 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Durable John Deere generator designed for agricultural use, providing reliable power for farms.",
+    description: "John Deere 15 KVA diesel gen — tough farm-grade unit. Powers irrigation pumps, cold stores, and workshop equipment. Available for hire.",
     features: ["Tough design", "Reliable engine", "Easy maintenance"],
     specifications: {
       powerOutput: "15 KVA",
@@ -1902,7 +1902,7 @@ export const allMachinery: Machinery[] = [
     capacity: "10 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Compact Kubota generator, perfect for agricultural applications and small farm equipment.",
+    description: "Kubota 10 KVA genset — compact diesel, built for farm use. Rent it for pumps, electric fences, and small machinery.",
     features: ["Fuel efficient", "Compact", "Long life"],
     specifications: {
       powerOutput: "10 KVA",
@@ -1930,7 +1930,7 @@ export const allMachinery: Machinery[] = [
     capacity: "100 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Standard Perkins 100 KVA diesel generator, a versatile choice for many power requirements.",
+    description: "Perkins 100 KVA diesel generator for rent — the standard mid-range genset. Three-phase, silent canopy, digital panel.",
     features: ["Reliable performance", "Digital control", "Silent canopy"],
     specifications: {
       powerOutput: "100 KVA",
@@ -1958,7 +1958,7 @@ export const allMachinery: Machinery[] = [
     capacity: "15 KVA",
     year: 2023,
     location: "Dubai",
-    description: "Small Cummins silent generator, ideal for backup power for small offices or homes.",
+    description: "Cummins 15 KVA silent gen — small enough for an office or home, quiet enough to run overnight. Available for rental.",
     features: ["Very quiet", "Compact", "Reliable"],
     specifications: {
       powerOutput: "15 KVA",
@@ -1989,7 +1989,7 @@ export const allMachinery: Machinery[] = [
       capacity: "120mm Depth",
       year: 2024,
       location: "Dubai",
-      description: "Professional construction machinery for rebar cutting. This heavy-duty electric cutter is designed for precision and safety when working with reinforced concrete and metal bars.",
+      description: "Hilti rebar cutter for hire — slices through steel bars up to 120mm depth. Electric, no compressor needed, clean cuts on site.",
       features: [
         "High performance brushless motor",
         "Ergonomic design for reduced fatigue",
@@ -2050,7 +2050,6 @@ export const brands = [
   "Kubota",
   "JCB",
   "Hilti",
-  "Al-Kabir",
   "Generac",
   "Zamil",
   "Makita",

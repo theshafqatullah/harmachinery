@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Services - Harma Machinery | Equipment Rental Dubai",
+  title: "Equipment Rental Services Dubai | Delivery, Operators, Maintenance",
   description:
-    "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting. Harma Machinery serves construction, events & industrial projects across UAE.",
+    "Full-service equipment rental: same-day delivery across UAE, certified operators, 24/7 breakdown support, preventive maintenance and genuine spare parts. Call 055 455 5786.",
   alternates: { canonical: "/services" },
   openGraph: {
-    title: "Our Services - Harma Machinery | Equipment Rental Dubai",
+    title: "Equipment Rental Services Dubai | Delivery, Operators, Maintenance",
     description:
-      "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting. Harma Machinery serves construction, events & industrial projects across UAE.",
+      "Same-day delivery, certified operators, 24/7 breakdown support, preventive maintenance and genuine spare parts across UAE.",
     url: "/services",
   },
   twitter: {
-    title: "Our Services - Harma Machinery | Equipment Rental Dubai",
+    title: "Equipment Rental Services Dubai | Delivery, Operators, Maintenance",
     description:
-      "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting. Harma Machinery serves construction, events & industrial projects across UAE.",
+      "Same-day delivery, certified operators, 24/7 breakdown support, preventive maintenance and genuine spare parts across UAE.",
   },
 };
 
@@ -100,14 +100,14 @@ export default function ServicesPage() {
     "@type": "ItemList",
     name: "Equipment Rental Services — Harma Machinery",
     description: "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting across UAE.",
-    url: "https://harmachinery.com/services",
+    url: "https://husnainabdulrasheedmachineryrentals.ae/services",
     numberOfItems: servicesList.length,
     itemListElement: servicesList.map((s, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: s.title,
       description: s.description,
-      url: `https://harmachinery.com/services/${s.slug}`,
+      url: `https://husnainabdulrasheedmachineryrentals.ae/services/${s.slug}`,
     })),
   };
 

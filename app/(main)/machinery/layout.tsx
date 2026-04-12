@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Machinery Rental Catalog - Harma Machinery | Dubai, UAE",
+  title: "Rent Construction Equipment & Generators in Dubai | 60+ Machines",
   description:
-    "Browse our full catalog of generators, compactors, air compressors, scaffolding & construction machinery for rent in Dubai and across the UAE.",
+    "Browse 60+ machines for rent — generators 10–1000 KVA, compactors, jack hammers, concrete mixers, cutting machines, power tools and more. Daily, weekly or monthly rates.",
   keywords: [
     "generator rental Dubai", "Perkins generator hire", "Cummins generator rental",
-    "compactor rental Dubai", "plate compactor hire UAE", "air compressor rental",
-    "scaffolding rental Dubai", "concrete mixer hire UAE", "tower light rental Dubai",
+    "compactor rental Dubai", "plate compactor hire UAE", "jack hammer rental Dubai",
+    "concrete mixer rental Dubai", "tower light rental Dubai", "scaffolding rental Dubai",
   ],
   alternates: { canonical: "/machinery" },
   openGraph: {
-    title: "Machinery Rental Catalog - Harma Machinery | Dubai, UAE",
+    title: "Rent Construction Equipment & Generators in Dubai | 60+ Machines",
     description:
-      "Browse our full catalog of generators, compactors, air compressors, scaffolding & construction machinery for rent in Dubai and across the UAE.",
+      "Browse 60+ machines for rent — generators, compactors, jack hammers, concrete mixers, cutting machines, power tools and more.",
     url: "/machinery",
   },
   twitter: {
-    title: "Machinery Rental Catalog - Harma Machinery | Dubai, UAE",
+    title: "Rent Construction Equipment & Generators in Dubai | 60+ Machines",
     description:
       "Browse our full catalog of generators, compactors, air compressors, scaffolding & construction machinery for rent in Dubai and across the UAE.",
   },

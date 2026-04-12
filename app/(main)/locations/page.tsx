@@ -9,9 +9,9 @@ import {
 } from "@/data/locations";
 
 export const metadata: Metadata = {
-  title: "Service Locations Across UAE - Harma Machinery",
+  title: "Equipment Delivery Across Dubai & All 7 UAE Emirates | Harma Machinery",
   description:
-    "Harma Machinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
+    "We deliver generators and construction equipment to 90+ locations: Dubai South, Expo City, DAMAC Hills, Al Awir, Business Bay, DIP, DSO and more. Same-day from Al Lisaili.",
   keywords: [
     "equipment rental near me Dubai", "generator rental near me UAE",
     "equipment delivery Dubai South", "generator hire Abu Dhabi",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/locations" },
   openGraph: {
-    title: "Service Locations Across UAE - Harma Machinery",
+    title: "Equipment Delivery Across Dubai & All 7 UAE Emirates",
     description:
-      "Harma Machinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
+      "90+ delivery locations across all Emirates. Same-day equipment delivery from our Al Lisaili yard.",
     url: "/locations",
   },
   twitter: {
@@ -58,13 +58,13 @@ export default function LocationsPage() {
     "@type": "ItemList",
     name: "Equipment Rental Locations — Harma Machinery UAE",
     description: "All UAE locations served by Harma Machinery for generator and construction equipment rental.",
-    url: "https://harmachinery.com/locations",
+    url: "https://husnainabdulrasheedmachineryrentals.ae/locations",
     numberOfItems: dubaiLocations.length,
     itemListElement: dubaiLocations.map((loc, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: `Equipment Rental in ${loc.name}`,
-      url: `https://harmachinery.com/locations/${loc.slug}`,
+      url: `https://husnainabdulrasheedmachineryrentals.ae/locations/${loc.slug}`,
     })),
   };
 

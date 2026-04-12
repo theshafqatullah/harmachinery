@@ -77,9 +77,9 @@ export default async function LocationDetailPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://harmachinery.com" },
-      { "@type": "ListItem", position: 2, name: "Locations", item: "https://harmachinery.com/locations" },
-      { "@type": "ListItem", position: 3, name: location.name, item: `https://harmachinery.com/locations/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://husnainabdulrasheedmachineryrentals.ae" },
+      { "@type": "ListItem", position: 2, name: "Locations", item: "https://husnainabdulrasheedmachineryrentals.ae/locations" },
+      { "@type": "ListItem", position: 3, name: location.name, item: `https://husnainabdulrasheedmachineryrentals.ae/locations/${slug}` },
     ],
   };
 
@@ -88,7 +88,7 @@ export default async function LocationDetailPage({ params }: Props) {
     "@type": "LocalBusiness",
     name: `Harma Machinery — ${location.name}`,
     description: location.description,
-    url: `https://harmachinery.com/locations/${slug}`,
+    url: `https://husnainabdulrasheedmachineryrentals.ae/locations/${slug}`,
     telephone: "+971501234567",
     address: {
       "@type": "PostalAddress",
@@ -100,7 +100,7 @@ export default async function LocationDetailPage({ params }: Props) {
       { "@type": "City", name: location.name },
       { "@type": "State", name: location.emirate },
     ],
-    provider: { "@type": "Organization", name: "Harma Machinery", url: "https://harmachinery.com" },
+    provider: { "@type": "Organization", name: "Harma Machinery", url: "https://husnainabdulrasheedmachineryrentals.ae" },
   };
 
   return (

@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions - Harma Machinery",
-  description: "Read Harma Machinery's terms and conditions governing equipment rental agreements, liability, and use of our services.",
+  title: "Terms & Conditions | Harma Machinery – Equipment Rental Dubai",
+  description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Construction Machinery Rental L.L.C, trading as Harma Machinery.",
   alternates: { canonical: "/terms" },
   openGraph: {
-    title: "Terms & Conditions - Harma Machinery",
-    description: "Read Harma Machinery's terms and conditions governing equipment rental agreements, liability, and use of our services.",
+    title: "Terms & Conditions | Harma Machinery – Equipment Rental Dubai",
+    description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Construction Machinery Rental L.L.C.",
     url: "/terms",
   },
   twitter: {
-    title: "Terms & Conditions - Harma Machinery",
-    description: "Read Harma Machinery's terms and conditions governing equipment rental agreements, liability, and use of our services.",
+    title: "Terms & Conditions | Harma Machinery – Equipment Rental Dubai",
+    description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Construction Machinery Rental L.L.C.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function TermsPage() {
           <div className="prose prose-zinc max-w-none text-sm leading-7">
             <h2 className="text-xl font-bold text-zinc-900 mt-0">Acceptance of Terms</h2>
             <p className="text-zinc-600">
-              By accessing or using Harma Machinery&apos;s website and services, you agree to be bound by these Terms &amp; Conditions. If you do not agree, please do not use our services.
+              By accessing or using the website and services of Husnain Abdul Rasheed Construction Machinery Rental L.L.C, trading as Harma Machinery (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), you agree to be bound by these Terms &amp; Conditions. If you do not agree, please do not use our services.
             </p>
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Rental Agreements</h2>
@@ -89,7 +89,7 @@ export default function TermsPage() {
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Contact</h2>
             <p className="text-zinc-600">
-              For questions about these terms, contact us at legal@harmachinery.com or call 055 455 5786.
+              For questions about these terms, contact us at legal@husnainabdulrasheedmachineryrentals.ae or call 055 455 5786.
             </p>
           </div>
         </div>

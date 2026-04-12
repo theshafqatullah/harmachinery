@@ -370,7 +370,7 @@ export default function MainLayout({
               </p>
               <div className="mt-4 space-y-2 text-sm">
                 <p>055 455 5786 / 050 484 5636</p>
-                <p>info@harmachinery.com</p>
+                <p>info@husnainabdulrasheedmachineryrentals.ae</p>
                 <p>Al Lisaili, Dubai–Al Ain Road (E66)</p>
                 <p>Dubai, United Arab Emirates</p>
               </div>
@@ -482,7 +482,7 @@ export default function MainLayout({
               </a>
             </div>
             <p className="text-xs text-zinc-500">
-              &copy; {new Date().getFullYear()} Harma Machinery. All rights
+              &copy; {new Date().getFullYear()} Husnain Abdul Rasheed Construction Machinery Rental L.L.C (Harma Machinery). All rights
               reserved.
             </p>
           </div>

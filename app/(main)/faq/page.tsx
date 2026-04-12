@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FAQ - Harma Machinery | Generator & Equipment Rental Dubai",
+  title: "FAQ | Generator & Equipment Rental Questions | Harma Machinery Dubai",
   description:
-    "Frequently asked questions about generator rental, equipment hire, delivery zones, and support from Harma Machinery in Dubai, UAE.",
+    "Got questions about rental periods, generator sizes, delivery zones, pricing, or on-site support? We've answered the most common ones right here.",
   alternates: { canonical: "/faq" },
   openGraph: {
-    title: "FAQ - Harma Machinery | Generator & Equipment Rental Dubai",
+    title: "FAQ | Generator & Equipment Rental Questions | Harma Machinery Dubai",
     description:
-      "Frequently asked questions about generator rental, equipment hire, delivery zones, and support from Harma Machinery in Dubai, UAE.",
+      "Got questions about rental periods, generator sizes, delivery zones, pricing, or on-site support? We've answered the most common ones right here.",
     url: "/faq",
   },
   twitter: {
-    title: "FAQ - Harma Machinery | Generator & Equipment Rental Dubai",
+    title: "FAQ | Generator & Equipment Rental Questions | Harma Machinery Dubai",
     description:
-      "Frequently asked questions about generator rental, equipment hire, delivery zones, and support from Harma Machinery in Dubai, UAE.",
+      "Got questions about rental periods, generator sizes, delivery zones, pricing, or on-site support? We've answered the most common ones right here.",
   },
 };
 
@@ -156,11 +156,10 @@ export default function FAQPage() {
             FAQ
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Frequently Asked Questions
+            Common Questions, Straight Answers
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Find answers to common questions about our rental process,
-            equipment, delivery, and support.
+            Everything you need to know about renting generators and equipment from us — rental periods, delivery, pricing, breakdown support, and more.
           </p>
         </div>
       </section>

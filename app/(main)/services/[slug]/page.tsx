@@ -215,9 +215,9 @@ export default async function ServiceDetailPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://harmachinery.com" },
-      { "@type": "ListItem", position: 2, name: "Services", item: "https://harmachinery.com/services" },
-      { "@type": "ListItem", position: 3, name: service.title, item: `https://harmachinery.com/services/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://husnainabdulrasheedmachineryrentals.ae" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://husnainabdulrasheedmachineryrentals.ae/services" },
+      { "@type": "ListItem", position: 3, name: service.title, item: `https://husnainabdulrasheedmachineryrentals.ae/services/${slug}` },
     ],
   };
 
@@ -229,7 +229,7 @@ export default async function ServiceDetailPage({ params }: Props) {
     provider: {
       "@type": "LocalBusiness",
       name: "Harma Machinery",
-      url: "https://harmachinery.com",
+      url: "https://husnainabdulrasheedmachineryrentals.ae",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Dubai",
@@ -237,7 +237,7 @@ export default async function ServiceDetailPage({ params }: Props) {
       },
     },
     areaServed: { "@type": "Country", name: "UAE" },
-    url: `https://harmachinery.com/services/${slug}`,
+    url: `https://husnainabdulrasheedmachineryrentals.ae/services/${slug}`,
     offers: service.features.map((f) => ({
       "@type": "Offer",
       description: f,

@@ -3,7 +3,7 @@ import { allMachinery } from "@/data/machinery";
 import { allServices } from "@/data/services";
 import { dubaiLocations } from "@/data/locations";
 
-const BASE = "https://harmachinery.com";
+const BASE = "https://husnainabdulrasheedmachineryrentals.ae";
 const now = new Date();
 
 const equipmentSlugs = [
