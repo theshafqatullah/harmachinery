@@ -67,24 +67,25 @@ export default function MainLayout({
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white">
         <nav className="mx-auto flex max-w-7xl items-center px-6 py-4 lg:px-8">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-500">
-              <svg
-                className="h-5 w-5 text-zinc-900"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085"
-                />
-              </svg>
-            </div>
-            <span className="text-lg font-bold text-zinc-900">
-              Husnain Abdul Rasheed Machinery Rentals
+          <Link href="/" className="flex items-center gap-2" aria-label="Husnain Abdul Rasheed Machinery Rentals — Home">
+            <svg
+              className="h-9 w-9"
+              viewBox="0 0 64 64"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <rect width="64" height="64" rx="12" fill="#f59e0b" />
+              <path d="M16 14h7v16h18V14h7v36h-7V34H23v16h-7z" fill="#18181b" />
+              <circle cx="32" cy="32" r="4.5" fill="#f59e0b" stroke="#18181b" strokeWidth="1.5" />
+              <circle cx="32" cy="32" r="1.5" fill="#18181b" />
+            </svg>
+            <span className="flex flex-col leading-tight">
+              <span className="text-sm font-black uppercase tracking-wide text-zinc-900">
+                Husnain Abdul Rasheed
+              </span>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-700">
+                Machinery Rentals
+              </span>
             </span>
           </Link>
 
@@ -363,24 +364,25 @@ export default function MainLayout({
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
             {/* Brand + contact block */}
             <div className="sm:col-span-2 lg:col-span-1">
-              <Link href="/" className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-500">
-                  <svg
-                    className="h-5 w-5 text-zinc-900"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085"
-                    />
-                  </svg>
-                </div>
-                <span className="text-lg font-bold text-white">
-                  Husnain Abdul Rasheed Machinery Rentals
+              <Link href="/" className="flex items-center gap-2" aria-label="Husnain Abdul Rasheed Machinery Rentals — Home">
+                <svg
+                  className="h-9 w-9"
+                  viewBox="0 0 64 64"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect width="64" height="64" rx="12" fill="#f59e0b" />
+                  <path d="M16 14h7v16h18V14h7v36h-7V34H23v16h-7z" fill="#18181b" />
+                  <circle cx="32" cy="32" r="4.5" fill="#f59e0b" stroke="#18181b" strokeWidth="1.5" />
+                  <circle cx="32" cy="32" r="1.5" fill="#18181b" />
+                </svg>
+                <span className="flex flex-col leading-tight">
+                  <span className="text-sm font-black uppercase tracking-wide text-white">
+                    Husnain Abdul Rasheed
+                  </span>
+                  <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-400">
+                    Machinery Rentals
+                  </span>
                 </span>
               </Link>
               <p className="mt-4 text-sm leading-6 text-zinc-400">
