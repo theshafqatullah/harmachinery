@@ -79,7 +79,7 @@ const services = [
   {
     title: "Equipment on Rent",
     description: "Generators, compactors, jack hammers, power tools — rent by the day, week, or month. No lock-in contracts.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
   },
   {
     title: "Operators Available",
@@ -89,7 +89,7 @@ const services = [
   {
     title: "Delivery & Pickup",
     description: "We bring it to you and pick it up when you're done. Flatbeds and lowboys — anywhere in the UAE.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
   },
   {
     title: "Breakdown? We're On It",
@@ -111,7 +111,7 @@ const services = [
 const industries = [
   {
     name: "Construction & Infrastructure",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
   },
   {
     name: "Weddings & Private Events",
@@ -182,7 +182,7 @@ const testimonials = [
 
 const projectGallery = [
   {
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     title: "Dubai South Mega Project",
     category: "Construction",
   },
@@ -333,39 +333,67 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-zinc-900">
         <div className="absolute inset-0">
-          <Image
-            src="https://images.unsplash.com/photo-1495036019936-220b29b930ea?q=80&w=2000&auto=format&fit=crop"
-            alt="Generator and construction equipment on site"
-            fill
-            className="object-cover opacity-40"
-            priority
-            sizes="100vw"
-          />
+          <div className="absolute inset-0 bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-800" />
+          <div className="absolute -right-20 top-1/2 h-[600px] w-[600px] -translate-y-1/2 rounded-full bg-amber-500/20 blur-3xl" />
         </div>
-        <div className="relative mx-auto max-w-7xl px-6 py-32 sm:py-44 lg:px-8">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-widest text-amber-400">
-              Al Lisaili, Dubai — Delivering Across All 7 Emirates
-            </p>
-            <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Rent Generators & Heavy Equipment. Get It Today.
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-zinc-300">
-              We rent out generators from 3 to 500 KVA, compactors, jack hammers, concrete mixers, power tools, tower lights, and more. Construction site in JVC? Wedding in Al Awir? Desert camp in Margham? We'll have the equipment at your gate same day.
-            </p>
-            <div className="mt-10 flex items-center gap-x-4">
-              <Link
-                href="/machinery"
-                className="rounded-lg bg-amber-500 px-6 py-3.5 text-sm font-semibold text-zinc-900 hover:bg-amber-400 transition-colors"
-              >
-                Browse Equipment
-              </Link>
-              <Link
-                href="/request-quote"
-                className="rounded-lg border border-white/30 px-6 py-3.5 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
-              >
-                Request a Quote
-              </Link>
+        <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-widest text-amber-400">
+                Al Lisaili, Dubai — Delivering Across All 7 Emirates
+              </p>
+              <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                Rent Generators & Heavy Equipment. Get It Today.
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-zinc-300">
+                We rent out generators from 3 to 500 KVA, compactors, jack hammers, concrete mixers, power tools, tower lights, and more. Construction site in JVC? Wedding in Al Awir? Desert camp in Margham? We&apos;ll have the equipment at your gate same day.
+              </p>
+              <div className="mt-10 flex items-center gap-x-4">
+                <Link
+                  href="/machinery"
+                  className="rounded-lg bg-amber-500 px-6 py-3.5 text-sm font-semibold text-zinc-900 hover:bg-amber-400 transition-colors"
+                >
+                  Browse Equipment
+                </Link>
+                <Link
+                  href="/request-quote"
+                  className="rounded-lg border border-white/30 px-6 py-3.5 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+                >
+                  Request a Quote
+                </Link>
+              </div>
+            </div>
+
+            {/* Featured generator from real inventory */}
+            <div className="relative mx-auto w-full max-w-lg lg:mx-0 lg:ml-auto">
+              <div className="absolute -inset-4 rounded-3xl bg-amber-500/10 blur-2xl" />
+              <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/95 p-8 shadow-2xl">
+                <Image
+                  src="https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg"
+                  alt="Perkins 500 KVA Diesel Generator — available for rent"
+                  width={480}
+                  height={383}
+                  priority
+                  unoptimized
+                  className="mx-auto h-auto w-full object-contain"
+                />
+                <div className="mt-4 flex items-center justify-between border-t border-zinc-200 pt-4">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-widest text-amber-600">
+                      Featured in our fleet
+                    </p>
+                    <p className="mt-1 text-sm font-bold text-zinc-900">
+                      Perkins 500 KVA Diesel Generator
+                    </p>
+                  </div>
+                  <Link
+                    href="/machinery/perkins-500kva-diesel-generator"
+                    className="shrink-0 rounded-lg bg-zinc-900 px-3 py-2 text-xs font-semibold text-white hover:bg-zinc-800"
+                  >
+                    View →
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -89,7 +89,7 @@ export const allBlogPosts: BlogPost[] = [
       <h2>Communication Protocols</h2>
       <p>A lot of near-misses come down to one person not knowing what another person is doing. Use hand signals everyone's been trained on — not made-up ones. If you've got radios, use them. And if visibility is poor or the site is noisy, have a dedicated spotter for reversing and lifting operations.</p>
     `,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     author: {
       name: "Sarah Thompson",
       avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
@@ -124,7 +124,7 @@ export const allBlogPosts: BlogPost[] = [
       <h2>Challenges and Solutions</h2>
       <p>You can't block half a main road in Dubai and expect nobody to notice. Deliveries had to happen at night. Equipment breakdowns had to be resolved fast because there was no room to park a spare unit. We set up a dedicated dispatch team just for this project so any replacement could reach the site within hours, not days.</p>
     `,
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
+    image: "https://static.wixstatic.com/media/37072f_27c93f4ac26f449fbaebcba6d03cbc93~mv2.png/v1/fill/w_480,h_396,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_27c93f4ac26f449fbaebcba6d03cbc93~mv2.png",
     author: {
       name: "Mohammed Al-Rashid",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
@@ -358,7 +358,7 @@ export const allBlogPosts: BlogPost[] = [
       
       <p>Phone: 055 455 5786 / 050 484 5636. Or drop by our yard in Al Lisaili, Dubai.</p>
     `,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     author: {
       name: "Mohammed Al-Rashid",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
@@ -462,7 +462,7 @@ export const allBlogPosts: BlogPost[] = [
       
       <p>Questions? Email info@husnainabdulrasheedmachineryrentals.ae or call 055 455 5786.</p>
     `,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     author: {
       name: "Fatima Al-Hashimi",
       avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200",
@@ -1316,7 +1316,7 @@ export const allBlogPosts: BlogPost[] = [
 
       <p>Save our emergency number now: <strong>055 455 5786</strong> — available 24 hours, 7 days a week, 365 days a year. When power fails, Husnain Abdul Rasheed Machinery Rentals responds.</p>
     `,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     author: {
       name: "Rashid Al-Mansoori",
       avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200",
@@ -1579,7 +1579,7 @@ export const allBlogPosts: BlogPost[] = [
 
       <p>Rent a compactor from Husnain Abdul Rasheed Machinery Rentals and our maintenance program is included — extending equipment life is our business. Call 055 455 5786.</p>
     `,
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
+    image: "https://static.wixstatic.com/media/37072f_27c93f4ac26f449fbaebcba6d03cbc93~mv2.png/v1/fill/w_480,h_396,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_27c93f4ac26f449fbaebcba6d03cbc93~mv2.png",
     author: {
       name: "Youssef Khalil",
       avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200",
@@ -1743,7 +1743,7 @@ export const allBlogPosts: BlogPost[] = [
 
       <p>For hydraulic system diagnosis and repair across all equipment types, contact Husnain Abdul Rasheed Machinery Rentals at 055 455 5786. Our technicians carry diagnostic equipment and common repair parts on every service vehicle.</p>
     `,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     author: {
       name: "Khalid Omar",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",

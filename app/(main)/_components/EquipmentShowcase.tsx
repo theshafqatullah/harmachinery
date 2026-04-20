@@ -45,7 +45,7 @@ const blocks: ShowcaseBlock[] = [
       m.category === "Air Compressors" ||
       /jack hammer|breaker|demolition|combihammer/i.test(m.name),
     fallback: [
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
+      "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     ],
   },
   {
@@ -74,7 +74,7 @@ const blocks: ShowcaseBlock[] = [
     capacityLine: "Range: 30 kg plate compactors to 10-ton tandem rollers",
     categoryMatch: (m) => m.category === "Compactors",
     fallback: [
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
+      "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     ],
   },
   {

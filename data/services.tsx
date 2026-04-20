@@ -43,7 +43,7 @@ export const allServices: Service[] = [
     shortDescription: "Generators, compactors, jack hammers and more — rent by the day, week, or month",
     description: "We keep 60+ machines in our yard ready to go. Generators from 3 KVA portables right up to 500 KVA Perkins and Caterpillar units. Compactors, jack hammers, concrete mixers, cutting machines, drills — name it, we've probably got it. Rent for one day or six months, whatever your job needs. Every machine gets checked and serviced before it leaves our lot.",
     icon: <Zap className="h-8 w-8" />,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     features: [
       "Flexible rental periods from daily to yearly",
       "Well-maintained and regularly serviced equipment",
@@ -71,7 +71,7 @@ export const allServices: Service[] = [
     shortDescription: "Trained, licensed operators who know the machines inside out",
     description: "Need someone to run the equipment? Our operators are certified, safety-trained, and experienced with every machine in our fleet. They show up on time, follow proper procedures, and speak Arabic, English, Hindi and Urdu. Hire them for a day or for the whole project — we'll sort the logistics.",
     icon: <HardHat className="h-8 w-8" />,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     features: [
       "Certified and licensed operators",
       "Extensive equipment experience",
@@ -127,7 +127,7 @@ export const allServices: Service[] = [
     shortDescription: "Safe and timely delivery to your site",
     description: "Reliable transportation services for all types of construction equipment. We ensure your equipment arrives safely and on time, anywhere in the UAE. Our fleet includes low-bed trailers, flatbeds, and specialized transport vehicles.",
     icon: <Truck className="h-8 w-8" />,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070",
+    image: "https://static.wixstatic.com/media/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg/v1/fill/w_480,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/37072f_875a033c0e6d4a14bd0c37103dbb3dff~mv2.jpg",
     features: [
       "GPS tracked deliveries",
       "Licensed and insured transport",
