@@ -7,9 +7,10 @@ import {
   locationStats,
   deliveryZones,
 } from "@/data/locations";
+import ContactSplit from "../_components/ContactSplit";
 
 export const metadata: Metadata = {
-  title: "Equipment Delivery Across Dubai & All 7 UAE Emirates | Harma Machinery",
+  title: "Equipment Delivery Across Dubai & All 7 UAE Emirates | Husnain Abdul Rasheed Machinery Rentals",
   description:
     "We deliver generators and construction equipment to 90+ locations: Dubai South, Expo City, DAMAC Hills, Al Awir, Business Bay, DIP, DSO and more. Same-day from Al Lisaili.",
   keywords: [
@@ -26,9 +27,9 @@ export const metadata: Metadata = {
     url: "/locations",
   },
   twitter: {
-    title: "Service Locations Across UAE - Harma Machinery",
+    title: "Service Locations Across UAE - Husnain Abdul Rasheed Machinery Rentals",
     description:
-      "Harma Machinery delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
+      "Husnain Abdul Rasheed Machinery Rentals delivers generators, compactors & construction equipment across 90+ locations in all 7 UAE emirates. Same-day delivery from Al Lisaili, Dubai.",
   },
 };
 
@@ -56,8 +57,8 @@ export default function LocationsPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Equipment Rental Locations — Harma Machinery UAE",
-    description: "All UAE locations served by Harma Machinery for generator and construction equipment rental.",
+    name: "Equipment Rental Locations — Husnain Abdul Rasheed Machinery Rentals UAE",
+    description: "All UAE locations served by Husnain Abdul Rasheed Machinery Rentals for generator and construction equipment rental.",
     url: "https://husnainabdulrasheedmachineryrentals.ae/locations",
     numberOfItems: dubaiLocations.length,
     itemListElement: dubaiLocations.map((loc, i) => ({
@@ -84,7 +85,7 @@ export default function LocationsPage() {
             Equipment Rental Across All 7 Emirates
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Based in Al Lisaili, Dubai — Harma Machinery delivers generators,
+            Based in Al Lisaili, Dubai — Husnain Abdul Rasheed Machinery Rentals delivers generators,
             compactors, and construction equipment to {dubaiLocations.length}+
             locations across the UAE. Same-day delivery, competitive rates, and
             24/7 support.
@@ -271,11 +272,11 @@ export default function LocationsPage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
-            Harma Machinery — Serving All 7 Emirates
+            Husnain Abdul Rasheed Machinery Rentals — Serving All 7 Emirates
           </h2>
           <div className="mt-6 max-w-3xl space-y-4 leading-7 text-zinc-600">
             <p>
-              Based in Al Lisaili on the Dubai–Al Ain Road (E66), Harma Machinery
+              Based in Al Lisaili on the Dubai–Al Ain Road (E66), Husnain Abdul Rasheed Machinery Rentals
               is strategically located to serve construction sites, events, and
               industrial facilities across the entire UAE. Our fleet of
               generators (20–500 kVA), compactors, air compressors, and
@@ -290,6 +291,7 @@ export default function LocationsPage() {
           </div>
         </div>
       </section>
+      <ContactSplit />
     </>
   );
 }

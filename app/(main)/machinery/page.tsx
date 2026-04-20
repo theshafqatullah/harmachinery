@@ -7,6 +7,7 @@ import {
   categories as allCategories,
   brands as allBrands,
 } from "@/data/machinery";
+import ContactSplit from "../_components/ContactSplit";
 
 export default function MachineryPage() {
   const [search, setSearch] = useState("");
@@ -191,6 +192,7 @@ export default function MachineryPage() {
           </div>
         </div>
       </section>
+      <ContactSplit />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ContactSplit from "../_components/ContactSplit";
 
 export const metadata: Metadata = {
   title: "Equipment Categories | Generators, Compactors, Tools & More for Rent",
@@ -96,7 +97,7 @@ export default function EquipmentPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Equipment Rental Catalog — Harma Machinery",
+    name: "Equipment Rental Catalog — Husnain Abdul Rasheed Machinery Rentals",
     description: "Browse our full range of construction equipment for rent in Dubai and across the UAE.",
     url: "https://husnainabdulrasheedmachineryrentals.ae/equipment",
     numberOfItems: categories.length,
@@ -215,6 +216,7 @@ export default function EquipmentPage() {
           </div>
         </div>
       </section>
+      <ContactSplit />
     </>
   );
 }

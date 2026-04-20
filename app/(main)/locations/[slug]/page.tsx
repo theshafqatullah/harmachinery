@@ -86,7 +86,7 @@ export default async function LocationDetailPage({ params }: Props) {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: `Harma Machinery — ${location.name}`,
+    name: `Husnain Abdul Rasheed Machinery Rentals — ${location.name}`,
     description: location.description,
     url: `https://husnainabdulrasheedmachineryrentals.ae/locations/${slug}`,
     telephone: "+971501234567",
@@ -100,7 +100,7 @@ export default async function LocationDetailPage({ params }: Props) {
       { "@type": "City", name: location.name },
       { "@type": "State", name: location.emirate },
     ],
-    provider: { "@type": "Organization", name: "Harma Machinery", url: "https://husnainabdulrasheedmachineryrentals.ae" },
+    provider: { "@type": "Organization", name: "Husnain Abdul Rasheed Machinery Rentals", url: "https://husnainabdulrasheedmachineryrentals.ae" },
   };
 
   return (
@@ -306,7 +306,7 @@ export default async function LocationDetailPage({ params }: Props) {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
-            Why Choose Harma Machinery in {location.name}
+            Why Choose Husnain Abdul Rasheed Machinery Rentals in {location.name}
           </h2>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[

@@ -1,5 +1,5 @@
 /**
- * SEO Keyword Map — Husnain Abdul Rasheed Construction Machinery Rental L.L.C
+ * SEO Keyword Map — Husnain Abdul Rasheed Machinery Rentals L.L.C
  * ───────────────────────────────────────────────────────────────────────────
  * Source: Google Autocomplete (AE/EN), competitor gap analysis, real search
  * patterns for Dubai + UAE equipment rental market.

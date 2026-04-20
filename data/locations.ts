@@ -1,5 +1,5 @@
 // ──────────────────────────────────────────────────────────────────────
-// Harma Machinery – Location data derived from raw market research
+// Husnain Abdul Rasheed Machinery Rentals – Location data derived from raw market research
 // Base: Al Lisaili, Dubai, UAE (on Dubai-Al Ain Road E66)
 // ──────────────────────────────────────────────────────────────────────
 
@@ -71,9 +71,9 @@ export const dubaiLocations: Location[] = [
       "Tower cranes, excavators, generators (20–500 kVA), boom lifts, forklifts, compactors, concrete mixers",
     whyTarget:
       "Continuous large-scale construction for years to come — one of the biggest development zones in Dubai.",
-    metaTitle: "Generator & Equipment Rental in Dubai South | Harma Machinery",
+    metaTitle: "Generator & Equipment Rental in Dubai South | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators, compactors & construction equipment in Dubai South. Harma Machinery delivers reliable machinery for mega projects with same-day delivery.",
+      "Rent generators, compactors & construction equipment in Dubai South. Husnain Abdul Rasheed Machinery Rentals delivers reliable machinery for mega projects with same-day delivery.",
   },
   {
     id: "expo-city-dubai",
@@ -91,9 +91,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Multi-year transformation project with constant contractor demand plus growing event venue business.",
     metaTitle:
-      "Generator & Equipment Rental in Expo City Dubai | Harma Machinery",
+      "Generator & Equipment Rental in Expo City Dubai | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment & generator rental for Expo City Dubai projects and events. Harma Machinery — fast delivery from Al Lisaili.",
+      "Construction equipment & generator rental for Expo City Dubai projects and events. Husnain Abdul Rasheed Machinery Rentals — fast delivery from Al Lisaili.",
   },
   {
     id: "damac-hills-2",
@@ -112,9 +112,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Extremely close to Al Lisaili — low delivery cost, continuous residential construction.",
     metaTitle:
-      "Generator & Equipment Rental in DAMAC Hills 2 | Harma Machinery",
+      "Generator & Equipment Rental in DAMAC Hills 2 | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators, compactors & construction equipment in DAMAC Hills 2 (Akoya). Harma Machinery — closest supplier with fast delivery.",
+      "Rent generators, compactors & construction equipment in DAMAC Hills 2 (Akoya). Husnain Abdul Rasheed Machinery Rentals — closest supplier with fast delivery.",
   },
   {
     id: "the-valley-emaar",
@@ -131,9 +131,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Extremely close, large multi-year project with constant equipment demand.",
     metaTitle:
-      "Generator & Equipment Rental in The Valley by Emaar | Harma Machinery",
+      "Generator & Equipment Rental in The Valley by Emaar | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in The Valley by Emaar. Generators, compactors & machinery from Harma Machinery — your closest supplier.",
+      "Construction equipment rental in The Valley by Emaar. Generators, compactors & machinery from Husnain Abdul Rasheed Machinery Rentals — your closest supplier.",
   },
   {
     id: "villanova-dubailand",
@@ -150,9 +150,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Close proximity with steady residential construction cycle.",
     metaTitle:
-      "Generator & Equipment Rental in Villanova Dubailand | Harma Machinery",
+      "Generator & Equipment Rental in Villanova Dubailand | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators & construction equipment in Villanova (Dubailand). Harma Machinery provides reliable equipment for residential projects.",
+      "Rent generators & construction equipment in Villanova (Dubailand). Husnain Abdul Rasheed Machinery Rentals provides reliable equipment for residential projects.",
   },
   {
     id: "al-awir",
@@ -170,9 +170,9 @@ export const dubaiLocations: Location[] = [
       "Heavy generators (250–500 kVA), excavators, wheel loaders, water pumps, forklifts",
     whyTarget:
       "Very close, diverse demand across industrial construction, events, and agriculture.",
-    metaTitle: "Generator & Equipment Rental in Al Awir | Harma Machinery",
+    metaTitle: "Generator & Equipment Rental in Al Awir | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Heavy equipment & generator rental in Al Awir. Harma Machinery serves industrial, construction & event needs with same-day delivery.",
+      "Heavy equipment & generator rental in Al Awir. Husnain Abdul Rasheed Machinery Rentals serves industrial, construction & event needs with same-day delivery.",
   },
   {
     id: "margham",
@@ -190,9 +190,9 @@ export const dubaiLocations: Location[] = [
       "Generators (20–100 kVA per camp/event), trenchers, cable-laying equipment",
     whyTarget:
       "Close proximity with daily safari operations and weekly private camps. Peak season Oct–April.",
-    metaTitle: "Generator Rental in Margham Desert Area | Harma Machinery",
+    metaTitle: "Generator Rental in Margham Desert Area | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Margham desert camps, events & safari operations. Harma Machinery — fast delivery from Al Lisaili.",
+      "Generator rental for Margham desert camps, events & safari operations. Husnain Abdul Rasheed Machinery Rentals — fast delivery from Al Lisaili.",
   },
   {
     id: "lehbab",
@@ -209,9 +209,9 @@ export const dubaiLocations: Location[] = [
     equipmentDemand: "Generators (20–60 kVA per camp)",
     whyTarget:
       "Very high frequency — daily tourist operations, corporate events, and seasonal celebrations.",
-    metaTitle: "Generator Rental in Lehbab | Harma Machinery",
+    metaTitle: "Generator Rental in Lehbab | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators for Lehbab desert camps and safari operations. Harma Machinery — your nearest desert equipment supplier.",
+      "Rent generators for Lehbab desert camps and safari operations. Husnain Abdul Rasheed Machinery Rentals — your nearest desert equipment supplier.",
   },
   {
     id: "al-lisaili",
@@ -229,9 +229,9 @@ export const dubaiLocations: Location[] = [
       "Generators (10–100 kVA), water pumps, mini excavators, compactors",
     whyTarget:
       "Zero delivery cost — right at our doorstep with daily repeat business potential.",
-    metaTitle: "Generator & Equipment Rental in Al Lisaili | Harma Machinery",
+    metaTitle: "Generator & Equipment Rental in Al Lisaili | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment & generator rental in Al Lisaili. Harma Machinery — located right here for instant delivery.",
+      "Construction equipment & generator rental in Al Lisaili. Husnain Abdul Rasheed Machinery Rentals — located right here for instant delivery.",
   },
   {
     id: "al-ain-road-corridor",
@@ -249,9 +249,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Right at our doorstep — the longest-running road project with 24/7 night work operations.",
     metaTitle:
-      "Equipment Rental for Al Ain Road (E66) Projects | Harma Machinery",
+      "Equipment Rental for Al Ain Road (E66) Projects | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator & construction equipment rental for Dubai-Al Ain Road projects. Harma Machinery — located directly on E66.",
+      "Generator & construction equipment rental for Dubai-Al Ain Road projects. Husnain Abdul Rasheed Machinery Rentals — located directly on E66.",
   },
   {
     id: "al-awir-sewage-plant",
@@ -269,9 +269,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Very close, long-term government project with reliable payment.",
     metaTitle:
-      "Equipment Rental near Al Awir Sewage Treatment Plant | Harma Machinery",
+      "Equipment Rental near Al Awir Sewage Treatment Plant | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Heavy equipment rental for Al Awir Sewage Treatment Plant upgrades. Harma Machinery — closest supplier from Al Lisaili.",
+      "Heavy equipment rental for Al Awir Sewage Treatment Plant upgrades. Husnain Abdul Rasheed Machinery Rentals — closest supplier from Al Lisaili.",
   },
   {
     id: "global-village",
@@ -289,9 +289,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Short season but enormous demand volume. Annual construction cycle makes demand predictable.",
     metaTitle:
-      "Generator Rental for Global Village Dubai | Harma Machinery",
+      "Generator Rental for Global Village Dubai | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators for Global Village vendors, pavilions & events. Harma Machinery supplies high-volume seasonal power solutions.",
+      "Rent generators for Global Village vendors, pavilions & events. Husnain Abdul Rasheed Machinery Rentals supplies high-volume seasonal power solutions.",
   },
   {
     id: "al-lisaili-farms",
@@ -310,9 +310,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Right at our doorstep — fastest delivery, lowest transport cost. Very high weekend demand, especially Oct–April.",
     metaTitle:
-      "Generator Rental for Al Lisaili Farm Events | Harma Machinery",
+      "Generator Rental for Al Lisaili Farm Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators for Al Lisaili farm parties, weddings & events. Harma Machinery — located right in Al Lisaili for instant delivery.",
+      "Rent generators for Al Lisaili farm parties, weddings & events. Husnain Abdul Rasheed Machinery Rentals — located right in Al Lisaili for instant delivery.",
   },
   {
     id: "last-exit-e66",
@@ -328,9 +328,9 @@ export const dubaiLocations: Location[] = [
     equipmentDemand: "Generators (20–60 kVA)",
     whyTarget:
       "Very close with regular weekend events and food festivals.",
-    metaTitle: "Generator Rental for Last Exit Events | Harma Machinery",
+    metaTitle: "Generator Rental for Last Exit Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Last Exit food festivals & pop-up events on Dubai-Al Ain Road. Harma Machinery — instant delivery.",
+      "Generator rental for Last Exit food festivals & pop-up events on Dubai-Al Ain Road. Husnain Abdul Rasheed Machinery Rentals — instant delivery.",
   },
   {
     id: "food-zones-al-awir",
@@ -348,9 +348,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Close proximity, generators critical for cold chain — clients pay premium for reliability.",
     metaTitle:
-      "Generator Rental for Food Processing & Cold Storage | Harma Machinery",
+      "Generator Rental for Food Processing & Cold Storage | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Critical backup generator rental for food processing and cold storage facilities. Harma Machinery ensures uninterrupted power.",
+      "Critical backup generator rental for food processing and cold storage facilities. Husnain Abdul Rasheed Machinery Rentals ensures uninterrupted power.",
   },
 
   // ── TIER 2: STRONG DEMAND (15–40 km) ────────────────────────
@@ -369,9 +369,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Steady commercial and residential development with event venue demand.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Silicon Oasis | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Silicon Oasis | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in DSO. Harma Machinery delivers generators, cranes & construction equipment.",
+      "Construction equipment rental in DSO. Husnain Abdul Rasheed Machinery Rentals delivers generators, cranes & construction equipment.",
   },
   {
     id: "al-warsan",
@@ -388,9 +388,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Active development zone close by with diverse project types.",
     metaTitle:
-      "Generator & Equipment Rental in Al Warsan | Harma Machinery",
+      "Generator & Equipment Rental in Al Warsan | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in Al Warsan. Harma Machinery provides generators & construction equipment with rapid delivery.",
+      "Equipment rental in Al Warsan. Husnain Abdul Rasheed Machinery Rentals provides generators & construction equipment with rapid delivery.",
   },
   {
     id: "arabian-ranches-3",
@@ -408,9 +408,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Active large-scale villa construction from a premier developer.",
     metaTitle:
-      "Generator & Equipment Rental in Arabian Ranches III | Harma Machinery",
+      "Generator & Equipment Rental in Arabian Ranches III | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators & equipment in Arabian Ranches 3. Harma Machinery supports Emaar community construction.",
+      "Rent generators & equipment in Arabian Ranches 3. Husnain Abdul Rasheed Machinery Rentals supports Emaar community construction.",
   },
   {
     id: "nad-al-sheba",
@@ -428,9 +428,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Ongoing suburban development plus premium sporting events at the racecourse.",
     metaTitle:
-      "Generator & Equipment Rental in Nad Al Sheba & Meydan | Harma Machinery",
+      "Generator & Equipment Rental in Nad Al Sheba & Meydan | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in Nad Al Sheba & Meydan. Harma Machinery serves construction projects and racing events.",
+      "Equipment rental in Nad Al Sheba & Meydan. Husnain Abdul Rasheed Machinery Rentals serves construction projects and racing events.",
   },
   {
     id: "tilal-al-ghaf",
@@ -447,9 +447,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Massive multi-phase development with years of construction ahead.",
     metaTitle:
-      "Generator & Equipment Rental in Tilal Al Ghaf | Harma Machinery",
+      "Generator & Equipment Rental in Tilal Al Ghaf | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in Tilal Al Ghaf. Harma Machinery supports mega community development.",
+      "Construction equipment rental in Tilal Al Ghaf. Husnain Abdul Rasheed Machinery Rentals supports mega community development.",
   },
   {
     id: "dubai-hills-estate",
@@ -466,9 +466,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Premium area with high-budget construction projects and reliable developer payments.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Hills Estate | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Hills Estate | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Premium construction equipment rental in Dubai Hills Estate. Harma Machinery delivers generators & machinery.",
+      "Premium construction equipment rental in Dubai Hills Estate. Husnain Abdul Rasheed Machinery Rentals delivers generators & machinery.",
   },
   {
     id: "dubai-industrial-city",
@@ -486,9 +486,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Permanent industrial construction demand with long-term rental contracts.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Industrial City | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Industrial City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in Dubai Industrial City. Harma Machinery provides heavy generators & construction machinery.",
+      "Industrial equipment rental in Dubai Industrial City. Husnain Abdul Rasheed Machinery Rentals provides heavy generators & construction machinery.",
   },
   {
     id: "dubai-investment-park",
@@ -505,9 +505,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Consistent industrial expansion and facility upgrades.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Investment Park | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Investment Park | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in DIP. Harma Machinery serves industrial and commercial construction projects.",
+      "Equipment rental in DIP. Husnain Abdul Rasheed Machinery Rentals serves industrial and commercial construction projects.",
   },
   {
     id: "mbr-solar-park",
@@ -525,9 +525,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Multi-year mega energy project directly south of base — massive equipment demand.",
     metaTitle:
-      "Generator & Equipment Rental for MBR Solar Park | Harma Machinery",
+      "Generator & Equipment Rental for MBR Solar Park | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment & generator rental for Mohammed bin Rashid Solar Park. Harma Machinery supports mega energy projects.",
+      "Construction equipment & generator rental for Mohammed bin Rashid Solar Park. Husnain Abdul Rasheed Machinery Rentals supports mega energy projects.",
   },
   {
     id: "emirates-road-e611",
@@ -544,9 +544,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Major highway close by with multi-year construction work and night operations.",
     metaTitle:
-      "Equipment Rental for Emirates Road (E611) Projects | Harma Machinery",
+      "Equipment Rental for Emirates Road (E611) Projects | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental for Emirates Road expansion projects. Harma Machinery delivers heavy machinery & generators.",
+      "Construction equipment rental for Emirates Road expansion projects. Husnain Abdul Rasheed Machinery Rentals delivers heavy machinery & generators.",
   },
   {
     id: "etihad-rail",
@@ -564,9 +564,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Biggest infrastructure project in UAE history — massive equipment demand for years with month-to-year rental durations.",
     metaTitle:
-      "Equipment Rental for Etihad Rail Projects | Harma Machinery",
+      "Equipment Rental for Etihad Rail Projects | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Heavy generator & construction equipment rental for Etihad Rail. Harma Machinery supports UAE's largest infrastructure project.",
+      "Heavy generator & construction equipment rental for Etihad Rail. Husnain Abdul Rasheed Machinery Rentals supports UAE's largest infrastructure project.",
   },
   {
     id: "al-maktoum-airport",
@@ -583,9 +583,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Single largest construction project in the region — equipment suppliers needed for a decade+.",
     metaTitle:
-      "Equipment Rental for Al Maktoum Airport Expansion | Harma Machinery",
+      "Equipment Rental for Al Maktoum Airport Expansion | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment & generator rental for Al Maktoum International Airport expansion. Harma Machinery serves mega airport projects.",
+      "Construction equipment & generator rental for Al Maktoum International Airport expansion. Husnain Abdul Rasheed Machinery Rentals serves mega airport projects.",
   },
   {
     id: "al-awir-farms",
@@ -604,9 +604,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Very high year-round event demand with additional agricultural needs. Peak in winter and wedding season.",
     metaTitle:
-      "Generator Rental for Al Awir Events & Farms | Harma Machinery",
+      "Generator Rental for Al Awir Events & Farms | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators for Al Awir weddings, farm events & agricultural operations. Harma Machinery — fast delivery from Al Lisaili.",
+      "Rent generators for Al Awir weddings, farm events & agricultural operations. Husnain Abdul Rasheed Machinery Rentals — fast delivery from Al Lisaili.",
   },
   {
     id: "al-khawaneej-farms",
@@ -625,9 +625,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Higher-budget events with premium pricing potential. High frequency during wedding season (Oct–March).",
     metaTitle:
-      "Generator Rental for Al Khawaneej Farm Events | Harma Machinery",
+      "Generator Rental for Al Khawaneej Farm Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Premium generator rental for Al Khawaneej farm weddings & events. Harma Machinery provides reliable power for large gatherings.",
+      "Premium generator rental for Al Khawaneej farm weddings & events. Husnain Abdul Rasheed Machinery Rentals provides reliable power for large gatherings.",
   },
   {
     id: "al-faqaa-desert",
@@ -645,9 +645,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Long-duration rentals — some camps need generators for weeks or months. Close enough for reliable service.",
     metaTitle:
-      "Generator Rental for Al Faqaa Desert Camps | Harma Machinery",
+      "Generator Rental for Al Faqaa Desert Camps | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators for Al Faqaa desert camps and events. Harma Machinery provides long-term power solutions.",
+      "Rent generators for Al Faqaa desert camps and events. Husnain Abdul Rasheed Machinery Rentals provides long-term power solutions.",
   },
   {
     id: "dubai-safari-park",
@@ -664,9 +664,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Very close, government-run with reliable payments and regular event needs.",
     metaTitle:
-      "Generator & Equipment Rental near Dubai Safari Park | Harma Machinery",
+      "Generator & Equipment Rental near Dubai Safari Park | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental near Dubai Safari Park. Harma Machinery serves construction and event power needs.",
+      "Equipment rental near Dubai Safari Park. Husnain Abdul Rasheed Machinery Rentals serves construction and event power needs.",
   },
   {
     id: "dubai-autodrome",
@@ -683,9 +683,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Monthly major events and weekly smaller events with outdoor power needs.",
     metaTitle:
-      "Generator Rental for Dubai Autodrome Events | Harma Machinery",
+      "Generator Rental for Dubai Autodrome Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent generators for Dubai Autodrome motorsport events & corporate track days. Harma Machinery provides reliable event power.",
+      "Rent generators for Dubai Autodrome motorsport events & corporate track days. Husnain Abdul Rasheed Machinery Rentals provides reliable event power.",
   },
   {
     id: "mushrif-park",
@@ -702,9 +702,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Year-round event activity with increasing frequency of outdoor festivals.",
     metaTitle:
-      "Generator Rental for Mushrif Park Events | Harma Machinery",
+      "Generator Rental for Mushrif Park Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Mushrif Park events and festivals. Harma Machinery delivers reliable outdoor power.",
+      "Generator rental for Mushrif Park events and festivals. Husnain Abdul Rasheed Machinery Rentals delivers reliable outdoor power.",
   },
   {
     id: "miracle-garden",
@@ -721,9 +721,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Annual setup/teardown cycle creates predictable seasonal rental demand.",
     metaTitle:
-      "Generator Rental for Miracle Garden Setup | Harma Machinery",
+      "Generator Rental for Miracle Garden Setup | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator & equipment rental for Dubai Miracle Garden seasonal setup. Harma Machinery supports annual construction needs.",
+      "Generator & equipment rental for Dubai Miracle Garden seasonal setup. Husnain Abdul Rasheed Machinery Rentals supports annual construction needs.",
   },
   {
     id: "dwtc",
@@ -741,9 +741,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Very high event frequency — reliable, repeat business 300+ days a year.",
     metaTitle:
-      "Generator Rental for DWTC Events | Harma Machinery",
+      "Generator Rental for DWTC Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Dubai World Trade Centre exhibitions & events. Harma Machinery provides high-capacity temporary power.",
+      "Generator rental for Dubai World Trade Centre exhibitions & events. Husnain Abdul Rasheed Machinery Rentals provides high-capacity temporary power.",
   },
 
   // ── HOSPITALITY, TOURISM & ENTERTAINMENT ────────────────────
@@ -762,9 +762,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "One of Dubai's most active construction zones with constant fit-out demand.",
     metaTitle:
-      "Generator & Equipment Rental in Business Bay | Harma Machinery",
+      "Generator & Equipment Rental in Business Bay | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in Business Bay. Harma Machinery provides generators for tower construction and fit-out projects.",
+      "Construction equipment rental in Business Bay. Husnain Abdul Rasheed Machinery Rentals provides generators for tower construction and fit-out projects.",
   },
   {
     id: "downtown-dubai",
@@ -781,9 +781,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Premium billing rates for prime location work.",
     metaTitle:
-      "Generator & Equipment Rental in Downtown Dubai | Harma Machinery",
+      "Generator & Equipment Rental in Downtown Dubai | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Premium construction equipment rental in Downtown Dubai. Harma Machinery serves high-rise and luxury projects.",
+      "Premium construction equipment rental in Downtown Dubai. Husnain Abdul Rasheed Machinery Rentals serves high-rise and luxury projects.",
   },
   {
     id: "dubai-parks-resorts",
@@ -800,9 +800,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Regular maintenance cycles creating predictable recurring revenue.",
     metaTitle:
-      "Generator & Equipment Rental for Dubai Parks and Resorts | Harma Machinery",
+      "Generator & Equipment Rental for Dubai Parks and Resorts | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for Dubai Parks and Resorts maintenance and events. Harma Machinery provides reliable temporary power.",
+      "Equipment rental for Dubai Parks and Resorts maintenance and events. Husnain Abdul Rasheed Machinery Rentals provides reliable temporary power.",
   },
   {
     id: "img-worlds",
@@ -819,9 +819,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Close to Al Lisaili with regular maintenance and expansion needs.",
     metaTitle:
-      "Generator & Equipment Rental for IMG Worlds of Adventure | Harma Machinery",
+      "Generator & Equipment Rental for IMG Worlds of Adventure | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for IMG Worlds of Adventure maintenance and expansion. Harma Machinery — your closest supplier.",
+      "Equipment rental for IMG Worlds of Adventure maintenance and expansion. Husnain Abdul Rasheed Machinery Rentals — your closest supplier.",
   },
   {
     id: "dubai-festival-city",
@@ -838,9 +838,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Active event venue with ongoing construction — dual demand stream.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Festival City | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Festival City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in Dubai Festival City for events and construction. Harma Machinery provides generators & machinery.",
+      "Equipment rental in Dubai Festival City for events and construction. Husnain Abdul Rasheed Machinery Rentals provides generators & machinery.",
   },
   {
     id: "national-industries-park",
@@ -857,9 +857,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Close industrial zone — clients typically rent for long periods.",
     metaTitle:
-      "Generator & Equipment Rental in National Industries Park | Harma Machinery",
+      "Generator & Equipment Rental in National Industries Park | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in National Industries Park. Harma Machinery provides generators & construction machinery.",
+      "Industrial equipment rental in National Industries Park. Husnain Abdul Rasheed Machinery Rentals provides generators & construction machinery.",
   },
   {
     id: "dubai-logistics-city",
@@ -876,9 +876,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "E-commerce boom driving continuous warehouse construction.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Logistics City | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Logistics City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in Dubai Logistics City. Harma Machinery serves warehouse and logistics construction projects.",
+      "Equipment rental in Dubai Logistics City. Husnain Abdul Rasheed Machinery Rentals serves warehouse and logistics construction projects.",
   },
   {
     id: "ras-al-khor-industrial",
@@ -895,9 +895,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Close to Al Lisaili along the highway with ongoing facility upgrades.",
     metaTitle:
-      "Generator & Equipment Rental in Ras Al Khor Industrial | Harma Machinery",
+      "Generator & Equipment Rental in Ras Al Khor Industrial | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in Ras Al Khor. Harma Machinery provides generators & heavy machinery.",
+      "Industrial equipment rental in Ras Al Khor. Husnain Abdul Rasheed Machinery Rentals provides generators & heavy machinery.",
   },
   {
     id: "al-quoz-industrial",
@@ -914,9 +914,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Ongoing renovation cycle in existing buildings plus new construction.",
     metaTitle:
-      "Generator & Equipment Rental in Al Quoz Industrial | Harma Machinery",
+      "Generator & Equipment Rental in Al Quoz Industrial | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in Al Quoz. Harma Machinery provides generators and construction equipment for industrial projects.",
+      "Equipment rental in Al Quoz. Husnain Abdul Rasheed Machinery Rentals provides generators and construction equipment for industrial projects.",
   },
   {
     id: "international-city",
@@ -933,9 +933,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Close proximity with heavy trade/warehouse activity and new phase construction.",
     metaTitle:
-      "Generator & Equipment Rental in International City | Harma Machinery",
+      "Generator & Equipment Rental in International City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in International City and Dragon Mart. Harma Machinery provides generators & construction equipment.",
+      "Equipment rental in International City and Dragon Mart. Husnain Abdul Rasheed Machinery Rentals provides generators & construction equipment.",
   },
   {
     id: "dubai-south-worker-villages",
@@ -951,9 +951,9 @@ export const dubaiLocations: Location[] = [
     equipmentDemand: "Generators, cranes, concrete equipment",
     whyTarget: "Close, large-scale, long-duration projects.",
     metaTitle:
-      "Equipment Rental for Dubai South Worker Villages | Harma Machinery",
+      "Equipment Rental for Dubai South Worker Villages | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator & construction equipment rental for Dubai South worker accommodation projects. Harma Machinery serves large-scale builds.",
+      "Generator & construction equipment rental for Dubai South worker accommodation projects. Husnain Abdul Rasheed Machinery Rentals serves large-scale builds.",
   },
   {
     id: "sonapur-labor-camps",
@@ -970,9 +970,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Continuous demand — camps always need upgrades and new construction.",
     metaTitle:
-      "Generator & Equipment Rental for Sonapur Area | Harma Machinery",
+      "Generator & Equipment Rental for Sonapur Area | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for Sonapur labor camp construction and upgrades. Harma Machinery provides generators & machinery.",
+      "Equipment rental for Sonapur labor camp construction and upgrades. Husnain Abdul Rasheed Machinery Rentals provides generators & machinery.",
   },
 
   // ── GOVERNMENT & SPECIALTY ──────────────────────────────────
@@ -992,9 +992,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Every new community means new substations — continuous demand cycle.",
     metaTitle:
-      "Equipment Rental for DEWA Infrastructure Projects | Harma Machinery",
+      "Equipment Rental for DEWA Infrastructure Projects | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator & equipment rental for DEWA substation and transmission projects. Harma Machinery supports energy infrastructure.",
+      "Generator & equipment rental for DEWA substation and transmission projects. Husnain Abdul Rasheed Machinery Rentals supports energy infrastructure.",
   },
   {
     id: "hassyan-power-complex",
@@ -1012,9 +1012,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Multi-year government energy project with high equipment demand.",
     metaTitle:
-      "Equipment Rental for Hassyan Power Complex | Harma Machinery",
+      "Equipment Rental for Hassyan Power Complex | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Heavy equipment rental for Hassyan Clean Energy Complex. Harma Machinery supports major energy infrastructure projects.",
+      "Heavy equipment rental for Hassyan Clean Energy Complex. Husnain Abdul Rasheed Machinery Rentals supports major energy infrastructure projects.",
   },
   {
     id: "telecom-5g-rollout",
@@ -1031,9 +1031,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "High-volume opportunity — hundreds of individual short-term rental contracts with reliable telecom payments.",
     metaTitle:
-      "Generator Rental for 5G Telecom Installations | Harma Machinery",
+      "Generator Rental for 5G Telecom Installations | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for 5G tower installations across Dubai. Harma Machinery serves telecom contractors with rapid delivery.",
+      "Generator rental for 5G tower installations across Dubai. Husnain Abdul Rasheed Machinery Rentals serves telecom contractors with rapid delivery.",
   },
   {
     id: "sports-city",
@@ -1050,9 +1050,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Regular sports events plus ongoing construction — dual revenue stream.",
     metaTitle:
-      "Generator Rental for Dubai Sports City | Harma Machinery",
+      "Generator Rental for Dubai Sports City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator & equipment rental for Dubai Sports City events and construction. Harma Machinery provides event and construction power.",
+      "Generator & equipment rental for Dubai Sports City events and construction. Husnain Abdul Rasheed Machinery Rentals provides event and construction power.",
   },
 
   // ── TIER 3: EMERGING (30–50 km) ─────────────────────────────
@@ -1072,9 +1072,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Massive volume — even a small market share equals significant revenue.",
     metaTitle:
-      "Generator & Equipment Rental in Jebel Ali & JAFZA | Harma Machinery",
+      "Generator & Equipment Rental in Jebel Ali & JAFZA | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in Jebel Ali Free Zone. Harma Machinery provides generators & heavy machinery for port and logistics projects.",
+      "Industrial equipment rental in Jebel Ali Free Zone. Husnain Abdul Rasheed Machinery Rentals provides generators & heavy machinery for port and logistics projects.",
   },
   {
     id: "dubai-creek-harbour",
@@ -1091,9 +1091,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Major waterfront mega-project with multi-year construction timeline.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Creek Harbour | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Creek Harbour | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in Dubai Creek Harbour. Harma Machinery supports waterfront mega projects.",
+      "Construction equipment rental in Dubai Creek Harbour. Husnain Abdul Rasheed Machinery Rentals supports waterfront mega projects.",
   },
   {
     id: "palm-jumeirah",
@@ -1110,9 +1110,9 @@ export const dubaiLocations: Location[] = [
       "Generators (100–500 kVA) for construction, 20–80 kVA for events",
     whyTarget: "Ultra-premium location — highest rental rates possible.",
     metaTitle:
-      "Generator & Equipment Rental in Palm Jumeirah | Harma Machinery",
+      "Generator & Equipment Rental in Palm Jumeirah | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Premium generator & equipment rental in Palm Jumeirah. Harma Machinery provides reliable power for resort and construction projects.",
+      "Premium generator & equipment rental in Palm Jumeirah. Husnain Abdul Rasheed Machinery Rentals provides reliable power for resort and construction projects.",
   },
   {
     id: "dubai-islands",
@@ -1130,9 +1130,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Massive multi-year construction program with constant equipment demand.",
     metaTitle:
-      "Generator & Equipment Rental for Dubai Islands | Harma Machinery",
+      "Generator & Equipment Rental for Dubai Islands | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental for Dubai Islands mega development. Harma Machinery supports large-scale island construction.",
+      "Construction equipment rental for Dubai Islands mega development. Husnain Abdul Rasheed Machinery Rentals supports large-scale island construction.",
   },
   {
     id: "dubai-harbour",
@@ -1149,9 +1149,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Waterfront mega-project with active construction and premium rates.",
     metaTitle:
-      "Generator & Equipment Rental for Dubai Harbour | Harma Machinery",
+      "Generator & Equipment Rental for Dubai Harbour | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Heavy equipment & generator rental for Dubai Harbour construction. Harma Machinery serves waterfront mega projects.",
+      "Heavy equipment & generator rental for Dubai Harbour construction. Husnain Abdul Rasheed Machinery Rentals serves waterfront mega projects.",
   },
   {
     id: "dubai-marina",
@@ -1168,9 +1168,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Premium waterfront location with diverse event and construction demand.",
     metaTitle:
-      "Generator & Equipment Rental in Dubai Marina | Harma Machinery",
+      "Generator & Equipment Rental in Dubai Marina | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in Dubai Marina. Harma Machinery provides generators for construction and waterfront events.",
+      "Equipment rental in Dubai Marina. Husnain Abdul Rasheed Machinery Rentals provides generators for construction and waterfront events.",
   },
   {
     id: "city-walk-la-mer",
@@ -1187,9 +1187,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Regular event activations at premium locations with high visibility.",
     metaTitle:
-      "Generator & Equipment Rental for City Walk & La Mer | Harma Machinery",
+      "Generator & Equipment Rental for City Walk & La Mer | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for City Walk and La Mer events and construction. Harma Machinery delivers to premium Dubai destinations.",
+      "Generator rental for City Walk and La Mer events and construction. Husnain Abdul Rasheed Machinery Rentals delivers to premium Dubai destinations.",
   },
 
   // ────────────────────────────────────────────────────────────────
@@ -1211,9 +1211,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "High volume of projects with less competition from Dubai-based suppliers.",
     metaTitle:
-      "Generator & Equipment Rental in Sharjah SAIF Zone | Harma Machinery",
+      "Generator & Equipment Rental in Sharjah SAIF Zone | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in Sharjah SAIF Zone. Harma Machinery delivers generators & machinery from Dubai.",
+      "Industrial equipment rental in Sharjah SAIF Zone. Husnain Abdul Rasheed Machinery Rentals delivers generators & machinery from Dubai.",
   },
   {
     id: "aljada-sharjah",
@@ -1231,9 +1231,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Mega project with continuous multi-year rental demand.",
     metaTitle:
-      "Generator & Equipment Rental for Aljada Sharjah | Harma Machinery",
+      "Generator & Equipment Rental for Aljada Sharjah | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental for Aljada mega-development in Sharjah. Harma Machinery delivers from Dubai.",
+      "Construction equipment rental for Aljada mega-development in Sharjah. Husnain Abdul Rasheed Machinery Rentals delivers from Dubai.",
   },
   {
     id: "sharjah-waterfront",
@@ -1250,9 +1250,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Large-scale residential construction with long-term demand.",
     metaTitle:
-      "Generator & Equipment Rental for Sharjah Waterfront City | Harma Machinery",
+      "Generator & Equipment Rental for Sharjah Waterfront City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for Sharjah Waterfront City construction. Harma Machinery provides generators & heavy machinery.",
+      "Equipment rental for Sharjah Waterfront City construction. Husnain Abdul Rasheed Machinery Rentals provides generators & heavy machinery.",
   },
   {
     id: "tilal-city-sharjah",
@@ -1269,9 +1269,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Early-stage project — opportunity to become primary supplier from day one.",
     metaTitle:
-      "Generator & Equipment Rental in Tilal City Sharjah | Harma Machinery",
+      "Generator & Equipment Rental in Tilal City Sharjah | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in Tilal City Sharjah. Harma Machinery supports early-phase residential construction.",
+      "Construction equipment rental in Tilal City Sharjah. Husnain Abdul Rasheed Machinery Rentals supports early-phase residential construction.",
   },
   {
     id: "al-zahia-sharjah",
@@ -1288,9 +1288,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Premium Sharjah community with quality developer and reliable payments.",
     metaTitle:
-      "Generator & Equipment Rental in Al Zahia Sharjah | Harma Machinery",
+      "Generator & Equipment Rental in Al Zahia Sharjah | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental in Al Zahia Sharjah. Harma Machinery supports premium community construction.",
+      "Equipment rental in Al Zahia Sharjah. Husnain Abdul Rasheed Machinery Rentals supports premium community construction.",
   },
   {
     id: "sharjah-sustainable-city",
@@ -1307,9 +1307,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Growing green construction trend in UAE — niche opportunity.",
     metaTitle:
-      "Generator & Equipment Rental for Sharjah Sustainable City | Harma Machinery",
+      "Generator & Equipment Rental for Sharjah Sustainable City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for Sharjah Sustainable City. Harma Machinery provides eco-conscious construction support.",
+      "Equipment rental for Sharjah Sustainable City. Husnain Abdul Rasheed Machinery Rentals provides eco-conscious construction support.",
   },
   {
     id: "muwaileh-sharjah",
@@ -1326,9 +1326,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Fast-growing urban area with continuous housing and campus construction demand.",
     metaTitle:
-      "Generator & Equipment Rental in Muwaileh Sharjah | Harma Machinery",
+      "Generator & Equipment Rental in Muwaileh Sharjah | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in Muwaileh, Sharjah. Harma Machinery provides generators & machinery for university district projects.",
+      "Construction equipment rental in Muwaileh, Sharjah. Husnain Abdul Rasheed Machinery Rentals provides generators & machinery for university district projects.",
   },
   {
     id: "sharjah-events",
@@ -1345,9 +1345,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Major annual events with predictable, recurring demand.",
     metaTitle:
-      "Generator Rental for Sharjah Events | Harma Machinery",
+      "Generator Rental for Sharjah Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Sharjah festivals, exhibitions & events. Harma Machinery delivers reliable event power.",
+      "Generator rental for Sharjah festivals, exhibitions & events. Husnain Abdul Rasheed Machinery Rentals delivers reliable event power.",
   },
 
   // ────────────────────────────────────────────────────────────────
@@ -1369,9 +1369,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Budget construction market that values competitive rental rates.",
     metaTitle:
-      "Generator & Equipment Rental in Ajman Uptown | Harma Machinery",
+      "Generator & Equipment Rental in Ajman Uptown | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in Ajman. Harma Machinery provides competitive rates on generators & machinery.",
+      "Construction equipment rental in Ajman. Husnain Abdul Rasheed Machinery Rentals provides competitive rates on generators & machinery.",
   },
   {
     id: "al-zorah-ajman",
@@ -1388,9 +1388,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Premium development with reliable developer payment cycles.",
     metaTitle:
-      "Generator & Equipment Rental for Al Zorah Ajman | Harma Machinery",
+      "Generator & Equipment Rental for Al Zorah Ajman | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for Al Zorah luxury development in Ajman. Harma Machinery serves resort and villa construction.",
+      "Equipment rental for Al Zorah luxury development in Ajman. Husnain Abdul Rasheed Machinery Rentals serves resort and villa construction.",
   },
   {
     id: "ajman-industrial",
@@ -1407,9 +1407,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Industrial clients need long-term generator rentals — steady recurring revenue.",
     metaTitle:
-      "Generator & Equipment Rental in Ajman Industrial Area | Harma Machinery",
+      "Generator & Equipment Rental in Ajman Industrial Area | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial generator & equipment rental in Ajman. Harma Machinery provides long-term rental solutions.",
+      "Industrial generator & equipment rental in Ajman. Husnain Abdul Rasheed Machinery Rentals provides long-term rental solutions.",
   },
   {
     id: "emirates-city-ajman",
@@ -1426,9 +1426,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Budget construction market with less competition from premium equipment suppliers.",
     metaTitle:
-      "Generator & Equipment Rental for Emirates City Ajman | Harma Machinery",
+      "Generator & Equipment Rental for Emirates City Ajman | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for Emirates City Ajman construction. Harma Machinery provides competitive generator & machinery rental.",
+      "Equipment rental for Emirates City Ajman construction. Husnain Abdul Rasheed Machinery Rentals provides competitive generator & machinery rental.",
   },
 
   // ────────────────────────────────────────────────────────────────
@@ -1449,9 +1449,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Less competition from Dubai suppliers with direct highway access via E66.",
     metaTitle:
-      "Generator & Equipment Rental in Al Ain | Harma Machinery",
+      "Generator & Equipment Rental in Al Ain | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment & generator rental in Al Ain. Harma Machinery delivers directly via Dubai-Al Ain Road.",
+      "Construction equipment & generator rental in Al Ain. Husnain Abdul Rasheed Machinery Rentals delivers directly via Dubai-Al Ain Road.",
   },
   {
     id: "al-ain-industrial",
@@ -1469,9 +1469,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Government-backed projects with reliable payments and long contracts.",
     metaTitle:
-      "Generator & Equipment Rental in Al Ain Industrial City | Harma Machinery",
+      "Generator & Equipment Rental in Al Ain Industrial City | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in Al Ain. Harma Machinery delivers heavy generators & machinery via E66.",
+      "Industrial equipment rental in Al Ain. Husnain Abdul Rasheed Machinery Rentals delivers heavy generators & machinery via E66.",
   },
   {
     id: "al-ain-residential",
@@ -1488,9 +1488,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Government-funded with reliable payment — less price-sensitive.",
     metaTitle:
-      "Generator & Equipment Rental for Al Ain Residential Projects | Harma Machinery",
+      "Generator & Equipment Rental for Al Ain Residential Projects | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Equipment rental for Al Ain government housing projects. Harma Machinery supports residential community construction.",
+      "Equipment rental for Al Ain government housing projects. Husnain Abdul Rasheed Machinery Rentals supports residential community construction.",
   },
   {
     id: "al-ain-farms-events",
@@ -1507,9 +1507,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Similar farm/event culture to Al Lisaili with limited local generator suppliers.",
     metaTitle:
-      "Generator Rental for Al Ain Farm Events & Agriculture | Harma Machinery",
+      "Generator Rental for Al Ain Farm Events & Agriculture | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Al Ain farm events and agricultural operations. Harma Machinery delivers via Dubai-Al Ain Road.",
+      "Generator rental for Al Ain farm events and agricultural operations. Husnain Abdul Rasheed Machinery Rentals delivers via Dubai-Al Ain Road.",
   },
   {
     id: "hazza-stadium-al-ain",
@@ -1526,9 +1526,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "High-profile events with premium equipment rental rates.",
     metaTitle:
-      "Generator Rental for Hazza Bin Zayed Stadium Events | Harma Machinery",
+      "Generator Rental for Hazza Bin Zayed Stadium Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Hazza Bin Zayed Stadium events in Al Ain. Harma Machinery provides high-capacity event power.",
+      "Generator rental for Hazza Bin Zayed Stadium events in Al Ain. Husnain Abdul Rasheed Machinery Rentals provides high-capacity event power.",
   },
 
   // ────────────────────────────────────────────────────────────────
@@ -1550,9 +1550,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Massive spend — contractors need reliable equipment supply for years.",
     metaTitle:
-      "Generator & Equipment Rental for Wynn Resort RAK | Harma Machinery",
+      "Generator & Equipment Rental for Wynn Resort RAK | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Heavy equipment & generator rental for Wynn Resort and Al Marjan Island construction. Harma Machinery serves RAK mega projects.",
+      "Heavy equipment & generator rental for Wynn Resort and Al Marjan Island construction. Husnain Abdul Rasheed Machinery Rentals serves RAK mega projects.",
   },
   {
     id: "rak-industrial",
@@ -1569,9 +1569,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Industrial clients rent for long periods — steady recurring revenue.",
     metaTitle:
-      "Generator & Equipment Rental in RAK Industrial Zone | Harma Machinery",
+      "Generator & Equipment Rental in RAK Industrial Zone | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in Ras Al Khaimah. Harma Machinery provides generators & machinery for factory construction.",
+      "Industrial equipment rental in Ras Al Khaimah. Husnain Abdul Rasheed Machinery Rentals provides generators & machinery for factory construction.",
   },
   {
     id: "jebel-jais-rak",
@@ -1587,11 +1587,11 @@ export const dubaiLocations: Location[] = [
     equipmentDemand:
       "Generators essential (50–200 kVA), small machinery",
     whyTarget:
-      "Remote sites where generator delivery is challenging — Harma fills a gap.",
+      "Remote sites where generator delivery is challenging — Husnain Abdul Rasheed Machinery fills a gap.",
     metaTitle:
-      "Generator Rental for Jebel Jais Construction Projects | Harma Machinery",
+      "Generator Rental for Jebel Jais Construction Projects | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Jebel Jais mountain tourism construction. Harma Machinery delivers to remote RAK locations.",
+      "Generator rental for Jebel Jais mountain tourism construction. Husnain Abdul Rasheed Machinery Rentals delivers to remote RAK locations.",
   },
   {
     id: "rak-residential",
@@ -1608,9 +1608,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Growing residential market with limited local equipment suppliers.",
     metaTitle:
-      "Generator & Equipment Rental for RAK Residential Projects | Harma Machinery",
+      "Generator & Equipment Rental for RAK Residential Projects | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in Ras Al Khaimah. Harma Machinery supports residential development projects.",
+      "Construction equipment rental in Ras Al Khaimah. Husnain Abdul Rasheed Machinery Rentals supports residential development projects.",
   },
 
   // ────────────────────────────────────────────────────────────────
@@ -1632,9 +1632,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Large projects, long rental durations, and premium rates.",
     metaTitle:
-      "Generator & Equipment Rental in Fujairah Port | Harma Machinery",
+      "Generator & Equipment Rental in Fujairah Port | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Heavy generator & equipment rental for Fujairah Port industrial projects. Harma Machinery serves cross-emirate needs.",
+      "Heavy generator & equipment rental for Fujairah Port industrial projects. Husnain Abdul Rasheed Machinery Rentals serves cross-emirate needs.",
   },
   {
     id: "fujairah-tourism",
@@ -1652,9 +1652,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Limited local suppliers and mandatory generator needs for beach events.",
     metaTitle:
-      "Generator Rental for Fujairah Tourism & Beach Events | Harma Machinery",
+      "Generator Rental for Fujairah Tourism & Beach Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for Fujairah beach events and hotel construction. Harma Machinery delivers silent generators.",
+      "Generator rental for Fujairah beach events and hotel construction. Husnain Abdul Rasheed Machinery Rentals delivers silent generators.",
   },
   {
     id: "fujairah-beach-events",
@@ -1671,9 +1671,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Premium beach event market with limited local equipment supply.",
     metaTitle:
-      "Generator Rental for Fujairah Beach Events | Harma Machinery",
+      "Generator Rental for Fujairah Beach Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Rent silent generators for Fujairah beach weddings & events. Harma Machinery delivers to the east coast.",
+      "Rent silent generators for Fujairah beach weddings & events. Husnain Abdul Rasheed Machinery Rentals delivers to the east coast.",
   },
 
   // ────────────────────────────────────────────────────────────────
@@ -1694,9 +1694,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Growing emirate with limited local machine rental competition.",
     metaTitle:
-      "Generator & Equipment Rental in Umm Al Quwain | Harma Machinery",
+      "Generator & Equipment Rental in Umm Al Quwain | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in UAQ. Harma Machinery serves marina and residential construction projects.",
+      "Construction equipment rental in UAQ. Husnain Abdul Rasheed Machinery Rentals serves marina and residential construction projects.",
   },
   {
     id: "uaq-free-zone",
@@ -1713,9 +1713,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Free zone incentives attracting new businesses — new builds mean new rental demand.",
     metaTitle:
-      "Generator & Equipment Rental in UAQ Free Zone | Harma Machinery",
+      "Generator & Equipment Rental in UAQ Free Zone | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Industrial equipment rental in UAQ Free Zone. Harma Machinery supports factory and warehouse construction.",
+      "Industrial equipment rental in UAQ Free Zone. Husnain Abdul Rasheed Machinery Rentals supports factory and warehouse construction.",
   },
   {
     id: "uaq-coastal-events",
@@ -1732,9 +1732,9 @@ export const dubaiLocations: Location[] = [
     whyTarget:
       "Emerging event destination with zero local generator suppliers.",
     metaTitle:
-      "Generator Rental for UAQ Coastal Events | Harma Machinery",
+      "Generator Rental for UAQ Coastal Events | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Generator rental for UAQ beach and coastal events. Harma Machinery delivers to Umm Al Quwain.",
+      "Generator rental for UAQ beach and coastal events. Husnain Abdul Rasheed Machinery Rentals delivers to Umm Al Quwain.",
   },
 ];
 

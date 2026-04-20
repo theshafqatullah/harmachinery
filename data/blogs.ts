@@ -103,11 +103,11 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "3",
-    title: "How Harma Machinery Supported the Dubai Metro Route 2020 Expansion",
+    title: "How Husnain Abdul Rasheed Machinery Rentals Supported the Dubai Metro Route 2020 Expansion",
     slug: "dubai-metro-route-2020-expansion",
     excerpt: "What it took to keep equipment running on one of Dubai's biggest infrastructure builds — from generator logistics to tight urban scheduling.",
     content: `
-      <p>The Dubai Metro Route 2020 expansion was one of those projects where everything had to work on time, every day. Harma Machinery was part of the equipment supply chain for station construction work along the new route, and it taught us a lot about what large-scale infrastructure really demands from a rental provider.</p>
+      <p>The Dubai Metro Route 2020 expansion was one of those projects where everything had to work on time, every day. Husnain Abdul Rasheed Machinery Rentals was part of the equipment supply chain for station construction work along the new route, and it taught us a lot about what large-scale infrastructure really demands from a rental provider.</p>
       
       <h2>Project Overview</h2>
       <p>The expansion ran about 15 kilometers of new track to connect the Expo 2020 site to the existing metro network. Multiple stations went up simultaneously, and each one needed reliable power, compaction, and support equipment on site from day one. We supplied over 50 machines across several station locations.</p>
@@ -255,11 +255,11 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "7",
-    title: "Harma Machinery Expands Fleet with 50 New Machines for 2025",
-    slug: "harma-machinery-fleet-expansion-2025",
+    title: "Husnain Abdul Rasheed Machinery Rentals Expands Fleet with 50 New Machines for 2025",
+    slug: "husnain-abdul-rasheed-machinery-rentals-fleet-expansion-2025",
     excerpt: "We just added 50 machines to the fleet — more generators, compressors, and compactors to keep up with demand across the UAE.",
     content: `
-      <p>Demand has been climbing steadily, especially from contractors working on villa projects in Al Lisaili, Dubailand, and the Northern Emirates. So we went ahead and added 50 new machines to the Harma Machinery rental fleet for 2025.</p>
+      <p>Demand has been climbing steadily, especially from contractors working on villa projects in Al Lisaili, Dubailand, and the Northern Emirates. So we went ahead and added 50 new machines to the Husnain Abdul Rasheed Machinery Rentals rental fleet for 2025.</p>
       
       <h2>New Equipment Categories</h2>
       <p>Here's what we brought in:</p>
@@ -333,11 +333,11 @@ export const allBlogPosts: BlogPost[] = [
   // Company Blogs
   {
     id: "9",
-    title: "Welcome to Harma Machinery: Equipment Rental That Actually Works",
-    slug: "welcome-to-harma-machinery-rentals-uae",
+    title: "Welcome to Husnain Abdul Rasheed Machinery Rentals: Equipment Rental That Actually Works",
+    slug: "welcome-to-husnain-abdul-rasheed-machinery-rentals-rentals-uae",
     excerpt: "We rent construction equipment across Dubai and the UAE. Here's who we are, what we've got, and why contractors keep coming back.",
     content: `
-      <p>Harma Machinery started with a simple idea — give contractors access to well-maintained equipment without the runaround. We're based in Al Lisaili, Dubai, and we rent everything from 20 KVA generators to 10-ton roller compactors. If you're building something in the UAE, we probably have what you need sitting in our yard.</p>
+      <p>Husnain Abdul Rasheed Machinery Rentals started with a simple idea — give contractors access to well-maintained equipment without the runaround. We're based in Al Lisaili, Dubai, and we rent everything from 20 KVA generators to 10-ton roller compactors. If you're building something in the UAE, we probably have what you need sitting in our yard.</p>
       
       <h2>What We're About</h2>
       <p>We keep things straightforward. You tell us what you need, we tell you what it costs, and we get it to your site. No complicated procurement process, no waiting days for a quote. We've worked with small villa contractors and large infrastructure crews — the approach is the same for everyone.</p>
@@ -365,7 +365,7 @@ export const allBlogPosts: BlogPost[] = [
       role: "Founder & CEO",
     },
     category: "Company Updates",
-    tags: ["Harma Machinery", "Company Introduction", "UAE Construction", "Dubai", "Equipment Rental"],
+    tags: ["Husnain Abdul Rasheed Machinery Rentals", "Company Introduction", "UAE Construction", "Dubai", "Equipment Rental"],
     publishedAt: "2025-12-28",
     readTime: 6,
     featured: true,
@@ -373,7 +373,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     id: "10",
     title: "What We Rent: Generators, Compactors, Air Compressors, and Everything in Between",
-    slug: "complete-guide-harma-machinery-equipment-fleet",
+    slug: "complete-guide-husnain-abdul-rasheed-machinery-rentals-equipment-fleet",
     excerpt: "A plain-English rundown of every machine type we rent — from 20 KVA portables to 500 KVA Perkins generators, plate compactors, jackhammers, and more.",
     content: `
       <p>Here's a quick walkthrough of what's in our yard. We keep everything serviced and ready to go, so if you need something tomorrow morning, chances are we can make it happen.</p>
@@ -423,7 +423,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     id: "11",
     title: "It's Not Just Rental: Here's Everything Else We Do",
-    slug: "harma-machinery-services-beyond-rental-uae",
+    slug: "husnain-abdul-rasheed-machinery-rentals-services-beyond-rental-uae",
     excerpt: "We rent the machines, but we also deliver them, maintain them, and can send a trained operator with them. Here's the full picture.",
     content: `
       <p>Most people call us for a generator or a compactor. But once they've worked with us a few times, they realise we handle a lot more than just dropping off a machine. Here's a rundown of everything we offer.</p>
@@ -477,11 +477,11 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "12",
-    title: "The People Behind Harma Machinery",
-    slug: "meet-harma-machinery-team",
+    title: "The People Behind Husnain Abdul Rasheed Machinery Rentals",
+    slug: "meet-husnain-abdul-rasheed-machinery-rentals-team",
     excerpt: "A look at who actually keeps our equipment running and gets it to your site — from mechanics to logistics to the guys who answer the phone at 2am.",
     content: `
-      <p>You don't rent from a company — you rent from people. And the people here are the reason contractors keep coming back. Here's who does what at Harma Machinery.</p>
+      <p>You don't rent from a company — you rent from people. And the people here are the reason contractors keep coming back. Here's who does what at Husnain Abdul Rasheed Machinery Rentals.</p>
       
       <h2>Leadership</h2>
       <p>The company started because the founders had been around construction long enough to know what contractors actually need — working equipment, fair prices, and someone who picks up the phone. That's still what drives every decision here.</p>
@@ -523,18 +523,18 @@ export const allBlogPosts: BlogPost[] = [
       role: "HR Manager",
     },
     category: "Company Updates",
-    tags: ["Team", "Harma Machinery Staff", "Company Culture", "Experts", "Careers"],
+    tags: ["Team", "Husnain Abdul Rasheed Machinery Rentals Staff", "Company Culture", "Experts", "Careers"],
     publishedAt: "2025-12-18",
     readTime: 6,
     featured: false,
   },
   {
     id: "13",
-    title: "Why Dubai Contractors Keep Renting From Harma Machinery",
-    slug: "why-dubai-contractors-choose-harma-machinery-equipment-rental",
+    title: "Why Dubai Contractors Keep Renting From Husnain Abdul Rasheed Machinery Rentals",
+    slug: "why-dubai-contractors-choose-husnain-abdul-rasheed-machinery-rentals-equipment-rental",
     excerpt: "No fancy pitch — just the real reasons contractors across Dubai call us first when they need equipment on site.",
     content: `
-      <p>Dubai moves fast. Projects have tight deadlines, the heat doesn't help, and nobody has time to chase down a rental company that doesn't deliver. Here's why contractors around the city keep coming back to Harma Machinery.</p>
+      <p>Dubai moves fast. Projects have tight deadlines, the heat doesn't help, and nobody has time to chase down a rental company that doesn't deliver. Here's why contractors around the city keep coming back to Husnain Abdul Rasheed Machinery Rentals.</p>
       
       <h2>1. We Have What You Need</h2>
       <p>Generators, compactors, jackhammers, air compressors, concrete equipment — it's all here. Instead of calling three different companies, you call us once. Need a 500 KVA generator for a tower site and a plate compactor for the landscaping crew? Same supplier, same invoice, same delivery.</p>
@@ -570,7 +570,7 @@ export const allBlogPosts: BlogPost[] = [
       role: "Equipment Specialist",
     },
     category: "Industry News",
-    tags: ["Dubai Construction", "Equipment Rental", "Contractors", "construction equipment", "Harma Machinery"],
+    tags: ["Dubai Construction", "Equipment Rental", "Contractors", "construction equipment", "Husnain Abdul Rasheed Machinery Rentals"],
     publishedAt: "2025-12-15",
     readTime: 7,
     featured: true,
@@ -596,7 +596,7 @@ export const allBlogPosts: BlogPost[] = [
       <p>Add up the wattages and tack on 25% extra. That buffer keeps you from overloading the genset when everything kicks on at once.</p>
       
       <h2>Generator Sizes We Stock</h2>
-      <p>Harma Machinery keeps these sizes ready in the yard:</p>
+      <p>Husnain Abdul Rasheed Machinery Rentals keeps these sizes ready in the yard:</p>
       <ul>
         <li><strong>20 KVA:</strong> Small sites, a few tools, basic lighting</li>
         <li><strong>60 KVA:</strong> Mid-size jobs — enough for most fit-out work</li>
@@ -628,7 +628,7 @@ export const allBlogPosts: BlogPost[] = [
         <li>Flexible terms — daily, weekly, or monthly</li>
       </ul>
       
-      <p>Need a generator for your site? Call Harma Machinery at 055 455 5786 and we'll get you sorted.</p>
+      <p>Need a generator for your site? Call Husnain Abdul Rasheed Machinery Rentals at 055 455 5786 and we'll get you sorted.</p>
     `,
     image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=800",
     author: {
@@ -645,10 +645,10 @@ export const allBlogPosts: BlogPost[] = [
   {
     id: "15",
     title: "Construction Equipment Maintenance: How We Keep Your Machines Running",
-    slug: "construction-equipment-maintenance-harma-machinery",
+    slug: "construction-equipment-maintenance-husnain-abdul-rasheed-machinery-rentals",
     excerpt: "What actually happens to a machine between rentals — the checks, the parts, and why your equipment shows up ready to work.",
     content: `
-      <p>When a machine breaks down on your site, you lose hours and money. That's why we put serious effort into maintenance at Harma Machinery. Every piece of equipment goes through a proper service routine before it reaches your job site. Here's what that looks like.</p>
+      <p>When a machine breaks down on your site, you lose hours and money. That's why we put serious effort into maintenance at Husnain Abdul Rasheed Machinery Rentals. Every piece of equipment goes through a proper service routine before it reaches your job site. Here's what that looks like.</p>
       
       <h2>Fix It Before It Breaks</h2>
       <p>We follow manufacturer service schedules, but we've also learned a thing or two from running equipment in UAE conditions. Desert dust and 50°C summers are hard on machines. So we adjust our intervals accordingly.</p>
@@ -693,7 +693,7 @@ export const allBlogPosts: BlogPost[] = [
       <h2>Everything Gets Tracked</h2>
       <p>Every machine has a digital service record — what was done, when, what parts were swapped. Nothing slips through the cracks. If a pattern shows up, we catch it early.</p>
       
-      <p>This is why Harma Machinery equipment shows up to your site ready to work — and keeps working.</p>
+      <p>This is why Husnain Abdul Rasheed Machinery Rentals equipment shows up to your site ready to work — and keeps working.</p>
     `,
     image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800",
     author: {
@@ -785,7 +785,7 @@ export const allBlogPosts: BlogPost[] = [
     slug: "top-construction-projects-dubai-2025-2026-equipment",
     excerpt: "The biggest construction projects happening in Dubai right now — and what equipment you'll need if you're working on them.",
     content: `
-      <p>Dubai never stops building. If you're a contractor here, you already know that. With several massive projects running into 2025-2026, it's worth looking at what's going on and what gear these jobs demand. At Harma Machinery, we supply equipment to many of the contractors working on these sites.</p>
+      <p>Dubai never stops building. If you're a contractor here, you already know that. With several massive projects running into 2025-2026, it's worth looking at what's going on and what gear these jobs demand. At Husnain Abdul Rasheed Machinery Rentals, we supply equipment to many of the contractors working on these sites.</p>
       
       <h2>1. Dubai Creek Tower District</h2>
       <p>The whole area around Dubai Creek Tower is still developing — residential towers, hotels, commercial spaces. It's a big site with big power needs:</p>
@@ -833,7 +833,7 @@ export const allBlogPosts: BlogPost[] = [
       </ul>
       
       <h2>We've Got the Gear</h2>
-      <p>Whatever size your project, Harma Machinery has the equipment you need. We keep our fleet current so you're not stuck with outdated machines on a modern job site.</p>
+      <p>Whatever size your project, Husnain Abdul Rasheed Machinery Rentals has the equipment you need. We keep our fleet current so you're not stuck with outdated machines on a modern job site.</p>
       
       <p>Working on one of these projects? Reach out at info@husnainabdulrasheedmachineryrentals.ae or call us — we'll put together a quote for your full equipment list.</p>
     `,
@@ -852,10 +852,10 @@ export const allBlogPosts: BlogPost[] = [
   {
     id: "18",
     title: "How to Get a Quick Quote for Equipment Rental: A Step-by-Step Guide",
-    slug: "quick-quote-equipment-rental-guide-harma-machinery",
+    slug: "quick-quote-equipment-rental-guide-husnain-abdul-rasheed-machinery-rentals",
     excerpt: "Getting a rental quote from us is quick and straightforward — here's how to do it by phone, WhatsApp, email, or online.",
     content: `
-      <p>You shouldn't have to chase people around to get a price on equipment. At Harma Machinery, we've made the quoting process simple. Here's how to get a number from us — usually within a couple of hours.</p>
+      <p>You shouldn't have to chase people around to get a price on equipment. At Husnain Abdul Rasheed Machinery Rentals, we've made the quoting process simple. Here's how to get a number from us — usually within a couple of hours.</p>
       
       <h2>Option 1: Request a Quote Online</h2>
       <p>Fastest way to get started:</p>
@@ -893,7 +893,7 @@ export const allBlogPosts: BlogPost[] = [
       </ul>
       
       <h2>What You'll Get in the Quote</h2>
-      <p>Every quote from Harma Machinery spells out:</p>
+      <p>Every quote from Husnain Abdul Rasheed Machinery Rentals spells out:</p>
       <ul>
         <li>Rental rate — daily, weekly, or monthly</li>
         <li>Delivery and pickup fees</li>
@@ -1000,7 +1000,7 @@ export const allBlogPosts: BlogPost[] = [
         <li>Coolant mixing with oil (indicates head gasket failure)</li>
         <li>Any fault code on the electronic control module (ECM)</li>
       </ul>
-      <p>At Harma Machinery, our certified technicians provide on-site generator repair across Dubai and all UAE emirates. Call us at 055 455 5786 for emergency service — available 24/7.</p>
+      <p>At Husnain Abdul Rasheed Machinery Rentals, our certified technicians provide on-site generator repair across Dubai and all UAE emirates. Call us at 055 455 5786 for emergency service — available 24/7.</p>
     `,
     image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=800",
     author: {
@@ -1078,9 +1078,9 @@ export const allBlogPosts: BlogPost[] = [
       </ul>
 
       <h2>When to Repair vs. Replace</h2>
-      <p>As a rule of thumb: if repair costs exceed 50% of the generator's current value, or if the unit has exceeded 15,000 operating hours, replacement is usually more economical. For rental equipment from Harma Machinery, all repairs are included — giving you peace of mind and zero unexpected repair costs.</p>
+      <p>As a rule of thumb: if repair costs exceed 50% of the generator's current value, or if the unit has exceeded 15,000 operating hours, replacement is usually more economical. For rental equipment from Husnain Abdul Rasheed Machinery Rentals, all repairs are included — giving you peace of mind and zero unexpected repair costs.</p>
 
-      <p>Experiencing generator issues on your site? Contact Harma Machinery at 055 455 5786 for fast on-site diagnosis and repair anywhere in the UAE.</p>
+      <p>Experiencing generator issues on your site? Contact Husnain Abdul Rasheed Machinery Rentals at 055 455 5786 for fast on-site diagnosis and repair anywhere in the UAE.</p>
     `,
     image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800",
     author: {
@@ -1163,7 +1163,7 @@ export const allBlogPosts: BlogPost[] = [
         <li>Test stored fuel monthly for water content and particulate levels</li>
       </ul>
 
-      <p>Need professional fuel system service for your generator? Harma Machinery's certified diesel technicians serve all UAE emirates. Call 055 455 5786 to schedule a service visit.</p>
+      <p>Need professional fuel system service for your generator? Husnain Abdul Rasheed Machinery Rentals's certified diesel technicians serve all UAE emirates. Call 055 455 5786 to schedule a service visit.</p>
     `,
     image: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=800",
     author: {
@@ -1242,7 +1242,7 @@ export const allBlogPosts: BlogPost[] = [
         <li>Store idle generators in a dry, covered area to prevent moisture damage to windings</li>
       </ul>
 
-      <p>Harma Machinery provides professional alternator diagnosis and repair services across the UAE. Whether it's a simple brush change or a complete rewind, our team has the expertise and genuine parts to get your generator back online fast. Call 055 455 5786.</p>
+      <p>Husnain Abdul Rasheed Machinery Rentals provides professional alternator diagnosis and repair services across the UAE. Whether it's a simple brush change or a complete rewind, our team has the expertise and genuine parts to get your generator back online fast. Call 055 455 5786.</p>
     `,
     image: "https://images.unsplash.com/photo-1580901368919-7738efb0f87e?q=80&w=800",
     author: {
@@ -1275,7 +1275,7 @@ export const allBlogPosts: BlogPost[] = [
       </ul>
 
       <h2>Emergency Response: What to Expect</h2>
-      <p>When you call Harma Machinery's emergency line, here's our process:</p>
+      <p>When you call Husnain Abdul Rasheed Machinery Rentals's emergency line, here's our process:</p>
       <ol>
         <li><strong>Phone assessment (5 minutes):</strong> Our technician asks targeted questions to diagnose the likely issue and determine what parts and tools to bring</li>
         <li><strong>Dispatch (15 minutes):</strong> A service vehicle is dispatched from our nearest depot with the required parts and diagnostic equipment</li>
@@ -1306,7 +1306,7 @@ export const allBlogPosts: BlogPost[] = [
         <li><strong>Keep the emergency service number visible</strong> at the generator control panel</li>
       </ul>
 
-      <h2>Harma Machinery Emergency Service Coverage</h2>
+      <h2>Husnain Abdul Rasheed Machinery Rentals Emergency Service Coverage</h2>
       <p>We provide 24/7 emergency generator repair across:</p>
       <ul>
         <li>Dubai — all areas including JLT, Downtown, Business Bay, DIP, JAFZA, Al Quoz, and developing areas</li>
@@ -1315,7 +1315,7 @@ export const allBlogPosts: BlogPost[] = [
         <li>Ras Al Khaimah and Fujairah — with slightly extended response times</li>
       </ul>
 
-      <p>Save our emergency number now: <strong>055 455 5786</strong> — available 24 hours, 7 days a week, 365 days a year. When power fails, Harma Machinery responds.</p>
+      <p>Save our emergency number now: <strong>055 455 5786</strong> — available 24 hours, 7 days a week, 365 days a year. When power fails, Husnain Abdul Rasheed Machinery Rentals responds.</p>
     `,
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
     author: {
@@ -1401,7 +1401,7 @@ export const allBlogPosts: BlogPost[] = [
         <li>Baseplate thickness below manufacturer's minimum specification</li>
       </ul>
 
-      <p>Harma Machinery offers compactor rental with full maintenance included, plus standalone repair services for contractor-owned equipment. Contact us at 055 455 5786 for service bookings.</p>
+      <p>Husnain Abdul Rasheed Machinery Rentals offers compactor rental with full maintenance included, plus standalone repair services for contractor-owned equipment. Contact us at 055 455 5786 for service bookings.</p>
     `,
     image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800",
     author: {
@@ -1491,7 +1491,7 @@ export const allBlogPosts: BlogPost[] = [
         <li><strong>Every 2,000 hours:</strong> Major service — comprehensive inspection of all systems, hydraulic pump testing, vibration system overhaul</li>
       </ul>
 
-      <p>Having roller compactor issues on your site? Harma Machinery's technicians can diagnose and repair all brands and models. Contact us at 055 455 5786.</p>
+      <p>Having roller compactor issues on your site? Husnain Abdul Rasheed Machinery Rentals's technicians can diagnose and repair all brands and models. Contact us at 055 455 5786.</p>
     `,
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
     author: {
@@ -1578,7 +1578,7 @@ export const allBlogPosts: BlogPost[] = [
       </ul>
       <p>The math is clear: investing in maintenance saves money.</p>
 
-      <p>Rent a compactor from Harma Machinery and our maintenance program is included — extending equipment life is our business. Call 055 455 5786.</p>
+      <p>Rent a compactor from Husnain Abdul Rasheed Machinery Rentals and our maintenance program is included — extending equipment life is our business. Call 055 455 5786.</p>
     `,
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
     author: {
@@ -1653,10 +1653,10 @@ export const allBlogPosts: BlogPost[] = [
       <ul>
         <li><strong>Repair</strong> if: the machine is under 3,000 hours, the engine is in good condition, and repair cost is under 40% of replacement cost</li>
         <li><strong>Replace</strong> if: the machine has over 4,000 hours, multiple systems need work (engine + vibration + baseplate), or repair cost exceeds 50% of a new equivalent machine</li>
-        <li><strong>Rent instead:</strong> If you're facing a major repair bill on owned equipment, consider switching to a rental model. Harma Machinery's compactor rentals include all maintenance — transferring the repair risk to us.</li>
+        <li><strong>Rent instead:</strong> If you're facing a major repair bill on owned equipment, consider switching to a rental model. Husnain Abdul Rasheed Machinery Rentals's compactor rentals include all maintenance — transferring the repair risk to us.</li>
       </ul>
 
-      <p>For expert vibration system diagnosis and repair, contact Harma Machinery's service team at 055 455 5786. We carry genuine parts for all major compactor brands.</p>
+      <p>For expert vibration system diagnosis and repair, contact Husnain Abdul Rasheed Machinery Rentals's service team at 055 455 5786. We carry genuine parts for all major compactor brands.</p>
     `,
     image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800",
     author: {
@@ -1742,7 +1742,7 @@ export const allBlogPosts: BlogPost[] = [
       </ul>
       <p>Always use oil that meets the equipment manufacturer's specification — never mix different oil brands or grades.</p>
 
-      <p>For hydraulic system diagnosis and repair across all equipment types, contact Harma Machinery at 055 455 5786. Our technicians carry diagnostic equipment and common repair parts on every service vehicle.</p>
+      <p>For hydraulic system diagnosis and repair across all equipment types, contact Husnain Abdul Rasheed Machinery Rentals at 055 455 5786. Our technicians carry diagnostic equipment and common repair parts on every service vehicle.</p>
     `,
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800",
     author: {
@@ -1837,7 +1837,7 @@ export const allBlogPosts: BlogPost[] = [
         <li><strong>Pre-use inspection:</strong> Before each use: check the cord, plug, guard, switch, and disc/bit condition. Take damaged tools out of service immediately</li>
       </ul>
 
-      <p>Harma Machinery rents professional-grade power tools with full maintenance support. Browse our catalog or call 055 455 5786 for availability.</p>
+      <p>Husnain Abdul Rasheed Machinery Rentals rents professional-grade power tools with full maintenance support. Browse our catalog or call 055 455 5786 for availability.</p>
     `,
     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800",
     author: {
@@ -1929,9 +1929,9 @@ export const allBlogPosts: BlogPost[] = [
       <p>After 6 months, review your maintenance records. Are certain machines needing more attention? Are some intervals too frequent (wasting money) or too infrequent (not catching problems)?</p>
 
       <h2>The Rental Advantage</h2>
-      <p>When you rent from Harma Machinery, preventive maintenance is included in the rental rate. Our professional maintenance program ensures every machine is serviced on time, with genuine parts, by certified technicians. You get maximum uptime with zero maintenance management burden.</p>
+      <p>When you rent from Husnain Abdul Rasheed Machinery Rentals, preventive maintenance is included in the rental rate. Our professional maintenance program ensures every machine is serviced on time, with genuine parts, by certified technicians. You get maximum uptime with zero maintenance management burden.</p>
 
-      <p>Want to discuss a maintenance plan for your equipment or explore rental options that include full service? Call Harma Machinery at 055 455 5786.</p>
+      <p>Want to discuss a maintenance plan for your equipment or explore rental options that include full service? Call Husnain Abdul Rasheed Machinery Rentals at 055 455 5786.</p>
     `,
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800",
     author: {
@@ -1986,7 +1986,7 @@ export const allBlogPosts: BlogPost[] = [
 
       <h2>6. Operating Equipment with Known Faults</h2>
       <p>Pressure to meet deadlines leads contractors to operate equipment with known problems — "just one more day." This almost always makes the situation worse and often results in complete equipment failure.</p>
-      <p><strong>The fix:</strong> Have replacement equipment available. When you rent from Harma Machinery, we can have a replacement on site the same day — there's no reason to risk a machine by running it damaged.</p>
+      <p><strong>The fix:</strong> Have replacement equipment available. When you rent from Husnain Abdul Rasheed Machinery Rentals, we can have a replacement on site the same day — there's no reason to risk a machine by running it damaged.</p>
 
       <h2>7. Attempting Complex Repairs Without Proper Skills</h2>
       <p>There's a significant difference between basic maintenance (oil changes, filter replacements) and complex repairs (injector calibration, hydraulic pump rebuilds, electrical fault diagnosis). Unskilled repair attempts cause more damage than the original problem in many cases.</p>
@@ -2012,7 +2012,7 @@ export const allBlogPosts: BlogPost[] = [
       <h2>The Bottom Line</h2>
       <p>Every one of these mistakes costs money — sometimes catastrophic amounts. The good news is they're all avoidable with basic discipline and knowledge. Invest in training your operators and maintenance staff, use quality parts, and establish simple maintenance routines.</p>
 
-      <p>For professional maintenance and repair services across all construction equipment types, contact Harma Machinery at 055 455 5786. Our technicians have seen — and fixed — every mistake on this list.</p>
+      <p>For professional maintenance and repair services across all construction equipment types, contact Husnain Abdul Rasheed Machinery Rentals at 055 455 5786. Our technicians have seen — and fixed — every mistake on this list.</p>
     `,
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800",
     author: {

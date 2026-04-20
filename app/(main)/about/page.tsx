@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ContactSplit from "../_components/ContactSplit";
 
 export const metadata: Metadata = {
-  title: "About Harma Machinery | Equipment Rental Company in Dubai, UAE",
+  title: "About Husnain Abdul Rasheed Machinery Rentals | Equipment Rental Company in Dubai, UAE",
   description:
-    "Husnain Abdul Rasheed Construction Machinery Rental L.L.C — 15+ years renting generators, compactors and construction equipment from Al Lisaili to 90+ locations across all 7 Emirates.",
+    "Husnain Abdul Rasheed Machinery Rentals L.L.C — 15+ years renting generators, compactors and construction equipment from Al Lisaili to 90+ locations across all 7 Emirates.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About Harma Machinery | Equipment Rental Company in Dubai, UAE",
+    title: "About Husnain Abdul Rasheed Machinery Rentals | Equipment Rental Company in Dubai, UAE",
     description:
       "15+ years renting generators and construction equipment from our Al Lisaili yard. Same-day delivery to 90+ locations across all Emirates.",
     url: "/about",
   },
   twitter: {
-    title: "About Harma Machinery | Equipment Rental Company in Dubai, UAE",
+    title: "About Husnain Abdul Rasheed Machinery Rentals | Equipment Rental Company in Dubai, UAE",
     description:
       "15+ years renting generators and construction equipment from our Al Lisaili yard. Same-day delivery to 90+ locations across all Emirates.",
   },
@@ -78,7 +79,7 @@ export default function AboutPage() {
             We Rent Equipment. We Keep Projects Moving.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Husnain Abdul Rasheed Construction Machinery Rental L.L.C — you probably know us as Harma Machinery. We've been renting generators, compactors, and construction equipment from our yard in Al Lisaili since day one. Right on the Dubai–Al Ain Road (E66), 20 minutes from most of Dubai&apos;s biggest job sites.
+            Husnain Abdul Rasheed Machinery Rentals L.L.C — you probably know us as Husnain Abdul Rasheed Machinery Rentals. We've been renting generators, compactors, and construction equipment from our yard in Al Lisaili since day one. Right on the Dubai–Al Ain Road (E66), 20 minutes from most of Dubai&apos;s biggest job sites.
           </p>
         </div>
       </section>
@@ -205,6 +206,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <ContactSplit />
     </>
   );
 }

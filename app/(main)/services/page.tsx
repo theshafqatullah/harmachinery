@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ContactSplit from "../_components/ContactSplit";
 
 export const metadata: Metadata = {
   title: "Equipment Rental Services Dubai | Delivery, Operators, Maintenance",
@@ -98,7 +99,7 @@ export default function ServicesPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Equipment Rental Services — Harma Machinery",
+    name: "Equipment Rental Services — Husnain Abdul Rasheed Machinery Rentals",
     description: "Generator rental, equipment hire, certified operators, delivery, maintenance & project consulting across UAE.",
     url: "https://husnainabdulrasheedmachineryrentals.ae/services",
     numberOfItems: servicesList.length,
@@ -235,6 +236,7 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+      <ContactSplit />
     </>
   );
 }

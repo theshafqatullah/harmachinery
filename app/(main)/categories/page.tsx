@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Equipment Categories - Harma Machinery | Dubai",
+  title: "Equipment Categories - Husnain Abdul Rasheed Machinery Rentals | Dubai",
   description:
-    "Browse Harma Machinery's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+    "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
   alternates: { canonical: "/categories" },
   openGraph: {
-    title: "Equipment Categories - Harma Machinery | Dubai",
+    title: "Equipment Categories - Husnain Abdul Rasheed Machinery Rentals | Dubai",
     description:
-      "Browse Harma Machinery's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+      "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
     url: "/categories",
   },
   twitter: {
-    title: "Equipment Categories - Harma Machinery | Dubai",
+    title: "Equipment Categories - Husnain Abdul Rasheed Machinery Rentals | Dubai",
     description:
-      "Browse Harma Machinery's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+      "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
   },
 };
 
@@ -167,7 +167,7 @@ export default function CategoriesPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Construction Equipment Categories — Harma Machinery",
+    name: "Construction Equipment Categories — Husnain Abdul Rasheed Machinery Rentals",
     description: "Browse all construction equipment categories available for rent across the UAE.",
     url: "https://husnainabdulrasheedmachineryrentals.ae/categories",
     numberOfItems: featuredCategories.length,
@@ -196,7 +196,7 @@ export default function CategoriesPage() {
             Equipment for Construction & Events
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Browse Harma Machinery&apos;s complete fleet — generators, compactors,
+            Browse Husnain Abdul Rasheed Machinery Rentals&apos;s complete fleet — generators, compactors,
             air compressors, excavators, light towers, and more. Available for
             construction sites, weddings, festivals, and desert events.
           </p>
@@ -355,14 +355,14 @@ export default function CategoriesPage() {
         </div>
       </section>
 
-      {/* Harma Machinery Advantage */}
+      {/* Husnain Abdul Rasheed Machinery Rentals Advantage */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-zinc-900">
-            The Harma Machinery Advantage
+            The Husnain Abdul Rasheed Machinery Rentals Advantage
           </h2>
           <p className="mt-2 text-zinc-600">
-            When you rent from Harma Machinery, you get more than just equipment.
+            When you rent from Husnain Abdul Rasheed Machinery Rentals, you get more than just equipment.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[

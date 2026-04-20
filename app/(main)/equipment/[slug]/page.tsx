@@ -237,18 +237,18 @@ export async function generateMetadata({
   const { slug } = await params;
   const data = equipmentData[slug];
   if (!data)
-    return { title: "Equipment Not Found - Harma Machinery" };
+    return { title: "Equipment Not Found - Husnain Abdul Rasheed Machinery Rentals" };
   return {
-    title: `${data.name} Rental - Harma Machinery`,
+    title: `${data.name} Rental - Husnain Abdul Rasheed Machinery Rentals`,
     description: data.description,
     alternates: { canonical: `/equipment/${slug}` },
     openGraph: {
-      title: `${data.name} Rental - Harma Machinery`,
+      title: `${data.name} Rental - Husnain Abdul Rasheed Machinery Rentals`,
       description: data.description,
       url: `/equipment/${slug}`,
     },
     twitter: {
-      title: `${data.name} Rental - Harma Machinery`,
+      title: `${data.name} Rental - Husnain Abdul Rasheed Machinery Rentals`,
       description: data.description,
     },
   };

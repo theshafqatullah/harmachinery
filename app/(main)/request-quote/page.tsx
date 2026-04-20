@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Request a Quote | Generator & Equipment Rental Dubai | Harma Machinery",
+  title: "Request a Quote | Generator & Equipment Rental Dubai | Husnain Abdul Rasheed Machinery Rentals",
   description:
     "Tell us what you need and we'll send you a no-obligation quote within hours. Generators, compactors, jack hammers, power tools — daily, weekly or monthly.",
   alternates: { canonical: "/request-quote" },

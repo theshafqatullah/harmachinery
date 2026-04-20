@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Harma Machinery – Equipment Rental Dubai",
-  description: "How Husnain Abdul Rasheed Construction Machinery Rental L.L.C collects, uses and protects your personal data when you use our website and rental services.",
+  title: "Privacy Policy | Husnain Abdul Rasheed Machinery Rentals – Equipment Rental Dubai",
+  description: "How Husnain Abdul Rasheed Machinery Rentals L.L.C collects, uses and protects your personal data when you use our website and rental services.",
   alternates: { canonical: "/privacy" },
   openGraph: {
-    title: "Privacy Policy | Harma Machinery – Equipment Rental Dubai",
+    title: "Privacy Policy | Husnain Abdul Rasheed Machinery Rentals – Equipment Rental Dubai",
     description: "How we collect, use and protect your personal data when you use our website and rental services.",
     url: "/privacy",
   },
   twitter: {
-    title: "Privacy Policy | Harma Machinery – Equipment Rental Dubai",
+    title: "Privacy Policy | Husnain Abdul Rasheed Machinery Rentals – Equipment Rental Dubai",
     description: "How we collect, use and protect your personal data when you use our website and rental services.",
   },
 };
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
           <div className="prose prose-zinc max-w-none text-sm leading-7">
             <h2 className="text-xl font-bold text-zinc-900 mt-0">Introduction</h2>
             <p className="text-zinc-600">
-              Husnain Abdul Rasheed Construction Machinery Rental L.L.C, trading as Harma Machinery (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+              Husnain Abdul Rasheed Machinery Rentals L.L.C (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Information We Collect</h2>

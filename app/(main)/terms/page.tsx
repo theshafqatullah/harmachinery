@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Harma Machinery – Equipment Rental Dubai",
-  description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Construction Machinery Rental L.L.C, trading as Harma Machinery.",
+  title: "Terms & Conditions | Husnain Abdul Rasheed Machinery Rentals – Equipment Rental Dubai",
+  description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Machinery Rentals L.L.C.",
   alternates: { canonical: "/terms" },
   openGraph: {
-    title: "Terms & Conditions | Harma Machinery – Equipment Rental Dubai",
-    description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Construction Machinery Rental L.L.C.",
+    title: "Terms & Conditions | Husnain Abdul Rasheed Machinery Rentals – Equipment Rental Dubai",
+    description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Machinery Rentals L.L.C.",
     url: "/terms",
   },
   twitter: {
-    title: "Terms & Conditions | Harma Machinery – Equipment Rental Dubai",
-    description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Construction Machinery Rental L.L.C.",
+    title: "Terms & Conditions | Husnain Abdul Rasheed Machinery Rentals – Equipment Rental Dubai",
+    description: "Rental terms, payment conditions, liability and cancellation policies for Husnain Abdul Rasheed Machinery Rentals L.L.C.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function TermsPage() {
           <div className="prose prose-zinc max-w-none text-sm leading-7">
             <h2 className="text-xl font-bold text-zinc-900 mt-0">Acceptance of Terms</h2>
             <p className="text-zinc-600">
-              By accessing or using the website and services of Husnain Abdul Rasheed Construction Machinery Rental L.L.C, trading as Harma Machinery (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), you agree to be bound by these Terms &amp; Conditions. If you do not agree, please do not use our services.
+              By accessing or using the website and services of Husnain Abdul Rasheed Machinery Rentals L.L.C (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), you agree to be bound by these Terms &amp; Conditions. If you do not agree, please do not use our services.
             </p>
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Rental Agreements</h2>
@@ -64,7 +64,7 @@ export default function TermsPage() {
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Indemnification</h2>
             <p className="text-zinc-600">
-              The renter agrees to indemnify and hold Harma Machinery harmless from any claims, damages, or liabilities arising from the use of rented equipment, except where caused by our negligence.
+              The renter agrees to indemnify and hold Husnain Abdul Rasheed Machinery Rentals harmless from any claims, damages, or liabilities arising from the use of rented equipment, except where caused by our negligence.
             </p>
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Cancellation &amp; Returns</h2>
@@ -74,7 +74,7 @@ export default function TermsPage() {
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Limitation of Liability</h2>
             <p className="text-zinc-600">
-              Harma Machinery&apos;s total liability shall not exceed the rental fees paid for the specific equipment in question. We are not liable for indirect, consequential, or incidental damages.
+              Husnain Abdul Rasheed Machinery Rentals&apos;s total liability shall not exceed the rental fees paid for the specific equipment in question. We are not liable for indirect, consequential, or incidental damages.
             </p>
 
             <h2 className="text-xl font-bold text-zinc-900 mt-10">Governing Law</h2>

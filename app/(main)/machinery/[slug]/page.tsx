@@ -20,19 +20,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const machine = getMachineryBySlug(slug);
-  if (!machine) return { title: "Product Not Found - Harma Machinery" };
+  if (!machine) return { title: "Product Not Found - Husnain Abdul Rasheed Machinery Rentals" };
   return {
-    title: `${machine.name} for Rent | Harma Machinery`,
+    title: `${machine.name} for Rent | Husnain Abdul Rasheed Machinery Rentals`,
     description: machine.description,
     alternates: { canonical: `/machinery/${slug}` },
     openGraph: {
-      title: `${machine.name} for Rent | Harma Machinery`,
+      title: `${machine.name} for Rent | Husnain Abdul Rasheed Machinery Rentals`,
       description: machine.description,
       url: `/machinery/${slug}`,
       images: machine.image ? [{ url: machine.image, alt: machine.name }] : [],
     },
     twitter: {
-      title: `${machine.name} for Rent | Harma Machinery`,
+      title: `${machine.name} for Rent | Husnain Abdul Rasheed Machinery Rentals`,
       description: machine.description,
       images: machine.image ? [machine.image] : [],
     },
@@ -80,7 +80,7 @@ export default async function MachineryDetailPage({
       availability: machine.available
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
-      seller: { "@type": "Organization", name: "Harma Machinery" },
+      seller: { "@type": "Organization", name: "Husnain Abdul Rasheed Machinery Rentals" },
     },
     aggregateRating: {
       "@type": "AggregateRating",

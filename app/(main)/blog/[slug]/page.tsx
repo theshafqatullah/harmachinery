@@ -18,7 +18,7 @@ export async function generateMetadata({
   const post = allBlogPosts.find((p) => p.slug === slug);
   if (!post) return {};
   return {
-    title: `${post.title} - Harma Machinery Blog`,
+    title: `${post.title} - Husnain Abdul Rasheed Machinery Rentals Blog`,
     description: post.excerpt,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
@@ -190,7 +190,7 @@ export default async function BlogPostPage({
             Need Professional Equipment Repair?
           </h2>
           <p className="mt-2 text-zinc-800">
-            Harma Machinery offers 24/7 generator repair, compactor service, and
+            Husnain Abdul Rasheed Machinery Rentals offers 24/7 generator repair, compactor service, and
             equipment maintenance across all UAE emirates.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -228,7 +228,7 @@ export default async function BlogPostPage({
             },
             publisher: {
               "@type": "Organization",
-              name: "Harma Machinery",
+              name: "Husnain Abdul Rasheed Machinery Rentals",
               url: "https://husnainabdulrasheedmachineryrentals.ae",
             },
           }),

@@ -16,7 +16,7 @@ const services: Record<
     title: "Generator & Equipment Rental",
     headline: "Premium Generators & Construction Equipment for Rent",
     description:
-      "Harma Machinery offers an extensive fleet of generators (10 KVA to 1000 KVA), compactors, air compressors, and construction equipment for daily, weekly, and monthly rental. From powering farm events in Al Lisaili to supplying mega construction sites in Dubai South — we deliver the right equipment, on time.",
+      "Husnain Abdul Rasheed Machinery Rentals offers an extensive fleet of generators (10 KVA to 1000 KVA), compactors, air compressors, and construction equipment for daily, weekly, and monthly rental. From powering farm events in Al Lisaili to supplying mega construction sites in Dubai South — we deliver the right equipment, on time.",
     features: [
       { title: "Full Generator Range", description: "From 10 KVA for small events to 1000 KVA for mega construction and industrial sites." },
       { title: "Silent Models Available", description: "Super-silent canopy generators for weddings, film shoots, and residential areas." },
@@ -183,16 +183,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = services[slug];
   if (!service) return {};
   return {
-    title: `${service.title} - Harma Machinery Services`,
+    title: `${service.title} - Husnain Abdul Rasheed Machinery Rentals Services`,
     description: service.description,
     alternates: { canonical: `/services/${slug}` },
     openGraph: {
-      title: `${service.title} - Harma Machinery Services`,
+      title: `${service.title} - Husnain Abdul Rasheed Machinery Rentals Services`,
       description: service.description,
       url: `/services/${slug}`,
     },
     twitter: {
-      title: `${service.title} - Harma Machinery Services`,
+      title: `${service.title} - Husnain Abdul Rasheed Machinery Rentals Services`,
       description: service.description,
     },
   };
@@ -228,7 +228,7 @@ export default async function ServiceDetailPage({ params }: Props) {
     description: service.description,
     provider: {
       "@type": "LocalBusiness",
-      name: "Harma Machinery",
+      name: "Husnain Abdul Rasheed Machinery Rentals",
       url: "https://husnainabdulrasheedmachineryrentals.ae",
       address: {
         "@type": "PostalAddress",

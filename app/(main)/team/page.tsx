@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Team | The People Behind Harma Machinery Dubai",
+  title: "Our Team | The People Behind Husnain Abdul Rasheed Machinery Rentals Dubai",
   description:
     "Meet the crew that keeps your project running — from our founder to our diesel mechanics. 50+ people, 15+ years average experience, one goal: get the right machine to your site, on time.",
   alternates: { canonical: "/team" },
   openGraph: {
-    title: "Our Team | The People Behind Harma Machinery Dubai",
+    title: "Our Team | The People Behind Husnain Abdul Rasheed Machinery Rentals Dubai",
     description:
       "Meet the crew that keeps your project running — from our founder to our diesel mechanics.",
     url: "/team",
   },
   twitter: {
-    title: "Our Team | The People Behind Harma Machinery Dubai",
+    title: "Our Team | The People Behind Husnain Abdul Rasheed Machinery Rentals Dubai",
     description:
       "Meet the crew that keeps your project running — from our founder to our diesel mechanics.",
   },
@@ -154,7 +154,7 @@ export default function TeamPage() {
             What Makes Us Different
           </h2>
           <p className="mt-2 max-w-2xl text-zinc-600">
-            At Harma Machinery, we believe that our people are our greatest asset.
+            At Husnain Abdul Rasheed Machinery Rentals, we believe that our people are our greatest asset.
             We foster an environment where every team member can thrive, grow,
             and contribute to our shared success.
           </p>

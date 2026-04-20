@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ContactSplit from "../_components/ContactSplit";
 
 export const metadata: Metadata = {
-  title: "FAQ | Generator & Equipment Rental Questions | Harma Machinery Dubai",
+  title: "FAQ | Generator & Equipment Rental Questions | Husnain Abdul Rasheed Machinery Rentals Dubai",
   description:
     "Got questions about rental periods, generator sizes, delivery zones, pricing, or on-site support? We've answered the most common ones right here.",
   alternates: { canonical: "/faq" },
   openGraph: {
-    title: "FAQ | Generator & Equipment Rental Questions | Harma Machinery Dubai",
+    title: "FAQ | Generator & Equipment Rental Questions | Husnain Abdul Rasheed Machinery Rentals Dubai",
     description:
       "Got questions about rental periods, generator sizes, delivery zones, pricing, or on-site support? We've answered the most common ones right here.",
     url: "/faq",
   },
   twitter: {
-    title: "FAQ | Generator & Equipment Rental Questions | Harma Machinery Dubai",
+    title: "FAQ | Generator & Equipment Rental Questions | Husnain Abdul Rasheed Machinery Rentals Dubai",
     description:
       "Got questions about rental periods, generator sizes, delivery zones, pricing, or on-site support? We've answered the most common ones right here.",
   },
@@ -230,6 +231,7 @@ export default function FAQPage() {
           </div>
         </div>
       </section>
+      <ContactSplit />
     </>
   );
 }

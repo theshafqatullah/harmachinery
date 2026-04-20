@@ -3,6 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { getFeaturedMachinery } from "@/data/machinery";
 import { dubaiLocations } from "@/data/locations";
+import QuickLinksBar from "./_components/QuickLinksBar";
+import WelcomeValues from "./_components/WelcomeValues";
+import EquipmentShowcase from "./_components/EquipmentShowcase";
+import ContactSplit from "./_components/ContactSplit";
 
 export const metadata: Metadata = {
   title: "Generator Rental Dubai | Construction Equipment Hire UAE",
@@ -158,19 +162,19 @@ const industries = [
 const testimonials = [
   {
     quote:
-      "We were pouring foundations in Dubai South and our main genset died on us mid-pour. Called Harma at 6 AM — they had a 250 KVA at our gate by 8. No paperwork drama, just showed up and sorted it. We don't bother calling anyone else now.",
+      "We were pouring foundations in Dubai South and our main genset died on us mid-pour. Called Husnain Abdul Rasheed Machinery at 6 AM — they had a 250 KVA at our gate by 8. No paperwork drama, just showed up and sorted it. We don't bother calling anyone else now.",
     name: "Ahmed Al-Rashid",
     role: "Project Manager, Al-Rashid Construction LLC",
   },
   {
     quote:
-      "Every season we do three or four big setups at Global Village. Harma's the only rental company that hasn't let us down yet — they deliver on the dot, the generators run quiet, and if we need more power mid-event they sort it same day. Simple as that.",
+      "Every season we do three or four big setups at Global Village. Husnain Abdul Rasheed Machinery's the only rental company that hasn't let us down yet — they deliver on the dot, the generators run quiet, and if we need more power mid-event they sort it same day. Simple as that.",
     name: "Fatima Al-Zaabi",
     role: "Operations Manager, Desert Events Group",
   },
   {
     quote:
-      "I do earthworks around DAMAC Hills 2 and The Valley — compactors, jack hammers, the usual. Harma's yard is right there in Lisaili so I can grab what I need and be back on site in 20 minutes. Rates are fair too, not like some of these guys charging you double.",
+      "I do earthworks around DAMAC Hills 2 and The Valley — compactors, jack hammers, the usual. Husnain Abdul Rasheed Machinery's yard is right there in Lisaili so I can grab what I need and be back on site in 20 minutes. Rates are fair too, not like some of these guys charging you double.",
     name: "Khalid Al-Mansoori",
     role: "Owner, Mansoori Earthworks LLC",
   },
@@ -239,7 +243,7 @@ export default function Home() {
       {
         "@type": "LocalBusiness",
         "@id": "https://husnainabdulrasheedmachineryrentals.ae/#business",
-        name: "Harma Machinery",
+        name: "Husnain Abdul Rasheed Machinery Rentals",
         description:
           "Generator and construction equipment rental in Dubai, UAE. Serving all 7 emirates from Al Lisaili with same-day delivery.",
         url: "https://husnainabdulrasheedmachineryrentals.ae",
@@ -285,7 +289,7 @@ export default function Home() {
       {
         "@type": "Organization",
         "@id": "https://husnainabdulrasheedmachineryrentals.ae/#organization",
-        name: "Harma Machinery",
+        name: "Husnain Abdul Rasheed Machinery Rentals",
         url: "https://husnainabdulrasheedmachineryrentals.ae",
         logo: "https://husnainabdulrasheedmachineryrentals.ae/logo.png",
         contactPoint: {
@@ -304,7 +308,7 @@ export default function Home() {
         "@type": "WebSite",
         "@id": "https://husnainabdulrasheedmachineryrentals.ae/#website",
         url: "https://husnainabdulrasheedmachineryrentals.ae",
-        name: "Harma Machinery",
+        name: "Husnain Abdul Rasheed Machinery Rentals",
         description: "Generator and construction equipment rental across all 7 UAE Emirates.",
         publisher: { "@id": "https://husnainabdulrasheedmachineryrentals.ae/#organization" },
         potentialAction: {
@@ -382,6 +386,12 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quick links chip row */}
+      <QuickLinksBar />
+
+      {/* Welcome to Husnain Abdul Rasheed Machinery + values + certifications */}
+      <WelcomeValues />
+
       {/* Featured Equipment */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -392,8 +402,7 @@ export default function Home() {
             <p className="mt-4 text-lg text-zinc-600">
               Every machine gets checked and serviced before it leaves our yard
             </p>
-          </div>
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          </div>          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {getFeaturedMachinery(8).map((machine) => (
               <Link
                 key={machine.slug}
@@ -449,6 +458,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Per-category equipment showcase (SEO content blocks) */}
+      <EquipmentShowcase />
 
       {/* About / Why Us - Image + Text */}
       <section className="bg-zinc-50 py-20">
@@ -987,6 +999,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Send-us-a-message + contact info split */}
+      <ContactSplit />
 
       {/* CTA Section with Background Image */}
       <section className="relative overflow-hidden">

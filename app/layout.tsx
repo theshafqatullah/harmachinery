@@ -10,8 +10,8 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://husnainabdulrasheedmachineryrentals.ae"),
-  applicationName: "Harma Machinery",
-  title: "Generator Rental Dubai | Construction Equipment Hire UAE | Harma Machinery",
+  applicationName: "Husnain Abdul Rasheed Machinery Rentals",
+  title: "Generator Rental Dubai | Construction Equipment Hire UAE | Husnain Abdul Rasheed Machinery Rentals",
   description:
     "Rent generators 10–1000 KVA, compactors, jack hammers, concrete mixers & 60+ types of construction equipment. Same-day delivery across Dubai and all 7 UAE Emirates from Al Lisaili. Call 055 455 5786.",
   keywords: [
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     "equipment rental companies in UAE",
     "same day equipment delivery Dubai",
   ],
-  authors: [{ name: "Harma Machinery", url: "https://husnainabdulrasheedmachineryrentals.ae" }],
-  creator: "Harma Machinery",
-  publisher: "Harma Machinery",
+  authors: [{ name: "Husnain Abdul Rasheed Machinery Rentals", url: "https://husnainabdulrasheedmachineryrentals.ae" }],
+  creator: "Husnain Abdul Rasheed Machinery Rentals",
+  publisher: "Husnain Abdul Rasheed Machinery Rentals",
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
-    siteName: "Harma Machinery",
+    siteName: "Husnain Abdul Rasheed Machinery Rentals",
     type: "website",
     locale: "en_AE",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop",
         width: 1200,
         height: 630,
-        alt: "Generator & Construction Equipment Rental Dubai — Harma Machinery",
+        alt: "Generator & Construction Equipment Rental Dubai — Husnain Abdul Rasheed Machinery Rentals",
       },
     ],
   },

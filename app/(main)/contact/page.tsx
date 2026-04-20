@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Generator & Equipment Rental Dubai | Harma Machinery",
+  title: "Contact Us | Generator & Equipment Rental Dubai | Husnain Abdul Rasheed Machinery Rentals",
   description:
     "Call 055 455 5786 or WhatsApp us for generator and construction equipment rental. Visit our yard on the E66 in Al Lisaili. We respond within 2 hours.",
   alternates: { canonical: "/contact" },
@@ -65,7 +65,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Husnain Abdul Rasheed Construction Machinery Rental L.L.C (Harma Machinery). Have questions about our equipment or need a custom quote? Reach out
+            Husnain Abdul Rasheed Machinery Rentals L.L.C (Husnain Abdul Rasheed Machinery Rentals). Have questions about our equipment or need a custom quote? Reach out
             and our team will get back to you promptly.
           </p>
         </div>
