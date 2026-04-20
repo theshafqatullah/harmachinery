@@ -1454,7 +1454,7 @@ export const allMachinery: Machinery[] = [
     capacity: "250 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Cummins 250 KVA diesel generator — handles tower cranes, batching plants, and full-site power. Rental includes delivery.",
+    description: "Cummins 250 KVA diesel generator — handles batching plants, welding banks, and full-site power. Rental includes delivery.",
     features: ["Low maintenance", "Robust design", "Easy operation"],
     specifications: {
       powerOutput: "250 KVA",
@@ -1622,7 +1622,7 @@ export const allMachinery: Machinery[] = [
     capacity: "150 KVA",
     year: 2022,
     location: "Dubai",
-    description: "Perkins 150 KVA construction site generator for hire. Weatherproof canopy, big fuel tank, keeps your tools and cranes running.",
+    description: "Perkins 150 KVA construction site generator for hire. Weatherproof canopy, big fuel tank, keeps your tools and compactors running.",
     features: ["Easy maintenance", "Weatherproof", "Large fuel tank"],
     specifications: {
       powerOutput: "150 KVA",
