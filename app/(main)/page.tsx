@@ -89,7 +89,7 @@ const services = [
   {
     title: "Delivery & Pickup",
     description: "We bring it to you and pick it up when you're done. Flatbeds and lowboys — anywhere in the UAE.",
-    image: "https://images.unsplash.com/photo-1586191582066-8e00e5886a04?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
   },
   {
     title: "Breakdown? We're On It",
@@ -143,7 +143,7 @@ const industries = [
   },
   {
     name: "Sports & Racing Events",
-    image: "https://images.unsplash.com/photo-1461896836934-bd45ba9e0a0f?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=600&auto=format&fit=crop",
   },
   {
     name: "Hotels & Hospitality",
@@ -292,7 +292,7 @@ export default function Home() {
         "@id": "https://husnainabdulrasheedmachineryrentals.ae/#organization",
         name: "Husnain Abdul Rasheed Machinery Rentals",
         url: "https://husnainabdulrasheedmachineryrentals.ae",
-        logo: "https://husnainabdulrasheedmachineryrentals.ae/logo.png",
+        logo: "https://husnainabdulrasheedmachineryrentals.ae/logo.svg",
         contactPoint: {
           "@type": "ContactPoint",
           telephone: "+971554555786",

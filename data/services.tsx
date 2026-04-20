@@ -127,7 +127,7 @@ export const allServices: Service[] = [
     shortDescription: "Safe and timely delivery to your site",
     description: "Reliable transportation services for all types of construction equipment. We ensure your equipment arrives safely and on time, anywhere in the UAE. Our fleet includes low-bed trailers, flatbeds, and specialized transport vehicles.",
     icon: <Truck className="h-8 w-8" />,
-    image: "https://images.unsplash.com/photo-1586191582066-8e00e5886a04?q=80&w=2070",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070",
     features: [
       "GPS tracked deliveries",
       "Licensed and insured transport",
