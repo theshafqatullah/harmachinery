@@ -41,8 +41,8 @@ export const allBlogPosts: BlogPost[] = [
       <h2>2. Cummins 100 KVA Silent Generator</h2>
       <p>For medium sites or events, the Cummins 100 KVA is hard to beat. It's genuinely quiet — you can run it at night without getting complaints from neighbors. The digital control panel makes monitoring straightforward, and it sips fuel compared to older models in the same range.</p>
       
-      <h2>3. Caterpillar 250 KVA Power System</h2>
-      <p>Cat gear costs more upfront, but there's a reason people keep coming back to it. The 250 KVA holds steady under fluctuating loads, which matters when you've got welding machines and compressors cycling on and off. It handles 45°C summers without drama.</p>
+      <h2>3. Caterpillar 500 KVA Construction Site Generator</h2>
+      <p>Cat gear costs more upfront, but there's a reason people keep coming back to it. The 500 KVA holds steady under fluctuating loads, which matters when you've got welding machines and pneumatic breakers cycling on and off. It handles 45°C summers without drama.</p>
       
       <h2>Key Considerations When Choosing</h2>
       <p>Before you sign a rental agreement or place an order, think about these:</p>
@@ -117,8 +117,8 @@ export const allBlogPosts: BlogPost[] = [
       <ul>
         <li>12 high-capacity generators keeping the lights and tools going around the clock</li>
         <li>8 mobile generators supporting steel erection crews</li>
-        <li>15 concrete pumps and mixers for foundation and structural work</li>
-        <li>Air compressors and ancillary equipment as needed</li>
+        <li>15 concrete mixers and vibrators for foundation and structural work</li>
+        <li>Jack hammers, cutting machines and power tools as needed</li>
       </ul>
       
       <h2>Challenges and Solutions</h2>
@@ -181,12 +181,12 @@ export const allBlogPosts: BlogPost[] = [
     id: "5",
     title: "The Future of Electric Construction Equipment in the Middle East",
     slug: "future-electric-construction-equipment",
-    excerpt: "Electric excavators and loaders are showing up on UAE sites. Here's what's real, what's hype, and what it means for contractors.",
+    excerpt: "Electric breakers, compactors and power tools are showing up on UAE sites. Here's what's real, what's hype, and what it means for contractors.",
     content: `
-      <p>Electric construction equipment is no longer just a concept in a brochure. We're seeing battery-powered excavators, loaders, and compactors pop up on sites around the Gulf. It's still early days, but the shift is happening faster than most people expected.</p>
+      <p>Electric construction equipment is no longer just a concept in a brochure. We're seeing battery-powered breakers, grinders, drills and compactors pop up on sites around the Gulf. It's still early days, but the shift is happening faster than most people expected.</p>
       
       <h2>Current State of Electric Equipment</h2>
-      <p>Cat, Volvo, and Komatsu all have electric or hybrid machines in production now. They're quieter, they don't pump exhaust into enclosed spaces, and the operating costs are genuinely lower. We've trialed a couple of smaller electric units and the operators liked them — less vibration, less noise fatigue at the end of a shift.</p>
+      <p>Milwaukee, Makita, Bosch and DeWalt all have serious battery platforms in production now — M18 FUEL impact wrenches, cordless grinders, cordless SDS drills. They're quieter, they don't pump exhaust into enclosed spaces, and the operating costs are genuinely lower. We've trialled a few cordless units and the operators liked them — less vibration, less noise fatigue at the end of a shift.</p>
       
       <h2>Benefits for Middle East Projects</h2>
       <p>There are a few situations where electric makes real sense here:</p>
@@ -224,9 +224,9 @@ export const allBlogPosts: BlogPost[] = [
       <p>Diesel is still the default for heavy construction. Use them when you need:</p>
       <ul>
         <li>Continuous power for tools, welders, and site lighting</li>
-        <li>200+ KVA for large sites with multiple loads</li>
+        <li>150+ KVA for large sites with multiple loads</li>
         <li>A machine that can run 12-16 hours a day without issues</li>
-        <li>Backup power for critical systems like tower crane controls</li>
+        <li>Backup power for critical systems like site MEP controls</li>
       </ul>
       
       <h2>Silent Generators</h2>
@@ -257,7 +257,7 @@ export const allBlogPosts: BlogPost[] = [
     id: "7",
     title: "Husnain Abdul Rasheed Machinery Rentals Expands Fleet with 50 New Machines for 2025",
     slug: "husnain-abdul-rasheed-machinery-rentals-fleet-expansion-2025",
-    excerpt: "We just added 50 machines to the fleet — more generators, compressors, and compactors to keep up with demand across the UAE.",
+    excerpt: "We just added 50 machines to the fleet — more generators, jack hammers, and compactors to keep up with demand across the UAE.",
     content: `
       <p>Demand has been climbing steadily, especially from contractors working on villa projects in Al Lisaili, Dubailand, and the Northern Emirates. So we went ahead and added 50 new machines to the Husnain Abdul Rasheed Machinery Rentals rental fleet for 2025.</p>
       
@@ -266,9 +266,9 @@ export const allBlogPosts: BlogPost[] = [
       <ul>
         <li>15 Perkins 500 KVA Generators — the ones our customers keep asking for</li>
         <li>10 Cummins 100 KVA Silent Generators — great for residential and event work</li>
-        <li>8 Atlas Copco Air Compressors — reliable and easy to service</li>
-        <li>7 Wacker Neuson Plate Compactors — solid for road and paving jobs</li>
-        <li>10 Generac Industrial Generators — filling the mid-range gap in our fleet</li>
+        <li>8 Hilti TE 3000 Jack Hammers — reliable and easy to service</li>
+        <li>7 Wacker Neuson Power Trowels — solid for slab finishing jobs</li>
+        <li>10 Denyo Portable Generators — filling the mid-range gap in our fleet</li>
       </ul>
       
       <h2>Enhanced Service Capabilities</h2>
@@ -372,39 +372,38 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     id: "10",
-    title: "What We Rent: Generators, Compactors, Air Compressors, and Everything in Between",
+    title: "What We Rent: Generators, Compactors, Jack Hammers, and Everything in Between",
     slug: "complete-guide-husnain-abdul-rasheed-machinery-rentals-equipment-fleet",
-    excerpt: "A plain-English rundown of every machine type we rent — from 20 KVA portables to 500 KVA Perkins generators, plate compactors, jackhammers, and more.",
+    excerpt: "A plain-English rundown of every machine type we rent — from 3 KVA portables to 500 KVA Perkins generators, plate compactors, jackhammers, and more.",
     content: `
       <p>Here's a quick walkthrough of what's in our yard. We keep everything serviced and ready to go, so if you need something tomorrow morning, chances are we can make it happen.</p>
       
       <h2>Generators</h2>
-      <p>We stock generators from 20 KVA up to 1000 KVA. Most rental requests we get are in the 100–500 KVA range for site power. Here's what moves the most:</p>
+      <p>We stock generators from 3 KVA up to 500 KVA. Most rental requests we get are in the 100–500 KVA range for site power. Here's what moves the most:</p>
       <ul>
-        <li><strong>Perkins 500 KVA:</strong> The big dog. If you're running a large site with tower cranes, hoists, and a full labour camp, this is what you need. Diesel, silent canopy, runs all day.</li>
+        <li><strong>Perkins 500 KVA:</strong> The big dog. If you're running a large site with a full MEP crew and labour camp, this is what you need. Diesel, silent canopy, runs all day.</li>
         <li><strong>Cummins 100 KVA:</strong> Great for medium sites, hotel fit-outs, or outdoor events. Quiet enough that neighbours won't complain. Fuel-efficient too.</li>
-        <li><strong>Portable generators:</strong> For running a few power tools or lighting on a smaller site. Easy to move around.</li>
+        <li><strong>Honda 3 &amp; 20 KVA portables:</strong> For running a few power tools or lighting on a smaller site. Easy to move around.</li>
       </ul>
       
       <h2>Compaction Equipment</h2>
       <p>Whether you're compacting a trench backfill or prepping a road base, we've got the right size:</p>
       <ul>
-        <li><strong>Plate Compactors (80 KG+):</strong> For pavers, small patches, tight areas between walls. Light enough for one person to handle.</li>
-        <li><strong>Tamping Rammers:</strong> Best for deep trench work where you need serious force in a narrow space. Cohesive soils, clay — that's where these shine.</li>
-        <li><strong>Roller Compactors (up to 10 ton):</strong> Road work, large parking areas, site preparation. If you're doing bulk earthwork, you want a roller.</li>
+        <li><strong>Plate Compactors (30–180 KG):</strong> Honda 30 KG for pavers and tight areas; JCB 180 KG for heavier sub-base and road work.</li>
+        <li><strong>Roller Compactors (5–10 ton):</strong> JCB 5-ton and CAT 10-ton rollers for road work, large parking areas and site preparation.</li>
       </ul>
       
-      <h2>Air Compressors</h2>
-      <p>We carry portable and towable air compressors. Most guys use them with pneumatic breakers and sandblasting gear. If you're doing demolition or surface prep, give us a call and we'll match the right CFM to your tools.</p>
+      <h2>Jack Hammers &amp; Breakers</h2>
+      <p>We carry electric and pneumatic breakers — from the 7 KG Makita HM0870C for light chipping, to the 13 KG Bosch GSH 11 VC for mid-duty work, up to the 20 KG Hilti TE 3000 for serious concrete and asphalt demolition. If you're doing breaking or surface prep, give us a call and we'll match the right tool to your job.</p>
       
       <h2>Concrete Equipment</h2>
-      <p>Mixers, vibrators, and finishing tools. If you're pouring on site, we have what you need to keep the concrete moving and properly consolidated.</p>
+      <p>500 L diesel mixers, Honda petrol concrete vibrators, and Wacker Neuson power trowels (helicopters). If you're pouring on site, we have what you need to keep the concrete moving and properly consolidated.</p>
       
-      <h2>Power Tools & Cutting Machines</h2>
-      <p>Jackhammers, core cutting machines, wall saws, angle grinders — the stuff you need for breaking, cutting, and shaping. All well-maintained and ready to go.</p>
+      <h2>Power Tools &amp; Cutting Machines</h2>
+      <p>Hilti DD 150 core cutters, Makita steel benders, Bosch GWS 22 steel cutters, Rubi tile cutters, DeWalt wood cutters, Miller welding machines, Milwaukee impact wrenches and Makita grinders — the stuff you need for breaking, cutting, welding and shaping. All well-maintained and ready to go.</p>
       
       <h2>Other Gear</h2>
-      <p>We also rent scaffolding, lighting towers, water pumps, welding machines, and a bunch of other stuff that doesn't fit neatly into a category. If you're not sure whether we have it, just ask.</p>
+      <p>We also rent Zamil aluminium scaffolding, Zamil ladders, Generac tower lights, Honda water pumps, Karcher vacuums and Stihl chainsaws. If you're not sure whether we have it, just ask.</p>
       
       <p>Call 055 455 5786 or 050 484 5636 and tell us what you're working on. We'll figure out the right gear together.</p>
     `,
@@ -415,7 +414,7 @@ export const allBlogPosts: BlogPost[] = [
       role: "Fleet Manager",
     },
     category: "Equipment Guides",
-    tags: ["Equipment Fleet", "Generators", "Compactors", "Air Compressors", "Construction Equipment", "Dubai Rental"],
+    tags: ["Equipment Fleet", "Generators", "Compactors", "Jack Hammers", "Construction Equipment", "Dubai Rental"],
     publishedAt: "2025-12-25",
     readTime: 10,
     featured: true,
@@ -537,7 +536,7 @@ export const allBlogPosts: BlogPost[] = [
       <p>Dubai moves fast. Projects have tight deadlines, the heat doesn't help, and nobody has time to chase down a rental company that doesn't deliver. Here's why contractors around the city keep coming back to Husnain Abdul Rasheed Machinery Rentals.</p>
       
       <h2>1. We Have What You Need</h2>
-      <p>Generators, compactors, jackhammers, air compressors, concrete equipment — it's all here. Instead of calling three different companies, you call us once. Need a 500 KVA generator for a tower site and a plate compactor for the landscaping crew? Same supplier, same invoice, same delivery.</p>
+      <p>Generators, compactors, jackhammers, cutting machines, concrete equipment — it's all here. Instead of calling three different companies, you call us once. Need a 500 KVA generator for a large site and a plate compactor for the landscaping crew? Same supplier, same invoice, same delivery.</p>
       
       <h2>2. The Machines Work</h2>
       <p>Everything gets serviced on a regular schedule. Before a machine goes out to a site, it gets checked over properly. We're not going to send you a generator that overheats after four hours. If it's in our yard, it's because it runs. If it doesn't run, it goes to the workshop, not to your site.</p>
@@ -792,7 +791,7 @@ export const allBlogPosts: BlogPost[] = [
       <ul>
         <li>High-capacity generators for continuous site power</li>
         <li>Plate compactors for foundation work</li>
-        <li>Air compressors for pneumatic tools</li>
+        <li>Jack hammers and breakers for structural demolition</li>
         <li>Scaffolding systems for high-rise work</li>
       </ul>
       
@@ -809,7 +808,7 @@ export const allBlogPosts: BlogPost[] = [
       <p>This one's back on. Marine construction plus land reclamation means specialized equipment:</p>
       <ul>
         <li>Heavy-duty generators for breakwater construction</li>
-        <li>Large air compressors</li>
+        <li>Heavy-duty jack hammers and breakers</li>
         <li>Compaction equipment for reclaimed land</li>
         <li>Mobile power units that can move with the work</li>
       </ul>
@@ -1677,7 +1676,7 @@ export const allBlogPosts: BlogPost[] = [
     slug: "construction-equipment-hydraulic-system-repair-guide",
     excerpt: "Hydraulic systems power most construction equipment. Master the fundamentals of hydraulic troubleshooting, repair, and maintenance for UAE job sites.",
     content: `
-      <p>Hydraulic systems are the muscle behind modern construction equipment. From excavator booms to forklift masts, hydraulic power enables machines to lift, push, dig, and compact with incredible force. But these systems are also among the most common sources of equipment failure — especially in the UAE's harsh operating environment. Understanding hydraulic system repair is essential for anyone managing construction equipment.</p>
+      <p>Hydraulic systems are the muscle behind modern construction equipment. From roller compactor drums to power-trowel transmissions, hydraulic power enables machines to lift, push, and compact with incredible force. But these systems are also among the most common sources of equipment failure — especially in the UAE's harsh operating environment. Understanding hydraulic system repair is essential for anyone managing construction equipment.</p>
 
       <h2>Hydraulic System Fundamentals</h2>
       <p>Every hydraulic system has these core components:</p>

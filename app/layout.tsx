@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   applicationName: "Husnain Abdul Rasheed Machinery Rentals",
   title: "Generator Rental Dubai | Construction Equipment Hire UAE | Husnain Abdul Rasheed Machinery Rentals",
   description:
-    "Rent generators 10–1000 KVA, compactors, jack hammers, concrete mixers & 60+ types of construction equipment. Same-day delivery across Dubai and all 7 UAE Emirates from Al Lisaili. Call 055 455 5786.",
+    "Rent generators 3–500 KVA, compactors, jack hammers, concrete mixers & 60+ types of construction equipment. Same-day delivery across Dubai and all 7 UAE Emirates from Al Lisaili. Call 055 455 5786.",
   keywords: [
     "generator rental Dubai",
     "construction equipment rental Dubai",

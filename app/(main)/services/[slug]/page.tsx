@@ -16,15 +16,15 @@ const services: Record<
     title: "Generator & Equipment Rental",
     headline: "Premium Generators & Construction Equipment for Rent",
     description:
-      "Husnain Abdul Rasheed Machinery Rentals offers an extensive fleet of generators (10 KVA to 1000 KVA), compactors, air compressors, and construction equipment for daily, weekly, and monthly rental. From powering farm events in Al Lisaili to supplying mega construction sites in Dubai South — we deliver the right equipment, on time.",
+      "Husnain Abdul Rasheed Machinery Rentals offers an extensive fleet of generators (3 KVA to 500 KVA), compactors, jack hammers, cutting machines and power tools for daily, weekly, and monthly rental. From powering farm events in Al Lisaili to supplying mega construction sites in Dubai South — we deliver the right equipment, on time.",
     features: [
-      { title: "Full Generator Range", description: "From 10 KVA for small events to 1000 KVA for mega construction and industrial sites." },
+      { title: "Full Generator Range", description: "From 3 KVA portables for handheld tools to 500 KVA Perkins and Caterpillar units for mega construction and industrial sites." },
       { title: "Silent Models Available", description: "Super-silent canopy generators for weddings, film shoots, and residential areas." },
       { title: "Event Power Packages", description: "Complete packages with generator, distribution board, cables, and on-site setup." },
       { title: "Same-Day Delivery", description: "Free delivery within 15 km from Al Lisaili. Same-day delivery across Dubai." },
     ],
     benefits: [
-      "Generators from 10 KVA to 1000 KVA",
+      "Generators from 3 KVA to 500 KVA",
       "Silent generators for events and film production",
       "Free delivery within Zone A (0–15 km)",
       "24/7 breakdown support and replacement guarantee",

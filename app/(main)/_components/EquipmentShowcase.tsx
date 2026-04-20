@@ -16,30 +16,30 @@ const blocks: ShowcaseBlock[] = [
   {
     anchor: "generators",
     title: "Silent Diesel Generator Rental Dubai",
-    subtitle: "Power anywhere, from 10 KVA to 1000 KVA",
+    subtitle: "Power anywhere, from 3 KVA to 500 KVA",
     body:
-      "Looking for the best diesel generator rental in Dubai? Husnain Abdul Rasheed Machinery Rentals is one of the most trusted names in the UAE for silent and open-type diesel generators. We cover construction sites, events, film shoots and emergency backup — with capacities ranging from 10 KVA up to 1000 KVA. Every unit leaves our yard serviced, fuelled and ready to run.",
-    brands: ["Perkins", "Cummins", "Caterpillar", "FG Wilson", "Denyo"],
+      "Looking for the best diesel generator rental in Dubai? Husnain Abdul Rasheed Machinery Rentals is one of the most trusted names in the UAE for silent and open-type diesel generators. We cover construction sites, events, film shoots and emergency backup — with capacities ranging from 3 KVA portables up to 500 KVA heavy units. Every unit leaves our yard serviced, fuelled and ready to run.",
+    brands: ["Perkins", "Cummins", "Caterpillar", "Denyo", "Kohler"],
     images: [
       "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=800&auto=format&fit=crop",
     ],
     href: "/machinery?category=Generators",
     capacityLine:
-      "Capacity: 10 KVA · 25 KVA · 100 KVA · 250 KVA · 500 KVA · 1000 KVA",
+      "Capacity: 3 KVA · 20 KVA · 60 KVA · 150 KVA · 350 KVA · 500 KVA",
   },
   {
-    anchor: "air-compressor",
-    title: "Air Compressor Rental Dubai",
-    subtitle: "Diesel portable compressors for site works",
+    anchor: "jack-hammers",
+    title: "Jack Hammer & Breaker Rental Dubai",
+    subtitle: "Electric & pneumatic breakers for demolition",
     body:
-      "Besides generators, we offer the best service in air compressor rental across the UAE. Our diesel portable compressors run jack hammers, pneumatic breakers, sand-blasting and paint rigs reliably — with capacities from 185 CFM up to 1070 CFM. Delivered to your site same day, with hoses and accessories included.",
-    brands: ["Atlas Copco", "Ingersoll Rand", "Doosan", "Kaeser"],
+      "Need to break through concrete, asphalt or masonry? Our jack hammer and breaker fleet handles demolition, trenching, chipping and surface preparation across Dubai and the UAE. From 7 KG handheld chippers to 20 KG heavy-duty TE 3000 units — delivered same day with the right bits and accessories.",
+    brands: ["Hilti", "Bosch", "Makita"],
     images: [
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
     ],
     href: "/machinery?category=Air+Compressors",
-    capacityLine: "Capacity: 185 CFM · 390 CFM · 750 CFM · 1070 CFM",
+    capacityLine: "Models: Makita HM0870C (7 KG) · Bosch GSH 11 VC (13 KG) · Hilti TE 3000 (20 KG)",
   },
   {
     anchor: "light-tower",
@@ -47,7 +47,7 @@ const blocks: ShowcaseBlock[] = [
     subtitle: "LED & metal-halide tower lights for night works",
     body:
       "Keep your site lit through the night with our mobile LED light towers. Ideal for road projects, night-shift construction, concert grounds and outdoor events — tall masts, wide coverage, low fuel burn. Rent by the day, week or month.",
-    brands: ["Atlas Copco QLT", "Generac", "Wacker Neuson"],
+    brands: ["Generac", "Wacker Neuson"],
     images: [
       "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=800&auto=format&fit=crop",
     ],
@@ -61,12 +61,12 @@ const blocks: ShowcaseBlock[] = [
     subtitle: "Soil, asphalt and paving compaction",
     body:
       "From small plate compactors for tile and paver work, through to vibratory rollers for asphalt and road base — our compactor fleet handles every level of ground preparation. Operators available if you need them.",
-    brands: ["Bomag", "Hamm", "Wacker Neuson", "Dynapac"],
+    brands: ["Caterpillar", "JCB", "Honda", "Wacker Neuson"],
     images: [
       "https://images.unsplash.com/photo-1586191582066-8e00e5886a04?q=80&w=800&auto=format&fit=crop",
     ],
     href: "/machinery?category=Compactors",
-    capacityLine: "Range: 60 kg plate compactors to 12-ton tandem rollers",
+    capacityLine: "Range: 30 kg plate compactors to 10-ton tandem rollers",
   },
   {
     anchor: "concrete",
@@ -74,12 +74,12 @@ const blocks: ShowcaseBlock[] = [
     subtitle: "On-site concrete production & placement",
     body:
       "Pouring foundations, slabs or small structures? Our concrete mixers, vibrators, trowels and power floats are ready to dispatch. Reliable machines, competitive daily rates, and we can bundle with a generator and water pump for a complete site package.",
-    brands: ["Honda", "Belle", "Wacker Neuson", "Altrad"],
+    brands: ["Honda", "Wacker Neuson", "Altrad"],
     images: [
       "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=800&auto=format&fit=crop",
     ],
     href: "/machinery?category=Concrete+Equipment",
-    capacityLine: "Mixer drums: 140 L · 250 L · 350 L · 500 L",
+    capacityLine: "Mixer drums up to 500 L · Power trowels · Concrete vibrators",
   },
   {
     anchor: "cutting",
@@ -87,7 +87,7 @@ const blocks: ShowcaseBlock[] = [
     subtitle: "Walk-behind cutters, core drills & wall saws",
     body:
       "Road repairs, utility trenches, expansion joints — our diesel and petrol cutting machines handle asphalt, concrete and masonry with clean, accurate cuts. Diamond blades available in multiple diameters.",
-    brands: ["Husqvarna", "Makita", "Stihl"],
+    brands: ["Husqvarna", "Makita", "Hilti", "Bosch", "DeWalt", "Rubi"],
     images: [
       "https://images.unsplash.com/photo-1603814929877-d5d927322656?q=80&w=800&auto=format&fit=crop",
     ],

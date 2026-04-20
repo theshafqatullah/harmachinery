@@ -32,12 +32,12 @@ const faqCategories = [
       {
         question: "What generator sizes do you offer?",
         answer:
-          "We stock generators ranging from 10 KVA (ideal for small farm parties and food stalls) up to 1000 KVA (for mega construction sites and industrial operations). Our most popular sizes are 20\u201330 KVA for events, 50\u2013100 KVA for weddings, and 500 KVA for construction sites.",
+          "We stock generators ranging from 3 KVA (ideal for small stalls and handheld tools) up to 500 KVA (for mega construction sites and industrial operations). Our most popular sizes are 20\u201330 KVA for events, 60\u2013100 KVA for weddings, and 350\u2013500 KVA for construction sites.",
       },
       {
         question: "Do you offer silent generators for events?",
         answer:
-          "Yes. We carry super-silent canopy generators that are essential for weddings, film shoots, corporate events, and residential areas. These are available from 20 KVA to 500 KVA.",
+          "Yes. We carry super-silent canopy generators that are essential for weddings, film shoots, corporate events, and residential areas. These are available from 15 KVA to 500 KVA.",
       },
       {
         question: "What forms of payment do you accept?",

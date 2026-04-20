@@ -7,12 +7,14 @@ const BASE = "https://husnainabdulrasheedmachineryrentals.ae";
 const now = new Date();
 
 const equipmentSlugs = [
-  "excavators",
-  "wheel-loaders",
-  "cranes",
-  "bulldozers",
-  "aerial-lifts",
-  "dump-trucks",
+  "generators",
+  "compactors",
+  "air-compressors",
+  "cutting-machines",
+  "concrete-equipment",
+  "power-tools",
+  "light-towers",
+  "water-pumps",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

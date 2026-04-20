@@ -11,16 +11,16 @@ import ContactSplit from "./_components/ContactSplit";
 export const metadata: Metadata = {
   title: "Generator Rental Dubai | Construction Equipment Hire UAE",
   description:
-    "Generators 10–1000 KVA, compactors, jack hammers & power tools on rent. Same-day delivery across Dubai and all 7 Emirates. Call 055 455 5786 for a free quote.",
+    "Generators 3–500 KVA, compactors, jack hammers & power tools on rent. Same-day delivery across Dubai and all 7 Emirates. Call 055 455 5786 for a free quote.",
   keywords: [
     "generator rental Dubai",
     "generator hire Dubai",
     "equipment rental Dubai",
     "construction equipment rental UAE",
     "generator 500 KVA Dubai",
-    "generator 1000 KVA rental",
+    "silent generator rental Dubai",
     "compactor rental Dubai",
-    "air compressor hire UAE",
+    "jack hammer rental Dubai",
     "same day equipment delivery Dubai",
     "Al Lisaili equipment rental",
   ],
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Generator Rental Dubai | Construction Equipment Hire UAE",
     description:
-      "Generators 10–1000 KVA, compactors, jack hammers & power tools on rent. Same-day delivery across Dubai and all 7 Emirates. Call 055 455 5786 for a free quote.",
+      "Generators 3–500 KVA, compactors, jack hammers & power tools on rent. Same-day delivery across Dubai and all 7 Emirates. Call 055 455 5786 for a free quote.",
     url: "/",
     type: "website",
   },
   twitter: {
     title: "Generator Rental Dubai | Construction Equipment Hire UAE",
     description:
-      "Generators 10–1000 KVA, compactors, jack hammers & power tools on rent. Same-day delivery across Dubai and all 7 Emirates. Call 055 455 5786 for a free quote.",
+      "Generators 3–500 KVA, compactors, jack hammers & power tools on rent. Same-day delivery across Dubai and all 7 Emirates. Call 055 455 5786 for a free quote.",
   },
 };
 
@@ -281,7 +281,8 @@ export default function Home() {
           itemListElement: [
             { "@type": "Offer", itemOffered: { "@type": "Service", name: "Generator Rental" } },
             { "@type": "Offer", itemOffered: { "@type": "Service", name: "Compactor Rental" } },
-            { "@type": "Offer", itemOffered: { "@type": "Service", name: "Air Compressor Rental" } },
+            { "@type": "Offer", itemOffered: { "@type": "Service", name: "Jack Hammer & Breaker Rental" } },
+            { "@type": "Offer", itemOffered: { "@type": "Service", name: "Power Tools Rental" } },
             { "@type": "Offer", itemOffered: { "@type": "Service", name: "Construction Equipment Rental" } },
           ],
         },
@@ -350,7 +351,7 @@ export default function Home() {
               Rent Generators & Heavy Equipment. Get It Today.
             </h1>
             <p className="mt-6 text-lg leading-8 text-zinc-300">
-              We rent out generators from 10 to 1000 KVA, compactors, jack hammers, concrete mixers, power tools, tower lights, and more. Construction site in JVC? Wedding in Al Awir? Desert camp in Margham? We'll have the equipment at your gate same day.
+              We rent out generators from 3 to 500 KVA, compactors, jack hammers, concrete mixers, power tools, tower lights, and more. Construction site in JVC? Wedding in Al Awir? Desert camp in Margham? We'll have the equipment at your gate same day.
             </p>
             <div className="mt-10 flex items-center gap-x-4">
               <Link
@@ -487,7 +488,7 @@ export default function Home() {
               </p>
               <ul className="mt-8 space-y-4">
                 {[
-                  "Generators from 10 KVA all the way up to 1000 KVA",
+                  "Generators from 3 KVA portables up to 500 KVA heavy units",
                   "We deliver to 90+ locations across all 7 Emirates",
                   "Machine broke down? Call us anytime — 24/7 support",
                   "Free drop-off if you're within 15 km of Al Lisaili",
@@ -624,7 +625,7 @@ export default function Home() {
             {[
               {
                 title: "Weddings & Private Parties",
-                desc: "25–250 KVA silent generators for farmhouse weddings, birthdays, and family dos. We cover Al Lisaili, Al Awir, Al Khawaneej — all the popular spots.",
+                desc: "20–120 KVA silent generators for farmhouse weddings, birthdays, and family dos. We cover Al Lisaili, Al Awir, Al Khawaneej — all the popular spots.",
                 icon: "🎊",
               },
               {
@@ -634,7 +635,7 @@ export default function Home() {
               },
               {
                 title: "Concerts & Festivals",
-                desc: "100–500 KVA for outdoor concerts, Global Village vendor setups, food festivals, and seasonal markets around Dubai.",
+                desc: "100–350 KVA for outdoor concerts, Global Village vendor setups, food festivals, and seasonal markets around Dubai.",
                 icon: "🎵",
               },
               {
@@ -649,7 +650,7 @@ export default function Home() {
               },
               {
                 title: "Film & Media Production",
-                desc: "Super-silent 20–80 KVA generators — the kind you need on set where any noise kills the take. Outdoor shoots, ad films, the lot.",
+                desc: "Super-silent 15–60 KVA generators — the kind you need on set where any noise kills the take. Outdoor shoots, ad films, the lot.",
                 icon: "🎬",
               },
               {

@@ -130,19 +130,22 @@ export default function RequestQuotePage() {
                       Equipment Type
                     </label>
                     <select className="mt-1 block w-full rounded-lg border border-zinc-300 px-4 py-2.5 text-sm text-zinc-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500">
-                      <option>Generator (10–50 KVA)</option>
-                      <option>Generator (50–100 KVA)</option>
-                      <option>Generator (100–250 KVA)</option>
-                      <option>Generator (250–500 KVA)</option>
-                      <option>Generator (500–1000 KVA)</option>
+                      <option>Generator (3–20 KVA Portable)</option>
+                      <option>Generator (20–60 KVA)</option>
+                      <option>Generator (60–150 KVA)</option>
+                      <option>Generator (150–350 KVA)</option>
+                      <option>Generator (350–500 KVA)</option>
                       <option>Silent Generator (Events)</option>
+                      <option>Welding Generator</option>
                       <option>Compactor / Roller</option>
-                      <option>Air Compressor</option>
-                      <option>Excavator</option>
-                      <option>Boom / Scissor Lift</option>
-                      <option>Forklift / Telehandler</option>
+                      <option>Jack Hammer / Breaker</option>
+                      <option>Concrete Mixer / Vibrator / Trowel</option>
+                      <option>Cutting Machine (Core / Tile / Steel / Wood)</option>
+                      <option>Drill (Hilti / Bosch)</option>
+                      <option>Power Tool (Grinder / Wrench / Blower)</option>
                       <option>Light Tower</option>
                       <option>Water Pump</option>
+                      <option>Scaffolding / Ladder</option>
                       <option>Event Power Package (Generator + Cables + Setup)</option>
                       <option>Other Equipment</option>
                     </select>

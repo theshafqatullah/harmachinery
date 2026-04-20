@@ -10,7 +10,7 @@ export const pageSeo = {
     title:
       "Generator & Construction Equipment Rental in Dubai | Husnain Abdul Rasheed Machinery Rentals",
     description:
-      "Rent generators from 10–1000 KVA, compactors, jack hammers, concrete mixers and 60+ types of construction equipment. Same-day delivery across Dubai and all 7 UAE Emirates from Al Lisaili. Call 055 455 5786.",
+      "Rent generators from 3–500 KVA, compactors, jack hammers, concrete mixers and 60+ types of construction equipment. Same-day delivery across Dubai and all 7 UAE Emirates from Al Lisaili. Call 055 455 5786.",
     keywords: [
       "generator rental Dubai",
       "construction equipment rental Dubai",
@@ -57,7 +57,7 @@ export const pageSeo = {
     title:
       "Rent Construction Equipment & Generators in Dubai | 60+ Machines",
     description:
-      "Browse 60+ machines for rent — generators (10–1000 KVA), compactors, jack hammers, concrete mixers, cutting machines, power tools and more. Daily, weekly or monthly rates.",
+      "Browse 60+ machines for rent — generators (3–500 KVA), compactors, jack hammers, concrete mixers, cutting machines, power tools and more. Daily, weekly or monthly rates.",
   },
 
   services: {

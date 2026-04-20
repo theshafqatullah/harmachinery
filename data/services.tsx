@@ -41,7 +41,7 @@ export const allServices: Service[] = [
     id: "equipment-rental",
     name: "Generator & Equipment Rental",
     shortDescription: "Generators, compactors, jack hammers and more — rent by the day, week, or month",
-    description: "We keep 60+ machines in our yard ready to go. Generators from 10 KVA portables right up to 500 KVA Perkins and Cummins units. Compactors, jack hammers, concrete mixers, cutting machines, drills — name it, we've probably got it. Rent for one day or six months, whatever your job needs. Every machine gets checked and serviced before it leaves our lot.",
+    description: "We keep 60+ machines in our yard ready to go. Generators from 3 KVA portables right up to 500 KVA Perkins and Caterpillar units. Compactors, jack hammers, concrete mixers, cutting machines, drills — name it, we've probably got it. Rent for one day or six months, whatever your job needs. Every machine gets checked and serviced before it leaves our lot.",
     icon: <Zap className="h-8 w-8" />,
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070",
     features: [

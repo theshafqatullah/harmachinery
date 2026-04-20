@@ -68,7 +68,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Massive 145 sq km master-planned city with Al Maktoum International Airport expansion, Expo City Dubai, residential communities, and logistics districts under continuous construction.",
     equipmentDemand:
-      "Tower cranes, excavators, generators (20–500 kVA), boom lifts, forklifts, compactors, concrete mixers",
+      "Heavy-duty generators, compactors, generators (20–500 kVA), scaffolding, power tools, concrete mixers",
     whyTarget:
       "Continuous large-scale construction for years to come — one of the biggest development zones in Dubai.",
     metaTitle: "Generator & Equipment Rental in Dubai South | Husnain Abdul Rasheed Machinery Rentals",
@@ -87,7 +87,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Legacy site of Expo 2020 being repurposed into a new urban district with offices, residences, museums, parks, and large-scale event venues hosting conferences and concerts year-round.",
     equipmentDemand:
-      "Generators (100–500 kVA), telehandlers, boom lifts, scaffolding",
+      "Generators (100–500 kVA), scaffolding",
     whyTarget:
       "Multi-year transformation project with constant contractor demand plus growing event venue business.",
     metaTitle:
@@ -108,7 +108,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Large residential community with ongoing villa and townhouse phases, international golf course, retail, and amenity construction very close to our Al Lisaili base.",
     equipmentDemand:
-      "Small-medium generators (25–100 kVA), mini excavators, skid steer loaders, compactors",
+      "Small-medium generators (25–100 kVA), plate compactors, jack hammers, roller compactors",
     whyTarget:
       "Extremely close to Al Lisaili — low delivery cost, continuous residential construction.",
     metaTitle:
@@ -127,7 +127,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Major Emaar residential development along the Dubai-Al Ain Road with multiple phases of townhouses, villas, parks, and retail — one of the closest mega projects to our base.",
-    equipmentDemand: "Generators, excavators, compactors, dump trucks",
+    equipmentDemand: "Generators, compactors, roller compactors",
     whyTarget:
       "Extremely close, large multi-year project with constant equipment demand.",
     metaTitle:
@@ -146,7 +146,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Dubai Properties residential community with multiple phases of townhouses, villas, schools, mosques, and community facilities under active construction.",
-    equipmentDemand: "Small generators, bobcats, compactors, concrete pumps",
+    equipmentDemand: "Small generators, jack hammers, compactors, concrete mixers",
     whyTarget:
       "Close proximity with steady residential construction cycle.",
     metaTitle:
@@ -167,7 +167,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Industrial and agricultural zone with ongoing warehouse construction, waste-to-energy plants, sewage treatment plant upgrades, wedding halls, private farms, and the largest agricultural zone near Dubai.",
     equipmentDemand:
-      "Heavy generators (250–500 kVA), excavators, wheel loaders, water pumps, forklifts",
+      "Heavy generators (250–500 kVA), compactors, roller compactors, water pumps, power tools",
     whyTarget:
       "Very close, diverse demand across industrial construction, events, and agriculture.",
     metaTitle: "Generator & Equipment Rental in Al Awir | Husnain Abdul Rasheed Machinery Rentals",
@@ -187,7 +187,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Popular desert camping and event destination with private camps, corporate events, and safari operations. Also near the MBR Solar Park infrastructure corridor.",
     equipmentDemand:
-      "Generators (20–100 kVA per camp/event), trenchers, cable-laying equipment",
+      "Generators (20–100 kVA per camp/event)",
     whyTarget:
       "Close proximity with daily safari operations and weekly private camps. Peak season Oct–April.",
     metaTitle: "Generator Rental in Margham Desert Area | Husnain Abdul Rasheed Machinery Rentals",
@@ -226,7 +226,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Our home base. Equipment rental for Al Lisaili area construction, agricultural operations, date palm plantations, poultry farms, greenhouse operations, and event venues.",
     equipmentDemand:
-      "Generators (10–100 kVA), water pumps, mini excavators, compactors",
+      "Generators (10–100 kVA), water pumps, mini compactors, compactors",
     whyTarget:
       "Zero delivery cost — right at our doorstep with daily repeat business potential.",
     metaTitle: "Generator & Equipment Rental in Al Lisaili | Husnain Abdul Rasheed Machinery Rentals",
@@ -245,7 +245,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Continuous road widening, junction improvements, bridge construction, and utility installations along the Dubai–Al Ain highway — literally on our doorstep.",
     equipmentDemand:
-      "Generators (50–200 kVA), excavators, compactors, rollers, dump trucks, light towers",
+      "Generators (50–200 kVA), compactors, rollers, roller compactors, light towers",
     whyTarget:
       "Right at our doorstep — the longest-running road project with 24/7 night work operations.",
     metaTitle:
@@ -265,7 +265,7 @@ export const dubaiLocations: Location[] = [
     description:
       "One of the largest treatment plants in the Middle East with ongoing capacity upgrades, new treatment units, and pipeline construction.",
     equipmentDemand:
-      "Heavy generators (200–500 kVA), excavators, cranes, dewatering pumps, pipe-laying equipment",
+      "Heavy generators (200–500 kVA), compactors, heavy generators, dewatering pumps",
     whyTarget:
       "Very close, long-term government project with reliable payment.",
     metaTitle:
@@ -344,7 +344,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Cold storage warehouses, food processing plants, and vertical farms. Generators are critical as cold storage cannot lose power. Al Awir Food Zone is very close.",
     equipmentDemand:
-      "Generators (critical backup), forklifts, refrigeration container power",
+      "Generators (critical backup), power tools, lighting",
     whyTarget:
       "Close proximity, generators critical for cold chain — clients pay premium for reliability.",
     metaTitle:
@@ -365,13 +365,13 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "events"],
     description:
       "Free zone tech park with ongoing residential and commercial construction, new towers, retail centers, tech campus expansions, and university venues.",
-    equipmentDemand: "Tower cranes, generators, concrete pumps, hoists",
+    equipmentDemand: "Heavy-duty generators, generators, concrete mixers, scaffolding",
     whyTarget:
       "Steady commercial and residential development with event venue demand.",
     metaTitle:
       "Generator & Equipment Rental in Dubai Silicon Oasis | Husnain Abdul Rasheed Machinery Rentals",
     metaDescription:
-      "Construction equipment rental in DSO. Husnain Abdul Rasheed Machinery Rentals delivers generators, cranes & construction equipment.",
+      "Construction equipment rental in DSO. Husnain Abdul Rasheed Machinery Rentals delivers generators, heavy generators & construction equipment.",
   },
   {
     id: "al-warsan",
@@ -384,7 +384,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Active development zone with ongoing residential and commercial projects, new waste management facilities, and International City Phase 2 developments.",
-    equipmentDemand: "Generators, excavators, dump trucks",
+    equipmentDemand: "Generators, compactors, roller compactors",
     whyTarget:
       "Active development zone close by with diverse project types.",
     metaTitle:
@@ -404,7 +404,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Emaar's latest phase of the Arabian Ranches community with villas, townhouses, schools, retail, and parks under active construction.",
     equipmentDemand:
-      "Generators, mini excavators, compactors, concrete trucks",
+      "Generators, mini compactors, compactors, concrete mixers",
     whyTarget:
       "Active large-scale villa construction from a premier developer.",
     metaTitle:
@@ -424,7 +424,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Meydan district expansion with new residential communities, Meydan One Mall mega-project, Dubai World Cup racing events, and corporate functions at the racecourse.",
     equipmentDemand:
-      "Generators (50–500 kVA), earthmoving equipment, compactors",
+      "Generators (50–500 kVA), compactors",
     whyTarget:
       "Ongoing suburban development plus premium sporting events at the racecourse.",
     metaTitle:
@@ -443,7 +443,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Majid Al Futtaim's 30-million-sq-ft mega residential community with crystal lagoon, villas, townhouses, retail, and wellness facilities.",
-    equipmentDemand: "All types — generators, earthmoving, cranes, lifts",
+    equipmentDemand: "All types — generators, compactors, heavy generators, scaffolding",
     whyTarget:
       "Massive multi-phase development with years of construction ahead.",
     metaTitle:
@@ -462,7 +462,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Emaar master community with ongoing phases including mall, hospital, towers, and residential construction in a premium area.",
-    equipmentDemand: "Tower cranes, generators, concrete equipment",
+    equipmentDemand: "Heavy-duty generators, generators, concrete equipment",
     whyTarget:
       "Premium area with high-budget construction projects and reliable developer payments.",
     metaTitle:
@@ -482,7 +482,7 @@ export const dubaiLocations: Location[] = [
     description:
       "560-million-sq-ft industrial zone with ongoing factory, warehouse, food processing, metals, chemicals, and logistics facility construction.",
     equipmentDemand:
-      "Heavy generators (500+ kVA), cranes, excavators, forklifts, welding machines",
+      "Heavy generators (up to 500 kVA), heavy generators, compactors, power tools, welding machines",
     whyTarget:
       "Permanent industrial construction demand with long-term rental contracts.",
     metaTitle:
@@ -501,7 +501,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Mixed-use industrial, commercial, and residential development with warehouses, factories, and worker accommodation under construction.",
-    equipmentDemand: "Generators, forklifts, boom lifts, compactors",
+    equipmentDemand: "Generators, power tools, scaffolding, compactors",
     whyTarget:
       "Consistent industrial expansion and facility upgrades.",
     metaTitle:
@@ -521,7 +521,7 @@ export const dubaiLocations: Location[] = [
     description:
       "World's largest single-site solar park with phases IV and V under construction, targeting 5,000 MW capacity. Includes the world's tallest solar tower.",
     equipmentDemand:
-      "Generators (100–500 kVA), cranes, pile drivers, cable-laying trenchers, forklifts",
+      "Generators (100–500 kVA), heavy generators, power tools",
     whyTarget:
       "Multi-year mega energy project directly south of base — massive equipment demand.",
     metaTitle:
@@ -540,7 +540,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "government"],
     description:
       "Multi-lane highway expansion with new interchange construction, utility diversion, and installation work supporting Dubai's growing traffic needs.",
-    equipmentDemand: "Heavy machinery, generators, dump trucks",
+    equipmentDemand: "Heavy machinery, generators, roller compactors",
     whyTarget:
       "Major highway close by with multi-year construction work and night operations.",
     metaTitle:
@@ -560,7 +560,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Stage 2 of the UAE national railway connecting Abu Dhabi, Dubai, Sharjah, and Northern Emirates with massive earthwork, bridge, tunnel, station, and track-laying construction.",
     equipmentDemand:
-      "Heavy generators (300–1000 kVA), excavators, cranes, compactors, concrete equipment, welding generators",
+      "Heavy generators (300–500 kVA), compactors, heavy generators, concrete equipment, welding generators",
     whyTarget:
       "Biggest infrastructure project in UAE history — massive equipment demand for years with month-to-year rental durations.",
     metaTitle:
@@ -600,7 +600,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Large concentration of private farms, event venues, and wedding halls catering to Arab/Emirati celebrations. Includes the largest agricultural zone near Dubai with commercial farms and nurseries.",
     equipmentDemand:
-      "Generators (25–250 kVA), water pumps, small excavators, forklifts",
+      "Generators (25–250 kVA), water pumps, small compactors, power tools",
     whyTarget:
       "Very high year-round event demand with additional agricultural needs. Peak in winter and wedding season.",
     metaTitle:
@@ -717,7 +717,7 @@ export const dubaiLocations: Location[] = [
     markets: ["events", "construction"],
     description:
       "Seasonal attraction (Nov–May) requiring annual construction and setup of floral displays, light installations, and new themed gardens. Adjacent Butterfly Garden has ongoing facility needs.",
-    equipmentDemand: "Generators (30–100 kVA), small excavators",
+    equipmentDemand: "Generators (30–100 kVA), small compactors",
     whyTarget:
       "Annual setup/teardown cycle creates predictable seasonal rental demand.",
     metaTitle:
@@ -853,7 +853,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Manufacturing and logistics park near Dubai South with new factory and warehouse construction.",
-    equipmentDemand: "Generators (100–500 kVA), forklifts, excavators",
+    equipmentDemand: "Generators (100–500 kVA), power tools, compactors",
     whyTarget:
       "Close industrial zone — clients typically rent for long periods.",
     metaTitle:
@@ -872,7 +872,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial", "logistics"],
     description:
       "Part of Dubai South — massive logistics hub with warehouses, cold storage, and e-commerce fulfillment center construction (Amazon, Noon).",
-    equipmentDemand: "Generators, forklifts, excavators, compactors",
+    equipmentDemand: "Generators, power tools, compactors",
     whyTarget:
       "E-commerce boom driving continuous warehouse construction.",
     metaTitle:
@@ -891,7 +891,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Heavy industrial zone with metal fabrication, wood working, and construction material factories. Also includes logistics corridor with truck depots.",
-    equipmentDemand: "Generators (100–300 kVA), forklifts, cranes",
+    equipmentDemand: "Generators (100–300 kVA), power tools, heavy generators",
     whyTarget:
       "Close to Al Lisaili along the highway with ongoing facility upgrades.",
     metaTitle:
@@ -910,7 +910,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Dubai's oldest industrial area — constantly being redeveloped with factory upgrades, new workshop construction, and the Alserkal Avenue art district fit-outs.",
-    equipmentDemand: "Generators, forklifts, boom lifts",
+    equipmentDemand: "Generators, power tools, scaffolding",
     whyTarget:
       "Ongoing renovation cycle in existing buildings plus new construction.",
     metaTitle:
@@ -929,7 +929,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Dragon Mart expansion, International City Phase 2 construction, and warehouse/retail fit-out activity.",
-    equipmentDemand: "Generators (30–150 kVA), forklifts, compactors",
+    equipmentDemand: "Generators (30–150 kVA), power tools, compactors",
     whyTarget:
       "Close proximity with heavy trade/warehouse activity and new phase construction.",
     metaTitle:
@@ -948,7 +948,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Purpose-built multi-story worker villages for airport and Dubai South projects. Need generators during construction and permanent backup after completion.",
-    equipmentDemand: "Generators, cranes, concrete equipment",
+    equipmentDemand: "Generators, heavy generators, concrete equipment",
     whyTarget: "Close, large-scale, long-duration projects.",
     metaTitle:
       "Equipment Rental for Dubai South Worker Villages | Husnain Abdul Rasheed Machinery Rentals",
@@ -966,7 +966,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Largest labor camp area in Dubai with continuous camp construction, upgrades to meet new standards, generator backup requirements, and HVAC installations.",
-    equipmentDemand: "Generators (100–500 kVA backup), cranes, lifts",
+    equipmentDemand: "Generators (100–500 kVA backup), heavy generators, scaffolding",
     whyTarget:
       "Continuous demand — camps always need upgrades and new construction.",
     metaTitle:
@@ -988,7 +988,7 @@ export const dubaiLocations: Location[] = [
     description:
       "New substations for every community development plus 132kV and 400kV transmission line construction, cable laying, and underground duct installation.",
     equipmentDemand:
-      "Generators, cable drum trailers, cranes, excavators",
+      "Generators, heavy generators, compactors",
     whyTarget:
       "Every new community means new substations — continuous demand cycle.",
     metaTitle:
@@ -1008,7 +1008,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Major energy project converted from coal to natural gas with ongoing plant construction, green hydrogen pilot project, and associated infrastructure.",
     equipmentDemand:
-      "Heavy generators (500+ kVA), cranes, excavators, welding equipment",
+      "Heavy generators (up to 500 kVA), heavy generators, compactors, welding equipment",
     whyTarget:
       "Multi-year government energy project with high equipment demand.",
     metaTitle:
@@ -1068,7 +1068,7 @@ export const dubaiLocations: Location[] = [
     description:
       "One of the world's largest free zones and port with continuous warehouse, factory, and logistics construction. Over 8,000 companies with constant facility expansion.",
     equipmentDemand:
-      "Heavy generators, cranes, forklifts, welders, container handlers",
+      "Heavy generators, power tools, welders",
     whyTarget:
       "Massive volume — even a small market share equals significant revenue.",
     metaTitle:
@@ -1087,7 +1087,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Emaar mega development with Dubai Creek Tower (iconic landmark), residential towers, retail, and marina development.",
-    equipmentDemand: "Tower cranes, generators, concrete pumps",
+    equipmentDemand: "Heavy-duty generators, generators, concrete mixers",
     whyTarget:
       "Major waterfront mega-project with multi-year construction timeline.",
     metaTitle:
@@ -1126,7 +1126,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Nakheel's 5-island mega development with resorts, residential, retail, entertainment, and lifestyle destinations actively under construction.",
     equipmentDemand:
-      "All types — generators, cranes, excavators, marine construction support",
+      "All types — generators, heavy generators, compactors",
     whyTarget:
       "Massive multi-year construction program with constant equipment demand.",
     metaTitle:
@@ -1183,7 +1183,7 @@ export const dubaiLocations: Location[] = [
     markets: ["hospitality", "events", "construction"],
     description:
       "Meraas retail and entertainment districts with ongoing expansion, seasonal events, beach activations, and pop-up retail construction.",
-    equipmentDemand: "Generators (20–100 kVA), small construction equipment",
+    equipmentDemand: "Generators (20–100 kVA), power tools, compactors",
     whyTarget:
       "Regular event activations at premium locations with high visibility.",
     metaTitle:
@@ -1207,7 +1207,7 @@ export const dubaiLocations: Location[] = [
     description:
       "One of the largest industrial zones in the UAE with continuous warehouse, factory, and workshop construction. Many small-medium businesses building new facilities.",
     equipmentDemand:
-      "Generators (50–300 kVA), forklifts, excavators, boom lifts, compactors",
+      "Generators (50–300 kVA), power tools, compactors, scaffolding",
     whyTarget:
       "High volume of projects with less competition from Dubai-based suppliers.",
     metaTitle:
@@ -1227,7 +1227,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Sharjah's largest mega-development (24 million sq ft) — mixed-use with residential, retail, entertainment, hospitality, and the Madar entertainment district.",
     equipmentDemand:
-      "All types — generators, cranes, excavators, compactors, lifts, forklifts, concrete equipment",
+      "All types — generators, heavy generators, compactors, scaffolding, power tools, concrete equipment",
     whyTarget:
       "Mega project with continuous multi-year rental demand.",
     metaTitle:
@@ -1246,7 +1246,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Major waterfront master community with residential towers, retail, marinas, and parks. Multi-phase construction ongoing for years.",
-    equipmentDemand: "Tower cranes, generators, concrete pumps, lifts",
+    equipmentDemand: "Heavy-duty generators, generators, concrete mixers, scaffolding",
     whyTarget:
       "Large-scale residential construction with long-term demand.",
     metaTitle:
@@ -1265,7 +1265,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "New residential city with villas, townhouses, mosques, schools, and parks — early phases under construction.",
-    equipmentDemand: "Generators, mini excavators, compactors, loaders",
+    equipmentDemand: "Generators, mini compactors, compactors, roller compactors",
     whyTarget:
       "Early-stage project — opportunity to become primary supplier from day one.",
     metaTitle:
@@ -1284,7 +1284,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Premium master-planned community with villas, townhouses, parks, retail, and schools in a garden setting.",
-    equipmentDemand: "Generators, compactors, mini excavators",
+    equipmentDemand: "Generators, compactors, mini compactors",
     whyTarget:
       "Premium Sharjah community with quality developer and reliable payments.",
     metaTitle:
@@ -1303,7 +1303,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Eco-friendly residential development with solar-powered villas and sustainable infrastructure using unique construction methods.",
-    equipmentDemand: "Generators (temporary during build), small excavators",
+    equipmentDemand: "Generators (temporary during build), small compactors",
     whyTarget:
       "Growing green construction trend in UAE — niche opportunity.",
     metaTitle:
@@ -1322,7 +1322,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Rapidly developing area with new residential towers, retail, university campus expansions, and student housing construction.",
-    equipmentDemand: "Generators, boom lifts, forklifts, concrete pumps",
+    equipmentDemand: "Generators, scaffolding, power tools, concrete mixers",
     whyTarget:
       "Fast-growing urban area with continuous housing and campus construction demand.",
     metaTitle:
@@ -1365,7 +1365,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Major residential developments in Ajman's new districts with affordable housing projects attracting regional investors.",
     equipmentDemand:
-      "Generators, excavators, compactors, concrete mixers",
+      "Generators, compactors, concrete mixers",
     whyTarget:
       "Budget construction market that values competitive rental rates.",
     metaTitle:
@@ -1384,7 +1384,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "hospitality"],
     description:
       "Luxury tourism and residential development with hotels, villas, golf course, and mangrove-front properties.",
-    equipmentDemand: "Generators, boom lifts, small cranes",
+    equipmentDemand: "Generators, scaffolding, small heavy generators",
     whyTarget:
       "Premium development with reliable developer payment cycles.",
     metaTitle:
@@ -1403,7 +1403,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Growing industrial zone with factories, workshops, furniture manufacturing, and food processing facilities.",
-    equipmentDemand: "Generators (100–300 kVA), forklifts",
+    equipmentDemand: "Generators (100–300 kVA), power tools",
     whyTarget:
       "Industrial clients need long-term generator rentals — steady recurring revenue.",
     metaTitle:
@@ -1422,7 +1422,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Mixed-use residential and commercial towers with ongoing construction and new phase launches attracting budget-conscious buyers.",
-    equipmentDemand: "Tower cranes, generators, concrete pumps",
+    equipmentDemand: "Heavy-duty generators, generators, concrete mixers",
     whyTarget:
       "Budget construction market with less competition from premium equipment suppliers.",
     metaTitle:
@@ -1445,7 +1445,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "events"],
     description:
       "New malls, hotels, and commercial projects in Al Ain proper. Al Ain Convention Centre developments, Hili and Al Jimi district expansions.",
-    equipmentDemand: "Generators, cranes, excavators, lifts",
+    equipmentDemand: "Generators, heavy generators, compactors, scaffolding",
     whyTarget:
       "Less competition from Dubai suppliers with direct highway access via E66.",
     metaTitle:
@@ -1465,7 +1465,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Abu Dhabi government-backed industrial zone expansion with new factories, food processing plants, and logistics facilities.",
     equipmentDemand:
-      "Heavy generators (200–500 kVA), forklifts, excavators",
+      "Heavy generators (200–500 kVA), power tools, compactors",
     whyTarget:
       "Government-backed projects with reliable payments and long contracts.",
     metaTitle:
@@ -1484,7 +1484,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "government"],
     description:
       "Government housing projects for Emirati nationals in Al Ain suburbs — affordable housing compounds, schools, mosques, and community infrastructure.",
-    equipmentDemand: "Generators, compactors, excavators, dump trucks",
+    equipmentDemand: "Generators, compactors, roller compactors",
     whyTarget:
       "Government-funded with reliable payment — less price-sensitive.",
     metaTitle:
@@ -1546,7 +1546,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Wynn Resort under construction — first casino resort in the UAE region — plus multiple 5-star hotel projects on Al Marjan Island man-made islands.",
     equipmentDemand:
-      "Tower cranes, heavy generators (500+ kVA), concrete equipment, marine construction support",
+      "Heavy-duty generators, heavy generators (up to 500 kVA), concrete equipment",
     whyTarget:
       "Massive spend — contractors need reliable equipment supply for years.",
     metaTitle:
@@ -1565,7 +1565,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Ceramics, pharma, and building materials factories with new industrial facility construction.",
-    equipmentDemand: "Generators (100–500 kVA), forklifts, excavators",
+    equipmentDemand: "Generators (100–500 kVA), power tools, compactors",
     whyTarget:
       "Industrial clients rent for long periods — steady recurring revenue.",
     metaTitle:
@@ -1585,7 +1585,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Mountain tourism infrastructure with hotels, adventure tourism facilities, and viewing platforms. Remote location with no grid power during construction.",
     equipmentDemand:
-      "Generators essential (50–200 kVA), small machinery",
+      "Generators essential (50–200 kVA), power tools",
     whyTarget:
       "Remote sites where generator delivery is challenging — Husnain Abdul Rasheed Machinery fills a gap.",
     metaTitle:
@@ -1604,7 +1604,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "New residential communities in RAK attracting Dubai/Sharjah overflow buyers with affordable waterfront and mountain-view properties.",
-    equipmentDemand: "Generators, excavators, compactors",
+    equipmentDemand: "Generators, compactors",
     whyTarget:
       "Growing residential market with limited local equipment suppliers.",
     metaTitle:
@@ -1628,7 +1628,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Major oil storage and bunkering port operations with port expansion, new terminal construction, and industrial zone developments.",
     equipmentDemand:
-      "Heavy generators (300–1000 kVA), cranes, excavators",
+      "Heavy generators (300–500 kVA), heavy generators, compactors",
     whyTarget:
       "Large projects, long rental durations, and premium rates.",
     metaTitle:
@@ -1648,7 +1648,7 @@ export const dubaiLocations: Location[] = [
     description:
       "Beach resort developments along the east coast in Al Aqah, Dibba, Khor Fakkan, and the growing trend of beach weddings and corporate retreats.",
     equipmentDemand:
-      "Generators (20–100 kVA silent units), small-medium machinery",
+      "Generators (20–100 kVA silent units), power tools",
     whyTarget:
       "Limited local suppliers and mandatory generator needs for beach events.",
     metaTitle:
@@ -1690,7 +1690,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction"],
     description:
       "Waterfront residential and marina construction with new developments attracting Dubai/Sharjah overflow buyers.",
-    equipmentDemand: "Generators, excavators, compactors",
+    equipmentDemand: "Generators, compactors",
     whyTarget:
       "Growing emirate with limited local machine rental competition.",
     metaTitle:
@@ -1709,7 +1709,7 @@ export const dubaiLocations: Location[] = [
     markets: ["construction", "industrial"],
     description:
       "Expanding free zone with new factory and warehouse construction plus recycling and waste management facilities.",
-    equipmentDemand: "Generators, forklifts, small excavators",
+    equipmentDemand: "Generators, power tools, small compactors",
     whyTarget:
       "Free zone incentives attracting new businesses — new builds mean new rental demand.",
     metaTitle:

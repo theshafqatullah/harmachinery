@@ -25,9 +25,9 @@ const servicesList = [
     title: "Generator & Equipment Rental",
     slug: "equipment-rental",
     description:
-      "Access our extensive fleet of generators (10 KVA to 1000 KVA), compactors, air compressors, and construction equipment for any project duration. From daily rentals for farm events to long-term leases for mega construction sites like Dubai South and Expo City.",
+      "Access our extensive fleet of generators (3 KVA to 500 KVA), compactors, jack hammers, cutting machines and power tools for any project duration. From daily rentals for farm events to long-term leases for mega construction sites like Dubai South and Expo City.",
     features: [
-      "Generators from 10 KVA to 1000 KVA",
+      "Generators from 3 KVA to 500 KVA",
       "Flexible daily, weekly, and monthly terms",
       "Silent generators available for events",
       "Event Power Packages (generator + cables + setup)",

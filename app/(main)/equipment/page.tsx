@@ -31,7 +31,7 @@ const categories = [
     name: "Generators",
     slug: "generators",
     description:
-      "Silent & standard diesel generators from 10 KVA to 1000 KVA for construction, events, weddings, and industrial operations.",
+      "Silent & standard diesel generators from 3 KVA to 500 KVA for construction, events, weddings, and industrial operations.",
     count: 60,
     priceFrom: "AED 150/day",
   },
@@ -39,41 +39,41 @@ const categories = [
     name: "Compactors & Rollers",
     slug: "compactors",
     description:
-      "Plate compactors, vibratory rollers, and smooth drum rollers for road and foundation work.",
+      "Plate compactors and roller compactors for road base, paving and foundation work.",
     count: 14,
     priceFrom: "AED 250/day",
   },
   {
-    name: "Air Compressors",
+    name: "Jack Hammers & Breakers",
     slug: "air-compressors",
     description:
-      "Industrial air compressors for sandblasting, pneumatic tools, and construction applications.",
+      "Electric and pneumatic jack hammers from 7 KG chippers to 20 KG heavy breakers for demolition and surface prep.",
     count: 12,
     priceFrom: "AED 200/day",
   },
   {
-    name: "Excavators",
-    slug: "excavators",
+    name: "Cutting Machines",
+    slug: "cutting-machines",
     description:
-      "Mini to heavy excavators for earthmoving, trenching, and site preparation.",
+      "Core cutters, steel benders, tile cutters, wood cutters and interlock cutters for fit-out crews.",
     count: 18,
-    priceFrom: "AED 400/day",
+    priceFrom: "AED 180/day",
   },
   {
-    name: "Aerial Lifts",
-    slug: "aerial-lifts",
+    name: "Concrete Equipment",
+    slug: "concrete-equipment",
     description:
-      "Boom lifts, scissor lifts, and telehandlers for elevated access on construction and fit-out projects.",
-    count: 20,
-    priceFrom: "AED 300/day",
+      "Concrete mixers (up to 500 L), vibrators and power trowels for on-site concrete placement and finishing.",
+    count: 10,
+    priceFrom: "AED 220/day",
   },
   {
-    name: "Forklifts",
-    slug: "forklifts",
+    name: "Power Tools",
+    slug: "power-tools",
     description:
-      "3T to 7T forklifts and telehandlers for material handling at warehouses and construction sites.",
+      "Grinders, welders, impact wrenches, blowers, sanders and jigsaws from Bosch, Makita, Milwaukee, Miller and DeWalt.",
     count: 15,
-    priceFrom: "AED 250/day",
+    priceFrom: "AED 80/day",
   },
   {
     name: "Light Towers",
@@ -87,7 +87,7 @@ const categories = [
     name: "Water Pumps",
     slug: "water-pumps",
     description:
-      "Dewatering pumps and irrigation pumps for construction, farms, and event sites.",
+      "Honda petrol water pumps and Ridgid pressure-testing pumps for construction, MEP and event sites.",
     count: 10,
     priceFrom: "AED 120/day",
   },
@@ -126,7 +126,7 @@ export default function EquipmentPage() {
             Equipment Catalog
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            Generators, compactors, air compressors, excavators, and more — well-maintained and ready for daily, weekly, or monthly rental across all 7 UAE Emirates.
+            Generators, compactors, jack hammers, cutting machines, power tools and more — well-maintained and ready for daily, weekly, or monthly rental across all 7 UAE Emirates.
           </p>
         </div>
       </section>

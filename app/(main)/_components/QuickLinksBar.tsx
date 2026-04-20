@@ -3,7 +3,7 @@ import Link from "next/link";
 const quickLinks = [
   { label: "Generator Rental", href: "/machinery?category=Generators" },
   { label: "Silent Diesel Generator", href: "/machinery?category=Silent+Generators" },
-  { label: "Air Compressor Rental", href: "/machinery?category=Air+Compressors" },
+  { label: "Jack Hammer Rental", href: "/machinery?category=Air+Compressors" },
   { label: "Light Tower Rental", href: "/machinery?category=Lighting" },
   { label: "Heavy Equipment Rental", href: "/machinery" },
   { label: "Welding Machine Rental", href: "/machinery?category=Welding+Generators" },

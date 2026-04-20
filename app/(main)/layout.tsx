@@ -2,14 +2,14 @@ import Link from "next/link";
 import { dubaiLocations } from "@/data/locations";
 
 const equipmentDropdown = [
-  { label: "Generators", href: "/machinery?category=Generators", desc: "Silent & diesel generators 10–500 KVA" },
+  { label: "Generators", href: "/machinery?category=Generators", desc: "Silent & diesel generators 3–500 KVA" },
   { label: "Compactors", href: "/machinery?category=Compactors", desc: "Plate compactors & roller compactors" },
-  { label: "Air Compressors", href: "/machinery?category=Air+Compressors", desc: "Jack hammers & pneumatic tools" },
-  { label: "Power Tools", href: "/machinery?category=Power+Tools", desc: "Drills, grinders, breakers & more" },
-  { label: "Concrete Equipment", href: "/machinery?category=Concrete+Equipment", desc: "Mixers, vibrators & cutters" },
-  { label: "Cutting Machines", href: "/machinery?category=Cutting+Machines", desc: "Tile, concrete & asphalt cutters" },
+  { label: "Jack Hammers", href: "/machinery?category=Air+Compressors", desc: "Electric & pneumatic breakers" },
+  { label: "Power Tools", href: "/machinery?category=Power+Tools", desc: "Grinders, welders, wrenches & more" },
+  { label: "Concrete Equipment", href: "/machinery?category=Concrete+Equipment", desc: "Mixers, vibrators & power trowels" },
+  { label: "Cutting Machines", href: "/machinery?category=Cutting+Machines", desc: "Core, tile, steel & wood cutters" },
   { label: "Lighting", href: "/machinery?category=Lighting", desc: "LED tower lights for sites & events" },
-  { label: "Pumps", href: "/machinery?category=Pumps", desc: "Dewatering & submersible pumps" },
+  { label: "Pumps", href: "/machinery?category=Pumps", desc: "Water pumps & pressure-testing pumps" },
 ];
 
 const servicesDropdown = [

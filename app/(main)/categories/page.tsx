@@ -4,18 +4,18 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Equipment Categories - Husnain Abdul Rasheed Machinery Rentals | Dubai",
   description:
-    "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+    "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, jack hammers, power tools & construction equipment. Available for rent across all 7 UAE Emirates.",
   alternates: { canonical: "/categories" },
   openGraph: {
     title: "Equipment Categories - Husnain Abdul Rasheed Machinery Rentals | Dubai",
     description:
-      "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+      "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, jack hammers, power tools & construction equipment. Available for rent across all 7 UAE Emirates.",
     url: "/categories",
   },
   twitter: {
     title: "Equipment Categories - Husnain Abdul Rasheed Machinery Rentals | Dubai",
     description:
-      "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, air compressors & construction equipment. Available for rent across all 7 UAE Emirates.",
+      "Browse Husnain Abdul Rasheed Machinery Rentals's complete fleet of generators, compactors, jack hammers, power tools & construction equipment. Available for rent across all 7 UAE Emirates.",
   },
 };
 
@@ -23,33 +23,33 @@ const featuredCategories = [
   {
     name: "Generators",
     slug: "generators",
-    description: "Silent & standard diesel generators from 10 KVA to 1000 KVA for construction, events, weddings, and desert camps.",
+    description: "Silent & standard diesel generators from 3 KVA to 500 KVA for construction, events, weddings, and desert camps.",
     count: 60,
-    specs: ["10 - 1000 KVA", "Silent & Standard"],
+    specs: ["3 - 500 KVA", "Silent & Standard"],
     popular: true,
   },
   {
     name: "Compactors & Rollers",
     slug: "compactors",
-    description: "Plate compactors, vibratory rollers, and smooth drum rollers for road and foundation work.",
+    description: "Plate compactors and roller compactors for road and foundation work.",
     count: 14,
     specs: ["Plate & Roller", "Vibratory"],
     popular: true,
   },
   {
-    name: "Air Compressors",
+    name: "Jack Hammers & Breakers",
     slug: "air-compressors",
-    description: "Industrial air compressors for sandblasting, pneumatic tools, and construction applications.",
+    description: "Electric and pneumatic jack hammers for demolition, trenching and surface preparation.",
     count: 12,
-    specs: ["100 - 1600 CFM", "Diesel Powered"],
+    specs: ["7 - 20 KG", "Electric & Pneumatic"],
     popular: true,
   },
   {
-    name: "Excavators",
-    slug: "excavators",
-    description: "Mini to heavy excavators for earthmoving, trenching, and site preparation across Dubai and UAE.",
+    name: "Cutting Machines",
+    slug: "cutting-machines",
+    description: "Core cutters, steel benders, tile cutters and wood cutters for site finishing and fit-out.",
     count: 18,
-    specs: ["1.5 - 35 Tons", "Tracked & Mini"],
+    specs: ["Diamond Core & Tile", "Steel & Wood"],
     popular: true,
   },
   {
@@ -61,11 +61,11 @@ const featuredCategories = [
     popular: true,
   },
   {
-    name: "Forklifts",
-    slug: "forklifts",
-    description: "3T to 7T forklifts and telehandlers for material handling at warehouses and construction sites.",
+    name: "Power Tools",
+    slug: "power-tools",
+    description: "Grinders, impact wrenches, welders, blowers and sanders for trades and fit-out crews.",
     count: 15,
-    specs: ["3 - 7 Tons", "Diesel & Electric"],
+    specs: ["Bosch · Makita · Milwaukee", "Corded & Cordless"],
     popular: true,
   },
 ];
@@ -74,49 +74,49 @@ const allCategories = [
   {
     name: "Generators",
     slug: "generators",
-    description: "Silent & standard diesel generators from 10 KVA to 1000 KVA.",
+    description: "Silent & standard diesel generators from 3 KVA to 500 KVA.",
     count: 60,
-    specs: ["10 - 1000 KVA", "Silent & Standard"],
+    specs: ["3 - 500 KVA", "Silent & Standard"],
     popular: true,
   },
   {
     name: "Compactors & Rollers",
     slug: "compactors",
-    description: "Plate compactors, vibratory rollers, and smooth drum rollers.",
+    description: "Plate compactors and roller compactors for soil and asphalt.",
     count: 14,
     specs: ["Plate & Roller", "Vibratory"],
     popular: true,
   },
   {
-    name: "Air Compressors",
+    name: "Jack Hammers & Breakers",
     slug: "air-compressors",
-    description: "Industrial air compressors for sandblasting and pneumatic tools.",
+    description: "Electric and pneumatic jack hammers for demolition and chipping.",
     count: 12,
-    specs: ["100 - 1600 CFM", "Diesel Powered"],
+    specs: ["7 - 20 KG", "Electric & Pneumatic"],
     popular: true,
   },
   {
-    name: "Excavators",
-    slug: "excavators",
-    description: "Mini to heavy excavators for earthmoving and trenching.",
+    name: "Cutting Machines",
+    slug: "cutting-machines",
+    description: "Core cutters, steel benders, tile cutters and wood cutters.",
     count: 18,
-    specs: ["1.5 - 35 Tons", "Tracked & Mini"],
+    specs: ["Diamond Core & Tile", "Steel & Wood"],
     popular: true,
   },
   {
-    name: "Aerial Lifts",
-    slug: "aerial-lifts",
-    description: "Boom lifts, scissor lifts, and telehandlers for elevated access.",
+    name: "Drills",
+    slug: "drills",
+    description: "Hilti combi hammers and Bosch battery drills for anchor and concrete work.",
     count: 20,
-    specs: ["Up to 40m", "Electric & Diesel"],
+    specs: ["SDS & Battery", "Hilti · Bosch"],
     popular: true,
   },
   {
-    name: "Forklifts",
-    slug: "forklifts",
-    description: "3T to 7T forklifts for material handling and warehouse operations.",
+    name: "Power Tools",
+    slug: "power-tools",
+    description: "Grinders, welders, impact wrenches, blowers and sanders for trades crews.",
     count: 15,
-    specs: ["3 - 7 Tons", "Diesel & Electric"],
+    specs: ["Corded & Cordless", "Heavy-Duty"],
     popular: true,
   },
   {
@@ -129,37 +129,37 @@ const allCategories = [
   {
     name: "Water Pumps",
     slug: "water-pumps",
-    description: "Dewatering and irrigation pumps for construction and farms.",
+    description: "Dewatering and pressure-testing pumps for construction and MEP crews.",
     count: 10,
-    specs: ["Submersible & Centrifugal", "Electric & Diesel"],
+    specs: ["Centrifugal & Pressure Test", "Petrol & Electric"],
   },
   {
-    name: "Skid Steer Loaders",
-    slug: "skid-steers",
-    description: "Compact Bobcat-type loaders for tight spaces and site work.",
+    name: "Scaffolding & Ladders",
+    slug: "scaffolding",
+    description: "Aluminum scaffolding sets and ladders for facade, paint and MEP work.",
     count: 8,
-    specs: ["Wheeled & Tracked", "Multi-Attachment"],
+    specs: ["2m - 12m", "Aluminum"],
   },
   {
     name: "Concrete Equipment",
     slug: "concrete-equipment",
-    description: "Mixers, pumps, vibrators, and finishing equipment for concrete work.",
+    description: "Mixers, vibrators and power trowels for on-site concrete work.",
     count: 10,
-    specs: ["Mixers & Pumps", "Vibrators & Trowels"],
+    specs: ["Up to 500 L Drum", "Vibrators & Trowels"],
   },
   {
     name: "Welding Generators",
     slug: "welding-generators",
-    description: "Diesel welding generators for pipeline, structural, and fabrication work.",
+    description: "Miller and Lincoln welding generators for pipeline, structural, and fabrication work.",
     count: 8,
-    specs: ["200 - 500 Amp", "Diesel Powered"],
+    specs: ["5 - 10 KVA", "Diesel & Petrol"],
   },
   {
-    name: "Dump Trucks",
-    slug: "dump-trucks",
-    description: "Site dumpers for hauling materials on construction projects.",
+    name: "Landscaping",
+    slug: "landscaping",
+    description: "Stihl chainsaws, Husqvarna trimmers and Makita earth augers for garden and fencing work.",
     count: 6,
-    specs: ["3 - 15 Tons", "4WD Available"],
+    specs: ["Chain Saw · Trimmer", "Earth Auger"],
   },
 ];
 
@@ -197,7 +197,7 @@ export default function CategoriesPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
             Browse Husnain Abdul Rasheed Machinery Rentals&apos;s complete fleet — generators, compactors,
-            air compressors, excavators, light towers, and more. Available for
+            jack hammers, cutting machines, light towers, power tools and more. Available for
             construction sites, weddings, festivals, and desert events.
           </p>
           <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
